@@ -1,4 +1,4 @@
-Teiid Dashboard Builder
+jBPM Dashboard Builder
 =======================
 
 jBPM Dashboard Builder is a web application for the visual composition of dashboards. A dashboard is composed by a set of
@@ -80,8 +80,12 @@ If you want to restore the application to its initial state you can:
 JBoss Application Server
 -------------------------
 
-To deploy the dashbuilder war to a JBoss Application Server, please, take a look at the following guide 
-[builder/README.md](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/builder/README.md).
+To deploy the dashbuilder war to a JBoss Application Server, first see "Building the project", then proceed as indicated:
+
+1.  Go to the <code>builder/target</code> directory and get the jbpm-dashbuilder-jboss-as7.0.war
+
+2.  Then take a look at the following guide [builder/README.md](https://github.com/teiid/teiid-dashboard/blob/master/builder/README.md).
+
 
 
 
