@@ -60,7 +60,8 @@ The following user/password are available by default:
     * <code>root/root</code>: to sign-in as the superuser
     * <code>demo/demo</code>: to sign-in as an end user.
 
-  On start-up, the application installs automatically some ready-to-use sample dashboards, for demo and learning purposes.
+On start-up, the application installs automatically some ready-to-use sample dashboards, for demo and learning purposes,
+as well as a mocked version of the jBPM dashboard populated with some sample data.
 
 * To stop the application close the terminal window or type the "Ctrl + C" command.
 
