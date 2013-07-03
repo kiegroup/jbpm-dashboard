@@ -1,14 +1,14 @@
 jBPM Dashboard Builder
 =======================
 
-jBPM Dashboard Builder is a web application for the visual composition of dashboards. A dashboard is composed by a set of
- business indicators (aka Key Performance Indicators) which are feed from data coming from heterogeneous sources of information
-like databases or CSV files.
+[Dashboard Builder](https://github.com/droolsjbpm/dashboard-builder) is a web application for the visual composition of
+dashboards. A dashboard is composed by a set of business indicators (aka Key Performance Indicators) which are feed from
+data coming from heterogeneous sources of information like databases or CSV files.
 
-The project itself is a customization of the [Dashboard Builder](https://github.com/droolsjbpm/dashboard-builder) project.
-This customization has the following goals in mind:
+The jBPM Dashboard is a customization of the Dashboard Builder project. This customization has the following goals in mind:
 
-* To replace the whole tooling look&feel with jBPM's branding.
+* To provide users with a full featured dashboard with a bunch of key performance indicators built on top of the jBPM history log.
+* To replace the whole Dashbuilder's look&feel with jBPM's branding.
 * To offer a tight integration between Dashbuilder and jBPM at the data connectivity layer.
 
 If you discover pitfalls, tips and tricks not described in this document,
@@ -38,7 +38,7 @@ Quickstart Demo
 
 To execute a quick demo, first see "Building the project", the proceed as indicated:
 
-1. Go to the <code>builder/target</code> directory and unzip the teiid-dashbuilder-demo-installer.zip file to
+1. Go to the <code>builder/target</code> directory and unzip the jbpm-dashbuilder-demo-installer.zip file to
   a given directory (the [target_directory]). You should get a directory structure like this:
 
          [target_directory]/jbpm-dashboard-demo
@@ -64,7 +64,8 @@ The following user/password are available by default:
      <code>root/root</code>: to sign-in as the superuser     
      <code>demo/demo</code>: to sign-in as an end user
 
-  On start-up, the application installs automatically some ready-to-use sample dashboards, for demo and learning purposes.
+  On start-up, the application installs automatically some ready-to-use sample dashboards, for demo and learning purposes,
+  as well as a mocked version of the jBPM dashboard populated with some sample data.
 
   To stop the application close the terminal window or type the "Ctrl + C" command.
 
@@ -80,11 +81,11 @@ If you want to restore the application to its initial state you can:
 JBoss Application Server
 -------------------------
 
-To deploy the dashbuilder war to a JBoss Application Server, first see "Building the project", then proceed as indicated:
+To deploy the jBPM dashboard to a JBoss Application Server, first see "Building the project", then proceed as indicated:
 
 1.  Go to the <code>builder/target</code> directory and get the jbpm-dashbuilder-jboss-as7.0.war
 
-2.  Then take a look at the following guide [builder/README.md](https://github.com/teiid/teiid-dashboard/blob/master/builder/README.md).
+2.  Then take a look at the following guide [builder/README.md](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/builder/README.md).
 
 
 
