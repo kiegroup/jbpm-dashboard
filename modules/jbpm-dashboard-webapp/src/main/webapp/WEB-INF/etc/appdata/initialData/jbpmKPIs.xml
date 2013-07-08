@@ -218,38 +218,38 @@
       </dataproperty>
       <dataproperty id="processname">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
-        <name language="en">Name</name>
-        <name language="es">Nombre</name>
+        <name language="en">Procss</name>
+        <name language="es">Process</name>
       </dataproperty>
       <dataproperty id="status">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
-        <name language="en">Status</name>
-        <name language="es">Estado</name>
+        <name language="en">Process status</name>
+        <name language="es">Estado proceso</name>
       </dataproperty>
       <dataproperty id="start_date">
         <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
-        <name language="en">Start date</name>
-        <name language="es">Fecha incio</name>
+        <name language="en">Process start date</name>
+        <name language="es">Fecha incio proceso</name>
       </dataproperty>
       <dataproperty id="end_date">
         <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
-        <name language="en">End date</name>
-        <name language="es">Fecha fin</name>
+        <name language="en">Process End date</name>
+        <name language="es">Fecha fin proceso</name>
       </dataproperty>
       <dataproperty id="user_identity">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
-        <name language="en">User or role</name>
-        <name language="es">Usuario o rol</name>
+        <name language="en">Process User or role</name>
+        <name language="es">Usuario o rol del proceso</name>
       </dataproperty>
       <dataproperty id="processversion">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
-        <name language="en">Version</name>
-        <name language="es">Versi&#243;n</name>
+        <name language="en">Process version</name>
+        <name language="es">Versi&#243;n proceso</name>
       </dataproperty>
       <dataproperty id="duration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
-        <name language="en">Duration</name>
-        <name language="es">Duraci&#243;n</name>
+        <name language="en">Process Duration</name>
+        <name language="es">Duraci&#243;n proceso</name>
       </dataproperty>
     </dataproperties>
   </dataprovider>
@@ -257,8 +257,8 @@
     <description language="en">jBPM Task Summary</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.taskid,ts.processinstanceid,ps.processname,ps.processversion,ts.taskname,ts.createddate,ts.enddate,ts.userid,ts.duration
-          from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid)</query>
+        <query>select ts.taskid,ts.processinstanceid,ps.processname,ps.processversion,ts.taskname,ts.createddate,ts.enddate,ts.userid,ts.duration, ts.status
+            from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid)</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="taskid">
@@ -278,8 +278,8 @@
       </dataproperty>
       <dataproperty id="processversion">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
-        <name language="en">Version</name>
-        <name language="es">Versi&#243;n</name>
+        <name language="en">Process version</name>
+        <name language="es">Versi&#243;n del proceso</name>
       </dataproperty>
       <dataproperty id="taskname">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
@@ -288,13 +288,13 @@
       </dataproperty>
       <dataproperty id="createddate">
         <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
-        <name language="en">Start date</name>
-        <name language="es">Fecha inicio</name>
+        <name language="en">Task Start date</name>
+        <name language="es">Fecha inicio tarea</name>
       </dataproperty>
       <dataproperty id="enddate">
         <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
-        <name language="en">End date</name>
-        <name language="es">Fecha fin</name>
+        <name language="en">Task End date</name>
+        <name language="es">Fecha fin tarea</name>
       </dataproperty>
       <dataproperty id="userid">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
@@ -303,8 +303,13 @@
       </dataproperty>
       <dataproperty id="duration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
-        <name language="en">Duration</name>
-        <name language="es">Duraci&#243;n</name>
+        <name language="en">Task duration</name>
+        <name language="es">Duraci&#243;n tarea</name>
+      </dataproperty>
+      <dataproperty id="status">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Task status</name>
+        <name language="es">Estado tarea</name>
       </dataproperty>
     </dataproperties>
   </dataprovider>
@@ -1024,4 +1029,41 @@
       <marginbottom>30</marginbottom>
     </displayer>
   </kpi>
+  <kpi code="kpi_30361353506582146">
+    <description language="en">Tasks by status</description>
+    <description language="es">Tareas por estado</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="piechart" renderer="nvd3">
+        <domain>
+            <propertyid>status</propertyid>
+            <name language="en">Task status</name>
+            <name language="es">Estado de larea</name>
+            <maxnumberofintervals>10</maxnumberofintervals>
+        </domain>
+        <range>
+            <propertyid>taskid</propertyid>
+            <name language="en">Tasks</name>
+            <name language="es">Tareas</name>
+            <scalarfunction>count</scalarfunction>
+            <unit language="en">$ {value}</unit>
+        </range>
+        <type></type>
+        <intervalsortcriteria>0</intervalsortcriteria>
+        <intervalsortorder>-1</intervalsortorder>
+        <showlabelsxaxis>true</showlabelsxaxis>
+        <color>#FFFFFF</color>
+        <backgroundcolor>#FFFFFF</backgroundcolor>
+        <width>600</width>
+        <height>300</height>
+        <showlegend>true</showlegend>
+        <axisinteger>false</axisinteger>
+        <legendanchor>east</legendanchor>
+        <showtitle>false</showtitle>
+        <align>left</align>
+        <marginleft>30</marginleft>
+        <marginright>30</marginright>
+        <margintop>30</margintop>
+        <marginbottom>30</marginbottom>
+    </displayer>
+ </kpi>
 </kpis>
