@@ -218,8 +218,8 @@
             </dataproperty>
             <dataproperty id="processname">
                 <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
-                <name language="en">Procss</name>
-                <name language="es">Process</name>
+                <name language="en">Process</name>
+                <name language="es">Proceso</name>
             </dataproperty>
             <dataproperty id="status">
                 <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
