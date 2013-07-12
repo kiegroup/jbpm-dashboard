@@ -29,6 +29,12 @@ import javax.inject.Inject;
 @Install
 public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
 
+    /** The no value text. */
+    private final static String NO_VALUE = "---";
+
+    /** The number 0.. */
+    private final static Double DOUBLE_ZERO = new Double(0);
+
     public String[] getSupportedPropertyIds() {
         return new String[] {"duration", "status"};
     }
@@ -46,9 +52,13 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
     }
 
     public String formatValue_duration(Object value, Locale l) throws Exception {
-        if (value == null || !(value instanceof Number)) return "---";
+        if (value == null || !(value instanceof Number)) return NO_VALUE;
+
+        // If task is not finished, duration is 0.
+        if (value != null && DOUBLE_ZERO.equals(value)) return NO_VALUE;
+
         Number lengthInSeconds = (Number) value;
-        long millis = lengthInSeconds.longValue() * 1000;
+        long millis = lengthInSeconds.longValue();
         if (millis < 0) millis = 0;
         return formatElapsedTime(millis, l);
     }
@@ -57,7 +67,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
         try {
             if (value == null) return "---";
             if (value instanceof List) return null;
-            ResourceBundle i18n = ResourceBundle.getBundle("org.jbpm.dashboard.messages", l);
+            ResourceBundle i18n = getBunle(l);
             return i18n.getString("status." + value.toString());
         } catch (Exception e) {
             return value.toString();
@@ -72,11 +82,21 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
         long days = hours / 24; hours %= 24;
         long weeks = days / 7; days %= 7;
 
-        ResourceBundle i18n = ResourceBundle.getBundle("org.jbpm.dashboard.messages", l);
+        ResourceBundle i18n = getBunle(l);
         String pattern = "ellapsedtime.hours";
         if (days > 0) pattern = "ellapsedtime.days";
         if (weeks > 0) pattern = "ellapsedtime.weeks";
         return MessageFormat.format(i18n.getString(pattern), new Long[] {new Long(seconds), new Long(minutes), new Long(hours), new Long(days), new Long(weeks)});
+    }
+
+    /**
+     * Get the associated resource bundle.
+     *
+     * @param l The locale.
+     * @return The bundle for the locale.
+     */
+    protected ResourceBundle getBunle(Locale l) {
+        return ResourceBundle.getBundle("org.jbpm.dashboard.messages", l);
     }
 }
 

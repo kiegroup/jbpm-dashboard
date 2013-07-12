@@ -2,6 +2,7 @@
 <kpis>
     <dataprovider code="dataprovider_30861353511610610" type="sql">
         <description language="en">jBPM Count Processes</description>
+        <description language="es">jBPM Contar casos</description>
         <sqlprovider>
             <datasource>local</datasource>
             <query type="sqlserver">select total.processname, coalesce(total.instances,0) total, coalesce(active.instances_act,0) active, coalesce(completed.instances_compl,0) completed, coalesce(pending.instances_pend,0) pending, coalesce(suspended.instances_susp,0) suspended, coalesce(aborted.instances_abrt,0) aborted
@@ -205,7 +206,7 @@
     </dataprovider>
     <dataprovider code="dataprovider_29781353670809093" type="sql">
         <description language="en">jBPM Process Summary</description>
-        <description language="es">jBPM Process Summary</description>
+        <description language="es">jBPM Resumen de casos</description>
         <sqlprovider>
             <datasource>local</datasource>
             <query>select processinstanceid,processname,status,start_date,end_date,user_identity,processversion,duration from processinstancelog</query>
@@ -255,6 +256,7 @@
     </dataprovider>
     <dataprovider code="dataprovider_31171353947281370" type="sql">
         <description language="en">jBPM Task Summary</description>
+        <description language="es">jBPM Resumen de tareas</description>
         <sqlprovider>
             <datasource>local</datasource>
             <query>select ts.taskid,ts.processinstanceid,ps.processname,ps.processversion,ts.taskname,ts.createddate,ts.enddate,ts.userid,ts.duration, ts.status
