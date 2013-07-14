@@ -36,7 +36,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
     private final static Double DOUBLE_ZERO = new Double(0);
 
     public String[] getSupportedPropertyIds() {
-        return new String[] {"duration", "status"};
+        return new String[] {"duration", "status", "user_identity", "userid"};
     }
     
     public String formatValue(String propertyId, Object value, Locale l) {
@@ -51,6 +51,16 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
         return super.formatValue(propertyId, value, l);
     }
 
+    /**
+     * Format the property <code>duration</code>..
+     * If duration value is <code>null</code> or equals to <code>0</code>, means
+     * the task is not completed yet and the duration is undefined.
+     *
+     * @param value The property value.
+     * @param l The locale
+     * @return The duration formatted as String.
+     * @throws Exception An error ocurred.
+     */
     public String formatValue_duration(Object value, Locale l) throws Exception {
         if (value == null || !(value instanceof Number)) return NO_VALUE;
 
@@ -73,6 +83,61 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
             return value.toString();
         }
     }
+
+    /**
+     * Format the property <code>user_identity</code> used in a process instance assigments.
+     * If no user assigned use a custom literal.
+     *
+     * @param value The property value.
+     * @param l The locale
+     * @return The user property formatted as String.
+     * @throws Exception An error ocurred.
+     */
+    public String formatValue_user_identity(Object value, Locale l) throws Exception {
+        return formatUser(value, l);
+    }
+
+    /**
+     * Format the property <code>userid</code> used in task assigments.
+     * If no user assigned use a custom literal.
+     *
+     * @param value The property value.
+     * @param l The locale
+     * @return The user property formatted as String.
+     * @throws Exception An error ocurred.
+     */
+    public String formatValue_userid(Object value, Locale l) throws Exception {
+        return formatUser(value, l);
+    }
+
+    /**
+     * Format the value for a user assignment.
+     * If no user assigned use a custom literal.
+     *
+     * @param value The property value.
+     * @param l The locale
+     * @return The user property formatted as String.
+     * @throws Exception An error ocurred.
+     */
+    public String formatUser(Object value, Locale l) throws Exception {
+        try {
+
+            // Check if a user is assigned.
+            if (value != null) {
+                String valueStr = (String) value;
+                if (valueStr.trim().length() > 0) return value.toString();
+            }
+
+            // Not assigned, so use a custom literal.
+            ResourceBundle i18n = getBunle(l);
+            return i18n.getString("user.notAssinged");
+
+        } catch (Exception e) {
+            return value.toString();
+        }
+    }
+
+
 
     public String formatElapsedTime(long millis, Locale l) {
         long milliseconds = millis;
