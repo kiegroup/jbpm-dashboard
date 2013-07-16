@@ -58,4 +58,4 @@ echo "**************************************************************************
 
 echo "Populating the jBPM Process Dashboard with some sample data."
 $JAVA -cp ./db/h2*.jar org.h2.tools.RunScript -url "jdbc:h2:./db/dashbuilder" -user "dashbuilder" -password "dashbuilder" -script "./db/jbpm_demo_1000_h2.sql"
-$JAVA $JAVA_OPTIONS -jar jetty-runner.jar jbpm-dashbuilder-demo.war
+$JAVA $JAVA_OPTIONS $JAVA_OPTS -jar jetty-runner.jar jbpm-dashbuilder-demo.war
