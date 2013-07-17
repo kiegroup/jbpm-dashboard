@@ -68,7 +68,7 @@
     </repositories>
 
     <modules>
-        <module>modules</module>
+        <module>jbpm-dashboard-modules</module>
     </modules>
 
     <dependencies>
@@ -96,7 +96,7 @@
                 </property>
             </activation>
             <modules>
-                <module>builder</module>
+                <module>jbpm-dashboard-distributions</module>
             </modules>
         </profile>
     </profiles>
