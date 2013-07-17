@@ -45,7 +45,7 @@
                 <configuration>
                     <finalName>jbpm-dashbuilder</finalName>
                     <descriptors>
-                        <descriptor>src/main/assembly/assembly-jboss-as-7_0.xml</descriptor>
+                        <descriptor>src/main/assembly/assembly-jboss-as-7.xml</descriptor>
                     </descriptors>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
