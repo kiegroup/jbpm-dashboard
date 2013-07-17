@@ -18,7 +18,7 @@ Deploy the jBPM Dashboard
 ----------------------------
 
 The jBPM Dashboard requires the jBPM History log's database tables to exist. So, it's **MANDATORY** to deploy the
-jBPM Human Task console. No matter if it's deployed after or before. Otherwise, the jBPM Dashboard will not be initialized
+jBPM Human Task console (or a superset, i.e: kie-wb) first. Otherwise, the jBPM Dashboard will not be initialized
 correctly and will not be possible to display its key performance indicators.
 
 Get the proper WAR file (e.g. jbpm-dashbuilder-jboss-as7.0.war) and execute the following command:

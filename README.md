@@ -33,51 +33,6 @@ If you want to build the project please, proceed as indicated:
   the maven build process needs to download a lot of third-party libraries.
 
 
-Quickstart Demo
--------------------
-
-To execute a quick demo, first see "Building the project", the proceed as indicated:
-
-1. Go to the <code>builder/target</code> directory and unzip the jbpm-dashbuilder-demo-installer.zip file to
-  a given directory (the [target_directory]). You should get a directory structure like this:
-
-         [target_directory]/jbpm-dashboard-demo
-                              README.md
-                              start-demo.sh
-                              realm.properties
-                              /db
-                              /log
-
-2. Open a command window and execute the <code>start-demo.sh</code> script:
-
-        $ cd [target_directory]/jbpm-dashbuilder-demo
-        $ sh start-demo.sh
-
-  NOTE: The application uses an auto-deployable embedded H2 database which it's automatically created when you start
-  the app for the very first time. The database initialization procedure takes a few minutes. Furthermore, you should
-  take into account that the H2 database downgrades the application performance compared with other databases like
-  PostgreSQL, MySQL, which are normally used in production environments.
-
-3. Once the application is started, open a browser and type the URL: <code>http://localhost:8080/jbpm-dashboard</code>.
-The following user/password are available by default:
-
-     <code>root/root</code>: to sign-in as the superuser     
-     <code>demo/demo</code>: to sign-in as an end user
-
-  On start-up, the application installs automatically some ready-to-use sample dashboards, for demo and learning purposes,
-  as well as a mocked version of the jBPM dashboard populated with some sample data.
-
-  To stop the application close the terminal window or type the "Ctrl + C" command.
-
-4. Application database
-
-The application database will be generated automatically when you start the application for the first time.
-If you want to restore the application to its initial state you can:
-
-* Stop the application (if running).
-* Delete the database files in the <code>/db</code> directory.
-* Re-Start the application.
-
 JBoss Application Server
 -------------------------
 
