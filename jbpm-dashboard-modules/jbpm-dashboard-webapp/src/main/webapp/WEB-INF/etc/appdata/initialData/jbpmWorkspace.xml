@@ -332,7 +332,7 @@
             <param name="title" value="Por estado" lang="es"/>
         </panelInstance>
         <panelInstance serialization="" provider="dashboard.kpi" id="3037">
-            <param name=" title" value="By product" lang="en"/>
+            <param name="title" value="By product" lang="en"/>
             <param name="group" value="Sales demo" lang=" "/>
             <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
             <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;"
@@ -488,7 +488,7 @@
             <param name="title" value="Mi cuenta (T&#237;tulo)" lang="es"/>
         </panelInstance>
         <panelInstance serialization="" provider="dashboard.kpi" id="2965">
-            <param name=" htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en"/>
+            <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en"/>
             <param name="group" value="Process"
                    lang=" "/>
             <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
