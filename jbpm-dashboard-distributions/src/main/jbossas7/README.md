@@ -12,7 +12,7 @@ Open a terminal window, go to the root directory and execute the following Maven
 
     $ mvn clean install -Dfull  -DskipTests
 
-Go to the <code>builder/target</code> directory and get the file called **jbpm-dashbuilder-jboss-as7.war**.
+Go to the <code>jbpm-dashboard-distributions/target</code> directory and get the file called **jbpm-dashbuilder-jboss-as7.war**.
 
 Deploy the jBPM Dashboard
 ----------------------------
@@ -39,7 +39,7 @@ If you want to deploy on a database different from H2 like Oracle, MySQL, Postgr
 
 * Create an empty database and a JBoss data source which connects to it
 
-* Modify the file *jbpm-dashboard/builder/src/main/jbossas7/WEB-INF/jboss-web.xml*:
+* Modify the file *jbpm-dashboard/jbpm-dashboard-distributions/src/main/jbossas7/WEB-INF/jboss-web.xml*:
 
         <jboss-web>
            <context-root>/dashbuilder</context-root>
@@ -52,7 +52,7 @@ If you want to deploy on a database different from H2 like Oracle, MySQL, Postgr
 
    Replace the *jndi-name* parameter value by the JNDI path of the JBoss data source you've just created.
 
-* Modify the file *jbpm-dashboard/builder/src/main/jbossas7/WEB-INF/jboss-deployment-structure.xml*.
+* Modify the file *jbpm-dashboard/jbpm-dashboard-distributions/src/main/jbossas7/WEB-INF/jboss-deployment-structure.xml*.
 
   Add the following snippet of configuration inside the *deployment* tag, where *jdbcDriverModuleName* is the name of the JBoss JDBC driver module.
 
@@ -94,10 +94,10 @@ you must create a user with login=<code>root</code> and role=<whatever role has 
 This is just for container authentication purposes, as the root user's application privileges are not role-linked,
 but instead is granted with all permissions).
 
-* The application roles are defined at [builder/src/main/jbossas7/WEB-INF/web.xml](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/builder/src/main/jbossas7/WEB-INF/web.xml) file.
+* The application roles are defined at [jbpm-dashboard-distributions/src/main/jbossas7/WEB-INF/web.xml](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/jbossas7/WEB-INF/web.xml) file.
 Roles can be used to create access profiles and define custom authorization policies.
 
-* The application uses the JBoss' default security domain as you can see [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/builder/src/main/jbossas7/WEB-INF/jboss-web.xml).
+* The application uses the JBoss' default security domain as you can see [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/jbossas7/WEB-INF/jboss-web.xml).
 Alternatively, you can define your own security domain and use, for instance, an LDAP, a database, or whatever mechanism you want to use as your credential storage.
 There are plenty of examples in the JBoss AS documentation about.
 

@@ -38,9 +38,9 @@ JBoss Application Server
 
 To deploy the jBPM dashboard to a JBoss Application Server, first see "Building the project", then proceed as indicated:
 
-1.  Go to the <code>builder/target</code> directory and get the jbpm-dashbuilder-jboss-as7.war
+1.  Go to the <code>jbpm-dashboard-distributions/target</code> directory and get the jbpm-dashbuilder-jboss-as7.war
 
-2.  Then take a look at the following [guide](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/builder/src/main/jbossas7/README.md).
+2.  Then take a look at the following [guide](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/jbossas7/README.md).
 
 
 
