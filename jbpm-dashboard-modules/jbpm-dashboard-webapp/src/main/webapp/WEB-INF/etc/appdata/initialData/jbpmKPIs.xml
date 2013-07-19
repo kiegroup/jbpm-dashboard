@@ -361,8 +361,8 @@
             <rowhoverclass>skn-even_row_alt</rowhoverclass>
             <groupby>
                 <propertyid>processname</propertyid>
-                <name language="en">Procss</name>
-                <name language="es">Nombre</name>
+                <name language="en">Process</name>
+                <name language="es">Proceso</name>
                 <maxnumberofintervals>1000000</maxnumberofintervals>
                 <showtotals>true</showtotals>
                 <totalshtmlstyle>text-align:center; background-color:#DEE5EC; height:20px; font-weight:Bold;</totalshtmlstyle>
@@ -726,8 +726,8 @@
         <displayer type="piechart" renderer="nvd3">
             <domain>
                 <propertyid>processname</propertyid>
-                <name language="en">Procss</name>
-                <name language="es">Nombre</name>
+                <name language="en">Process</name>
+                <name language="es">Proceso</name>
                 <maxnumberofintervals>10</maxnumberofintervals>
             </domain>
             <range>
