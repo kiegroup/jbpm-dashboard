@@ -108,7 +108,7 @@
                     <projectConfig>${session.executionRootDirectory}/zanata.xml</projectConfig>
                     <srcDir>src/main/resources/</srcDir>
                     <transDir>src/main/resources/</transDir>
-                    <includes>**/*.properties</includes>
+                    <includes>**/*_en.properties</includes>
                 </configuration>
             </plugin>
         </plugins>
