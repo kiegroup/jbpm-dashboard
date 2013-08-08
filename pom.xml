@@ -102,12 +102,8 @@
             <plugin>
                 <groupId>org.zanata</groupId>
                 <artifactId>zanata-maven-plugin</artifactId>
-                <version>2.3.0</version>
                 <configuration>
-                    <projectConfig>${session.executionRootDirectory}/zanata.xml</projectConfig>
-                    <srcDir>src/main/resources/</srcDir>
-                    <transDir>src/main/resources/</transDir>
-                    <includes>**/*_en.properties</includes>
+                    <includes>**/*_en.properties</includes><!-- TODO Remove (standardize on **/*Constants.properties) -->
                 </configuration>
             </plugin>
         </plugins>
