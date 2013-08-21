@@ -33,8 +33,9 @@
     <dependencies>
         <dependency>
             <groupId>org.jboss.dashboard-builder</groupId>
-            <artifactId>dashboard-webapp</artifactId>
+            <artifactId>builder</artifactId>
             <version>${version.dashbuilder}</version>
+            <classifier>jboss-as7</classifier>
             <type>war</type>
         </dependency>
         <dependency>
@@ -68,13 +69,41 @@
                         <overlay>
                             <groupId>org.jboss.dashboard-builder</groupId>
                             <artifactId>dashboard-samples</artifactId>
+                            <excludes>
+                               <exclude>WEB-INF/web.xml</exclude>
+                            </excludes>
                         </overlay>
                         <overlay>
                             <groupId>org.jboss.dashboard-builder</groupId>
-                            <artifactId>dashboard-webapp</artifactId>
+                            <artifactId>builder</artifactId>
+                            <classifier>jboss-as7</classifier>
                         </overlay>
                     </overlays>
 
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>xml-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>transform</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <transformationSets>
+                        <transformationSet>
+                          <dir>${project.build.directory}/${artifactId}/WEB-INF/</dir>
+                          <outputDir>${project.build.directory}/${artifactId}/WEB-INF/</outputDir>
+                          <stylesheet>${basedir}/src/main/xsl/update-kie-user.xsl</stylesheet>
+                          <includes>
+                             <include>web.xml</include>
+                          </includes>
+                        </transformationSet>
+                    </transformationSets>
                 </configuration>
             </plugin>
         </plugins>
