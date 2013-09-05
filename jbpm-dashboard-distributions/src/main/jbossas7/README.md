@@ -1,20 +1,9 @@
 Deployment onto JBoss
 ==========================
 
-The <code>jbossas7</code> directory contains all the artifacts to build the distribution for the JBoss AS 7.1.1
-
 Please follow the next steps in order to deploy the application.
 
-Generate a distribution
----------------------------
-
-Open a terminal window, go to the root directory and execute the following Maven command:
-
-    $ mvn clean install -Dfull  -DskipTests
-
-Go to the <code>jbpm-dashboard-distributions/target</code> directory and get the file called **jbpm-dashbuilder-jboss-as7.war**.
-
-Deploy the jBPM Dashboard
+jBPM Dashboard Deployment
 ----------------------------
 
 The jBPM Dashboard requires the jBPM History log's database tables to exist. So, it's **MANDATORY** to deploy the
