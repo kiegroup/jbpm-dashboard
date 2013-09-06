@@ -43,11 +43,5 @@ limitations under the License.
         <property name="show_sql">false</property>
         <property name="format_sql">true</property>
 
-        <!--
-         Needed to avoid error the following error on AS 7.1.1 final:
-         org.hibernate.MappingException: Unable to create AuditStrategy[org.hibernate.envers.strategy.DefaultAuditStrategy] instance
-         -->
-        <property name="listeners.envers.autoRegister">false</property>
-
     </session-factory>
 </hibernate-configuration>
