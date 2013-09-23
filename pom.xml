@@ -101,4 +101,16 @@
         </profile>
     </profiles>
 
+    <build>
+        <plugins>
+            <!-- Zanata - translations -->
+            <plugin>
+                <groupId>org.zanata</groupId>
+                <artifactId>zanata-maven-plugin</artifactId>
+                <configuration>
+                    <includes>**/messages.properties</includes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
