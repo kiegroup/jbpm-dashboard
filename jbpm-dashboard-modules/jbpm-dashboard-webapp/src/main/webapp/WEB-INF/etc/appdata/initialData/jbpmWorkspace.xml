@@ -2,7 +2,7 @@
 <workspaceExport>
   <workspace envelopeId="jbpmEnvelope" friendlyUrl="jbpm-dashboard" skinId="Default_Skin" homeMode="0" id="2">
     <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="true" principal="role-admin" actions="login,admin,createPage,edit,delete,edit perm,admin providers" />
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-kie-user" actions="login" />
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-analyst" actions="login" />
     <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.PanelPermission" readonly="true" principal="role-admin" actions="view,edit,edit perm" />
     <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.SectionPermission" readonly="true" principal="role-admin" actions="view,edit,delete,edit perm" />
     <param name="title" value="Cuadro de mandos jBPM" lang="es" />

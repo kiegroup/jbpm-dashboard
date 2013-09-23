@@ -28,15 +28,15 @@ Authentication and authorization
 
 The jBPM Console and the jBPM dashboard module uses container managed authentication and authorization.
 
-Two roles must be defined: "admin" and "kie-user".
+Two roles must be defined: "admin" and "analyst".
 
 In a default Tomcat installation, edit <code><tomcat_home>/conf/tomcat-users.xml</code> and add the following sample lines:
 
          <role rolename="admin"/>
-         <role rolename="kie-user"/>
+         <role rolename="analyst"/>
          <user username="root"   password="root"  roles="admin"/>
          <user username="admin"  password="admin"  roles="admin"/>
-         <user username="demo"   password="demo"  roles="kie-user"/>
+         <user username="demo"   password="demo"  roles="analyst"/>
 
 The <code>root</code> user is an special user that is granted all the permissions.
 
