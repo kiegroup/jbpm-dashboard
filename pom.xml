@@ -103,7 +103,7 @@
                 <groupId>org.zanata</groupId>
                 <artifactId>zanata-maven-plugin</artifactId>
                 <configuration>
-                    <includes>**/*_en.properties</includes><!-- TODO Remove (standardize on **/*Constants.properties) -->
+                    <includes>**/messages.properties</includes>
                 </configuration>
             </plugin>
         </plugins>
