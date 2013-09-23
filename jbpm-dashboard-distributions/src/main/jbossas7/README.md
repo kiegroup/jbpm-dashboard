@@ -67,6 +67,37 @@ In order to enable SSO between the jBPM Dashboard and the jBPM Human Task Consol
     </virtual-server>
     ...
 
+Languages supported
+------------------------
+
+The application supports a set of predefined languages (<code>availableLocaleIds</code>):
+
+* English (en) -- The default language (<code>defaultLocaleId</code>)
+* Spanish (es)
+* German (de)
+* French (fr)
+* Chinese (zh)
+* Japanese (ja)
+* Portuguese (pt)
+
+The language taken by default is the user's browser preferred language. So when a user access the application
+for the first time the application will read the language from the HTTP request header in order to determine the language
+to apply. If the user language is not supported then the application default language (<code>defaultLocaleId</code>) is taken instead.
+
+There is an easy way to change these settings as the application reads them from the JVM's system properties.
+So, in JBoss, we can just define them in the following file: <code>[jboss-as]/standalone/configuration/standalone.xml</code>,
+under the &lt;extensions&gt; section.
+
+    <system-properties>
+        <property name="org.jboss.dashboard.LocaleManager.installedLocaleIds" value="en,es,de,fr,ja,pt"/>
+        <property name="org.jboss.dashboard.LocaleManager.defaultLocaleId" value="fr"/>
+    </system-properties>
+
+In this example, the Chinese language has been removed from the list, so an user accessing from China (or any other
+unsupported language) will get the content in French, as is the system's default.
+
+NOTE: don't forget to restart the application server every time you change any of these settings.
+
 User Authentication
 --------------------------
 
