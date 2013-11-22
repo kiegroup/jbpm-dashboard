@@ -36,7 +36,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
     private final static Double DOUBLE_ZERO = new Double(0);
 
     public String[] getSupportedPropertyIds() {
-        return new String[] {"duration", "status", "user_identity", "userid"};
+        return new String[] {"duration", "status", "userid"};
     }
     
     public String formatValue(String propertyId, Object value, Locale l) {
