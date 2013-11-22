@@ -280,8 +280,8 @@
     <description language="es">Resumen de procesos jBPM</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select processinstanceid,processname,status,start_date,end_date,user_identity,processversion,duration from processinstancelog</query>
-      <query type="mysql">select processInstanceId,processName,status,start_date,end_date,user_identity,processVersion,duration from ProcessInstanceLog</query>
+      <query>select processinstanceid,processname,status,start_date,end_date,user_identity userid,processversion,duration from processinstancelog</query>
+      <query type="mysql">select processInstanceId,processName,status,start_date,end_date,user_identity userid,processVersion,duration from ProcessInstanceLog</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="processinstanceid">
@@ -334,7 +334,7 @@
         <name language="zh">&#36827;&#31243;&#32467;&#26463;&#26085;&#26399;</name>
         <name language="es">Fecha final del proceso</name>
       </dataproperty>
-      <dataproperty id="user_identity">
+      <dataproperty id="userid">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
         <name language="en">Process User or role</name>
         <name language="fr">R&#244;le ou Utilisateur de processus</name>
@@ -658,7 +658,7 @@
     <provider code="dataprovider_29781353670809093" />
     <displayer type="barchart" renderer="nvd3">
       <domain>
-        <propertyid>user_identity</propertyid>
+        <propertyid>userid</propertyid>
         <name language="en">Process User or role</name>
         <name language="fr">R&#244;le ou Utilisateur de processus</name>
         <name language="de">Prozess-Benutzer oder Rolle</name>
