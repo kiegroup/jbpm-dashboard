@@ -35,6 +35,9 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
     /** The number 0.. */
     private final static Double DOUBLE_ZERO = new Double(0);
 
+    @Inject
+    protected LocaleManager localeManager;
+
     public String[] getSupportedPropertyIds() {
         return new String[] {"duration", "status", "userid"};
     }
@@ -161,7 +164,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
      * @return The bundle for the locale.
      */
     protected ResourceBundle getBunle(Locale l) {
-        return ResourceBundle.getBundle("org.jbpm.dashboard.messages", l);
+        return localeManager.getBundle("org.jbpm.dashboard.messages", l);
     }
 }
 
