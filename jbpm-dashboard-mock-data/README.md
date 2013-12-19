@@ -1,18 +1,19 @@
 Mock data for the jBPM Dashboard
 =================================
 
-After installing the BPMS product (kie-wb and jbpm-dashboard) the Process dashboard is empty since there is no
+After installing the BPMS product (kie-wb and jbpm-dashboard web apps) the Process dashboard is empty since there is no
 process instances created yet. Next up, a pretty simple mechanism to populate such dashboard with mock
-data it's described. The mechanism is only intended for demo purposes as a quick way to fill the dashboard indicators
+data is described. The mechanism is only intended for demo purposes as a quick way to fill the dashboard indicators
 with full data charts.
 
-1. First ensure the app server is stopped and the Dashbuilder database is clean an empty (no tables created yet).
+1. First of all, ensure the app server is stopped and the Dashbuilder database is clean an empty (no tables created yet).
 
-        In a default EAP installation the H2 in-memory database is destroyed every time you shutdown the server. So nothing extra to do in this case.
+        In a default EAP installation the H2 in-memory database is destroyed every time you shutdown the server. 
+        So nothing extra to do in this case.
 
-2. Copy this file to the following directory **WEB-INF/etc/sql** under the dashbuilder WAR deployment structure.
+2. Copy the file <code>1000_jbpm_demo_h2.sql</code> under the following dashbuilder WAR's folder <code>WEB-INF/etc/sql</code>
 
-        You have to deploy the war file first but not execute it until the file mentioned is copied.
+        You have to deploy the WAR first but not execute it until that file is copied.
 
 3. Start the app. server. This script will be executed automatically.
 
