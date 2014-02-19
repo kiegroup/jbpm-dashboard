@@ -9,7 +9,7 @@ Prerequisites
 The jBPM Dashboard requires the jBPM History log's database tables to exist. So, it's **MANDATORY** to deploy the
 jBPM Human Task console (or a superset, i.e: kie-wb) first. Otherwise, the jBPM Dashboard will not be initialized
 correctly, will not be possible to display its key performance indicators and you are certain to see some database
-exceptions on the log, similar to: _ERROR: relationship «processinstancelog» does not exists_.
+exceptions on the log, something similar to _ERROR: relationship «processinstancelog» does not exists_.
 
 
 Configure a data source
@@ -18,11 +18,11 @@ Configure a data source
 The jBPM Dashboard also requires a data source which **MUST BE** configured against the same database used by kie-wb
 in order to get access to the jBPM's history log. To create this data source, follow the next steps:
 
-1. Open the WebSphere's Adminitration Console _http://127.0.0.1:9060/ibm/console_
+* Open the WebSphere's Adminitration Console _http://127.0.0.1:9060/ibm/console_
 
    Then login (if you have administrative security setup)
 
-2. Create the JDBC provider
+* Create the JDBC provider
 
   - Left side panel, click on _Resources > JDBC > JDBC Providers_
   - Select the appropriate scope and click on the _New_ button.
@@ -38,11 +38,11 @@ in order to get access to the jBPM's history log. To create this data source, fo
 
    When you finish, click _Ok_. If there are no data entry errors, you should be back at the list of JDBC Providers, where you should now see your new provider displayed.
 
-3. Create the data source
+* Create the data source
 
   - Left side panel, click on _Resources > JDBC > Data sources_
   - Select the appropriate scope and click on the _New_ button.
-  - Fill out the creation form. The _JNDI name_ **MUST** be defined as _jdbc/dashbuilder. Click _Next_.
+  - Fill out the creation form. The _JNDI name_ **MUST** be defined as _jdbc/dashbuilder_. Click _Next_.
   - Select the existing JDBC provider you created. Click _Next_.
   - Keep clicking _Next_ until _Finish_.
   - Save to master configuration.
@@ -50,7 +50,7 @@ in order to get access to the jBPM's history log. To create this data source, fo
   - Edit and fill the appropriate values required to set-up the connection. This depends on the database type.
 
            +------------+------------------------------------------------------+
-           | Database   |  Connection settings                                 |
+           | Database   | Datasource custom properties                         |
            +------------+------------------------------------------------------+
            | H2         | URL, user, password                                  |
            | Postgres   | serverName, databaseName, portNumber, user, password |
@@ -61,13 +61,13 @@ in order to get access to the jBPM's history log. To create this data source, fo
 jBPM Dashboard Deployment
 ----------------------------
 
-Get the proper WAR file (e.g. jbpm-dashbuilder-was-8.war) and run the following steps:
+Get the proper WAR file (e.g. _jbpm-dashbuilder-was-8.war_) and run the following steps:
 
-1. http://127.0.0.1:9060/ibm/console
+* http://127.0.0.1:9060/ibm/console
 
     Then login (if you have administrative security setup)
 
-2. Deploy the WAR file
+* Deploy the WAR file
 
   - Left side panel click on *Applications > Application types > Websphere enterprise applications*
   - Click on _Install_, select the *jbpm-dashbuilder_was_8.war* file from your local filesystem. Click _Next_
@@ -84,7 +84,7 @@ Dashbuilder uses container managed authentication and authorization. The applica
 <code>web.xml</code> file. In a nutshell, to get access to the aplication a new user has to be created and mapped with one
 or several application roles. Next is the list of steps to achieve so from the WebSphere's Adminitration Console:
 
-1. Enable security
+* Enable security
 
   - Left side panel click on *Security > Global security*
   - Section *Application security*, Check the box *Enable application security*
@@ -92,7 +92,7 @@ or several application roles. Next is the list of steps to achieve so from the W
 
    Then you have application security turned on. Now you need to map the users of your application to users within Websphere.
 
-2. Map users
+* Map users
 
   - _Applications > Enterprise Applications_ click on your application.
   - Under the _Detailed Properties_ section you will see a link _Security role to user/group mapping_. Click on it.
@@ -102,7 +102,7 @@ or several application roles. Next is the list of steps to achieve so from the W
   - Use the arrows to move the selected users/groups to the right hand box.
   - Click ok and save to master configuration and restart the server.
 
-3. Create users
+* Create users
 
   - Just go to the left side panel and click on *Users and Groups > Manage Users*.
   - Click on the _Create_ button, fill out the form and click _Ok_.
