@@ -15,7 +15,10 @@
     limitations under the License.
 
 -->
-<web-app metadata-complete="false">
+<web-app metadata-complete="false"
+         version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
   <display-name>dashbuilder</display-name>
   <description>jBPM Dashboard Builder Application</description>
@@ -23,28 +26,28 @@
   <!-- Security configuration -->
 
   <security-role>
-    <role-name>admin</role-name>
     <description>Administrator - Administrates the BPMS system. Has full access rights to make any changes necessary. Also has the ability to add and remove users from the system.</description>
+    <role-name>admin</role-name>
   </security-role>
 
   <security-role>
-    <role-name>analyst</role-name>
     <description>Analyst - Responsible for creating and designing processes into the system. Creates process flows and handles process change requests. Needs to test processes that they create. Also creates forms and dashboards.</description>
+    <role-name>analyst</role-name>
   </security-role>
 
   <security-role>
-    <role-name>developer</role-name>
     <description>Developer - Implements code required for process to work. Mostly uses the JBDS connection to view processes, but may use the web tool occasionally.</description>
+    <role-name>developer</role-name>
   </security-role>
 
   <security-role>
-    <role-name>user</role-name>
     <description>Business user - Daily user of the system to take actions on business tasks that are required for the processes to continue forward. Works primarily with the task lists.</description>
+    <role-name>user</role-name>
   </security-role>
 
   <security-role>
-    <role-name>manager</role-name>
     <description>Manager/Viewer-only User - Viewer of the system that is interested in statistics around the  business processes and their performance, business indicators, and other reporting of the system and people who interact with the system.</description>
+    <role-name>manager</role-name>
   </security-role>
 
   <security-constraint>

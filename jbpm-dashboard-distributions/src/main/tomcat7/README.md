@@ -11,7 +11,8 @@ as specified in the following [file](https://github.com/droolsjbpm/jbpm-dashboar
 
 The <code>jdbc/jbpm</code> datasource is shared between the jBPM Console and the jBPM Dashboard which in turns it's used to access
 the jBPM's history log. So, it's **MANDATORY** to deploy the jBPM Human Task console (or a superset, i.e: kie-wb) first.
-Otherwise, the jBPM Dashboard will not be initialized correctly and will not be possible to display its key performance indicators.
+Otherwise, the jBPM Dashboard will not be initialized correctly, will not be possible to display its key performance indicators
+and you are certain to see some database exceptions on the log, similar to: _ERROR: relationship «processinstancelog» does not exists_.
 
 jBPM Dashboard Deployment
 ---------------------------------------

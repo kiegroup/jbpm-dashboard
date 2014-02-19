@@ -8,7 +8,8 @@ jBPM Dashboard Deployment
 
 The jBPM Dashboard requires the jBPM History log's database tables to exist. So, it's **MANDATORY** to deploy the
 jBPM Human Task console (or a superset, i.e: kie-wb) first. Otherwise, the jBPM Dashboard will not be initialized
-correctly and will not be possible to display its key performance indicators.
+correctly, will not be possible to display its key performance indicators and you are certain to see some database
+exceptions on the log, similar to: _ERROR: relationship «processinstancelog» does not exists_.
 
 Get the proper WAR file (e.g. jbpm-dashbuilder-jboss-as7.war) and execute the following command:
 
