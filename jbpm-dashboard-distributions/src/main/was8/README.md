@@ -120,7 +120,7 @@ User Authentication
 The jBPM Process Dashboard can be accessed in two ways:
 
 * As root, by selecting the jBPM Dashboard workspace at the top administration toolbar, or
-* Typing the following URL: <code>http://localhost:8080/dashbuilder/workspace/jbpm-dashboard</code>
+* Typing the following URL: <code>http://localhost:9081/dashbuilder/workspace/jbpm-dashboard</code>
 
 You can sign in with any of the users defined above.
 
