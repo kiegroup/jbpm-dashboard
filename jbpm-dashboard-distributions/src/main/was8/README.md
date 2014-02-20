@@ -42,7 +42,7 @@ in order to get access to the jBPM's history log. To create this data source, fo
 
   - Left side panel, click on _Resources > JDBC > Data sources_
   - Select the appropriate scope and click on the _New_ button.
-  - Fill out the creation form. The _JNDI name_ **MUST** be defined as _jdbc/dashbuilder_. Click _Next_.
+  - Fill out the creation form. Set the _JNDI name_ as, for instance, _jdbc/dashbuilder_. Click _Next_.
   - Select the existing JDBC provider you created. Click _Next_.
   - Keep clicking _Next_ until _Finish_.
   - Save to master configuration.
@@ -71,8 +71,10 @@ Get the proper WAR file (e.g. _jbpm-dashbuilder-was-8.war_) and run the followin
 
   - Left side panel click on *Applications > Application types > Websphere enterprise applications*
   - Click on _Install_, select the *jbpm-dashbuilder_was_8.war* file from your local filesystem. Click _Next_
-  - From here, you will be asked with several deployments settings. Click _Next_ until finished.
+  - From here, you will be asked with several deployments settings.
+  - You'll need to select the datasource created above as the datasource to be used by the application.
   - **DO NOT FORGET** to set <code>dashbuilder</code> as the webapp context path since that path is referred by some kie-wb modules.
+  - Click _Next_ until finished.
 
   Once deployed you can start/stop the application from the Websphere console.
 
