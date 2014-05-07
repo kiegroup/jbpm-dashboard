@@ -76,6 +76,15 @@ Get the proper WAR file (e.g. _jbpm-dashbuilder-was-8.war_) and run the followin
   - **DO NOT FORGET** to set <code>dashbuilder</code> as the webapp context path since that path is referred by some kie-wb modules.
   - Click _Next_ until finished.
 
+* Set class loading settings:
+
+   Go to _Applications > Application types > Websphere enterprise applications > dashbuilder app > Class loading and update detection_
+
+   Ensure the following radio buttons are checked:
+
+   - _Classes loaded with local class loader first (parent last)_
+   - _Single class loader for application_
+
   Once deployed you can start/stop the application from the Websphere console.
 
 
@@ -103,6 +112,11 @@ or several application roles. Next is the list of steps to achieve so from the W
   - Click search and select users.
   - Use the arrows to move the selected users/groups to the right hand box.
   - Click ok and save to master configuration and restart the server.
+
+   Try the following if you want to grant access to any user having one or more of the app. roles:
+
+   - Check all the app. roles.
+   - Click on _Map Special Subjects_ and select the _All Authenticated in Application's Realm_ option.
 
 * Create users
 
