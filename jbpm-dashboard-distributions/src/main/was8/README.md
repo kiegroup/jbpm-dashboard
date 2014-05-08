@@ -58,16 +58,27 @@ in order to get access to the jBPM's history log. To create this data source, fo
            +------------+------------------------------------------------------+
 
 
+Security settings
+------------------------------
+
+The following settings are required in order to enable the container managed authentication mechanisms provided by the app. server.
+
+Go to **_Security > Global security_**
+
+   Ensure the option _Enable Application security_ is checked.
+
+Go to **_Users and groups > Manage groups_**
+
+   Create 5 groups: admin, analyst, developer, manager, user
+
+Go to **_Users and groups > Manage users_**
+
+   Create a single user with the groups defined above.
+
 jBPM Dashboard Deployment
 ----------------------------
 
-Get the proper WAR file (e.g. _jbpm-dashbuilder-was-8.war_) and run the following steps:
-
-* http://127.0.0.1:9060/ibm/console
-
-    Then login (if you have administrative security setup)
-
-* Deploy the WAR file
+**Deploy the WAR file**
 
   - Left side panel click on *Applications > Application types > Websphere enterprise applications*
   - Click on _Install_, select the *jbpm-dashbuilder_was_8.war* file from your local filesystem. Click _Next_
@@ -76,68 +87,21 @@ Get the proper WAR file (e.g. _jbpm-dashbuilder-was-8.war_) and run the followin
   - **DO NOT FORGET** to set <code>dashbuilder</code> as the webapp context path since that path is referred by some kie-wb modules.
   - Click _Next_ until finished.
 
-* Set class loading settings:
+**App. settings**
 
-   Go to _Applications > Application types > Websphere enterprise applications > dashbuilder app > Class loading and update detection_
-
-   Ensure the following radio buttons are checked:
-
-   - _Classes loaded with local class loader first (parent last)_
-   - _Single class loader for application_
-
-  Once deployed you can start/stop the application from the Websphere console.
-
-
-Authentication and authorization
----------------------------------
-
-Dashbuilder uses container managed authentication and authorization. The application roles are defined in the application's
-<code>web.xml</code> file. In a nutshell, to get access to the aplication a new user has to be created and mapped with one
-or several application roles. Next is the list of steps to achieve so from the WebSphere's Adminitration Console:
-
-* Enable security
-
-  - Left side panel click on *Security > Global security*
-  - Section *Application security*, Check the box *Enable application security*
-  - Click *Apply*, then save to master config.
-
-   Then you have application security turned on. Now you need to map the users of your application to users within Websphere.
-
-* Map users
-
-  - _Applications > Enterprise Applications_ click on your application.
-  - Under the _Detailed Properties_ section you will see a link _Security role to user/group mapping_. Click on it.
-  - Select the roles you wish to use for authentication, _admin_ for instance.
-  - Click look up users (you need to create users first, see below).
-  - Click search and select users.
-  - Use the arrows to move the selected users/groups to the right hand box.
-  - Click ok and save to master configuration and restart the server.
-
-   Try the following if you want to grant access to any user having one or more of the app. roles:
+Go to _Applications > Application types > Websphere enterprise applications > dashbuilder app > Security role to user/group mapping_
 
    - Check all the app. roles.
    - Click on _Map Special Subjects_ and select the _All Authenticated in Application's Realm_ option.
 
-* Create users
+  Once deployed you can start/stop the application from the Websphere console.
 
-  - Just go to the left side panel and click on *Users and Groups > Manage Users*.
-  - Click on the _Create_ button, fill out the form and click _Ok_.
-  - The _User ID_ field is the login, the word to be used to sign into the application.
-  - if you create a user with login=<code>root</code> it'll be granted with all the permissions within the application.
+  Once started you should be able to access the application by typing the following URL: _http://http://localhost:9080/dashbuilder_
 
-    Once created and mapped the user should be able to sign into the application.
+  You can sign in with any of the users defined above.
+
+  You can create process instances and tasks from the jBPM Human Task console and later on refresh the jBPM Dashboard to
+  see how the different key performance monitoring indicators are updated.
 
 
-User Authentication
---------------------------
-
-The jBPM Process Dashboard can be accessed in two ways:
-
-* As root, by selecting the jBPM Dashboard workspace at the top administration toolbar, or
-* Typing the following URL: <code>http://localhost:9081/dashbuilder/workspace/jbpm-dashboard</code>
-
-You can sign in with any of the users defined above.
-
-You can create process instances and tasks from the jBPM Human Task console and later on refresh the jBPM Dashboard to
-see how the different key performance monitoring indicators are updated.
 
