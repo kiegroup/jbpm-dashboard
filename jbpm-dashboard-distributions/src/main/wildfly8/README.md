@@ -57,16 +57,23 @@ Single Sign On
 ---------------------------------
 
 In order to enable SSO between the jBPM Dashboard and the jBPM Human Task Console, please, edit the
-<code>wildfly-8/standalone/configuration/standalone.xml</code> file and add the <code>&lt;sso/&gt;</code> tag under the virtual server configuration.
-
+<code>wildfly-8/standalone/configuration/standalone.xml</code> file and add the <code>&lt;single-sign-on/&gt;</code> tag under the undertow sybsystem server configuration.
 
     ...
-    <virtual-server name="default-host" enable-welcome-root="true">
-        <alias name="localhost"/>
-        <alias name="example.com"/>
-        <sso/>
-    </virtual-server>
-    ...
+    <subsystem xmlns="urn:jboss:domain:undertow:1.1">
+        <buffer-caches>
+            <buffer-cache name="default" buffer-size="1024" buffers-per-region="1024" max-regions="10"/>
+        </buffer-caches>
+        <server name="default-server">
+            <http-listener name="default" socket-binding="http"/>
+            <host name="default-host" alias="localhost">
+                <location name="/" handler="welcome-content"/>
+                <filter-ref name="server-header"/>
+                <filter-ref name="x-powered-by-header"/>
+                <single-sign-on path="/"/>
+            </host>
+        </server>
+        ...
 
 Languages supported
 ------------------------
