@@ -28,3 +28,9 @@ Currently, the following artifacts are generated:
   It requires to set up a data source connection for any of the supported databases (at the time of this writing: DB2, Postgres, Mysql, H2, Oracle or SQLServer).
 
   Detailed installation instructions [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/was8/README.md).
+
+* **jbpm-dashbuilder-weblogic-12c.war:**  Product distribution for Weblogic 12c server.
+
+It requires to set up a data source connection for any of the supported databases (at the time of this writing: DB2, Postgres, Mysql, H2, Oracle or SQLServer).
+
+Detailed installation instructions [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/weblogic12c/README.md).
