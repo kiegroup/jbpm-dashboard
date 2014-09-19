@@ -18,7 +18,7 @@ Configure a data source
 The jBPM Dashboard also requires a data source which **MUST BE** configured against the same database used by kie-wb
 in order to get access to the jBPM's history log. To create this data source, follow the next steps:
 
-* Open the WebSphere's Adminitration Console _http://127.0.0.1:9060/ibm/console_
+* Open the WebSphere's Administration Console _http://127.0.0.1:9060/ibm/console_
 
    Then login (if you have administrative security setup)
 
@@ -43,6 +43,7 @@ in order to get access to the jBPM's history log. To create this data source, fo
   - Left side panel, click on _Resources > JDBC > Data sources_
   - Select the appropriate scope and click on the _New_ button.
   - Fill out the creation form. Set the _JNDI name_ as, for instance, _jdbc/dashbuilder_. Click _Next_.
+    (must match the data source defined in the _WEB-INF/etc/hibernate.cfg.xml.xml_ file contained in the _dashbuilder.war_)
   - Select the existing JDBC provider you created. Click _Next_.
   - Keep clicking _Next_ until _Finish_.
   - Save to master configuration.
