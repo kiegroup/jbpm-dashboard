@@ -20,6 +20,19 @@
   <dependencyManagement>
 
     <dependencies>
+      <dependency>
+        <groupId>org.jbpm.dashboard</groupId>
+        <artifactId>jbpm-dashboard-webapp</artifactId>
+        <type>war</type>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jbpm.dashboard</groupId>
+        <artifactId>jbpm-dashboard-redhat</artifactId>
+        <type>war</type>
+        <version>${project.version}</version>
+      </dependency>
+
       <!-- Required by the Weblogic assembly -->
       <dependency>
         <groupId>org.hibernate</groupId>
@@ -101,13 +114,16 @@
         </executions>
         <configuration>
           <finalName>jbpm-dashbuilder-${project.version}</finalName>
+          <filters>
+            <filter>${project.basedir}/src/main/assembly/filter.properties</filter>
+          </filters>
           <descriptors>
-            <descriptor>src/main/assembly/assembly-jboss-as-7.xml</descriptor>
-            <descriptor>src/main/assembly/assembly-eap-6_3.xml</descriptor>
-            <descriptor>src/main/assembly/assembly-wildfly-8.xml</descriptor>
-            <descriptor>src/main/assembly/assembly-tomcat-7.xml</descriptor>
-            <descriptor>src/main/assembly/assembly-websphere-as-8.xml</descriptor>
-            <descriptor>src/main/assembly/assembly-weblogic-12c.xml</descriptor>
+            <descriptor>${project.basedir}/src/main/assembly/assembly-jboss-as-7.xml</descriptor>
+            <descriptor>${project.basedir}/src/main/assembly/assembly-eap-6_3.xml</descriptor>
+            <descriptor>${project.basedir}/src/main/assembly/assembly-wildfly-8.xml</descriptor>
+            <descriptor>${project.basedir}/src/main/assembly/assembly-tomcat-7.xml</descriptor>
+            <descriptor>${project.basedir}/src/main/assembly/assembly-websphere-as-8.xml</descriptor>
+            <descriptor>${project.basedir}/src/main/assembly/assembly-weblogic-12c.xml</descriptor>
           </descriptors>
           <archive>
             <addMavenDescriptor>false</addMavenDescriptor>
@@ -116,5 +132,60 @@
       </plugin>
     </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <id>productizedProfile</id>
+
+      <activation>
+        <property>
+          <name>productized</name>
+        </property>
+      </activation>
+
+      <dependencies>
+        <dependency>
+          <groupId>org.jbpm.dashboard</groupId>
+          <artifactId>jbpm-dashboard-redhat</artifactId>
+          <type>war</type>
+        </dependency>
+      </dependencies>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>package</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <finalName>jbpm-dashbuilder-${project.version}</finalName>
+              <filters>
+                <filter>${project.basedir}/src/main/assembly/redhat/filter.properties</filter>
+              </filters>
+              <descriptors combine.children="override">
+                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-jboss-as-7-redhat.xml</descriptor>
+                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-eap-6_3-redhat.xml</descriptor>
+                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-wildfly-8-redhat.xml</descriptor>
+                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-tomcat-7-redhat.xml</descriptor>
+                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-websphere-as-8-redhat.xml</descriptor>
+                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-weblogic-12c-redhat.xml</descriptor>
+              </descriptors>
+              <archive>
+                <addMavenDescriptor>false</addMavenDescriptor>
+              </archive>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+
+    </profile>
+  </profiles>
 
 </project>

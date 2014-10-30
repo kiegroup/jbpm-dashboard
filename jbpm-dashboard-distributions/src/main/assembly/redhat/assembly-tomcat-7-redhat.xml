@@ -21,7 +21,7 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
 
-    <id>was-8</id>
+    <id>tomcat-7</id>
     <formats>
         <format>war</format>
     </formats>
@@ -31,46 +31,41 @@
     <dependencySets>
         <dependencySet>
             <includes>
-              <include>org.jbpm.dashboard:jbpm-dashboard-webapp:war</include>
+                <include>org.jbpm.dashboard:jbpm-dashboard-redhat:war</include>
             </includes>
             <outputDirectory>.</outputDirectory>
             <unpack>true</unpack>
             <unpackOptions>
                 <excludes>
+                    <exclude>WEB-INF/etc/hibernate.cfg.xml</exclude>
                     <exclude>WEB-INF/jetty-*.xml</exclude>
                     <exclude>WEB-INF/jboss-web.xml</exclude>
                     <exclude>WEB-INF/jboss-deployment-structure.xml</exclude>
                     <exclude>WEB-INF/web.xml</exclude>
-                    <exclude>WEB-INF/lib/weld-*.jar</exclude>
-                    <exclude>WEB-INF/lib/jta-*.jar</exclude>
-                    <exclude>WEB-INF/lib/xml-apis-*.jar</exclude>
-                    <exclude>WEB-INF/lib/javax.*.jar</exclude>
-                    <exclude>WEB-INF/lib/jsr250-*.jar</exclude>
-                    <exclude>WEB-INF/lib/mail-*.jar</exclude>
-                    <exclude>WEB-INF/lib/cdi-*.jar</exclude>
-                    <exclude>WEB-INF/lib/activation-*.jar</exclude>
                 </excludes>
             </unpackOptions>
-            <useStrictFiltering>true</useStrictFiltering>
         </dependencySet>
         <dependencySet>
             <includes>
-              <!-- Bind SLF4J with JUL as it's the logging API used by Websphere -->
-              <include>org.slf4j:slf4j-jdk14:jar</include>
+                <include>com.h2database:h2:jar</include>
+                <include>org.slf4j:slf4j-jdk14:jar</include>
+                <include>org.jboss.weld:weld-spi:jar</include>
+                <include>org.jboss.weld:weld-core:jar</include>
+                <include>org.jboss.weld.se:weld-se-core:jar</include>
+                <include>org.jboss.weld.servlet:weld-servlet-core:jar</include>
             </includes>
             <outputDirectory>WEB-INF/lib</outputDirectory>
             <unpack>false</unpack>
-            <useStrictFiltering>true</useStrictFiltering>
         </dependencySet>
 
     </dependencySets>
 
-  <fileSets>
-    <fileSet>
-      <directory>${project.basedir}/src/main/was8/</directory>
-      <outputDirectory>.</outputDirectory>
-      <filtered>true</filtered>
-    </fileSet>
-  </fileSets>
+    <fileSets>
+        <fileSet>
+            <directory>${project.basedir}/src/main/tomcat7/</directory>
+            <outputDirectory>.</outputDirectory>
+            <filtered>true</filtered>
+        </fileSet>
+    </fileSets>
 
 </assembly>

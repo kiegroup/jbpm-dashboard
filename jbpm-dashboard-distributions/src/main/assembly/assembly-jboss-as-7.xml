@@ -81,6 +81,7 @@
         <fileSet>
             <directory>${project.basedir}/src/main/jbossas7/</directory>
             <outputDirectory>.</outputDirectory>
+            <filtered>true</filtered>
         </fileSet>
     </fileSets>
 
