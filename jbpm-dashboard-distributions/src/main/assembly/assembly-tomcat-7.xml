@@ -66,6 +66,7 @@
         <fileSet>
             <directory>${project.basedir}/src/main/tomcat7/</directory>
             <outputDirectory>.</outputDirectory>
+            <filtered>true</filtered>
         </fileSet>
     </fileSets>
 

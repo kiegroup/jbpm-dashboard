@@ -15,4 +15,19 @@
     <wls:principal-name>user</wls:principal-name>
   </wls:security-role-assignment>
 
+  <wls:security-role-assignment>
+    <wls:role-name>analyst</wls:role-name>
+    <wls:principal-name>analyst</wls:principal-name>
+  </wls:security-role-assignment>
+
+  <wls:security-role-assignment>
+    <wls:role-name>developer</wls:role-name>
+    <wls:principal-name>developer</wls:principal-name>
+  </wls:security-role-assignment>
+
+  <wls:security-role-assignment>
+    <wls:role-name>manager</wls:role-name>
+    <wls:principal-name>manager</wls:principal-name>
+  </wls:security-role-assignment>
+
 </wls:weblogic-web-app>

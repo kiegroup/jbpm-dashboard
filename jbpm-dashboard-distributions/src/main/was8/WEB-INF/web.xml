@@ -21,7 +21,7 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
   <display-name>dashbuilder</display-name>
-  <description>jBPM Dashboard Builder Application</description>
+  <description>${webAppDescription}</description>
 
   <!-- Security configuration -->
 
@@ -53,7 +53,14 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Free access</web-resource-name>
-      <url-pattern>/images/jb_logo.png</url-pattern>
+      <url-pattern>${freeAccessResourcesPath}</url-pattern>
+    </web-resource-collection>
+  </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Favicon</web-resource-name>
+      <url-pattern>/favicon.ico</url-pattern>
     </web-resource-collection>
   </security-constraint>
 

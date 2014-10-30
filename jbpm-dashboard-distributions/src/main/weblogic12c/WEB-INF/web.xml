@@ -22,24 +22,46 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
   <display-name>dashbuilder</display-name>
-  <description>JBoss Dashboard Builder Application</description>
+  <description>${webAppDescription}</description>
 
   <!-- Security configuration -->
 
   <security-role>
-    <description>Administrator</description>
+    <description>Administrator - Administrates the BPMS system. Has full access rights to make any changes necessary. Also has the ability to add and remove users from the system.</description>
     <role-name>admin</role-name>
   </security-role>
 
   <security-role>
-    <description>End user</description>
+    <description>Analyst - Responsible for creating and designing processes into the system. Creates process flows and handles process change requests. Needs to test processes that they create. Also creates forms and dashboards.</description>
+    <role-name>analyst</role-name>
+  </security-role>
+
+  <security-role>
+    <description>Developer - Implements code required for process to work. Mostly uses the JBDS connection to view processes, but may use the web tool occasionally.</description>
+    <role-name>developer</role-name>
+  </security-role>
+
+  <security-role>
+    <description>Business user - Daily user of the system to take actions on business tasks that are required for the processes to continue forward. Works primarily with the task lists.</description>
     <role-name>user</role-name>
+  </security-role>
+
+  <security-role>
+    <description>Manager/Viewer-only User - Viewer of the system that is interested in statistics around the  business processes and their performance, business indicators, and other reporting of the system and people who interact with the system.</description>
+    <role-name>manager</role-name>
   </security-role>
 
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Free access</web-resource-name>
-      <url-pattern>/images/jb_logo.png</url-pattern>
+      <url-pattern>${freeAccessResourcesPath}</url-pattern>
+    </web-resource-collection>
+  </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Favicon</web-resource-name>
+      <url-pattern>/favicon.ico</url-pattern>
     </web-resource-collection>
   </security-constraint>
 
@@ -50,6 +72,9 @@
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>
+      <role-name>analyst</role-name>
+      <role-name>developer</role-name>
+      <role-name>manager</role-name>
       <role-name>user</role-name>
     </auth-constraint>
   </security-constraint>
