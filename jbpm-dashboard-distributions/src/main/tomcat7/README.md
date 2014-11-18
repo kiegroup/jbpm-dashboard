@@ -4,20 +4,24 @@ Deployment onto Tomcat
 Please follow the next steps in order to deploy the application.
 
 Prerequisites
-----------------------------------------
+--------------------------------
 
-The jBPM Dashboard connects by default to an H2 datasource identified with the following JNDI name <code>jdbc/jbpm</code>
-as specified in the following [file](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/tomcat7/META-INF/context.xml)
+The jBPM Dashboard requires the jBPM History log's database tables to exist. So, it's **MANDATORY** to deploy the
+jBPM Human Task console (or a superset, i.e: kie-wb) first. Otherwise, the jBPM Dashboard will not be initialized
+correctly, will not be possible to display its key performance indicators and you are certain to see some database
+exceptions on the log, something similar to _ERROR: relationship «processinstancelog» does not exists_.
 
-The <code>jdbc/jbpm</code> datasource is shared between the jBPM Console and the jBPM Dashboard which in turns it's used to access
-the jBPM's history log. So, it's **MANDATORY** to deploy the jBPM Human Task console (or a superset, i.e: kie-wb) first.
-Otherwise, the jBPM Dashboard will not be initialized correctly, will not be possible to display its key performance indicators
-and you are certain to see some database exceptions on the log, something similar to _ERROR: relationship «processinstancelog» does not exists_.
+Configure a data source
+--------------------------------
+
+The jBPM Dashboard also requires a data source which **MUST BE** configured against the same database used by kie-wb
+in order to get access to the jBPM's history log. The _dashbuilder.war/META-INF/context.xml_  file contains the
+data source configuration used by dashbuilder. Edit & change it according to your needs before deploy the WAR (see next).
 
 jBPM Dashboard Deployment
 ---------------------------------------
 
-Get a WAR file (e.g. jbpm-dashbuilder-tomcat-7.war) that matchs the kie-wb version installed and deploy it to Tomcat.
+Get a WAR file (e.g. jbpm-dashbuilder-tomcat-7.war) that matchs the kie-wb version installed and deploy it on Tomcat.
 
 **DO NOT FORGET** to set <code>dashbuilder</code> as the context path since that path is referred by some kie-wb modules.
 One easy way to do so is leverage the Tomcat autodeployment feature by copying the <code>jbpm-dashbuilder-tomcat-7.war</code>
