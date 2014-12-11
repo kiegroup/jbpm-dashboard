@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpis>
+  <dataprovider code="dataprovider_30861353511610610" type="sql">
+    <description language="en">jBPM Count Processes</description>
+    <description language="fr">Nombre de Processus jBPM</description>
+    <description language="de">jBPM-Z&#228;hlprozesse</description>
+    <description language="pt">Processo de Contagem jBPM</description>
+    <description language="ja">jBPM &#12459;&#12454;&#12531;&#12488;&#12503;&#12525;&#12475;&#12473;</description>
+    <description language="zh">jBPM &#36827;&#31243;&#35745;&#25968;</description>
+    <description language="es">jBPM Contar casos</description>
+    <sqlprovider>
+      <datasource>local</datasource>
+      <query type="sqlserver">select total.processname, coalesce(total.instances,0) total, coalesce(active.instances_act,0) active, coalesce(completed.instances_compl,0) completed, coalesce(pending.instances_pend,0) pending, coalesce(suspended.instances_susp,0) suspended, coalesce(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where {sql_condition, optional, processname, processname}
+                order by processname</query>
+      <query type="postgres">select total.processname, coalesce(total.instances,0) total, coalesce(active.instances_act,0) active, coalesce(completed.instances_compl,0) completed, coalesce(pending.instances_pend,0) pending, coalesce(suspended.instances_susp,0) suspended, coalesce(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where {sql_condition, optional, processname, processname}
+                order by processname</query>
+      <query type="oracle">select total.processname, coalesce(total.instances,0) total, coalesce(active.instances_act,0) active, coalesce(completed.instances_compl,0) completed, coalesce(pending.instances_pend,0) pending, coalesce(suspended.instances_susp,0) suspended, coalesce(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) aborted
+                on (total.pId=aborted.pId)
+                where {sql_condition, optional, processname, processname}
+                order by processname</query>
+      <query type="db2">select total.processname, coalesce(total.instances,0) total, coalesce(active.instances_act,0) active, coalesce(completed.instances_compl,0) completed, coalesce(pending.instances_pend,0) pending, coalesce(suspended.instances_susp,0) suspended, coalesce(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where {sql_condition, optional, processname, processname}
+                order by processname</query>
+      <query type="h2">select total.processname, ifnull(total.instances,0) total, ifnull(active.instances_act,0) active, ifnull(completed.instances_compl,0) completed, ifnull(pending.instances_pend,0) pending, ifnull(suspended.instances_susp,0) suspended, ifnull(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where {sql_condition, optional, processname, processname}
+                order by processname</query>
+      <query type="mysql">select total.processname, coalesce(total.instances,0) total, coalesce(active.instances_act,0) active, coalesce(completed.instances_compl,0) completed, coalesce(pending.instances_pend,0) pending, coalesce(suspended.instances_susp,0) suspended, coalesce(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processInstanceId as pId, pi.processName as processname, count(*) as instances
+                from ProcessInstanceLog pi group by pi.processInstanceId,processName) as total
+                left outer join
+                (select pi.processInstanceId as pId, count(*) as instances_act
+                from ProcessInstanceLog pi
+                where pi.status=1 group by pi.processInstanceId) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processInstanceId as pId, count(*) as instances_compl
+                from ProcessInstanceLog pi
+                where pi.status=2 group by pi.processInstanceId) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processInstanceId as pId, count(*) as instances_pend
+                from ProcessInstanceLog pi
+                where pi.status=0 group by pi.processInstanceId) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processInstanceId as pId, count(*) as instances_susp
+                from ProcessInstanceLog pi
+                where pi.status=4 group by pi.processInstanceId) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processInstanceId as pId, count(*) as instances_abrt
+                from ProcessInstanceLog pi
+                where pi.status=3 group by pi.processInstanceId) as aborted
+                on (total.pId=aborted.pId)
+                where {sql_condition, optional, processname, processname}
+                order by processname</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="processname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <name language="es">Proceso</name>
+      </dataproperty>
+      <dataproperty id="total">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Total</name>
+        <name language="fr">Total</name>
+        <name language="de">Gesamt</name>
+        <name language="pt">Total</name>
+        <name language="ja">&#21512;&#35336;</name>
+        <name language="zh">&#24635;&#25968;</name>
+        <name language="es">Total</name>
+      </dataproperty>
+      <dataproperty id="active">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Active</name>
+        <name language="fr">Actif</name>
+        <name language="de">Aktiv</name>
+        <name language="pt">Ativo</name>
+        <name language="ja">&#26377;&#21177;</name>
+        <name language="zh">&#27963;&#21160;&#30340;</name>
+        <name language="es">Activo</name>
+      </dataproperty>
+      <dataproperty id="completed">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Completed</name>
+        <name language="fr">Compl&#233;t&#233;</name>
+        <name language="de">Abgeschlossen</name>
+        <name language="pt">Conclu&#237;do</name>
+        <name language="ja">&#23436;&#20102;</name>
+        <name language="zh">&#23436;&#25104;&#30340;</name>
+        <name language="es">Completado</name>
+      </dataproperty>
+      <dataproperty id="pending">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Pending</name>
+        <name language="fr">En attente</name>
+        <name language="de">Ausstehend</name>
+        <name language="pt">Pendente</name>
+        <name language="ja">&#20445;&#30041;&#20013;</name>
+        <name language="zh">&#24453;&#23450;&#30340;</name>
+        <name language="es">Pendiente</name>
+      </dataproperty>
+      <dataproperty id="suspended">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Suspended</name>
+        <name language="fr">En attente</name>
+        <name language="de">Ausgesetzt</name>
+        <name language="pt">Suspendido</name>
+        <name language="ja">&#19968;&#26178;&#20572;&#27490;</name>
+        <name language="zh">&#26242;&#20572;&#30340;</name>
+        <name language="es">Suspendido</name>
+      </dataproperty>
+      <dataproperty id="aborted">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Aborted</name>
+        <name language="fr">Abandon</name>
+        <name language="de">Abgebrochen</name>
+        <name language="pt">Anulado</name>
+        <name language="ja">&#24375;&#21046;&#32066;&#20102;</name>
+        <name language="zh">&#20013;&#27490;&#30340;</name>
+        <name language="es">Abortado</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_29781353670809093" type="sql">
+    <description language="en">jBPM Process Summary</description>
+    <description language="fr">R&#233;sum&#233; Processus jBPM</description>
+    <description language="de">jBPM-Prozesszusammenfassung</description>
+    <description language="pt">Sum&#225;rio processo jBMP</description>
+    <description language="ja">jBPM &#12503;&#12525;&#12475;&#12473;&#12469;&#12510;&#12522;</description>
+    <description language="zh">jBPM &#36827;&#31243;&#25688;&#35201;</description>
+    <description language="es">Resumen de procesos jBPM</description>
+    <sqlprovider>
+      <datasource>local</datasource>
+      <query>select processinstanceid,processname,status,start_date,end_date,user_identity userid,processversion,duration from processinstancelog</query>
+      <query type="mysql">select processInstanceId,processName,status,start_date,end_date,user_identity userid,processVersion,duration from ProcessInstanceLog</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="processinstanceid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Id</name>
+        <name language="fr">Id</name>
+        <name language="de">Id</name>
+        <name language="pt">Id</name>
+        <name language="ja">ID</name>
+        <name language="zh">ID</name>
+        <name language="es">Id</name>
+      </dataproperty>
+      <dataproperty id="processname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <name language="es">Proceso</name>
+      </dataproperty>
+      <dataproperty id="status">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process status</name>
+        <name language="fr">Statut du processus</name>
+        <name language="de">Prozess-Status</name>
+        <name language="pt">Status do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#12473;&#12486;&#12540;&#12479;&#12473;</name>
+        <name language="zh">&#36827;&#31243;&#29366;&#24577;</name>
+        <name language="es">Estado del proceso</name>
+      </dataproperty>
+      <dataproperty id="start_date">
+        <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
+        <name language="en">Process start date</name>
+        <name language="fr">Date D&#233;marrage Processus</name>
+        <name language="de">Prozess-Startdatum</name>
+        <name language="pt">Data de In&#237;cio da tarefa</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#38283;&#22987;&#26085;</name>
+        <name language="zh">&#36827;&#31243;&#24320;&#22987;&#26085;&#26399;</name>
+        <name language="es">Fecha de inicio del proceso</name>
+      </dataproperty>
+      <dataproperty id="end_date">
+        <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
+        <name language="en">Process End date</name>
+        <name language="fr">Date Fin Processus</name>
+        <name language="de">Prozess-Enddatum</name>
+        <name language="pt">Processo de data final</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#32066;&#20102;&#26085;</name>
+        <name language="zh">&#36827;&#31243;&#32467;&#26463;&#26085;&#26399;</name>
+        <name language="es">Fecha final del proceso</name>
+      </dataproperty>
+      <dataproperty id="userid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process User or role</name>
+        <name language="fr">R&#244;le ou Utilisateur de processus</name>
+        <name language="de">Prozess-Benutzer oder Rolle</name>
+        <name language="pt">Usu&#225;rio ou fun&#231;&#227;o do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#12518;&#12540;&#12470;&#12540;&#12414;&#12383;&#12399;&#12525;&#12540;&#12523;</name>
+        <name language="zh">&#36827;&#31243;&#29992;&#25143;&#25110;&#35282;&#33394;</name>
+        <name language="es">Usuario o rol del proceso</name>
+      </dataproperty>
+      <dataproperty id="processversion">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process version</name>
+        <name language="fr">Version Processus</name>
+        <name language="de">Prozessversion</name>
+        <name language="pt">Vers&#227;o do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#12496;&#12540;&#12472;&#12519;&#12531;</name>
+        <name language="zh">&#36827;&#31243;&#29256;&#26412;</name>
+        <name language="es">Versi&#243;n del proceso</name>
+      </dataproperty>
+      <dataproperty id="duration">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Process Duration</name>
+        <name language="fr">Dur&#233;e Processus</name>
+        <name language="de">Prozessdauer</name>
+        <name language="pt">Dura&#231;&#227;o do Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#26399;&#38291;</name>
+        <name language="zh">&#36827;&#31243;&#25345;&#32493;&#26102;&#38388;</name>
+        <name language="es">Duraci&#243;n del proceso</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_31171353947281370" type="sql">
+    <description language="en">jBPM Task Summary</description>
+    <description language="fr">R&#233;sum&#233; des t&#226;ches jBPM</description>
+    <description language="de">jBPM-Aufgabenzusammenfassung</description>
+    <description language="pt">Sum&#225;rio da Tarefa jBMP</description>
+    <description language="ja">jBPM &#12479;&#12473;&#12463;&#12469;&#12510;&#12522;</description>
+    <description language="zh">jBPM &#20219;&#21153;&#25688;&#35201;</description>
+    <description language="es">Resumen de tareas jBPM</description>
+    <sqlprovider>
+      <datasource>local</datasource>
+      <query>select ts.taskid,ts.processinstanceid,ps.processname,ps.processversion,ts.taskname,ts.createddate,ts.enddate,ts.userid,ts.duration, ts.status
+                from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid)</query>
+      <query type="mysql">select ts.taskId,ts.processInstanceId,ps.processName,ps.processVersion,ts.taskName,ts.createdDate,ts.endDate,ts.userId,ts.duration, ts.status
+                from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processInstanceId=ps.processInstanceId)</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="taskid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Task ID</name>
+        <name language="fr">ID T&#226;che</name>
+        <name language="de">Aufgaben-ID</name>
+        <name language="pt">ID da Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;ID</name>
+        <name language="zh">&#20219;&#21153; ID</name>
+        <name language="es">Id de tarea</name>
+      </dataproperty>
+      <dataproperty id="processinstanceid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process ID</name>
+        <name language="fr">Id Processus</name>
+        <name language="de">Prozess-ID</name>
+        <name language="pt">ID do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;ID</name>
+        <name language="zh">&#36827;&#31243; ID</name>
+        <name language="es">Id del proceso</name>
+      </dataproperty>
+      <dataproperty id="processname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <name language="es">Proceso</name>
+      </dataproperty>
+      <dataproperty id="processversion">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Process version</name>
+        <name language="fr">Version de processus</name>
+        <name language="de">Prozessversion</name>
+        <name language="pt">Vers&#227;o do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#12496;&#12540;&#12472;&#12519;&#12531;</name>
+        <name language="zh">&#36827;&#31243;&#29256;&#26412;</name>
+        <name language="es">Versi&#243;n del proceso</name>
+      </dataproperty>
+      <dataproperty id="taskname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Task</name>
+        <name language="fr">T&#226;che</name>
+        <name language="de">Aufgabe</name>
+        <name language="pt">Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;</name>
+        <name language="zh">&#20219;&#21153;</name>
+        <name language="es">Tarea</name>
+      </dataproperty>
+      <dataproperty id="createddate">
+        <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
+        <name language="en">Task Start date</name>
+        <name language="fr">Date de d&#233;part de t&#226;che</name>
+        <name language="de">Aufgaben-Startdatum</name>
+        <name language="pt">Data de In&#237;cio da tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;&#38283;&#22987;&#26085;</name>
+        <name language="zh">&#20219;&#21153;&#24320;&#22987;&#26085;&#26399;</name>
+        <name language="es">Fecha de inicio de la tarea</name>
+      </dataproperty>
+      <dataproperty id="enddate">
+        <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
+        <name language="en">Task End date</name>
+        <name language="fr">Date Fin T&#226;che</name>
+        <name language="de">Aufgaben-Enddatum</name>
+        <name language="pt">Data de t&#233;rmino da tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;&#32066;&#20102;&#26085;</name>
+        <name language="zh">&#36827;&#31243;&#32467;&#26463;&#26085;&#26399;</name>
+        <name language="es">Fecha final de la tarea</name>
+      </dataproperty>
+      <dataproperty id="userid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">User or group</name>
+        <name language="fr">Utilisateur ou groupe</name>
+        <name language="de">Benutzer oder Gruppe</name>
+        <name language="pt">Usu&#225;rio ou grupo</name>
+        <name language="ja">&#12518;&#12540;&#12470;&#12540;&#12414;&#12383;&#12399;&#12464;&#12523;&#12540;&#12503;</name>
+        <name language="zh">&#29992;&#25143;&#25110;&#32452;</name>
+        <name language="es">Usuario o grupo</name>
+      </dataproperty>
+      <dataproperty id="duration">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="en">Task duration</name>
+        <name language="fr">Dur&#233;e de la t&#226;che</name>
+        <name language="de">Aufgabendauer</name>
+        <name language="pt">Dura&#231;&#227;o de tarefas</name>
+        <name language="ja">&#12479;&#12473;&#12463;&#26399;&#38291;</name>
+        <name language="zh">&#20219;&#21153;&#25345;&#32493;&#26102;&#38388;</name>
+        <name language="es">Duraci&#243;n de la tarea</name>
+      </dataproperty>
+      <dataproperty id="status">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="en">Task status</name>
+        <name language="fr">Statut de t&#226;che</name>
+        <name language="de">Aufgabenstatus</name>
+        <name language="pt">Status da tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;&#12473;&#12486;&#12540;&#12479;&#12473;</name>
+        <name language="zh">&#20219;&#21153;&#29366;&#24577;</name>
+        <name language="es">Estado de la tarea</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <kpi code="kpi_31361353949675344">
+    <description language="en">By version</description>
+    <description language="fr">Par version</description>
+    <description language="de">Nach Version</description>
+    <description language="pt">Pela vers&#227;o</description>
+    <description language="ja">&#12496;&#12540;&#12472;&#12519;&#12531;&#21029;</description>
+    <description language="zh">&#25353;&#29256;&#26412;</description>
+    <description language="es">Por versi&#243;n</description>
+    <provider code="dataprovider_29781353670809093" />
+    <displayer type="piechart" renderer="nvd3">
+      <domain>
+        <propertyid>processversion</propertyid>
+        <name language="en">Process version</name>
+        <name language="fr">Version de processus</name>
+        <name language="de">Prozessversion</name>
+        <name language="pt">Vers&#227;o do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#12496;&#12540;&#12472;&#12519;&#12531;</name>
+        <name language="zh">&#36827;&#31243;&#29256;&#26412;</name>
+        <name language="es">Versi&#243;n del proceso</name>
+        <maxnumberofintervals>10</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>processinstanceid</propertyid>
+        <name language="en">Id</name>
+        <name language="fr">Id</name>
+        <name language="de">Id</name>
+        <name language="pt">Id</name>
+        <name language="ja">ID</name>
+        <name language="zh">Id</name>
+        <name language="es">Id</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value}</unit>
+        <unit language="es">{value}</unit>
+        <unit language="fr">{value}</unit>
+        <unit language="de">{value}</unit>
+        <unit language="pt">{valor}</unit>
+        <unit language="ja">{value}</unit>
+        <unit language="zh">{value}</unit>
+      </range>
+      <type />
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>300</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>30</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>30</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_29771353670707848">
+    <description language="en">Instances by process</description>
+    <description language="fr">Instances par processus</description>
+    <description language="de">Instanzen nach Prozess</description>
+    <description language="pt">Inst&#226;ncias por processo</description>
+    <description language="ja">&#12503;&#12525;&#12475;&#12473;&#21029;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</description>
+    <description language="zh">&#36827;&#31243;&#23454;&#20363;</description>
+    <description language="es">Instancias por proceso</description>
+    <provider code="dataprovider_29781353670809093" />
+    <displayer type="piechart" renderer="nvd3">
+      <domain>
+        <propertyid>processname</propertyid>
+        <name language="en">Process</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <name language="es">Proceso</name>
+        <maxnumberofintervals>10</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>processinstanceid</propertyid>
+        <name language="en">Id</name>
+        <name language="fr">Id</name>
+        <name language="de">Id</name>
+        <name language="pt">Id</name>
+        <name language="ja">ID</name>
+        <name language="zh">ID</name>
+        <name language="es">Id</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value}</unit>
+        <unit language="es">{value}</unit>
+        <unit language="fr">{value}</unit>
+        <unit language="de">{value}</unit>
+        <unit language="pt">{valor}</unit>
+        <unit language="ja">{value}</unit>
+        <unit language="zh">{value}</unit>
+      </range>
+      <type />
+      <intervalsortcriteria>0</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>500</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>30</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>30</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_31331353949095782">
+    <description language="en">Instances by status</description>
+    <description language="fr">Instances par statut</description>
+    <description language="de">Instanzen nach Status</description>
+    <description language="pt">Inst&#226;ncias por status</description>
+    <description language="ja">&#12473;&#12486;&#12540;&#12479;&#12473;&#21029;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</description>
+    <description language="zh">&#25353;&#29366;&#24577;&#25490;&#21015;&#30340;&#23454;&#20363;</description>
+    <description language="es">Instancias por estado</description>
+    <provider code="dataprovider_29781353670809093" />
+    <displayer type="piechart" renderer="nvd3">
+      <domain>
+        <propertyid>status</propertyid>
+        <name language="en">Process status</name>
+        <name language="fr">Statut du processus</name>
+        <name language="de">Prozess-Status</name>
+        <name language="pt">Status do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#12473;&#12486;&#12540;&#12479;&#12473;</name>
+        <name language="zh">&#36827;&#31243;&#29366;&#24577;</name>
+        <name language="es">Estado del proceso</name>
+        <maxnumberofintervals>10</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>processinstanceid</propertyid>
+        <name language="en">Id</name>
+        <name language="fr">Id</name>
+        <name language="de">Id</name>
+        <name language="pt">Id</name>
+        <name language="ja">ID</name>
+        <name language="zh">Id</name>
+        <name language="es">Id</name>
+        <scalarfunction>count</scalarfunction>
+      </range>
+      <type />
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>400</width>
+      <height>300</height>
+      <showlegend>true</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>30</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>30</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_30571353683160264">
+    <description language="en">Instances started by user</description>
+    <description language="fr">Instances d&#233;marr&#233;es par utilisateur</description>
+    <description language="de">Vom Benutzer gestartete Instanzen</description>
+    <description language="pt">Inst&#226;ncias iniciadas por usu&#225;rio</description>
+    <description language="ja">&#12518;&#12540;&#12470;&#12540;&#12395;&#12424;&#12426;&#38283;&#22987;&#12373;&#12428;&#12383;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</description>
+    <description language="zh">&#29992;&#25143;&#21551;&#21160;&#30340;&#23454;&#20363;</description>
+    <description language="es">Instancias iniciadas por usuario</description>
+    <provider code="dataprovider_29781353670809093" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>userid</propertyid>
+        <name language="en">Process User or role</name>
+        <name language="fr">R&#244;le ou Utilisateur de processus</name>
+        <name language="de">Prozess-Benutzer oder Rolle</name>
+        <name language="pt">Usu&#225;rio ou fun&#231;&#227;o do processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#12518;&#12540;&#12470;&#12540;&#12414;&#12383;&#12399;&#12525;&#12540;&#12523;</name>
+        <name language="zh">&#36827;&#31243;&#29992;&#25143;&#25110;&#35282;&#33394;</name>
+        <name language="es">Usuario o rol del proceso</name>
+        <maxnumberofintervals>100</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>processinstanceid</propertyid>
+        <name language="en">Id</name>
+        <name language="fr">Id</name>
+        <name language="de">Id</name>
+        <name language="pt">Id</name>
+        <name language="ja">ID</name>
+        <name language="zh">ID</name>
+        <name language="es">Id</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value} instance(s)</unit>
+        <unit language="es">{value} instancia(s)</unit>
+        <unit language="fr">{value} instance(s)</unit>
+        <unit language="de">{value} Instanz(en)</unit>
+        <unit language="pt">{valor} inst&#226;ncia(s)</unit>
+        <unit language="ja">{value} &#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</unit>
+        <unit language="zh">{value} &#23454;&#20363;</unit>
+      </range>
+      <type />
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>40</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FF0000</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>500</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>50</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>50</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_31261353948417434">
+    <description language="en">Number of task instances</description>
+    <description language="fr">Le nombre d&apos;instances de t&#226;ches</description>
+    <description language="de">Anzahl der Aufgabeninstanzen.</description>
+    <description language="pt">N&#250;mero de inst&#226;ncias da tarefa</description>
+    <description language="ja">&#12479;&#12473;&#12463;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;&#25968;</description>
+    <description language="zh">&#20219;&#21153;&#23454;&#20363;&#30340;&#25968;&#37327;</description>
+    <description language="es">N&#250;mero de instancias de tareas</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>taskname</propertyid>
+        <name language="en">Task</name>
+        <name language="fr">T&#226;che</name>
+        <name language="de">Aufgabe</name>
+        <name language="pt">Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;</name>
+        <name language="zh">&#20219;&#21153;</name>
+        <name language="es">Tarea</name>
+        <maxnumberofintervals>50</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>taskid</propertyid>
+        <name language="en">Task ID</name>
+        <name language="fr">Id T&#226;che</name>
+        <name language="de">Aufgaben-ID</name>
+        <name language="pt">ID da Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;ID</name>
+        <name language="zh">&#20219;&#21153; ID</name>
+        <name language="es">#Tareas</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value} task(s)</unit>
+        <unit language="fr">{value} t&#226;che(s)</unit>
+        <unit language="de">{value} Aufgabe(n)</unit>
+        <unit language="pt">{valor} tarefa(s)</unit>
+        <unit language="ja">{value} &#12479;&#12473;&#12463;</unit>
+        <unit language="zh">{value} &#20219;&#21153;</unit>
+        <unit language="es">{value} tarea(s)</unit>
+      </range>
+      <type />
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>-45</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#0000FF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>800</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>east</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>50</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>80</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21351361956566198">
+    <description language="en">Number of tasks per user</description>
+    <description language="fr">Nombre de t&#226;ches par utilisateur</description>
+    <description language="de">Anzahl der Aufgaben pro Benutzer</description>
+    <description language="pt">N&#250;mero de tarefas por usu&#225;rio</description>
+    <description language="ja">&#12518;&#12540;&#12470;&#12540;&#27598;&#12398;&#12479;&#12473;&#12463;&#25968;</description>
+    <description language="zh">&#27599;&#20010;&#29992;&#25143;&#30340;&#20219;&#21153;&#25968;</description>
+    <description language="es">N&#250;mero de tareas por usuario</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>userid</propertyid>
+        <name language="en">User or group</name>
+        <name language="fr">Utilisateur ou groupe</name>
+        <name language="de">Benutzer oder Gruppe</name>
+        <name language="pt">Usu&#225;rio ou grupo</name>
+        <name language="ja">&#12518;&#12540;&#12470;&#12540;&#12414;&#12383;&#12399;&#12464;&#12523;&#12540;&#12503;</name>
+        <name language="zh">&#29992;&#25143;&#25110;&#32452;</name>
+        <name language="es">Usuario o grupo</name>
+        <maxnumberofintervals>100</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>taskid</propertyid>
+        <name language="en">Task ID</name>
+        <name language="fr">Id T&#226;che</name>
+        <name language="de">Aufgaben-ID</name>
+        <name language="pt">ID da Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;ID</name>
+        <name language="zh">&#20219;&#21153; ID</name>
+        <name language="es">#Tareas</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value} task(s)</unit>
+        <unit language="fr">{value} t&#226;che(s)</unit>
+        <unit language="de">{value} Aufgabe(n)</unit>
+        <unit language="pt">{valor} tarefa(s)</unit>
+        <unit language="ja">{value} &#12479;&#12473;&#12463;</unit>
+        <unit language="zh">{value} &#20219;&#21153;</unit>
+        <unit language="es">{value} tarea(s)</unit>
+      </range>
+      <type />
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>35</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>800</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>80</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>80</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_30751353944093386">
+    <description language="en">Process completed by date</description>
+    <description language="fr">Processus compl&#233;t&#233; par date</description>
+    <description language="de">Prozess abgeschlossen bis Datum</description>
+    <description language="pt">Processo completado pela data</description>
+    <description language="ja">&#26085;&#26178;&#25351;&#23450;&#12391;&#23436;&#20102;&#12375;&#12383;&#12503;&#12525;&#12475;&#12473;</description>
+    <description language="zh">&#25353;&#26085;&#26399;&#25490;&#21015;&#30340;&#24050;&#23436;&#25104;&#36827;&#31243;</description>
+    <description language="es">Procesos completados por fecha</description>
+    <provider code="dataprovider_29781353670809093" />
+    <displayer type="linechart" renderer="nvd3">
+      <domain>
+        <propertyid>end_date</propertyid>
+        <name language="en">Process End date</name>
+        <name language="fr">Date de fin de processus</name>
+        <name language="de">Prozess-Enddatum</name>
+        <name language="pt">Processo de data final</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#32066;&#20102;&#26085;</name>
+        <name language="zh">&#36827;&#31243;&#32467;&#26463;&#26085;&#26399;</name>
+        <name language="es">Fecha final del proceso</name>
+        <maxnumberofintervals>30</maxnumberofintervals>
+        <taminterval>3</taminterval>
+      </domain>
+      <range>
+        <propertyid>processinstanceid</propertyid>
+        <name language="en">Id</name>
+        <name language="fr">Id</name>
+        <name language="de">Id</name>
+        <name language="pt">Id</name>
+        <name language="ja">ID</name>
+        <name language="zh">Id</name>
+        <name language="es">#Instancias</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value} instance(s)</unit>
+        <unit language="fr">{value} instance(s)</unit>
+        <unit language="de">{value} Instanz(en)</unit>
+        <unit language="pt">{valor} inst&#226;ncia(s)</unit>
+        <unit language="ja">{value} &#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</unit>
+        <unit language="zh">{value} &#23454;&#20363;</unit>
+        <unit language="es">{value} instancia(s)</unit>
+      </range>
+      <type />
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>40</labelanglexaxis>
+      <showlinesarea>true</showlinesarea>
+      <color>#4C4CFE</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>800</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>east</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>80</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>80</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_29671354183712341">
+    <description language="en">Process duration</description>
+    <description language="fr">Dur&#233;e du processus</description>
+    <description language="de">Prozessdauer</description>
+    <description language="pt">Dura&#231;&#227;o do processo</description>
+    <description language="ja">&#12503;&#12525;&#12475;&#12473;&#26399;&#38291;</description>
+    <description language="zh">&#36827;&#31243;&#25345;&#32493;&#26102;&#38388;</description>
+    <description language="es">Duraci&#243;n del proceso</description>
+    <provider code="dataprovider_29781353670809093" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>10</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <groupby>
+        <propertyid>processname</propertyid>
+        <name language="en">Process</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <name language="es">Proceso</name>
+        <maxnumberofintervals>1000000</maxnumberofintervals>
+        <showtotals>true</showtotals>
+        <totalshtmlstyle>text-align:center; background-color:#DEE5EC; height:20px; font-weight:Bold;</totalshtmlstyle>
+      </groupby>
+      <column>
+        <modelproperty>processname</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="en">Process</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <name language="es">Proceso</name>
+        <hint language="en">Process</hint>
+        <hint language="fr">Processus</hint>
+        <hint language="de">Prozess</hint>
+        <hint language="pt">Processo</hint>
+        <hint language="ja">&#12503;&#12525;&#12475;&#12473;</hint>
+        <hint language="zh">&#36827;&#31243;</hint>
+        <hint language="es">Proceso</hint>
+        <headerhtmlstyle>text-align:center; width:200px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:200px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>processinstanceid</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="en">Instances</name>
+        <name language="fr">Instances</name>
+        <name language="de">Instanzen</name>
+        <name language="pt">Inst&#226;ncias</name>
+        <name language="ja">&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</name>
+        <name language="zh">&#23454;&#20363;</name>
+        <name language="es">Instancias</name>
+        <hint language="en">Instances</hint>
+        <hint language="fr">Instances</hint>
+        <hint language="de">Instanzen</hint>
+        <hint language="pt">Inst&#226;ncias</hint>
+        <hint language="ja">&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</hint>
+        <hint language="zh">&#23454;&#20363;</hint>
+        <hint language="es">Instancias</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>count</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>duration</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="en">MIN</name>
+        <name language="fr">MIN</name>
+        <name language="de">MIN</name>
+        <name language="pt">MIN</name>
+        <name language="ja">&#26368;&#23567;</name>
+        <name language="zh">MIN</name>
+        <name language="es">MIN</name>
+        <hint language="en">MIN</hint>
+        <hint language="fr">MIN</hint>
+        <hint language="de">MIN</hint>
+        <hint language="pt">MIN</hint>
+        <hint language="ja">&#26368;&#23567;</hint>
+        <hint language="zh">&#26368;&#23567;&#25968;</hint>
+        <hint language="es">MIN</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>min</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>duration</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="en">Average</name>
+        <name language="fr">Moyenne</name>
+        <name language="de">Durchschnitt</name>
+        <name language="pt">M&#233;dia</name>
+        <name language="ja">&#24179;&#22343;</name>
+        <name language="zh">&#24179;&#22343;&#20540;</name>
+        <name language="es">Promedio</name>
+        <hint language="en">Average</hint>
+        <hint language="fr">Moyenne</hint>
+        <hint language="de">Durchschnitt</hint>
+        <hint language="pt">M&#233;dia</hint>
+        <hint language="ja">&#24179;&#22343;</hint>
+        <hint language="zh">&#24179;&#22343;&#20540;</hint>
+        <hint language="es">Promedio</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>average</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>duration</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="en">MAX</name>
+        <name language="fr">MAX</name>
+        <name language="de">MAX</name>
+        <name language="pt">MAX</name>
+        <name language="ja">&#26368;&#22823;</name>
+        <name language="zh">&#26368;&#22823;&#25968;</name>
+        <name language="es">MAX</name>
+        <hint language="en">MAX</hint>
+        <hint language="fr">MAX</hint>
+        <hint language="de">MAX</hint>
+        <hint language="pt">MAX</hint>
+        <hint language="ja">&#26368;&#22823;</hint>
+        <hint language="zh">&#26368;&#22823;&#25968;</hint>
+        <hint language="es">MAX</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>max</groupbyfunction>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21261373392004451">
+    <description language="en">Process initiated by date</description>
+    <description language="fr">Processus initi&#233; par date</description>
+    <description language="de">Prozess instantiiert von Datum</description>
+    <description language="pt">Processo iniciado por data</description>
+    <description language="ja">&#26085;&#26178;&#25351;&#23450;&#12391;&#38283;&#22987;&#12375;&#12383;&#12503;&#12525;&#12475;&#12473;</description>
+    <description language="zh">&#25353;&#26085;&#26399;&#21021;&#22987;&#21270;&#30340;&#36827;&#31243;</description>
+    <description language="es">Procesos iniciados por fecha</description>
+    <provider code="dataprovider_29781353670809093" />
+    <displayer type="linechart" renderer="nvd3">
+      <domain>
+        <propertyid>start_date</propertyid>
+        <name language="en">Process start date</name>
+        <name language="fr">Date D&#233;marrage Processus</name>
+        <name language="de">Prozess-Startdatum</name>
+        <name language="pt">Data de In&#237;cio da tarefa</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;&#38283;&#22987;&#26085;</name>
+        <name language="zh">&#36827;&#31243;&#24320;&#22987;&#26085;&#26399;</name>
+        <name language="es">Fecha de inicio del proceso</name>
+        <maxnumberofintervals>100</maxnumberofintervals>
+        <taminterval>3</taminterval>
+      </domain>
+      <range>
+        <propertyid>processinstanceid</propertyid>
+        <name language="en">Id</name>
+        <name language="fr">Id</name>
+        <name language="de">Id</name>
+        <name language="pt">Id</name>
+        <name language="ja">ID</name>
+        <name language="zh">ID</name>
+        <name language="es">#Instancias</name>
+        <scalarfunction>count</scalarfunction>
+      </range>
+      <type />
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>-45</labelanglexaxis>
+      <showlinesarea>true</showlinesarea>
+      <color>#4C4CFE</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>800</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>80</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>100</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_30531353942661507">
+    <description language="en">Process instances by status</description>
+    <description language="fr">Instances de processus par statut</description>
+    <description language="de">Prozessinstanzen nach Status</description>
+    <description language="pt">Inst&#226;ncias do processo por status</description>
+    <description language="ja">&#12473;&#12486;&#12540;&#12479;&#12473;&#21029;&#12503;&#12525;&#12475;&#12473;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;</description>
+    <description language="zh">&#25353;&#29366;&#24577;&#25490;&#21015;&#30340;&#36827;&#31243;&#23454;&#20363;</description>
+    <description language="es">Instancias de proceso por estado</description>
+    <provider code="dataprovider_30861353511610610" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>10</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <groupby>
+        <propertyid>processname</propertyid>
+        <name language="en">Process</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <name language="es">Proceso</name>
+        <maxnumberofintervals>1000000</maxnumberofintervals>
+        <showtotals>true</showtotals>
+        <totalshtmlstyle>text-align:center; background-color:#DEE5EC; height:20px; font-weight:Bold;</totalshtmlstyle>
+      </groupby>
+      <column>
+        <modelproperty>processname</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="en">Process</name>
+        <name language="es">Proceso</name>
+        <name language="fr">Processus</name>
+        <name language="de">Prozess</name>
+        <name language="pt">Processo</name>
+        <name language="ja">&#12503;&#12525;&#12475;&#12473;</name>
+        <name language="zh">&#36827;&#31243;</name>
+        <hint language="en">Process</hint>
+        <hint language="es">Proceso</hint>
+        <hint language="fr">Processus</hint>
+        <hint language="de">Prozess</hint>
+        <hint language="pt">Processo</hint>
+        <hint language="ja">&#12503;&#12525;&#12475;&#12473;</hint>
+        <hint language="zh">&#36827;&#31243;</hint>
+        <headerhtmlstyle>text-align:center; width:200px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:200px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>total</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="en">Total</name>
+        <name language="fr">Total</name>
+        <name language="de">Gesamt</name>
+        <name language="pt">Total</name>
+        <name language="ja">&#21512;&#35336;</name>
+        <name language="zh">&#24635;&#25968;</name>
+        <name language="es">Total</name>
+        <hint language="en">Total</hint>
+        <hint language="fr">Total</hint>
+        <hint language="de">Gesamt</hint>
+        <hint language="pt">Total</hint>
+        <hint language="ja">&#21512;&#35336;</hint>
+        <hint language="zh">&#24635;&#25968;</hint>
+        <hint language="es">Total</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;text-align:center</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>sum</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>active</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="en">Active</name>
+        <name language="fr">Actif</name>
+        <name language="de">Aktiv</name>
+        <name language="pt">Ativar</name>
+        <name language="ja">&#26377;&#21177;</name>
+        <name language="zh">&#27963;&#21160;&#30340;</name>
+        <name language="es">Activo</name>
+        <hint language="en">Active</hint>
+        <hint language="fr">Actif</hint>
+        <hint language="de">Aktiv</hint>
+        <hint language="pt">Ativo</hint>
+        <hint language="ja">&#26377;&#21177;</hint>
+        <hint language="zh">&#27963;&#21160;&#30340;</hint>
+        <hint language="es">Activo</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;text-align:center</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>sum</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>completed</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="en">Completed</name>
+        <name language="fr">Compl&#233;t&#233;</name>
+        <name language="de">Abgeschlossen</name>
+        <name language="pt">Conclu&#237;do</name>
+        <name language="ja">&#23436;&#20102;</name>
+        <name language="zh">&#23436;&#25104;&#30340;</name>
+        <name language="es">Completado</name>
+        <hint language="en">Completed</hint>
+        <hint language="fr">Compl&#233;t&#233;</hint>
+        <hint language="de">Abgeschlossen</hint>
+        <hint language="pt">Completado</hint>
+        <hint language="ja">&#23436;&#20102;</hint>
+        <hint language="zh">&#23436;&#25104;&#30340;</hint>
+        <hint language="es">Completado</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;text-align:center</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>sum</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>pending</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="en">Pending</name>
+        <name language="fr">En attente</name>
+        <name language="de">Ausstehend</name>
+        <name language="pt">Pendente</name>
+        <name language="ja">&#20445;&#30041;&#20013;</name>
+        <name language="zh">&#24453;&#23450;&#30340;</name>
+        <name language="es">Pendiente</name>
+        <hint language="en">Pending</hint>
+        <hint language="fr">En attente</hint>
+        <hint language="de">Ausstehend</hint>
+        <hint language="pt">Pendente</hint>
+        <hint language="ja">&#20445;&#30041;&#20013;</hint>
+        <hint language="zh">&#24453;&#23450;&#30340;</hint>
+        <hint language="es">Pendiente</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;text-align:center</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>sum</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>suspended</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="en">Suspended</name>
+        <name language="fr">Suspendu</name>
+        <name language="de">Ausgesetzt</name>
+        <name language="pt">Suspendido</name>
+        <name language="ja">&#19968;&#26178;&#20572;&#27490;</name>
+        <name language="zh">&#26242;&#20572;&#30340;</name>
+        <name language="es">Suspendido</name>
+        <hint language="en">Suspended</hint>
+        <hint language="fr">En attente</hint>
+        <hint language="de">Ausgesetzt</hint>
+        <hint language="pt">Suspendido</hint>
+        <hint language="ja">&#19968;&#26178;&#20572;&#27490;</hint>
+        <hint language="zh">&#26242;&#20572;&#30340;</hint>
+        <hint language="es">Suspendido</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;text-align:center</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>sum</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>aborted</modelproperty>
+        <viewindex>6</viewindex>
+        <name language="en">Aborted</name>
+        <name language="fr">Suspendu</name>
+        <name language="de">Abgebrochen</name>
+        <name language="pt">Cancelado</name>
+        <name language="ja">&#24375;&#21046;&#32066;&#20102;</name>
+        <name language="zh">&#20013;&#27490;&#30340;</name>
+        <name language="es">Abortado</name>
+        <hint language="en">Aborted</hint>
+        <hint language="fr">Abandon</hint>
+        <hint language="de">Abgebrochen</hint>
+        <hint language="pt">Anulado</hint>
+        <hint language="ja">&#24375;&#21046;&#32066;&#20102;</hint>
+        <hint language="zh">&#20013;&#27490;&#30340;</hint>
+        <hint language="es">Abortado</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;text-align:center</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>sum</groupbyfunction>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_30361353506582146">
+    <description language="en">Tasks by status</description>
+    <description language="fr">T&#226;ches par statut</description>
+    <description language="de">Aufgaben nach Status</description>
+    <description language="pt">Tarefas por status</description>
+    <description language="ja">&#12473;&#12486;&#12540;&#12479;&#12473;&#21029;&#12479;&#12473;&#12463;</description>
+    <description language="zh">&#25353;&#29366;&#24577;&#25490;&#21015;&#30340;&#20219;&#21153;</description>
+    <description language="es">Tareas por estado</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="piechart" renderer="nvd3">
+      <domain>
+        <propertyid>status</propertyid>
+        <name language="en">Task status</name>
+        <name language="fr">Statut de t&#226;che</name>
+        <name language="de">Aufgabenstatus</name>
+        <name language="pt">Status da tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;&#12473;&#12486;&#12540;&#12479;&#12473;</name>
+        <name language="zh">&#20219;&#21153;&#29366;&#24577;</name>
+        <name language="es">Estado de la tarea</name>
+        <maxnumberofintervals>10</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>taskid</propertyid>
+        <name language="en">Task ID</name>
+        <name language="fr">ID T&#226;che</name>
+        <name language="de">Aufgaben-ID</name>
+        <name language="pt">ID da Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;ID</name>
+        <name language="zh">&#20219;&#21153; ID</name>
+        <name language="es">#Tareas</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">$ {value}</unit>
+        <unit language="es">$ {value}</unit>
+        <unit language="fr">$ {value}</unit>
+        <unit language="de">$ {value}</unit>
+        <unit language="pt">$ {valor}</unit>
+        <unit language="ja">$ {value}</unit>
+        <unit language="zh">$ {value}</unit>
+      </range>
+      <type />
+      <intervalsortcriteria>0</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>600</width>
+      <height>300</height>
+      <showlegend>true</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>east</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>30</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>30</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_29741354189063608">
+    <description language="en">Tasks completed by date</description>
+    <description language="fr">T&#226;che compl&#233;t&#233;e par date</description>
+    <description language="de">Aufgaben beendet bis Datum</description>
+    <description language="pt">Tarefas conclu&#237;das pela data</description>
+    <description language="ja">&#26085;&#26178;&#25351;&#23450;&#12391;&#23436;&#20102;&#12375;&#12383;&#12479;&#12473;&#12463;</description>
+    <description language="zh">&#25353;&#26085;&#26399;&#25490;&#21015;&#30340;&#24050;&#23436;&#25104;&#20219;&#21153;</description>
+    <description language="es">Tareas completadas por fecha</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="linechart" renderer="nvd3">
+      <domain>
+        <propertyid>enddate</propertyid>
+        <name language="en">Task End date</name>
+        <name language="fr">Date de fin de la t&#226;che</name>
+        <name language="de">Aufgaben-Enddatum</name>
+        <name language="pt">Data de t&#233;rmino da tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;&#32066;&#20102;&#26085;</name>
+        <name language="zh">&#36827;&#31243;&#32467;&#26463;&#26085;&#26399;</name>
+        <name language="es">Fecha final de la tarea</name>
+        <maxnumberofintervals>50</maxnumberofintervals>
+        <taminterval>3</taminterval>
+      </domain>
+      <range>
+        <propertyid>taskid</propertyid>
+        <name language="en">Task ID</name>
+        <name language="fr">ID T&#226;che</name>
+        <name language="de">Aufgaben-ID</name>
+        <name language="pt">ID da tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;ID</name>
+        <name language="zh">&#20219;&#21153; ID</name>
+        <name language="es">#Tareas</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value} task(s)</unit>
+        <unit language="fr">{value} t&#226;che(s)</unit>
+        <unit language="de">{value} Aufgabe(n)</unit>
+        <unit language="pt">{valor} tarefa(s)</unit>
+        <unit language="ja">{value} &#12479;&#12473;&#12463;</unit>
+        <unit language="zh">{value} &#20219;&#21153;</unit>
+        <unit language="es">{value} tarea(s)</unit>
+      </range>
+      <type />
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>40</labelanglexaxis>
+      <showlinesarea>true</showlinesarea>
+      <color>#FF0000</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>800</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>east</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>80</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>80</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_29711354187660609">
+    <description language="en">Tasks duration</description>
+    <description language="fr">Dur&#233;e des t&#226;ches</description>
+    <description language="de">Aufgabendauer</description>
+    <description language="pt">Dura&#231;&#227;o de tarefas</description>
+    <description language="ja">&#12479;&#12473;&#12463;&#26399;&#38291;</description>
+    <description language="zh">&#20219;&#21153;&#25345;&#32493;&#26102;&#38388;</description>
+    <description language="es">Duraci&#243;n de tareas</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>25</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <groupby>
+        <propertyid>taskname</propertyid>
+        <name language="en">Task</name>
+        <name language="fr">T&#226;che</name>
+        <name language="de">Aufgabe</name>
+        <name language="pt">Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;</name>
+        <name language="zh">&#20219;&#21153;</name>
+        <name language="es">Tarea</name>
+        <maxnumberofintervals>10000</maxnumberofintervals>
+        <showtotals>true</showtotals>
+        <totalshtmlstyle>text-align:center; background-color:#DEE5EC; height:20px; font-weight:Bold;</totalshtmlstyle>
+      </groupby>
+      <column>
+        <modelproperty>taskname</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="en">Task</name>
+        <name language="fr">T&#226;che</name>
+        <name language="de">Aufgabe</name>
+        <name language="pt">Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;</name>
+        <name language="zh">&#20219;&#21153;</name>
+        <name language="es">ID tarea</name>
+        <hint language="en">Task</hint>
+        <hint language="fr">T&#226;che</hint>
+        <hint language="de">Aufgabe</hint>
+        <hint language="pt">Tarefa</hint>
+        <hint language="ja">&#12479;&#12473;&#12463;</hint>
+        <hint language="zh">&#20219;&#21153;</hint>
+        <hint language="es">ID tarea</hint>
+        <headerhtmlstyle>text-align:center; width:200px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:200px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>taskid</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="en">Count</name>
+        <name language="fr">Nombre</name>
+        <name language="de">Z&#228;hlung</name>
+        <name language="pt">Contagem</name>
+        <name language="ja">&#22238;&#25968;</name>
+        <name language="zh">&#35745;&#25968;</name>
+        <name language="es">Count</name>
+        <hint language="en">Count</hint>
+        <hint language="fr">Nombre</hint>
+        <hint language="de">Z&#228;hlung</hint>
+        <hint language="pt">Contagem</hint>
+        <hint language="ja">&#22238;&#25968;</hint>
+        <hint language="zh">&#35745;&#25968;</hint>
+        <hint language="es">Count</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>count</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>duration</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="en">MIN</name>
+        <name language="fr">MIN</name>
+        <name language="de">MIN</name>
+        <name language="pt">MIN</name>
+        <name language="ja">&#26368;&#23567;</name>
+        <name language="zh">MIN</name>
+        <name language="es">MIN</name>
+        <hint language="en">MIN</hint>
+        <hint language="fr">MIN</hint>
+        <hint language="de">MIN</hint>
+        <hint language="pt">MIN</hint>
+        <hint language="ja">&#26368;&#23567;</hint>
+        <hint language="zh">MIN</hint>
+        <hint language="es">MIN</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>min</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>duration</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="en">Average</name>
+        <name language="fr">Moyenne</name>
+        <name language="de">Durchschnitt</name>
+        <name language="pt">M&#233;dia</name>
+        <name language="ja">&#24179;&#22343;</name>
+        <name language="zh">&#24179;&#22343;&#20540;</name>
+        <name language="es">Promedio</name>
+        <hint language="en">Average</hint>
+        <hint language="fr">Moyenne</hint>
+        <hint language="de">Durchschnitt</hint>
+        <hint language="pt">M&#233;dia</hint>
+        <hint language="ja">&#24179;&#22343;</hint>
+        <hint language="zh">&#24179;&#22343;&#20540;</hint>
+        <hint language="es">Promedio</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>average</groupbyfunction>
+      </column>
+      <column>
+        <modelproperty>duration</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="en">MAX</name>
+        <name language="fr">MAX</name>
+        <name language="de">MAX</name>
+        <name language="pt">MAX</name>
+        <name language="ja">&#26368;&#22823;</name>
+        <name language="zh">&#26368;&#22823;&#25968;</name>
+        <name language="es">MAX</name>
+        <hint language="en">MAX</hint>
+        <hint language="fr">MAX</hint>
+        <hint language="de">MAX</hint>
+        <hint language="pt">MAX</hint>
+        <hint language="ja">&#26368;&#22823;</hint>
+        <hint language="zh">&#26368;&#22823;&#25968;</hint>
+        <hint language="es">MAX</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;text-align:center</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+        <groupbyfunction>max</groupbyfunction>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_31201353947556129">
+    <description language="en">Tasks started by date</description>
+    <description language="fr">T&#226;ches d&#233;marr&#233;es par date</description>
+    <description language="de">Aufgaben begonnen bis Datum</description>
+    <description language="pt">Tarefas iniciadas pela data</description>
+    <description language="ja">&#26085;&#26178;&#25351;&#23450;&#12391;&#38283;&#22987;&#12375;&#12383;&#12479;&#12473;&#12463;</description>
+    <description language="zh">&#25353;&#26085;&#26399;&#21551;&#21160;&#30340;&#20219;&#21153;</description>
+    <description language="es">Tareas iniciadas por fecha</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="linechart" renderer="nvd3">
+      <domain>
+        <propertyid>createddate</propertyid>
+        <name language="en">Task Start date</name>
+        <name language="fr">Date D&#233;part T&#226;che</name>
+        <name language="de">Aufgaben-Startdatum</name>
+        <name language="pt">Data de In&#237;cio da tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;&#38283;&#22987;&#26085;</name>
+        <name language="zh">&#20219;&#21153;&#24320;&#22987;&#26085;&#26399;</name>
+        <name language="es">Fecha inicio</name>
+        <maxnumberofintervals>100</maxnumberofintervals>
+        <taminterval>3</taminterval>
+      </domain>
+      <range>
+        <propertyid>taskid</propertyid>
+        <name language="en">Task ID</name>
+        <name language="fr">ID T&#226;che</name>
+        <name language="de">Aufgaben-ID</name>
+        <name language="pt">ID da Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;ID</name>
+        <name language="zh">&#20219;&#21153; ID</name>
+        <name language="es">#Tareas</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="en">{value} task(s)</unit>
+        <unit language="fr">{value} t&#226;che(s)</unit>
+        <unit language="de">{value} Aufgabe(n)</unit>
+        <unit language="pt">{valor} tarefa(s)</unit>
+        <unit language="ja">{value} &#12479;&#12473;&#12463;</unit>
+        <unit language="zh">{value} &#20219;&#21153;</unit>
+        <unit language="es">{value} tarea(s)</unit>
+      </range>
+      <type />
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>50</labelanglexaxis>
+      <showlinesarea>true</showlinesarea>
+      <color>#FF0000</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>800</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>east</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>80</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>80</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_31291353948572804">
+    <description language="en">Users with tasks</description>
+    <description language="fr">Utilisateurs avec des t&#226;ches</description>
+    <description language="de">Benutzer mit Aufgaben</description>
+    <description language="pt">Usu&#225;rios com tarefas</description>
+    <description language="ja">&#12479;&#12473;&#12463;&#12364;&#12354;&#12427;&#12518;&#12540;&#12470;&#12540;</description>
+    <description language="zh">&#24102;&#26377;&#20219;&#21153;&#30340;&#29992;&#25143;</description>
+    <description language="es">Usuarios con tareas</description>
+    <provider code="dataprovider_31171353947281370" />
+    <displayer type="piechart" renderer="nvd3">
+      <domain>
+        <propertyid>userid</propertyid>
+        <name language="en">User or group</name>
+        <name language="fr">Utilisateur ou groupe</name>
+        <name language="de">Benutzer oder Gruppe</name>
+        <name language="pt">Usu&#225;rio ou grupo</name>
+        <name language="ja">&#12518;&#12540;&#12470;&#12540;&#12414;&#12383;&#12399;&#12464;&#12523;&#12540;&#12503;</name>
+        <name language="zh">&#29992;&#25143;&#25110;&#32452;</name>
+        <name language="es">Usuario o grupo</name>
+        <maxnumberofintervals>10</maxnumberofintervals>
+      </domain>
+      <range>
+        <propertyid>taskid</propertyid>
+        <name language="en">Task ID</name>
+        <name language="fr">Id T&#226;che</name>
+        <name language="de">Aufgaben-ID</name>
+        <name language="pt">ID da Tarefa</name>
+        <name language="ja">&#12479;&#12473;&#12463;ID</name>
+        <name language="zh">&#20219;&#21153; ID</name>
+        <name language="es">Id de tarea</name>
+        <scalarfunction>count</scalarfunction>
+      </range>
+      <type />
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <color>#E40808</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>400</width>
+      <height>300</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>true</showtitle>
+      <align>center</align>
+      <marginleft>30</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>30</marginbottom>
+    </displayer>
+  </kpi>
+</kpis>
+

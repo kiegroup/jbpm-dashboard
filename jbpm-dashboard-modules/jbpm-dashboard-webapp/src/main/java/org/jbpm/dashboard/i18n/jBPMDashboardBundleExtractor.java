@@ -35,14 +35,14 @@ public class jBPMDashboardBundleExtractor {
         // Process the Showcase KPIs file
         XmlToBundleConverter converter = new KpisFileConverter();
         converter.bundleDir = new File(rootDir, "src/main/resources/org/jbpm/dashboard/kpis");
-        converter.xmlFile = new File(rootDir, "src/main/webapp/WEB-INF/etc/appdata/initialData/jbpmKPIs.xml");
+        converter.xmlFile = new File(rootDir, "src/main/webapp/WEB-INF/deployments/jbpmKPIs.kpis");
         Map<Locale,Properties> bundles = converter.extract(); // Extract bundles from source XML
         converter.write(bundles); // Write literals to bundle files.
 
         // Process the Showcase Workspace file
         converter = new WorkspaceFileConverter();
         converter.bundleDir = new File(rootDir, "src/main/resources/org/jbpm/dashboard/workspace");
-        converter.xmlFile = new File(rootDir, "src/main/webapp/WEB-INF/etc/appdata/initialData/jbpmWorkspace.xml");
+        converter.xmlFile = new File(rootDir, "src/main/webapp/WEB-INF/deployments/jbpmWorkspace.workspace");
         bundles = converter.extract(); // Extract bundles from source XML
         converter.write(bundles); // Write literals to bundle files.
     }
