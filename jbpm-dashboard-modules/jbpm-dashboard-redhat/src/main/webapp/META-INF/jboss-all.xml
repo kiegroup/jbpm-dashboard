@@ -16,7 +16,7 @@
 
 -->
 <jboss umlns="urn:jboss:1.0">
-  <jboss-deployment-dependencies xmlns="urn:jbosseployment-dependencies:1.0">
+  <jboss-deployment-dependencies xmlns="urn:jboss:deployment-dependencies:1.0">
     <dependency name="business-central.war" />
   </jboss-deployment-dependencies>
 </jboss>
