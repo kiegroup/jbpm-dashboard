@@ -39,18 +39,24 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
     protected LocaleManager localeManager;
 
     public String[] getSupportedPropertyIds() {
-        return new String[] {"duration", "status", "userid"};
+        return new String[] {"min(duration)", "avg(duration)", "max(duration)",
+                "min(ts.duration)", "avg(ts.duration)", "max(ts.duration)",
+                "status", "userid"};
     }
     
     public String formatValue(String propertyId, Object value, Locale l) {
-        // If the value is null or the value has no a predefined format string invoke its custom format method (if exists).
-        String result = null;
-        Method m = null;
-        try { m = this.getClass().getMethod("formatValue_" + propertyId, new Class[] {Object.class, Locale.class}); } catch (NoSuchMethodException e) { /* Ignore */}
-        try { if (m != null) result = (String) m.invoke(this, new Object[] {value, l}); } catch (Exception e2) { /* Ignore */ }
-
-        // If no custom format method is found then apply a default format.
-        if (result != null) return result;
+        if (value instanceof Collection) {
+            return super.formatCollection(propertyId, (Collection) value, ", ", null, null, l);
+        }
+        if (propertyId.indexOf("duration") != -1) {
+            return formatValue_duration(value, l);
+        }
+        if (propertyId.equals("status")) {
+            return formatValue_status(value, l);
+        }
+        if (propertyId.equals("userid")) {
+            return formatValue_userid(value, l);
+        }
         return super.formatValue(propertyId, value, l);
     }
 
@@ -64,7 +70,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
      * @return The duration formatted as String.
      * @throws Exception An error ocurred.
      */
-    public String formatValue_duration(Object value, Locale l) throws Exception {
+    public String formatValue_duration(Object value, Locale l) {
         if (value == null || !(value instanceof Number)) return NO_VALUE;
 
         // If task is not finished, duration is 0.
@@ -76,28 +82,14 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
         return formatElapsedTime(millis, l);
     }
 
-    public String formatValue_status(Object value, Locale l) throws Exception {
+    public String formatValue_status(Object value, Locale l) {
         try {
             if (value == null) return "---";
-            if (value instanceof List) return null;
-            ResourceBundle i18n = getBunle(l);
+            ResourceBundle i18n = getBundle(l);
             return i18n.getString("status." + value.toString());
         } catch (Exception e) {
             return value.toString();
         }
-    }
-
-    /**
-     * Format the property <code>user_identity</code> used in a process instance assigments.
-     * If no user assigned use a custom literal.
-     *
-     * @param value The property value.
-     * @param l The locale
-     * @return The user property formatted as String.
-     * @throws Exception An error ocurred.
-     */
-    public String formatValue_user_identity(Object value, Locale l) throws Exception {
-        return formatUser(value, l);
     }
 
     /**
@@ -109,22 +101,8 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
      * @return The user property formatted as String.
      * @throws Exception An error ocurred.
      */
-    public String formatValue_userid(Object value, Locale l) throws Exception {
-        return formatUser(value, l);
-    }
-
-    /**
-     * Format the value for a user assignment.
-     * If no user assigned use a custom literal.
-     *
-     * @param value The property value.
-     * @param l The locale
-     * @return The user property formatted as String.
-     * @throws Exception An error ocurred.
-     */
-    public String formatUser(Object value, Locale l) throws Exception {
+    public String formatValue_userid(Object value, Locale l) {
         try {
-
             // Check if a user is assigned.
             if (value != null) {
                 String valueStr = (String) value;
@@ -132,7 +110,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
             }
 
             // Not assigned, so use a custom literal.
-            ResourceBundle i18n = getBunle(l);
+            ResourceBundle i18n = getBundle(l);
             return i18n.getString("user.notAssinged");
 
         } catch (Exception e) {
@@ -150,7 +128,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
         long days = hours / 24; hours %= 24;
         long weeks = days / 7; days %= 7;
 
-        ResourceBundle i18n = getBunle(l);
+        ResourceBundle i18n = getBundle(l);
         String pattern = "ellapsedtime.hours";
         if (days > 0) pattern = "ellapsedtime.days";
         if (weeks > 0) pattern = "ellapsedtime.weeks";
@@ -163,7 +141,7 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
      * @param l The locale.
      * @return The bundle for the locale.
      */
-    protected ResourceBundle getBunle(Locale l) {
+    protected ResourceBundle getBundle(Locale l) {
         return localeManager.getBundle("org.jbpm.dashboard.messages", l);
     }
 }
