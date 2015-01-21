@@ -275,26 +275,26 @@
     <description language="en">jBPM Process Duration</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select processname, count(processinstanceid), min(duration), avg(duration), max(duration) from processinstancelog where {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by processname order by processname asc</query>
+      <query>select processname, count(processinstanceid) as processcount, min(duration) as minduration, avg(duration) as avgduration, max(duration) as maxduration from processinstancelog where {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by processname order by processname asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="processname">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
         <name language="en">Process </name>
       </dataproperty>
-      <dataproperty id="count(processinstanceid)">
+      <dataproperty id="processcount">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Instances</name>
       </dataproperty>
-      <dataproperty id="min(duration)">
+      <dataproperty id="minduration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Duration min.</name>
       </dataproperty>
-      <dataproperty id="avg(duration)">
+      <dataproperty id="avgduration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Duration avg.</name>
       </dataproperty>
-      <dataproperty id="max(duration)">
+      <dataproperty id="maxduration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Duration max.</name>
       </dataproperty>
@@ -423,26 +423,26 @@
     <description language="en">jBPM Tasks Duration</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.taskname, count(ts.taskid), min(ts.duration), avg(ts.duration), max(ts.duration) from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where ts.duration is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.taskname order by ts.taskname asc</query>
+      <query>select ts.taskname as taskname, count(ts.taskid) as taskcount, min(ts.duration) as minduration, avg(ts.duration) as avgduration, max(ts.duration) as maxduration from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where ts.duration is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.taskname order by ts.taskname asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="taskname">
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
         <name language="en">Task</name>
       </dataproperty>
-      <dataproperty id="count(ts.taskid)">
+      <dataproperty id="taskcount">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Task instances</name>
       </dataproperty>
-      <dataproperty id="min(ts.duration)">
+      <dataproperty id="minduration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Duration min.</name>
       </dataproperty>
-      <dataproperty id="avg(ts.duration)">
+      <dataproperty id="avgduration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Duration avg.</name>
       </dataproperty>
-      <dataproperty id="max(ts.duration)">
+      <dataproperty id="maxduration">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Duration max.</name>
       </dataproperty>
@@ -898,7 +898,7 @@
         <sortable>true</sortable>
       </column>
       <column>
-        <modelproperty>count(processinstanceid)</modelproperty>
+        <modelproperty>processcount</modelproperty>
         <viewindex>1</viewindex>
         <name language="fr">Instances</name>
         <name language="zh">&#23454;&#20363;</name>
@@ -922,7 +922,7 @@
         <groupbyfunction>sum</groupbyfunction>
       </column>
       <column>
-        <modelproperty>min(duration)</modelproperty>
+        <modelproperty>minduration</modelproperty>
         <viewindex>2</viewindex>
         <name language="fr">MIN</name>
         <name language="zh">MIN</name>
@@ -946,7 +946,7 @@
         <groupbyfunction>min</groupbyfunction>
       </column>
       <column>
-        <modelproperty>avg(duration)</modelproperty>
+        <modelproperty>avgduration</modelproperty>
         <viewindex>3</viewindex>
         <name language="fr">Moyenne</name>
         <name language="zh">&#24179;&#22343;&#20540;</name>
@@ -970,7 +970,7 @@
         <groupbyfunction>average</groupbyfunction>
       </column>
       <column>
-        <modelproperty>max(duration)</modelproperty>
+        <modelproperty>maxduration</modelproperty>
         <viewindex>4</viewindex>
         <name language="fr">MAX</name>
         <name language="zh">&#26368;&#22823;&#25968;</name>
@@ -1406,7 +1406,7 @@
         <sortable>true</sortable>
       </column>
       <column>
-        <modelproperty>count(ts.taskid)</modelproperty>
+        <modelproperty>taskcount</modelproperty>
         <viewindex>1</viewindex>
         <name language="fr">Nombre</name>
         <name language="zh">&#35745;&#25968;</name>
@@ -1430,7 +1430,7 @@
         <groupbyfunction>sum</groupbyfunction>
       </column>
       <column>
-        <modelproperty>min(ts.duration)</modelproperty>
+        <modelproperty>minduration</modelproperty>
         <viewindex>2</viewindex>
         <name language="fr">MIN</name>
         <name language="zh">MIN</name>
@@ -1454,7 +1454,7 @@
         <groupbyfunction>min</groupbyfunction>
       </column>
       <column>
-        <modelproperty>avg(ts.duration)</modelproperty>
+        <modelproperty>avgduration</modelproperty>
         <viewindex>3</viewindex>
         <name language="fr">Moyenne</name>
         <name language="zh">&#24179;&#22343;&#20540;</name>
@@ -1478,7 +1478,7 @@
         <groupbyfunction>average</groupbyfunction>
       </column>
       <column>
-        <modelproperty>max(ts.duration)</modelproperty>
+        <modelproperty>maxduration</modelproperty>
         <viewindex>4</viewindex>
         <name language="fr">MAX</name>
         <name language="zh">&#26368;&#22823;&#25968;</name>
