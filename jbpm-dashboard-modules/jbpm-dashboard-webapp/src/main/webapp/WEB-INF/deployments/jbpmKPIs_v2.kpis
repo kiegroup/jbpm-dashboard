@@ -77,6 +77,73 @@
         on (total.processinstanceid=aborted.processinstanceid)
         order by processname
       </query>
+      <query type="oracle">select processname, coalesce(instances,0) total, coalesce(instances_act,0) active, coalesce(instances_compl,0) completed, coalesce(instances_pend,0) pending, coalesce(instances_susp,0) suspended, coalesce(instances_abrt,0) aborted
+        from
+        (select processinstanceid, processname, count(*) instances
+        from processinstancelog
+        where {sql_condition, optional, processname, processname}
+        and {sql_condition, optional, user_identity, userid}
+        and {sql_condition, optional, start_date, start_date}
+        and {sql_condition, optional, end_date, end_date}
+        and {sql_condition, optional, processversion, processversion}
+        group by processinstanceid,processname) total
+        left outer join
+        (select processinstanceid, count(*) instances_act
+        from processinstancelog
+        where status=1
+        and {sql_condition, optional, processname, processname}
+        and {sql_condition, optional, user_identity, userid}
+        and {sql_condition, optional, start_date, start_date}
+        and {sql_condition, optional, end_date, end_date}
+        and {sql_condition, optional, processversion, processversion}
+        group by processinstanceid) active
+        on (total.processinstanceid=active.processinstanceid)
+        left outer join
+        (select processinstanceid, count(*) instances_compl
+        from processinstancelog
+        where status=2
+        and {sql_condition, optional, processname, processname}
+        and {sql_condition, optional, user_identity, userid}
+        and {sql_condition, optional, start_date, start_date}
+        and {sql_condition, optional, end_date, end_date}
+        and {sql_condition, optional, processversion, processversion}
+        group by processinstanceid) completed
+        on (total.processinstanceid=completed.processinstanceid)
+        left outer join
+        (select processinstanceid, count(*) instances_pend
+        from processinstancelog
+        where status=0
+        and {sql_condition, optional, processname, processname}
+        and {sql_condition, optional, user_identity, userid}
+        and {sql_condition, optional, start_date, start_date}
+        and {sql_condition, optional, end_date, end_date}
+        and {sql_condition, optional, processversion, processversion}
+        group by processinstanceid) pending
+        on (total.processinstanceid=pending.processinstanceid)
+        left outer join
+        (select processinstanceid, count(*) instances_susp
+        from processinstancelog
+        where status=4
+        and {sql_condition, optional, processname, processname}
+        and {sql_condition, optional, user_identity, userid}
+        and {sql_condition, optional, start_date, start_date}
+        and {sql_condition, optional, end_date, end_date}
+        and {sql_condition, optional, processversion, processversion}
+        group by processinstanceid) suspended
+        on (total.processinstanceid=suspended.processinstanceid)
+        left outer join
+        (select processinstanceid, count(*) instances_abrt
+        from processinstancelog
+        where status=3
+        and {sql_condition, optional, processname, processname}
+        and {sql_condition, optional, user_identity, userid}
+        and {sql_condition, optional, start_date, start_date}
+        and {sql_condition, optional, end_date, end_date}
+        and {sql_condition, optional, processversion, processversion}
+        group by processinstanceid) aborted
+        on (total.processinstanceid=aborted.processinstanceid)
+        order by processname
+      </query>
       <query type="h2">select processname, ifnull(instances,0) total, ifnull(instances_act,0) active, ifnull(instances_compl,0) completed, ifnull(instances_pend,0) pending, ifnull(instances_susp,0) suspended, ifnull(instances_abrt,0) aborted
         from
         (select processinstanceid, processname, count(*) as instances
