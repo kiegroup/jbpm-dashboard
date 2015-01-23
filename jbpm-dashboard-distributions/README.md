@@ -15,9 +15,9 @@ Currently, the following artifacts are generated:
 
   Detailed installation instructions [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/wildfly8/README.md).
 
-* **jbpm-dashbuilder-eap-6_3.war:**  Product distribution for the JBoss EAP 6.3 application server.
+* **jbpm-dashbuilder-eap-6_4.war:**  Product distribution for the JBoss EAP 6.4 application server.
 
-  Detailed installation instructions [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/eap6_3/README.md).
+  Detailed installation instructions [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/eap6_4/README.md).
 
 * **jbpm-dashbuilder-tomcat-7.war:**  Product distribution for Apache Tomcat 7 server.
 

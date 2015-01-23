@@ -119,7 +119,7 @@
           </filters>
           <descriptors>
             <descriptor>${project.basedir}/src/main/assembly/assembly-jboss-as-7.xml</descriptor>
-            <descriptor>${project.basedir}/src/main/assembly/assembly-eap-6_3.xml</descriptor>
+            <descriptor>${project.basedir}/src/main/assembly/assembly-eap-6_4.xml</descriptor>
             <descriptor>${project.basedir}/src/main/assembly/assembly-wildfly-8.xml</descriptor>
             <descriptor>${project.basedir}/src/main/assembly/assembly-tomcat-7.xml</descriptor>
             <descriptor>${project.basedir}/src/main/assembly/assembly-websphere-as-8.xml</descriptor>
@@ -171,7 +171,7 @@
               </filters>
               <descriptors combine.children="override">
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-jboss-as-7-redhat.xml</descriptor>
-                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-eap-6_3-redhat.xml</descriptor>
+                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-eap-6_4-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-wildfly-8-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-tomcat-7-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-websphere-as-8-redhat.xml</descriptor>
