@@ -39,8 +39,8 @@ public class jBPMDataPropertyFormatter extends DataPropertyFormatterImpl {
     protected LocaleManager localeManager;
 
     public String[] getSupportedPropertyIds() {
-        return new String[] {"min(duration)", "avg(duration)", "max(duration)",
-                "min(ts.duration)", "avg(ts.duration)", "max(ts.duration)",
+        return new String[] {"pminduration", "pavgduration", "pmaxduration",
+                "tminduration", "tavgduration", "tmaxduration",
                 "status", "userid"};
     }
     
