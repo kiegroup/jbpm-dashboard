@@ -7,10 +7,6 @@ To generate all the distribution files go to the jbpm-dashboard root directory a
 
 Currently, the following artifacts are generated:
 
-* **jbpm-dashbuilder-jboss-as7.war:**  Product distribution the JBoss AS 7.x application server.
-
-  Detailed installation instructions [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/jbossas7/README.md).
-
 * **jbpm-dashbuilder-wildfly-8.war:**  Product distribution for the Widlfly 8.x application server.
 
   Detailed installation instructions [here](https://github.com/droolsjbpm/jbpm-dashboard/blob/master/jbpm-dashboard-distributions/src/main/wildfly8/README.md).

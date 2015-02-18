@@ -118,7 +118,6 @@
             <filter>${project.basedir}/src/main/assembly/filter.properties</filter>
           </filters>
           <descriptors>
-            <descriptor>${project.basedir}/src/main/assembly/assembly-jboss-as-7.xml</descriptor>
             <descriptor>${project.basedir}/src/main/assembly/assembly-eap-6_4.xml</descriptor>
             <descriptor>${project.basedir}/src/main/assembly/assembly-wildfly-8.xml</descriptor>
             <descriptor>${project.basedir}/src/main/assembly/assembly-tomcat-7.xml</descriptor>
@@ -170,7 +169,6 @@
                 <filter>${project.basedir}/src/main/assembly/redhat/filter.properties</filter>
               </filters>
               <descriptors combine.children="override">
-                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-jboss-as-7-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-eap-6_4-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-wildfly-8-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-tomcat-7-redhat.xml</descriptor>
