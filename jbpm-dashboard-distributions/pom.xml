@@ -170,7 +170,6 @@
               </filters>
               <descriptors combine.children="override">
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-eap-6_4-redhat.xml</descriptor>
-                <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-wildfly-8-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-tomcat-7-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-websphere-as-8-redhat.xml</descriptor>
                 <descriptor>${project.basedir}/src/main/assembly/redhat/assembly-weblogic-12c-redhat.xml</descriptor>
