@@ -28,7 +28,7 @@
 
   <artifactId>jbpm-dashboard-redhat</artifactId>
   <packaging>war</packaging>
-  <name>jBPM Dashboard RedHat branding</name>
+  <name>jBPM Dashboard Red Hat branding</name>
 
   <dependencies>
     <dependency>
