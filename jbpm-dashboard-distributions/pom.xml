@@ -17,6 +17,11 @@
     This module builds the distribution wars for different application servers.
   </description>
 
+  <properties>
+    <!-- This property is overriden in 'productizedProfile' to specify the correct GAV for productized builds. -->
+    <webapp.war>org.jbpm.dashboard:jbpm-dashboard-webapp:war</webapp.war>
+  </properties>
+
   <dependencyManagement>
 
     <dependencies>
@@ -141,6 +146,10 @@
           <name>productized</name>
         </property>
       </activation>
+
+      <properties>
+        <webapp.war>org.jbpm.dashboard:jbpm-dashboard-redhat:war</webapp.war>
+      </properties>
 
       <dependencies>
         <dependency>
