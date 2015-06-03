@@ -17,21 +17,27 @@
 
 -->
 <jboss-deployment-structure>
-    <deployment>
+  <deployment>
 
-        <dependencies>
-            <module name="org.javassist" />
-            <module name="org.hibernate" />
-            <module name="org.dom4j" />
-            <module name="org.jdom" />
-            <module name="org.slf4j" />
-            <module name="org.apache.commons.io" />
-            <module name="org.apache.commons.collections" />
-            <module name="org.apache.commons.codec" />
-            <module name="org.apache.commons.logging" />
-            <module name="org.apache.xerces" />
-            <module name="org.jboss.ironjacamar.jdbcadapters" />
-        </dependencies>
+    <dependencies>
+      <!-- IMPORTANT: when adding dependency (module) here, make sure it is a public one.
+           Do not add private modules as there is no guarantee they won't be changed or
+           removed in future. EAP also generates warning(s) during the deployment if
+           the WAR depends on private modules. -->
+      <!-- Keep the alphabetical order! -->
+      <module name="org.apache.commons.logging"/>
+      <module name="org.apache.xerces"/>
+      <module name="org.hibernate"/>
+      <module name="org.slf4j"/>
 
-    </deployment>
+      <!-- EXCEPTIONS - private/unsupported modules that can not be directly added into the WEB-INF/lib -->
+      <!-- Dom4j is a transitive dependency of org.apache.poi:poi-ooxml and needs to be on classpath.
+           It is also used by Hibernate and adding it directly into WEB-INF/lib results in
+           "org.dom4j.DocumentException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory"
+           Depending on the EAP module seems to be the only way.
+           See https://developer.jboss.org/thread/173306 for more info. -->
+      <module name="org.dom4j"/>
+    </dependencies>
+
+  </deployment>
 </jboss-deployment-structure>
