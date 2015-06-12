@@ -13,7 +13,7 @@
       <query type="default">select processname, coalesce(instances,0) total, coalesce(instances_act,0) active, coalesce(instances_compl,0) completed, coalesce(instances_pend,0) pending, coalesce(instances_susp,0) suspended, coalesce(instances_abrt,0) aborted
         from
         (select processinstanceid, processname, count(*) as instances
-        from processinstancelog
+        from ProcessInstanceLog
         where {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
         and {sql_condition, optional, start_date, start_date}
@@ -22,7 +22,7 @@
         group by processinstanceid,processname) as total
         left outer join
         (select processinstanceid, count(*) as instances_act
-        from processinstancelog
+        from ProcessInstanceLog
         where status=1
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -33,7 +33,7 @@
         on (total.processinstanceid=active.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_compl
-        from processinstancelog
+        from ProcessInstanceLog
         where status=2
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -44,7 +44,7 @@
         on (total.processinstanceid=completed.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_pend
-        from processinstancelog
+        from ProcessInstanceLog
         where status=0
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -55,7 +55,7 @@
         on (total.processinstanceid=pending.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_susp
-        from processinstancelog
+        from ProcessInstanceLog
         where status=4
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -66,7 +66,7 @@
         on (total.processinstanceid=suspended.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_abrt
-        from processinstancelog
+        from ProcessInstanceLog
         where status=3
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -80,7 +80,7 @@
       <query type="oracle">select processname, coalesce(instances,0) total, coalesce(instances_act,0) active, coalesce(instances_compl,0) completed, coalesce(instances_pend,0) pending, coalesce(instances_susp,0) suspended, coalesce(instances_abrt,0) aborted
         from
         (select processinstanceid, processname, count(*) instances
-        from processinstancelog
+        from ProcessInstanceLog
         where {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
         and {sql_condition, optional, start_date, start_date}
@@ -89,7 +89,7 @@
         group by processinstanceid,processname) total
         left outer join
         (select processinstanceid, count(*) instances_act
-        from processinstancelog
+        from ProcessInstanceLog
         where status=1
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -100,7 +100,7 @@
         on (total.processinstanceid=active.processinstanceid)
         left outer join
         (select processinstanceid, count(*) instances_compl
-        from processinstancelog
+        from ProcessInstanceLog
         where status=2
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -111,7 +111,7 @@
         on (total.processinstanceid=completed.processinstanceid)
         left outer join
         (select processinstanceid, count(*) instances_pend
-        from processinstancelog
+        from ProcessInstanceLog
         where status=0
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -122,7 +122,7 @@
         on (total.processinstanceid=pending.processinstanceid)
         left outer join
         (select processinstanceid, count(*) instances_susp
-        from processinstancelog
+        from ProcessInstanceLog
         where status=4
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -133,7 +133,7 @@
         on (total.processinstanceid=suspended.processinstanceid)
         left outer join
         (select processinstanceid, count(*) instances_abrt
-        from processinstancelog
+        from ProcessInstanceLog
         where status=3
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -147,7 +147,7 @@
       <query type="h2">select processname, ifnull(instances,0) total, ifnull(instances_act,0) active, ifnull(instances_compl,0) completed, ifnull(instances_pend,0) pending, ifnull(instances_susp,0) suspended, ifnull(instances_abrt,0) aborted
         from
         (select processinstanceid, processname, count(*) as instances
-        from processinstancelog
+        from ProcessInstanceLog
         where {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
         and {sql_condition, optional, start_date, start_date}
@@ -156,7 +156,7 @@
         group by processinstanceid,processname) as total
         left outer join
         (select processinstanceid, count(*) as instances_act
-        from processinstancelog
+        from ProcessInstanceLog
         where status=1
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -167,7 +167,7 @@
         on (total.processinstanceid=active.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_compl
-        from processinstancelog
+        from ProcessInstanceLog
         where status=2
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -178,7 +178,7 @@
         on (total.processinstanceid=completed.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_pend
-        from processinstancelog
+        from ProcessInstanceLog
         where status=0
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -189,7 +189,7 @@
         on (total.processinstanceid=pending.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_susp
-        from processinstancelog
+        from ProcessInstanceLog
         where status=4
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -200,7 +200,7 @@
         on (total.processinstanceid=suspended.processinstanceid)
         left outer join
         (select processinstanceid, count(*) as instances_abrt
-        from processinstancelog
+        from ProcessInstanceLog
         where status=3
         and {sql_condition, optional, processname, processname}
         and {sql_condition, optional, user_identity, userid}
@@ -289,7 +289,7 @@
     <description language="en">jBPM Process By Status</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select status, count(processinstanceid) as pcount from processinstancelog where status is not null and {sql_condition, optional, processname, processname} and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by status</query>
+      <query>select status, count(processinstanceid) as pcount from ProcessInstanceLog where status is not null and {sql_condition, optional, processname, processname} and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by status</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="status">
@@ -307,7 +307,7 @@
     <sqlprovider>
       <datasource>local</datasource>
       <query>select processVersion, count(processinstanceid) as pcount
-        from processinstancelog
+        from ProcessInstanceLog
         where processVersion is not null and {sql_condition, optional, processname, processname} and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by processVersion</query>
     </sqlprovider>
     <dataproperties>
@@ -325,7 +325,7 @@
     <description language="en">jBPM Process Completed By Date</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select end_date, count(processinstanceid) as pcount from processinstancelog where end_date is not null and {sql_condition, optional, processname, processname} and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by end_date order by end_date asc</query>
+      <query>select end_date, count(processinstanceid) as pcount from ProcessInstanceLog where end_date is not null and {sql_condition, optional, processname, processname} and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by end_date order by end_date asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="end_date">
@@ -342,7 +342,7 @@
     <description language="en">jBPM Process Duration</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select processname, count(processinstanceid) as processcount, min(duration) as pminduration, avg(duration) as pavgduration, max(duration) as pmaxduration from processinstancelog where {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by processname order by processname asc</query>
+      <query>select processname, count(processinstanceid) as processcount, min(duration) as pminduration, avg(duration) as pavgduration, max(duration) as pmaxduration from ProcessInstanceLog where {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by processname order by processname asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="processname">
@@ -371,7 +371,7 @@
     <description language="en">jBPM Process Instances</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select processname, count(processinstanceid) as pcount from processinstancelog where {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by processname order by processname asc</query>
+      <query>select processname, count(processinstanceid) as pcount from ProcessInstanceLog where {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by processname order by processname asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="processname">
@@ -388,7 +388,7 @@
     <description language="en">jBPM Process Instances By User</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select user_identity userid, count(processinstanceid) as pcount from processinstancelog where user_identity is not null and {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by user_identity</query>
+      <query>select user_identity userid, count(processinstanceid) as pcount from ProcessInstanceLog where user_identity is not null and {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by user_identity</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="userid">
@@ -405,7 +405,7 @@
     <description language="en">jBPM Process Started By Date</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select start_date, count(processinstanceid) as pcount from processinstancelog where start_date is not null and {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by start_date order by start_date asc</query>
+      <query>select start_date, count(processinstanceid) as pcount from ProcessInstanceLog where start_date is not null and {sql_condition, optional, processname, processname}  and {sql_condition, optional, user_identity, userid} and {sql_condition, optional, status, status} and {sql_condition, optional, start_date, start_date} and {sql_condition, optional, end_date, end_date} and {sql_condition, optional, processversion, processversion} group by start_date order by start_date asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="start_date">
@@ -422,7 +422,7 @@
     <description language="en">jBPM Task Instances</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.taskname, count(ts.taskid) taskid from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, status} group by ts.taskname</query>
+      <query>select ts.taskname, count(ts.taskid) taskid from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, status} group by ts.taskname</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="taskname">
@@ -439,7 +439,7 @@
     <description language="en">jBPM Tasks By Status</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.status as taskstatus, count(ts.taskid) as tcount from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.status</query>
+      <query>select ts.status as taskstatus, count(ts.taskid) as tcount from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.status</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="taskstatus">
@@ -456,7 +456,7 @@
     <description language="en">jBPM Tasks By User</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.userid, count(ts.taskid) as tcount from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where ts.userid is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.userid</query>
+      <query>select ts.userid, count(ts.taskid) as tcount from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where ts.userid is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.userid</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="userid">
@@ -473,7 +473,7 @@
     <description language="en">jBPM Tasks Completed By Date</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.enddate, count(ts.taskid) as tcount from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where ts.enddate is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.enddate order by ts.enddate asc</query>
+      <query>select ts.enddate, count(ts.taskid) as tcount from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where ts.enddate is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.enddate order by ts.enddate asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="enddate">
@@ -490,7 +490,7 @@
     <description language="en">jBPM Tasks Duration</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.taskname as taskname, count(ts.taskid) as taskcount, min(ts.duration) as tminduration, avg(ts.duration) as tavgduration, max(ts.duration) as tmaxduration from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where ts.duration is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.taskname order by ts.taskname asc</query>
+      <query>select ts.taskname as taskname, count(ts.taskid) as taskcount, min(ts.duration) as tminduration, avg(ts.duration) as tavgduration, max(ts.duration) as tmaxduration from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where ts.duration is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.taskname order by ts.taskname asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="taskname">
@@ -519,7 +519,7 @@
     <description language="en">jBPM Tasks Started By Date</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.createddate, count(ts.taskid) as tcount from bamtasksummary ts left join processinstancelog ps on (ts.processinstanceid=ps.processinstanceid) where ts.createddate is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.createddate order by ts.createddate asc</query>
+      <query>select ts.createddate, count(ts.taskid) as tcount from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where ts.createddate is not null and {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.createddate order by ts.createddate asc</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="createddate">
