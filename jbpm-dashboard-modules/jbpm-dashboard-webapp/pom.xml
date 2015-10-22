@@ -54,10 +54,6 @@
         <artifactId>dashboard-ui-core</artifactId>
         <classifier>classes</classifier>
       </dependency>
-      <dependency>
-        <groupId>org.jboss.ironjacamar</groupId>
-        <artifactId>ironjacamar-core-api</artifactId>
-      </dependency>
     </dependencies>
 
     <build>
