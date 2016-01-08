@@ -30,7 +30,7 @@ import java.util.Properties;
 public class jBPMDashboardBundleExtractor {
 
     public static void main(String[] args) throws Exception{
-        String rootDir = System.getProperty("user.dir") + "/jbpm-dashboard-modules/jbpm-dashboard-webapp";
+        String rootDir = System.getProperty("user.dir");
 
         // Process the Showcase KPIs file
         XmlToBundleConverter converter = new KpisFileConverter();
