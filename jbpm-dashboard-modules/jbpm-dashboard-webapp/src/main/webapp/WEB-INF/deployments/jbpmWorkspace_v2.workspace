@@ -1,446 +1,699 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceExport>
   <workspace envelopeId="jbpmEnvelope" friendlyUrl="jbpm-dashboard" skinId="Default_Skin" homeMode="0" id="2">
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="true" principal="role-admin" actions="login,admin,createPage,edit,delete,edit perm,admin providers"/>
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-manager" actions="login"/>
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-analyst" actions="login"/>
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-user" actions="login"/>
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-developer" actions="login"/>
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.PanelPermission" readonly="true" principal="role-admin" actions="view,edit,edit perm"/>
-    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.SectionPermission" readonly="true" principal="role-admin" actions="view,edit,delete,edit perm"/>
-    <param name="title" value="jBPM &#20202;&#34920;&#26495;" lang="zh"/>
-    <param name="title" value="Layout do JBPM" lang="pt"/>
-    <param name="name" value="jBPM-Dashboard" lang="de"/>
-    <param name="name" value="jBPM Dashboard" lang="en"/>
-    <param name="name" value="Cuadro de mandos jBPM" lang="es"/>
-    <param name="name" value="Tableau de bord jBPM" lang="fr"/>
-    <param name="name" value="jBPM&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;" lang="ja"/>
-    <param name="name" value="Painel do JBPM" lang="pt"/>
-    <param name="name" value="jBPM &#20202;&#34920;&#26495;" lang="zh"/>
-    <param name="title" value="jBPM-Dashboard" lang="de"/>
-    <param name="title" value="jBPM Dashboard" lang="en"/>
-    <param name="title" value="Cuadro de mandos jBPM" lang="es"/>
-    <param name="title" value="Tableau de bord jBPM" lang="fr"/>
-    <param name="title" value="jBPM&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;" lang="ja"/>
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="true" principal="role-admin" actions="login,admin,createPage,edit,delete,edit perm,admin providers" />
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-manager" actions="login" />
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-analyst" actions="login" />
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-user" actions="login" />
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.WorkspacePermission" readonly="false" principal="role-developer" actions="login" />
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.PanelPermission" readonly="true" principal="role-admin" actions="view,edit,edit perm" />
+    <permission principalClass="org.jboss.dashboard.security.principals.RolePrincipal" permissionClass="org.jboss.dashboard.security.SectionPermission" readonly="true" principal="role-admin" actions="view,edit,delete,edit perm" />
+    <param name="title" value="jBPM 仪表板" lang="zh" />
+    <param name="title" value="Layout do JBPM" lang="pt" />
+    <param name="title" value="jBPM-Dashboard" lang="de" />
+    <param name="title" value="Cuadro de mandos jBPM" lang="es" />
+    <param name="title" value="jBPMダッシュボード" lang="ja" />
+    <param name="title" value="jBPM Dashboard" lang="ru" />
+    <param name="title" value="Tableau de bord jBPM" lang="fr" />
+    <param name="title" value="Layout do JBPM" lang="pt" />
+    <param name="name" value="jBPM-Dashboard" lang="de" />
+    <param name="name" value="Painel do JBPM" lang="pt" />
+    <param name="name" value="Cuadro de mandos jBPM" lang="es" />
+    <param name="name" value="jBPMダッシュボード" lang="ja" />
+    <param name="name" value="jBPM 仪表板" lang="zh" />
+    <param name="name" value="jBPM Dashboard" lang="ru" />
+    <param name="name" value="Tableau de bord jBPM" lang="fr" />
+    <param name="name" value="jBPM Dashboard" lang="en" />
+    <param name="name" value="Cuadro de mandos jBPM" lang="es" />
+    <param name="name" value="Tableau de bord jBPM" lang="fr" />
+    <param name="name" value="jBPMダッシュボード" lang="ja" />
+    <param name="name" value="Painel do JBPM" lang="pt" />
+    <param name="name" value="jBPM 仪表板" lang="zh" />
+    <param name="title" value="jBPM-Dashboard" lang="de" />
+    <param name="title" value="jBPM Dashboard" lang="en" />
+    <param name="title" value="Cuadro de mandos jBPM" lang="es" />
+    <param name="title" value="Tableau de bord jBPM" lang="fr" />
+    <param name="title" value="jBPMダッシュボード" lang="ja" />
     <panelInstance serialization="" provider="dashboard.kpi" id="5265">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_21351361956566198" lang=" "/>
-      <param name="title" value="Anzahl der Aufgaben pro Benutzer" lang="de"/>
-      <param name="title" value="Number of tasks per user" lang="en"/>
-      <param name="title" value="Tareas por usuario" lang="es"/>
-      <param name="title" value="Nombre de t&#226;ches par utilisateur" lang="fr"/>
-      <param name="title" value="&#12518;&#12540;&#12470;&#12540;&#27598;&#12398;&#12479;&#12473;&#12463;&#25968;" lang="ja"/>
-      <param name="title" value="N&#250;mero de tarefas por usu&#225;rio" lang="pt"/>
-      <param name="title" value="&#27599;&#20010;&#29992;&#25143;&#30340;&#20219;&#21153;&#25968;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_21351361956566198" lang=" " />
+      <param name="title" value="Anzahl der Aufgaben pro Benutzer" lang="de" />
+      <param name="title" value="Número de tarefas por usuário" lang="pt" />
+      <param name="title" value="Tareas por usuario" lang="es" />
+      <param name="title" value="ユーザー毎のタスク数" lang="ja" />
+      <param name="title" value="每个用户的任务数" lang="zh" />
+      <param name="title" value="Задач на пользователя" lang="ru" />
+      <param name="title" value="Nombre de tâches par utilisateur" lang="fr" />
+      <param name="title" value="Number of tasks per user" lang="en" />
+      <param name="title" value="Tareas por usuario" lang="es" />
+      <param name="title" value="Nombre de tâches par utilisateur" lang="fr" />
+      <param name="title" value="ユーザー毎のタスク数" lang="ja" />
+      <param name="title" value="Número de tarefas por usuário" lang="pt" />
+      <param name="title" value="每个用户的任务数" lang="zh" />
     </panelInstance>
     <panelInstance serialization="rO0ABXQDrDxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0iZW5kX2RhdGUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yMTY1MTQxODYzODE1MTAwMCI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJ1c2VyaWQiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl84NDUwMTQxODY0MDc0NTQ3NCI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogICAgPHNlY3Rpb24+Mjk4OTwvc2VjdGlvbj4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0ic3RhcnRfZGF0ZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzQ3ODAxNDE4NjM5MDEyNzQ1Ij4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InByb2Nlc3NuYW1lIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMzA4NjEzNTM1MTE2MTA2MTAiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICAgIDxzZWN0aW9uPjIwMDM8L3NlY3Rpb24+CiAgPC9wcm9wZXJ0eT4KICA8b3B0aW9ucz4KICAgIDxzaG9ydFZpZXdNb2RlPnRydWU8L3Nob3J0Vmlld01vZGU+CiAgICA8c2hvd0xlZ2VuZD50cnVlPC9zaG93TGVnZW5kPgogICAgPHNob3dSZWZyZXNoQnV0dG9uPnRydWU8L3Nob3dSZWZyZXNoQnV0dG9uPgogICAgPHNob3dBcHBseWhCdXR0b24+dHJ1ZTwvc2hvd0FwcGx5aEJ1dHRvbj4KICAgIDxzaG93Q2xlYXJCdXR0b24+dHJ1ZTwvc2hvd0NsZWFyQnV0dG9uPgogICAgPHNob3dQcm9wZXJ0eU5hbWVzPnRydWU8L3Nob3dQcm9wZXJ0eU5hbWVzPgogICAgPHNob3dTdWJtaXRPbkNoYW5nZT50cnVlPC9zaG93U3VibWl0T25DaGFuZ2U+CiAgPHNob3dBdXRvUmVmcmVzaD5mYWxzZTwvc2hvd0F1dG9SZWZyZXNoPgogIDwvb3B0aW9ucz4KPC9kYXNoYm9hcmRfZmlsdGVyPgo=" provider="dashboard.filter" id="3087">
-      <param name="title" value="Dashboard-Filter" lang="de"/>
-      <param name="title" value="Dashboard filter" lang="en"/>
-      <param name="title" value="Filtro para cuadros de mando" lang="es"/>
-      <param name="title" value="Filtre de tableau de bord" lang="fr"/>
-      <param name="title" value="&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;&#12501;&#12451;&#12523;&#12479;&#12540;" lang="ja"/>
-      <param name="title" value="Filtro do Painel" lang="pt"/>
-      <param name="title" value="&#20202;&#34920;&#26495;&#36807;&#28388;&#22120;" lang="zh"/>
+      <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3068">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_29771353670707848" lang=" "/>
-      <param name="title" value="Instanzen nach Prozess" lang="de"/>
-      <param name="title" value="Instances by process" lang="en"/>
-      <param name="title" value="Instancias por proceso" lang="es"/>
-      <param name="title" value="Instances par processus" lang="fr"/>
-      <param name="title" value="&#12503;&#12525;&#12475;&#12473;&#21029;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;" lang="ja"/>
-      <param name="title" value="Inst&#226;ncias por processo" lang="pt"/>
-      <param name="title" value="&#25353;&#36807;&#31243;&#21015;&#20986;&#30340;&#23454;&#20363;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_29771353670707848" lang=" " />
+      <param name="title" value="Instanzen nach Prozess" lang="de" />
+      <param name="title" value="Instâncias por processo" lang="pt" />
+      <param name="title" value="Instancias por proceso" lang="es" />
+      <param name="title" value="プロセス別インスタンス" lang="ja" />
+      <param name="title" value="按过程列出的实例" lang="zh" />
+      <param name="title" value="Экземпляры по процессам" lang="ru" />
+      <param name="title" value="Instances par processus" lang="fr" />
+      <param name="title" value="Instances by process" lang="en" />
+      <param name="title" value="Instancias por proceso" lang="es" />
+      <param name="title" value="Instances par processus" lang="fr" />
+      <param name="title" value="プロセス別インスタンス" lang="ja" />
+      <param name="title" value="Instâncias por processo" lang="pt" />
+      <param name="title" value="按过程列出的实例" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3065">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_30571353683160264" lang=" "/>
-      <param name="title" value="Gestartete Instanzen nach Benutzer" lang="de"/>
-      <param name="title" value="Instances started by user" lang="en"/>
-      <param name="title" value="Instancias creadas por usuario" lang="es"/>
-      <param name="title" value="Instances d&#233;marr&#233;es par utilisateur" lang="fr"/>
-      <param name="title" value="&#12518;&#12540;&#12470;&#12540;&#12395;&#12424;&#12426;&#38283;&#22987;&#12373;&#12428;&#12383;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;" lang="ja"/>
-      <param name="title" value="Inst&#226;ncias iniciadas por usu&#225;rio" lang="pt"/>
-      <param name="title" value="&#29992;&#25143;&#21551;&#21160;&#30340;&#23454;&#20363;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_30571353683160264" lang=" " />
+      <param name="title" value="Gestartete Instanzen nach Benutzer" lang="de" />
+      <param name="title" value="Instâncias iniciadas por usuário" lang="pt" />
+      <param name="title" value="Instancias creadas por usuario" lang="es" />
+      <param name="title" value="ユーザーにより開始されたインスタンス" lang="ja" />
+      <param name="title" value="用户启动的实例" lang="zh" />
+      <param name="title" value="Инициированные пользователем экземпляры" lang="ru" />
+      <param name="title" value="Instances démarrées par utilisateur" lang="fr" />
+      <param name="title" value="Instances started by user" lang="en" />
+      <param name="title" value="Instancias creadas por usuario" lang="es" />
+      <param name="title" value="Instances démarrées par utilisateur" lang="fr" />
+      <param name="title" value="ユーザーにより開始されたインスタンス" lang="ja" />
+      <param name="title" value="Instâncias iniciadas por usuário" lang="pt" />
+      <param name="title" value="用户启动的实例" lang="zh" />
     </panelInstance>
     <panelInstance serialization="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAN3CAAAAAQAAAADdAAEcGFnZXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAAKdAABKnh0AARsYW5nc3EAfgADAAAAAXcEAAAACnQAASp4dAAGcG9ydGFsc3EAfgADAAAAAXcEAAAACnEAfgAFeHg=" provider="navigation.language_horiz" id="2074">
-      <param name="after.link" value="&lt;/td&gt;&lt;td&gt;&amp;nbsp;|&amp;nbsp;&lt;/td&gt;" lang=" "/>
-      <param name="before.link" value="&lt;td&gt;" lang=" "/>
-      <param name="end.html" value="&lt;/tr&gt;&lt;/table&gt;" lang=" "/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="de"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="en"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="es"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="fr"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ja"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="pt"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="zh"/>
-      <param name="start.html" value="&lt;table align=&quot;center&quot; border=&quot;0&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;|&amp;nbsp;&lt;/td&gt;" lang=" "/>
-      <param name="title" value="Sprachmen&#252;" lang="de"/>
-      <param name="title" value="Language Menu" lang="en"/>
-      <param name="title" value="Navegador de Idiomas" lang="es"/>
-      <param name="title" value="Menu des langues" lang="fr"/>
-      <param name="title" value="&#35328;&#35486;&#12513;&#12491;&#12517;&#12540;" lang="ja"/>
-      <param name="title" value="Menu de Linguagem" lang="pt"/>
-      <param name="title" value="&#35821;&#35328;&#33756;&#21333;" lang="zh"/>
+      <param name="after.link" value="&lt;/td&gt;&lt;td&gt;&amp;nbsp;|&amp;nbsp;&lt;/td&gt;" lang=" " />
+      <param name="before.link" value="&lt;td&gt;" lang=" " />
+      <param name="end.html" value="&lt;/tr&gt;&lt;/table&gt;" lang=" " />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="zh" />
+      <param name="start.html" value="&lt;table align=&quot;center&quot; border=&quot;0&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;|&amp;nbsp;&lt;/td&gt;" lang=" " />
+      <param name="title" value="Sprachmenü" lang="de" />
+      <param name="title" value="Menu de Linguagem" lang="pt" />
+      <param name="title" value="Navegador de Idiomas" lang="es" />
+      <param name="title" value="言語メニュー" lang="ja" />
+      <param name="title" value="语言菜单" lang="zh" />
+      <param name="title" value="Выбор языка" lang="ru" />
+      <param name="title" value="Menu des langues" lang="fr" />
+      <param name="title" value="Language Menu" lang="en" />
+      <param name="title" value="Navegador de Idiomas" lang="es" />
+      <param name="title" value="Menu des langues" lang="fr" />
+      <param name="title" value="言語メニュー" lang="ja" />
+      <param name="title" value="Menu de Linguagem" lang="pt" />
+      <param name="title" value="语言菜单" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="navigation.bread_crumb" id="3016">
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="de"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt"/>
-      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh"/>
-      <param name="title" value="Prozess-Dashboard (Bread crumb)" lang="de"/>
-      <param name="title" value="Process dashboard (Bread crumb)" lang="en"/>
-      <param name="title" value="Ruta actual (procesos)" lang="es"/>
-      <param name="title" value="Processus de tableau de bord (Barre de navigation)" lang="fr"/>
-      <param name="title" value="&#12503;&#12525;&#12475;&#12473;&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;(&#12497;&#12531;&#12367;&#12378;)" lang="ja"/>
-      <param name="title" value="Painel do processo (Bread crumb)" lang="pt"/>
-      <param name="title" value="&#36807;&#31243;&#20202;&#34920;&#26495;&#65288;Bread crumb&#65289;" lang="zh"/>
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
+      <param name="title" value="Prozess-Dashboard (Bread crumb)" lang="de" />
+      <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
+      <param name="title" value="Ruta actual (procesos)" lang="es" />
+      <param name="title" value="プロセスダッシュボード(パンくず)" lang="ja" />
+      <param name="title" value="过程仪表板（Bread crumb）" lang="zh" />
+      <param name="title" value="Панель процесса (путь к странице)" lang="ru" />
+      <param name="title" value="Processus de tableau de bord (Barre de navigation)" lang="fr" />
+      <param name="title" value="Process dashboard (Bread crumb)" lang="en" />
+      <param name="title" value="Ruta actual (procesos)" lang="es" />
+      <param name="title" value="Processus de tableau de bord (Barre de navigation)" lang="fr" />
+      <param name="title" value="プロセスダッシュボード(パンくず)" lang="ja" />
+      <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
+      <param name="title" value="过程仪表板（Bread crumb）" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3051">
-      <param name="group" value="Process" lang=" "/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh"/>
-      <param name="kpicode" value="kpi_30531353942661507" lang=" "/>
-      <param name="title" value="Prozessinstanzen nach Status" lang="de"/>
-      <param name="title" value="Process instances by status" lang="en"/>
-      <param name="title" value="Instancias de proceso por estado" lang="es"/>
-      <param name="title" value="Instances de processus par statut" lang="fr"/>
-      <param name="title" value="&#12473;&#12486;&#12540;&#12479;&#12473;&#21029;&#12503;&#12525;&#12475;&#12473;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;" lang="ja"/>
-      <param name="title" value="Inst&#226;ncias do processo por status" lang="pt"/>
-      <param name="title" value="&#25353;&#29366;&#24577;&#25490;&#21015;&#30340;&#36827;&#31243;&#23454;&#20363;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="kpicode" value="kpi_30531353942661507" lang=" " />
+      <param name="title" value="Prozessinstanzen nach Status" lang="de" />
+      <param name="title" value="Instâncias do processo por status" lang="pt" />
+      <param name="title" value="Instancias de proceso por estado" lang="es" />
+      <param name="title" value="ステータス別プロセスインスタンス" lang="ja" />
+      <param name="title" value="按状态排列的进程实例" lang="zh" />
+      <param name="title" value="Экземпляры процесса по состоянию" lang="ru" />
+      <param name="title" value="Instances de processus par statut" lang="fr" />
+      <param name="title" value="Process instances by status" lang="en" />
+      <param name="title" value="Instancias de proceso por estado" lang="es" />
+      <param name="title" value="Instances de processus par statut" lang="fr" />
+      <param name="title" value="ステータス別プロセスインスタンス" lang="ja" />
+      <param name="title" value="Instâncias do processo por status" lang="pt" />
+      <param name="title" value="按状态排列的进程实例" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3070">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_21261373392004451" lang=" "/>
-      <param name="title" value="Eingeleiteter Prozess nach Datum" lang="de"/>
-      <param name="title" value="Process initiated by date" lang="en"/>
-      <param name="title" value="Procesos iniciados por fecha" lang="es"/>
-      <param name="title" value="Processus initi&#233; par date" lang="fr"/>
-      <param name="title" value="&#26085;&#26178;&#25351;&#23450;&#12391;&#38283;&#22987;&#12375;&#12383;&#12503;&#12525;&#12475;&#12473;" lang="ja"/>
-      <param name="title" value="Processo iniciado por data" lang="pt"/>
-      <param name="title" value="&#25353;&#26085;&#26399;&#21021;&#22987;&#21270;&#30340;&#36807;&#31243;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_21261373392004451" lang=" " />
+      <param name="title" value="Eingeleiteter Prozess nach Datum" lang="de" />
+      <param name="title" value="Processo iniciado por data" lang="pt" />
+      <param name="title" value="Procesos iniciados por fecha" lang="es" />
+      <param name="title" value="日時指定で開始したプロセス" lang="ja" />
+      <param name="title" value="按日期初始化的过程" lang="zh" />
+      <param name="title" value="Инициированные процессы по датам" lang="ru" />
+      <param name="title" value="Processus initié par date" lang="fr" />
+      <param name="title" value="Process initiated by date" lang="en" />
+      <param name="title" value="Procesos iniciados por fecha" lang="es" />
+      <param name="title" value="Processus initié par date" lang="fr" />
+      <param name="title" value="日時指定で開始したプロセス" lang="ja" />
+      <param name="title" value="Processo iniciado por data" lang="pt" />
+      <param name="title" value="按日期初始化的过程" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3073">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_30751353944093386" lang=" "/>
-      <param name="title" value="Abgeschlossener Prozess nach Datum" lang="de"/>
-      <param name="title" value="Process completed by date" lang="en"/>
-      <param name="title" value="Procesos completados por fecha" lang="es"/>
-      <param name="title" value="Processus compl&#233;t&#233; par date" lang="fr"/>
-      <param name="title" value="&#26085;&#26178;&#25351;&#23450;&#12391;&#23436;&#20102;&#12375;&#12383;&#12503;&#12525;&#12475;&#12473;" lang="ja"/>
-      <param name="title" value="Processo completado por data" lang="pt"/>
-      <param name="title" value="&#25353;&#26085;&#26399;&#25490;&#21015;&#30340;&#24050;&#23436;&#25104;&#36827;&#31243;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_30751353944093386" lang=" " />
+      <param name="title" value="Abgeschlossener Prozess nach Datum" lang="de" />
+      <param name="title" value="Processo completado por data" lang="pt" />
+      <param name="title" value="Procesos completados por fecha" lang="es" />
+      <param name="title" value="日時指定で完了したプロセス" lang="ja" />
+      <param name="title" value="按日期排列的已完成进程" lang="zh" />
+      <param name="title" value="Завершенные процессы по датам" lang="ru" />
+      <param name="title" value="Processus complété par date" lang="fr" />
+      <param name="title" value="Process completed by date" lang="en" />
+      <param name="title" value="Procesos completados por fecha" lang="es" />
+      <param name="title" value="Processus complété par date" lang="fr" />
+      <param name="title" value="日時指定で完了したプロセス" lang="ja" />
+      <param name="title" value="Processo completado por data" lang="pt" />
+      <param name="title" value="按日期排列的已完成进程" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3118">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_31201353947556129" lang=" "/>
-      <param name="title" value="Gestartete Aufgaben nach Datum" lang="de"/>
-      <param name="title" value="Tasks started by date" lang="en"/>
-      <param name="title" value="Tareas iniciadas por fecha" lang="es"/>
-      <param name="title" value="T&#226;ches d&#233;marr&#233;es par date" lang="fr"/>
-      <param name="title" value="&#26085;&#26178;&#25351;&#23450;&#12391;&#38283;&#22987;&#12375;&#12383;&#12479;&#12473;&#12463;" lang="ja"/>
-      <param name="title" value="Tarefas iniciadas pela data" lang="pt"/>
-      <param name="title" value="&#25353;&#26085;&#26399;&#21551;&#21160;&#30340;&#20219;&#21153;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_31201353947556129" lang=" " />
+      <param name="title" value="Gestartete Aufgaben nach Datum" lang="de" />
+      <param name="title" value="Tarefas iniciadas pela data" lang="pt" />
+      <param name="title" value="Tareas iniciadas por fecha" lang="es" />
+      <param name="title" value="日時指定で開始したタスク" lang="ja" />
+      <param name="title" value="按日期启动的任务" lang="zh" />
+      <param name="title" value="Начатые задачи по датам" lang="ru" />
+      <param name="title" value="Tâches démarrées par date" lang="fr" />
+      <param name="title" value="Tasks started by date" lang="en" />
+      <param name="title" value="Tareas iniciadas por fecha" lang="es" />
+      <param name="title" value="Tâches démarrées par date" lang="fr" />
+      <param name="title" value="日時指定で開始したタスク" lang="ja" />
+      <param name="title" value="Tarefas iniciadas pela data" lang="pt" />
+      <param name="title" value="按日期启动的任务" lang="zh" />
     </panelInstance>
     <panelInstance serialization="rO0ABXQC/TxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0ic3RhdHVzIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfNzAzNTE0MTg2NDU0NTE5OTIiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iZW5kX2RhdGUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yMTY1MTQxODYzODE1MTAwMCI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJzdGFydF9kYXRlIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfNDc4MDE0MTg2MzkwMTI3NDUiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxvcHRpb25zPgogICAgPHNob3J0Vmlld01vZGU+dHJ1ZTwvc2hvcnRWaWV3TW9kZT4KICAgIDxzaG93TGVnZW5kPnRydWU8L3Nob3dMZWdlbmQ+CiAgICA8c2hvd1JlZnJlc2hCdXR0b24+dHJ1ZTwvc2hvd1JlZnJlc2hCdXR0b24+CiAgICA8c2hvd0FwcGx5aEJ1dHRvbj50cnVlPC9zaG93QXBwbHloQnV0dG9uPgogICAgPHNob3dDbGVhckJ1dHRvbj50cnVlPC9zaG93Q2xlYXJCdXR0b24+CiAgICA8c2hvd1Byb3BlcnR5TmFtZXM+dHJ1ZTwvc2hvd1Byb3BlcnR5TmFtZXM+CiAgICA8c2hvd1N1Ym1pdE9uQ2hhbmdlPnRydWU8L3Nob3dTdWJtaXRPbkNoYW5nZT4KICA8c2hvd0F1dG9SZWZyZXNoPmZhbHNlPC9zaG93QXV0b1JlZnJlc2g+CiAgPC9vcHRpb25zPgo8L2Rhc2hib2FyZF9maWx0ZXI+Cg==" provider="dashboard.filter" id="3122">
-      <param name="title" value="Dashboard-Filter" lang="de"/>
-      <param name="title" value="Dashboard filter" lang="en"/>
-      <param name="title" value="Filtro para cuadros de mando" lang="es"/>
-      <param name="title" value="Filtre de tableau de bord" lang="fr"/>
-      <param name="title" value="&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;&#12501;&#12451;&#12523;&#12479;&#12540;" lang="ja"/>
-      <param name="title" value="Filtro do Painel" lang="pt"/>
-      <param name="title" value="&#20202;&#34920;&#26495;&#36807;&#28388;&#22120;" lang="zh"/>
+      <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3124">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_31261353948417434" lang=" "/>
-      <param name="title" value="Anzahl der Aufgabeninstanzen." lang="de"/>
-      <param name="title" value="Number of task instances" lang="en"/>
-      <param name="title" value="N&#250;mero de instancias de tarea" lang="es"/>
-      <param name="title" value="Nombre d&apos;instances de t&#226;ches" lang="fr"/>
-      <param name="title" value="&#12479;&#12473;&#12463;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;&#25968;" lang="ja"/>
-      <param name="title" value="N&#250;mero de inst&#226;ncias da tarefa" lang="pt"/>
-      <param name="title" value="&#20219;&#21153;&#23454;&#20363;&#30340;&#25968;&#37327;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_31261353948417434" lang=" " />
+      <param name="title" value="Anzahl der Aufgabeninstanzen." lang="de" />
+      <param name="title" value="Número de instâncias da tarefa" lang="pt" />
+      <param name="title" value="Número de instancias de tarea" lang="es" />
+      <param name="title" value="タスクインスタンス数" lang="ja" />
+      <param name="title" value="任务实例的数量" lang="zh" />
+      <param name="title" value="Число экземпляров задач" lang="ru" />
+      <param name="title" value="Nombre d&apos;instances de tâches" lang="fr" />
+      <param name="title" value="Number of task instances" lang="en" />
+      <param name="title" value="Número de instancias de tarea" lang="es" />
+      <param name="title" value="Nombre d&apos;instances de tâches" lang="fr" />
+      <param name="title" value="タスクインスタンス数" lang="ja" />
+      <param name="title" value="Número de instâncias da tarefa" lang="pt" />
+      <param name="title" value="任务实例的数量" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3127">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_31291353948572804" lang=" "/>
-      <param name="title" value="Benutzer mit Aufgaben" lang="de"/>
-      <param name="title" value="Users with tasks" lang="en"/>
-      <param name="title" value="Usuarios con tareas" lang="es"/>
-      <param name="title" value="Utilisateurs avec des t&#226;ches" lang="fr"/>
-      <param name="title" value="&#12479;&#12473;&#12463;&#12364;&#12354;&#12427;&#12518;&#12540;&#12470;&#12540;" lang="ja"/>
-      <param name="title" value="Usu&#225;rios com tarefas" lang="pt"/>
-      <param name="title" value="&#24102;&#26377;&#20219;&#21153;&#30340;&#29992;&#25143;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_31291353948572804" lang=" " />
+      <param name="title" value="Benutzer mit Aufgaben" lang="de" />
+      <param name="title" value="Usuários com tarefas" lang="pt" />
+      <param name="title" value="Usuarios con tareas" lang="es" />
+      <param name="title" value="タスクがあるユーザー" lang="ja" />
+      <param name="title" value="带有任务的用户" lang="zh" />
+      <param name="title" value="Пользователи с задачами" lang="ru" />
+      <param name="title" value="Utilisateurs avec des tâches" lang="fr" />
+      <param name="title" value="Users with tasks" lang="en" />
+      <param name="title" value="Usuarios con tareas" lang="es" />
+      <param name="title" value="Utilisateurs avec des tâches" lang="fr" />
+      <param name="title" value="タスクがあるユーザー" lang="ja" />
+      <param name="title" value="Usuários com tarefas" lang="pt" />
+      <param name="title" value="带有任务的用户" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3131">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_31331353949095782" lang=" "/>
-      <param name="title" value="Instanzen nach Status" lang="de"/>
-      <param name="title" value="Instances by status" lang="en"/>
-      <param name="title" value="Instancias por estado" lang="es"/>
-      <param name="title" value="Instances par statut" lang="fr"/>
-      <param name="title" value="&#12473;&#12486;&#12540;&#12479;&#12473;&#21029;&#12452;&#12531;&#12473;&#12479;&#12531;&#12473;" lang="ja"/>
-      <param name="title" value="Inst&#226;ncias por status" lang="pt"/>
-      <param name="title" value="&#25353;&#29366;&#24577;&#21015;&#20986;&#30340;&#23454;&#20363;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_31331353949095782" lang=" " />
+      <param name="title" value="Instanzen nach Status" lang="de" />
+      <param name="title" value="Instâncias por status" lang="pt" />
+      <param name="title" value="Instancias por estado" lang="es" />
+      <param name="title" value="ステータス別インスタンス" lang="ja" />
+      <param name="title" value="按状态列出的实例" lang="zh" />
+      <param name="title" value="Экземпляры по состоянию" lang="ru" />
+      <param name="title" value="Instances par statut" lang="fr" />
+      <param name="title" value="Instances by status" lang="en" />
+      <param name="title" value="Instancias por estado" lang="es" />
+      <param name="title" value="Instances par statut" lang="fr" />
+      <param name="title" value="ステータス別インスタンス" lang="ja" />
+      <param name="title" value="Instâncias por status" lang="pt" />
+      <param name="title" value="按状态列出的实例" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="3134">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_31361353949675344" lang=" "/>
-      <param name="title" value="Nach Version" lang="de"/>
-      <param name="title" value="By version" lang="en"/>
-      <param name="title" value="Por versi&#243;n" lang="es"/>
-      <param name="title" value="Par version" lang="fr"/>
-      <param name="title" value="&#12496;&#12540;&#12472;&#12519;&#12531;&#21029;" lang="ja"/>
-      <param name="title" value="Pela vers&#227;o" lang="pt"/>
-      <param name="title" value="&#25353;&#29256;&#26412;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_31361353949675344" lang=" " />
+      <param name="title" value="Nach Version" lang="de" />
+      <param name="title" value="Pela versão" lang="pt" />
+      <param name="title" value="Por versión" lang="es" />
+      <param name="title" value="バージョン別" lang="ja" />
+      <param name="title" value="按版本" lang="zh" />
+      <param name="title" value="По версии" lang="ru" />
+      <param name="title" value="Par version" lang="fr" />
+      <param name="title" value="By version" lang="en" />
+      <param name="title" value="Por versión" lang="es" />
+      <param name="title" value="Par version" lang="fr" />
+      <param name="title" value="バージョン別" lang="ja" />
+      <param name="title" value="Pela versão" lang="pt" />
+      <param name="title" value="按版本" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="2965">
-      <param name="group" value="Process" lang=" "/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh"/>
-      <param name="kpicode" value="kpi_29671354183712341" lang=" "/>
-      <param name="title" value="Prozessdauer" lang="de"/>
-      <param name="title" value="Process duration" lang="en"/>
-      <param name="title" value="Duraci&#243;n de proceso" lang="es"/>
-      <param name="title" value="Dur&#233;e Processus" lang="fr"/>
-      <param name="title" value="&#12503;&#12525;&#12475;&#12473;&#26399;&#38291;" lang="ja"/>
-      <param name="title" value="Dura&#231;&#227;o do processo" lang="pt"/>
-      <param name="title" value="&#36827;&#31243;&#25345;&#32493;&#26102;&#38388;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="kpicode" value="kpi_29671354183712341" lang=" " />
+      <param name="title" value="Prozessdauer" lang="de" />
+      <param name="title" value="Duração do processo" lang="pt" />
+      <param name="title" value="Duración de proceso" lang="es" />
+      <param name="title" value="プロセス期間" lang="ja" />
+      <param name="title" value="进程持续时间" lang="zh" />
+      <param name="title" value="Продолжительность процесса" lang="ru" />
+      <param name="title" value="Durée Processus" lang="fr" />
+      <param name="title" value="Process duration" lang="en" />
+      <param name="title" value="Duración de proceso" lang="es" />
+      <param name="title" value="Durée Processus" lang="fr" />
+      <param name="title" value="プロセス期間" lang="ja" />
+      <param name="title" value="Duração do processo" lang="pt" />
+      <param name="title" value="进程持续时间" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="2969">
-      <param name="group" value="Process" lang=" "/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh"/>
-      <param name="kpicode" value="kpi_29711354187660609" lang=" "/>
-      <param name="title" value="Aufgabendauer" lang="de"/>
-      <param name="title" value="Tasks duration" lang="en"/>
-      <param name="title" value="Duraci&#243;n tareas" lang="es"/>
-      <param name="title" value="Dur&#233;e des t&#226;ches" lang="fr"/>
-      <param name="title" value="&#12479;&#12473;&#12463;&#26399;&#38291;" lang="ja"/>
-      <param name="title" value="Dura&#231;&#227;o de tarefas" lang="pt"/>
-      <param name="title" value="&#20219;&#21153;&#25345;&#32493;&#26102;&#38388;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="kpicode" value="kpi_29711354187660609" lang=" " />
+      <param name="title" value="Aufgabendauer" lang="de" />
+      <param name="title" value="Duração de tarefas" lang="pt" />
+      <param name="title" value="Duración tareas" lang="es" />
+      <param name="title" value="タスク期間" lang="ja" />
+      <param name="title" value="任务持续时间" lang="zh" />
+      <param name="title" value="Продолжительность задач" lang="ru" />
+      <param name="title" value="Durée des tâches" lang="fr" />
+      <param name="title" value="Tasks duration" lang="en" />
+      <param name="title" value="Duración tareas" lang="es" />
+      <param name="title" value="Durée des tâches" lang="fr" />
+      <param name="title" value="タスク期間" lang="ja" />
+      <param name="title" value="Duração de tarefas" lang="pt" />
+      <param name="title" value="任务持续时间" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="2972">
-      <param name="group" value="Process" lang=" "/>
-      <param name="kpicode" value="kpi_29741354189063608" lang=" "/>
-      <param name="title" value="Abgeschlossene Aufgaben nach Datum" lang="de"/>
-      <param name="title" value="Tasks completed by date" lang="en"/>
-      <param name="title" value="Tareas completadas por fecha" lang="es"/>
-      <param name="title" value="T&#226;ches compl&#233;t&#233;es par date" lang="fr"/>
-      <param name="title" value="&#26085;&#26178;&#25351;&#23450;&#12391;&#23436;&#20102;&#12375;&#12383;&#12479;&#12473;&#12463;" lang="ja"/>
-      <param name="title" value="Tarefas conclu&#237;das pela data" lang="pt"/>
-      <param name="title" value="&#25353;&#26085;&#26399;&#25490;&#21015;&#30340;&#24050;&#23436;&#25104;&#20219;&#21153;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="kpicode" value="kpi_29741354189063608" lang=" " />
+      <param name="title" value="Abgeschlossene Aufgaben nach Datum" lang="de" />
+      <param name="title" value="Tarefas concluídas pela data" lang="pt" />
+      <param name="title" value="Tareas completadas por fecha" lang="es" />
+      <param name="title" value="日時指定で完了したタスク" lang="ja" />
+      <param name="title" value="按日期排列的已完成任务" lang="zh" />
+      <param name="title" value="Завершенные задачи по датам" lang="ru" />
+      <param name="title" value="Tâches complétées par date" lang="fr" />
+      <param name="title" value="Tasks completed by date" lang="en" />
+      <param name="title" value="Tareas completadas por fecha" lang="es" />
+      <param name="title" value="Tâches complétées par date" lang="fr" />
+      <param name="title" value="日時指定で完了したタスク" lang="ja" />
+      <param name="title" value="Tarefas concluídas pela data" lang="pt" />
+      <param name="title" value="按日期排列的已完成任务" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.html_editor" id="2986">
-      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAHdAACZGV0AEE8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScgUHJvemVzc2RldGFpbHM8L2gxPnQAAnpodAA/PGgxPid7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBwcm9jZXNzbmFtZX0nIOi/h+eoi+e7huiKgjwvaDE+dAACcHR0AEc8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScgZGV0YWxoZXMgZG8gcHJvY2Vzc288L2gxPnQAAmZydABFPGgxPid7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBwcm9jZXNzbmFtZX0nIGTDqXRhaWxzIHByb2Nlc3N1czwvaDE+dAACZW50AEI8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScgcHJvY2VzcyBkZXRhaWxzPC9oMT50AAJlc3QARzxoMT5kZXRhbGxlcyBkZWwgcHJvY2VzbyAne2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgcHJvY2Vzc25hbWV9JzwvaDE+dAACamF0AEU8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScg44OX44Ot44K744K56Kmz57SwPC9oMT54</rawcontent>
-      <param name="title" value="HTML f&#252;r Dashboards" lang="de"/>
-      <param name="title" value="HTML for dashboards" lang="en"/>
-      <param name="title" value="HTML para cuadros de mando" lang="es"/>
-      <param name="title" value="HTML pour tableaux de bord" lang="fr"/>
-      <param name="title" value="&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;&#29992;HTML" lang="ja"/>
-      <param name="title" value="HTML para pain&#233;is" lang="pt"/>
-      <param name="title" value="&#20202;&#34920;&#26495;&#30340; HTML" lang="zh"/>
+      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0AEE8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScgUHJvemVzc2RldGFpbHM8L2gxPnQAAnpodAA/PGgxPid7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBwcm9jZXNzbmFtZX0nIOi/h+eoi+e7huiKgjwvaDE+dAACcHR0AEc8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScgZGV0YWxoZXMgZG8gcHJvY2Vzc288L2gxPnQAAmZydABFPGgxPid7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBwcm9jZXNzbmFtZX0nIGTDqXRhaWxzIHByb2Nlc3N1czwvaDE+dAACZW50AEI8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScgcHJvY2VzcyBkZXRhaWxzPC9oMT50AAJydXQAWTxoMT7QodCy0LXQtNC10L3QuNGPINC+INC/0YDQvtGG0LXRgdGB0LUgwqt7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBwcm9jZXNzbmFtZX3CuzwvaDE+dAACZXN0AEc8aDE+ZGV0YWxsZXMgZGVsIHByb2Nlc28gJ3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfSc8L2gxPnQAAmphdABFPGgxPid7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBwcm9jZXNzbmFtZX0nIOODl+ODreOCu+OCueips+e0sDwvaDE+eA==</rawcontent>
+      <param name="title" value="HTML für Dashboards" lang="de" />
+      <param name="title" value="HTML para painéis" lang="pt" />
+      <param name="title" value="HTML para cuadros de mando" lang="es" />
+      <param name="title" value="ダッシュボード用HTML" lang="ja" />
+      <param name="title" value="仪表板的 HTML" lang="zh" />
+      <param name="title" value="HTML панелей" lang="ru" />
+      <param name="title" value="HTML pour tableaux de bord" lang="fr" />
+      <param name="title" value="HTML for dashboards" lang="en" />
+      <param name="title" value="HTML para cuadros de mando" lang="es" />
+      <param name="title" value="HTML pour tableaux de bord" lang="fr" />
+      <param name="title" value="ダッシュボード用HTML" lang="ja" />
+      <param name="title" value="HTML para painéis" lang="pt" />
+      <param name="title" value="仪表板的 HTML" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.html_editor" id="2995">
-      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAHdAACZGV0AFk8aDE+QXVzZ2V3JmF1bWw7aGx0ZXIgQmVudXR6ZXIvR3J1cHBlICYjMzk7e2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgdXNlcmlkfSYjMzk7PC9oMT4NCnQAAnpodABLPGgxPumAieaLqeeahOeUqOaIty/nu4QgJiMzOTt7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCB1c2VyaWR9JiMzOTs8L2gxPg0KdAACcHR0AFg8aDE+R3J1cG8vdXN1JmFhY3V0ZTtyaW8gc2VsZWNpb25hZG8gJiMzOTt7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCB1c2VyaWR9JiMzOTs8L2gxPg0KdAACZnJ0AEs8aDE+U2VsZWN0ZWQgdXNlci9ncm91cCAmIzM5O3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHVzZXJpZH0mIzM5OzwvaDE+DQp0AAJlbnQASzxoMT5TZWxlY3RlZCB1c2VyL2dyb3VwICYjMzk7e2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgdXNlcmlkfSYjMzk7PC9oMT4NCnQAAmVzdABSPGgxPlVzdWFyaW8vZ3J1cG8gc2VsZWNjaW9uYWRvICYjMzk7e2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgdXNlcmlkfSYjMzk7PC9oMT4NCnQAAmphdABgPGgxPumBuOaKnuOBleOCjOOBn+ODpuODvOOCtuODvC/jgrDjg6vjg7zjg5cgJiMzOTt7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCB1c2VyaWR9JiMzOTs8L2gxPg0KeA==</rawcontent>
-      <param name="title" value="HTML f&#252;r Dashboards" lang="de"/>
-      <param name="title" value="HTML for dashboards" lang="en"/>
-      <param name="title" value="HTML para cuadros de mando" lang="es"/>
-      <param name="title" value="HTML pour tableaux de bord" lang="fr"/>
-      <param name="title" value="&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;&#29992;HTML" lang="ja"/>
-      <param name="title" value="HTML para pain&#233;is" lang="pt"/>
-      <param name="title" value="&#20202;&#34920;&#26495;&#30340; HTML" lang="zh"/>
+      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0AFk8aDE+QXVzZ2V3JmF1bWw7aGx0ZXIgQmVudXR6ZXIvR3J1cHBlICYjMzk7e2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgdXNlcmlkfSYjMzk7PC9oMT4NCnQAAnpodABLPGgxPumAieaLqeeahOeUqOaIty/nu4QgJiMzOTt7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCB1c2VyaWR9JiMzOTs8L2gxPg0KdAACcHR0AFg8aDE+R3J1cG8vdXN1JmFhY3V0ZTtyaW8gc2VsZWNpb25hZG8gJiMzOTt7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCB1c2VyaWR9JiMzOTs8L2gxPg0KdAACZnJ0AEs8aDE+U2VsZWN0ZWQgdXNlci9ncm91cCAmIzM5O3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHVzZXJpZH0mIzM5OzwvaDE+DQp0AAJlbnQASzxoMT5TZWxlY3RlZCB1c2VyL2dyb3VwICYjMzk7e2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgdXNlcmlkfSYjMzk7PC9oMT4NCnQAAnJ1dABiPGgxPtCS0YvQsdGA0LDQvSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Ywv0LPRgNGD0L/Qv9CwIMKre2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgdXNlcmlkfcK7PC9oMT50AAJlc3QAUjxoMT5Vc3VhcmlvL2dydXBvIHNlbGVjY2lvbmFkbyAmIzM5O3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHVzZXJpZH0mIzM5OzwvaDE+DQp0AAJqYXQAYDxoMT7pgbjmip7jgZXjgozjgZ/jg6bjg7zjgrbjg7wv44Kw44Or44O844OXICYjMzk7e2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgdXNlcmlkfSYjMzk7PC9oMT4NCng=</rawcontent>
+      <param name="title" value="HTML für Dashboards" lang="de" />
+      <param name="title" value="HTML para painéis" lang="pt" />
+      <param name="title" value="HTML para cuadros de mando" lang="es" />
+      <param name="title" value="ダッシュボード用HTML" lang="ja" />
+      <param name="title" value="仪表板的 HTML" lang="zh" />
+      <param name="title" value="HTML панелей" lang="ru" />
+      <param name="title" value="HTML pour tableaux de bord" lang="fr" />
+      <param name="title" value="HTML for dashboards" lang="en" />
+      <param name="title" value="HTML para cuadros de mando" lang="es" />
+      <param name="title" value="HTML pour tableaux de bord" lang="fr" />
+      <param name="title" value="ダッシュボード用HTML" lang="ja" />
+      <param name="title" value="HTML para painéis" lang="pt" />
+      <param name="title" value="仪表板的 HTML" lang="zh" />
     </panelInstance>
     <panelInstance serialization="rO0ABXQC/zxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0idGFza25hbWUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl85NDQyMTQxODY0MTM0MDU2MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJlbmRkYXRlIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfNjM3NzE0MTg2NDIxOTgyMzQiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY3JlYXRlZGRhdGUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yMDExMTQxODY0MjA3Mzk3NiI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPG9wdGlvbnM+CiAgICA8c2hvcnRWaWV3TW9kZT50cnVlPC9zaG9ydFZpZXdNb2RlPgogICAgPHNob3dMZWdlbmQ+dHJ1ZTwvc2hvd0xlZ2VuZD4KICAgIDxzaG93UmVmcmVzaEJ1dHRvbj50cnVlPC9zaG93UmVmcmVzaEJ1dHRvbj4KICAgIDxzaG93QXBwbHloQnV0dG9uPnRydWU8L3Nob3dBcHBseWhCdXR0b24+CiAgICA8c2hvd0NsZWFyQnV0dG9uPnRydWU8L3Nob3dDbGVhckJ1dHRvbj4KICAgIDxzaG93UHJvcGVydHlOYW1lcz50cnVlPC9zaG93UHJvcGVydHlOYW1lcz4KICAgIDxzaG93U3VibWl0T25DaGFuZ2U+dHJ1ZTwvc2hvd1N1Ym1pdE9uQ2hhbmdlPgogIDxzaG93QXV0b1JlZnJlc2g+ZmFsc2U8L3Nob3dBdXRvUmVmcmVzaD4KICA8L29wdGlvbnM+CjwvZGFzaGJvYXJkX2ZpbHRlcj4K" provider="dashboard.filter" id="3009">
-      <param name="title" value="Dashboard-Filter" lang="de"/>
-      <param name="title" value="Dashboard filter" lang="en"/>
-      <param name="title" value="Filtro para cuadros de mando" lang="es"/>
-      <param name="title" value="Filtre de tableau de bord" lang="fr"/>
-      <param name="title" value="&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;&#12501;&#12451;&#12523;&#12479;&#12540;" lang="ja"/>
-      <param name="title" value="Filtro do Painel" lang="pt"/>
-      <param name="title" value="&#20202;&#34920;&#26495;&#36807;&#28388;&#22120;" lang="zh"/>
+      <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.html_editor" id="3030">
-      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAHdAACZGV0BFg8aDM+WnVzYW1tZW5mYXNzdW5nPC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+R2VzYW10emFobCBhbiBBdWZnYWJlbjo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRhc2tpZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgY29sc3Bhbj0iMiI+PHN0cm9uZz5HZXNhbXR6YWhsIGFuIFByb3plc3NpbnN0YW56ZW46PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0b3RhbH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIEFiZ2VzY2hsb3NzZW46PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBjb21wbGV0ZWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5Ba3Rpdjo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5BdXNzdGVoZW5kOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5BdXNnZXNldHp0Ojwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHN1c3BlbmRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgaGVpZ2h0PSIyMyI+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFiZ2Vicm9jaGVuOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGFib3J0ZWR9PC90ZD4NCgkJPC90cj4NCgk8L3Rib2R5Pg0KPC90YWJsZT4NCnQAAnpodAQxPGgzPuaAu+e7kzwvaDM+DQoNCjx0YWJsZSBhbGlnbj0iY2VudGVyIiB3aWR0aD0iODAlIj4NCgk8dGJvZHk+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPuS7u+WKoeaAu+iuoTo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRhc2tpZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgY29sc3Bhbj0iMiI+PHN0cm9uZz7mgLvlhbHnmoTov4fnqIvlrp7kvos6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0b3RhbH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIENvbXBsZXRlZDo8L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGNvbXBsZXRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFjdGl2ZTo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5QZW5kaW5nOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5TdXNwZW5kZWQ6PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWJvcnRlZDo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJwdHQEUTxoMz5TdW0mYWFjdXRlO3JpbzwvaDM+DQoNCjx0YWJsZSBhbGlnbj0iY2VudGVyIiB3aWR0aD0iODAlIj4NCgk8dGJvZHk+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPlRvdGFsIGRlIHRhcmVmYXM6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0YXNraWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgZGUgaW5zdCZhY2lyYztuY2lhcyBkbyBwcm9jZXNzbzwvc3Ryb25nPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgdG90YWx9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSBDb25jbHUmaWFjdXRlO2RvOjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgY29tcGxldGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QXRpdm86PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgYWN0aXZlfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+UGVuZGVudGU8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBwZW5kaW5nfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+U3VzcGVuc286PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QW51bGFkbzo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJmcnQEbzxoMz5SJmVhY3V0ZTtzdW0mZWFjdXRlOzwvaDM+DQoNCjx0YWJsZSBhbGlnbj0iY2VudGVyIiB3aWR0aD0iODAlIj4NCgk8dGJvZHk+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPlRvdGFsIHQmYWNpcmM7Y2hlczo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRhc2tpZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgY29sc3Bhbj0iMiI+PHN0cm9uZz5Ub3RhbCBkZXMgaW5zdGFuY2VzIGRlIHByb2Nlc3N1czo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRvdGFsfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gQ29tcGwmZWFjdXRlO3QmZWFjdXRlO2VzOjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgY29tcGxldGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWN0aXZlczo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5FbiBhdHRlbnRlOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5TdXNwZW5kdWVzOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHN1c3BlbmRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgaGVpZ2h0PSIyMyI+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFiYW5kb25uJmVhY3V0ZTtlczo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJlbnQEMzxoMz5TdW1tYXJ5PC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgdGFza3M6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0YXNraWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgcHJvY2VzcyBpbnN0YW5jZXM6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0b3RhbH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIENvbXBsZXRlZDo8L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGNvbXBsZXRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFjdGl2ZTo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5QZW5kaW5nOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5TdXNwZW5kZWQ6PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWJvcnRlZDo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJlc3QEQzxoMz5SZXN1bWVuPC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VGFyZWFzIHRvdGFsZXM6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0YXNraWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgZGUgaW5zdGFuY2lhcyBkZSBwcm9jZXNvczo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRvdGFsfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gQ29tcGxldGFkbzo8L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGNvbXBsZXRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFjdGl2bzo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5QZW5kaWVudGU6PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgcGVuZGluZ308L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPlN1c3BlbmRpZG86PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWJvcnRhZG86PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgYWJvcnRlZH08L3RkPg0KCQk8L3RyPg0KCTwvdGJvZHk+DQo8L3RhYmxlPg0KdAACamF0BFM8aDM+44K144Oe44OqPC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+5ZCI6KiI44K/44K544Kv5pWwOjwvc3Ryb25nPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgdGFza2lkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPuWQiOioiOODl+ODreOCu+OCueOCpOODs+OCueOCv+ODs+OCueaVsDo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRvdGFsfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0g5a6M5LqGOjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgY29tcGxldGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWN0aXZlOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGFjdGl2ZX08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPuS/neeVmeS4rTo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBwZW5kaW5nfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+5LiA5pmC5YGc5q2iOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHN1c3BlbmRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgaGVpZ2h0PSIyMyI+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPuW8t+WItue1guS6hjo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp4</rawcontent>
-      <param name="title" value=" Prozess-Dashboard (Gesamt)" lang="de"/>
-      <param name="title" value=" Process dashboard (Totals)" lang="en"/>
-      <param name="title" value="HTML para cuadros de mando" lang="es"/>
-      <param name="title" value="Tableau de bord de processus (Totaux)" lang="fr"/>
-      <param name="title" value="&#12503;&#12525;&#12475;&#12473;&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;(&#21512;&#35336;)" lang="ja"/>
-      <param name="title" value="Painel do processo (Totais)" lang="pt"/>
-      <param name="title" value="&#36807;&#31243;&#20202;&#34920;&#26495;&#65288;&#24635;&#35745;&#65289;" lang="zh"/>
+      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0BFg8aDM+WnVzYW1tZW5mYXNzdW5nPC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+R2VzYW10emFobCBhbiBBdWZnYWJlbjo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRhc2tpZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgY29sc3Bhbj0iMiI+PHN0cm9uZz5HZXNhbXR6YWhsIGFuIFByb3plc3NpbnN0YW56ZW46PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0b3RhbH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIEFiZ2VzY2hsb3NzZW46PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBjb21wbGV0ZWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5Ba3Rpdjo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5BdXNzdGVoZW5kOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5BdXNnZXNldHp0Ojwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHN1c3BlbmRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgaGVpZ2h0PSIyMyI+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFiZ2Vicm9jaGVuOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGFib3J0ZWR9PC90ZD4NCgkJPC90cj4NCgk8L3Rib2R5Pg0KPC90YWJsZT4NCnQAAnpodAQxPGgzPuaAu+e7kzwvaDM+DQoNCjx0YWJsZSBhbGlnbj0iY2VudGVyIiB3aWR0aD0iODAlIj4NCgk8dGJvZHk+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPuS7u+WKoeaAu+iuoTo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRhc2tpZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgY29sc3Bhbj0iMiI+PHN0cm9uZz7mgLvlhbHnmoTov4fnqIvlrp7kvos6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0b3RhbH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIENvbXBsZXRlZDo8L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGNvbXBsZXRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFjdGl2ZTo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5QZW5kaW5nOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5TdXNwZW5kZWQ6PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWJvcnRlZDo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJwdHQEUTxoMz5TdW0mYWFjdXRlO3JpbzwvaDM+DQoNCjx0YWJsZSBhbGlnbj0iY2VudGVyIiB3aWR0aD0iODAlIj4NCgk8dGJvZHk+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPlRvdGFsIGRlIHRhcmVmYXM6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0YXNraWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgZGUgaW5zdCZhY2lyYztuY2lhcyBkbyBwcm9jZXNzbzwvc3Ryb25nPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgdG90YWx9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSBDb25jbHUmaWFjdXRlO2RvOjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgY29tcGxldGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QXRpdm86PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgYWN0aXZlfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+UGVuZGVudGU8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBwZW5kaW5nfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+U3VzcGVuc286PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QW51bGFkbzo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJmcnQEbzxoMz5SJmVhY3V0ZTtzdW0mZWFjdXRlOzwvaDM+DQoNCjx0YWJsZSBhbGlnbj0iY2VudGVyIiB3aWR0aD0iODAlIj4NCgk8dGJvZHk+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPlRvdGFsIHQmYWNpcmM7Y2hlczo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRhc2tpZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgY29sc3Bhbj0iMiI+PHN0cm9uZz5Ub3RhbCBkZXMgaW5zdGFuY2VzIGRlIHByb2Nlc3N1czo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRvdGFsfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gQ29tcGwmZWFjdXRlO3QmZWFjdXRlO2VzOjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgY29tcGxldGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWN0aXZlczo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5FbiBhdHRlbnRlOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5TdXNwZW5kdWVzOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHN1c3BlbmRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgaGVpZ2h0PSIyMyI+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFiYW5kb25uJmVhY3V0ZTtlczo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJlbnQEMzxoMz5TdW1tYXJ5PC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgdGFza3M6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0YXNraWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgcHJvY2VzcyBpbnN0YW5jZXM6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0b3RhbH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIENvbXBsZXRlZDo8L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGNvbXBsZXRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFjdGl2ZTo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5QZW5kaW5nOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHBlbmRpbmd9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5TdXNwZW5kZWQ6PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWJvcnRlZDo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp0AAJydXQFkjxoMz7QodCy0L7QtNC60LAg0YHQvtGB0YLQvtGP0L3QuNGPPC9oMz4KPHRhYmxlIHdpZHRoPSI4MCUiIGFsaWduPSJjZW50ZXIiPgogICAgPHRib2R5PgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+0JLRgdC10LPQviDQt9Cw0LTQsNGHOjwvc3Ryb25nPjwvdGQ+CiAgICAgICAgICAgIDx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfY291bnQsIHRhc2tpZH08L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgY29sc3Bhbj0iMiI+PHN0cm9uZz7QktGB0LXQs9C+INGN0LrQt9C10LzQv9C70Y/RgNC+0LIg0L/RgNC+0YbQtdGB0YHQsDo8L3N0cm9uZz48L3RkPgogICAgICAgICAgICA8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX2NvdW50LCBwcm9jZXNzaW5zdGFuY2VpZH08L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQ+Jm5ic3A7PC90ZD4KICAgICAgICAgICAgPHRkPi0g0JfQsNCy0LXRgNGI0LXQvdC+OjwvdGQ+CiAgICAgICAgICAgIDx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBjb21wbGV0ZWR9PC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRkPiZuYnNwOzwvdGQ+CiAgICAgICAgICAgIDx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPtCQ0LrRgtC40LLQvdC+Ojwvc3Bhbj48L3RkPgogICAgICAgICAgICA8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgYWN0aXZlfTwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0ZD4mbmJzcDs8L3RkPgogICAgICAgICAgICA8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij7QntC20LjQtNCw0L3QuNC1Ojwvc3Bhbj48L3RkPgogICAgICAgICAgICA8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgcGVuZGluZ308L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQ+Jm5ic3A7PC90ZD4KICAgICAgICAgICAgPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+0J/RgNC40L7RgdGC0LDQvdC+0LLQu9C10L3Qvjo8L3NwYW4+PC90ZD4KICAgICAgICAgICAgPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHN1c3BlbmRlZH08L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgaGVpZ2h0PSIyMyI+Jm5ic3A7PC90ZD4KICAgICAgICAgICAgPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+0J/RgNC10YDQstCw0L3Qvjo8L3NwYW4+PC90ZD4KICAgICAgICAgICAgPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGFib3J0ZWR9PC90ZD4KICAgICAgICA8L3RyPgogICAgPC90Ym9keT4KPC90YWJsZT50AAJlc3QEQzxoMz5SZXN1bWVuPC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VGFyZWFzIHRvdGFsZXM6PC9zdHJvbmc+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCB0YXNraWR9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+VG90YWwgZGUgaW5zdGFuY2lhcyBkZSBwcm9jZXNvczo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRvdGFsfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gQ29tcGxldGFkbzo8L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGNvbXBsZXRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPkFjdGl2bzo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhY3RpdmV9PC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPiZuYnNwOzwvdGQ+DQoJCQk8dGQ+LSA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5QZW5kaWVudGU6PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgcGVuZGluZ308L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPlN1c3BlbmRpZG86PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgc3VzcGVuZGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBoZWlnaHQ9IjIzIj4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWJvcnRhZG86PC9zcGFuPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgYWJvcnRlZH08L3RkPg0KCQk8L3RyPg0KCTwvdGJvZHk+DQo8L3RhYmxlPg0KdAACamF0BFM8aDM+44K144Oe44OqPC9oMz4NCg0KPHRhYmxlIGFsaWduPSJjZW50ZXIiIHdpZHRoPSI4MCUiPg0KCTx0Ym9keT4NCgkJPHRyPg0KCQkJPHRkIGNvbHNwYW49IjIiPjxzdHJvbmc+5ZCI6KiI44K/44K544Kv5pWwOjwvc3Ryb25nPjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgdGFza2lkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBjb2xzcGFuPSIyIj48c3Ryb25nPuWQiOioiOODl+ODreOCu+OCueOCpOODs+OCueOCv+ODs+OCueaVsDo8L3N0cm9uZz48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHRvdGFsfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0g5a6M5LqGOjwvdGQ+DQoJCQk8dGQgYWxpZ249InJpZ2h0Ij57ZGFzaGJvYXJkX3N1bSwgY29tcGxldGVkfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+QWN0aXZlOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIGFjdGl2ZX08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQ+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPuS/neeVmeS4rTo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBwZW5kaW5nfTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJPHRkPi0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+5LiA5pmC5YGc5q2iOjwvc3Bhbj48L3RkPg0KCQkJPHRkIGFsaWduPSJyaWdodCI+e2Rhc2hib2FyZF9zdW0sIHN1c3BlbmRlZH08L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgaGVpZ2h0PSIyMyI+Jm5ic3A7PC90ZD4NCgkJCTx0ZD4tIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPuW8t+WItue1guS6hjo8L3NwYW4+PC90ZD4NCgkJCTx0ZCBhbGlnbj0icmlnaHQiPntkYXNoYm9hcmRfc3VtLCBhYm9ydGVkfTwvdGQ+DQoJCTwvdHI+DQoJPC90Ym9keT4NCjwvdGFibGU+DQp4</rawcontent>
+      <param name="title" value=" Prozess-Dashboard (Gesamt)" lang="de" />
+      <param name="title" value="Painel do processo (Totais)" lang="pt" />
+      <param name="title" value="HTML para cuadros de mando" lang="es" />
+      <param name="title" value="プロセスダッシュボード(合計)" lang="ja" />
+      <param name="title" value="过程仪表板（总计）" lang="zh" />
+      <param name="title" value="Панель процесса (сумма)" lang="ru" />
+      <param name="title" value="Tableau de bord de processus (Totaux)" lang="fr" />
+      <param name="title" value=" Process dashboard (Totals)" lang="en" />
+      <param name="title" value="HTML para cuadros de mando" lang="es" />
+      <param name="title" value="Tableau de bord de processus (Totaux)" lang="fr" />
+      <param name="title" value="プロセスダッシュボード(合計)" lang="ja" />
+      <param name="title" value="Painel do processo (Totais)" lang="pt" />
+      <param name="title" value="过程仪表板（总计）" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="navigation.logout" id="2093">
-      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="de"/>
-      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="en"/>
-      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es"/>
-      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="fr"/>
-      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ja"/>
-      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt"/>
-      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh"/>
-      <param name="title" value="Logout-Leiste" lang="de"/>
-      <param name="title" value="Logout panel" lang="en"/>
-      <param name="title" value="Panel de logout" lang="es"/>
-      <param name="title" value="Panneau de d&#233;connexion" lang="fr"/>
-      <param name="title" value="&#12525;&#12464;&#12450;&#12454;&#12488;&#12497;&#12493;&#12523;" lang="ja"/>
-      <param name="title" value="Painel de sa&#237;da" lang="pt"/>
-      <param name="title" value="&#30331;&#20986;&#38754;&#26495;" lang="zh"/>
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
+      <param name="title" value="Logout-Leiste" lang="de" />
+      <param name="title" value="Painel de saída" lang="pt" />
+      <param name="title" value="Panel de logout" lang="es" />
+      <param name="title" value="ログアウトパネル" lang="ja" />
+      <param name="title" value="登出面板" lang="zh" />
+      <param name="title" value="Панель выхода" lang="ru" />
+      <param name="title" value="Panneau de déconnexion" lang="fr" />
+      <param name="title" value="Logout panel" lang="en" />
+      <param name="title" value="Panel de logout" lang="es" />
+      <param name="title" value="Panneau de déconnexion" lang="fr" />
+      <param name="title" value="ログアウトパネル" lang="ja" />
+      <param name="title" value="Painel de saída" lang="pt" />
+      <param name="title" value="登出面板" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.kpi" id="2117">
-      <param name="group" value="Process" lang=" "/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt"/>
-      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt"/>
-      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh"/>
-      <param name="kpicode" value="kpi_30361353506582146" lang=" "/>
-      <param name="title" value="Aufgaben nach Status" lang="de"/>
-      <param name="title" value="Tasks by status" lang="en"/>
-      <param name="title" value="Tareas por estado" lang="es"/>
-      <param name="title" value="T&#226;ches par statut" lang="fr"/>
-      <param name="title" value="&#12473;&#12486;&#12540;&#12479;&#12473;&#21029;&#12479;&#12473;&#12463;" lang="ja"/>
-      <param name="title" value="Tarefas por status" lang="pt"/>
-      <param name="title" value="&#25353;&#29366;&#24577;&#25490;&#21015;&#30340;&#20219;&#21153;" lang="zh"/>
+      <param name="group" value="Process" lang=" " />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="kpicode" value="kpi_30361353506582146" lang=" " />
+      <param name="title" value="Aufgaben nach Status" lang="de" />
+      <param name="title" value="Tarefas por status" lang="pt" />
+      <param name="title" value="Tareas por estado" lang="es" />
+      <param name="title" value="ステータス別タスク" lang="ja" />
+      <param name="title" value="按状态排列的任务" lang="zh" />
+      <param name="title" value="Задачи по состоянию" lang="ru" />
+      <param name="title" value="Tâches par statut" lang="fr" />
+      <param name="title" value="Tasks by status" lang="en" />
+      <param name="title" value="Tareas por estado" lang="es" />
+      <param name="title" value="Tâches par statut" lang="fr" />
+      <param name="title" value="ステータス別タスク" lang="ja" />
+      <param name="title" value="Tarefas por status" lang="pt" />
+      <param name="title" value="按状态排列的任务" lang="zh" />
     </panelInstance>
     <section id="2274" visible="true" panelSpacing="0" position="0" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="process-dashboard" idTemplate="jbpmLayout">
-      <param name="title" value="Prozess-Dashboard" lang="de"/>
-      <param name="title" value="&#36807;&#31243;&#20202;&#34920;&#26495;" lang="zh"/>
-      <param name="title" value="Painel do processo (Bread crumb)" lang="pt"/>
-      <param name="title" value="Tableau de bord de processus" lang="fr"/>
-      <param name="title" value="Process dashboard" lang="en"/>
-      <param name="title" value="Procesos" lang="es"/>
-      <param name="title" value="&#12503;&#12525;&#12475;&#12473;&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;" lang="ja"/>
-      <panel position="0" instanceId="2093" regionId="Header_Right-bottom" id="2099"/>
-      <panel position="0" instanceId="2074" regionId="Header_Right-top" id="2075"/>
-      <panel position="0" instanceId="3016" regionId="center_1" id="3097"/>
-      <panel position="0" instanceId="3068" regionId="center_2" id="3069"/>
-      <panel position="1" instanceId="3065" regionId="center_2" id="3066"/>
-      <panel position="0" instanceId="3124" regionId="center_3" id="3019"/>
-      <panel position="1" instanceId="5265" regionId="center_3" id="2134"/>
-      <panel position="2" instanceId="3118" regionId="center_3" id="3021"/>
-      <panel position="3" instanceId="2972" regionId="center_3" id="3022"/>
-      <panel position="4" instanceId="2969" regionId="center_3" id="3025"/>
-      <panel position="5" instanceId="2117" regionId="center_3" id="2120"/>
-      <panel position="0" instanceId="3051" regionId="center_6" id="3052"/>
-      <panel position="1" instanceId="3070" regionId="center_6" id="3071"/>
-      <panel position="2" instanceId="3073" regionId="center_6" id="3074"/>
-      <panel position="3" instanceId="2965" regionId="center_6" id="2968"/>
-      <panel position="0" instanceId="3030" regionId="left_bottom" id="3031"/>
-      <panel position="1" instanceId="3087" regionId="left_bottom" id="3088"/>
+      <param name="title" value="Prozess-Dashboard" lang="de" />
+      <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
+      <param name="title" value="Procesos" lang="es" />
+      <param name="title" value="プロセスダッシュボード" lang="ja" />
+      <param name="title" value="过程仪表板" lang="zh" />
+      <param name="title" value="Панель процесса" lang="ru" />
+      <param name="title" value="Tableau de bord de processus" lang="fr" />
+      <param name="title" value="过程仪表板" lang="zh" />
+      <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
+      <param name="title" value="Tableau de bord de processus" lang="fr" />
+      <param name="title" value="Process dashboard" lang="en" />
+      <param name="title" value="Procesos" lang="es" />
+      <param name="title" value="プロセスダッシュボード" lang="ja" />
+      <panel position="0" instanceId="2093" regionId="Header_Right-bottom" id="2099" />
+      <panel position="0" instanceId="2074" regionId="Header_Right-top" id="2075" />
+      <panel position="0" instanceId="3016" regionId="center_1" id="3097" />
+      <panel position="0" instanceId="3068" regionId="center_2" id="3069" />
+      <panel position="1" instanceId="3065" regionId="center_2" id="3066" />
+      <panel position="0" instanceId="3124" regionId="center_3" id="3019" />
+      <panel position="1" instanceId="5265" regionId="center_3" id="2134" />
+      <panel position="2" instanceId="3118" regionId="center_3" id="3021" />
+      <panel position="3" instanceId="2972" regionId="center_3" id="3022" />
+      <panel position="4" instanceId="2969" regionId="center_3" id="3025" />
+      <panel position="5" instanceId="2117" regionId="center_3" id="2120" />
+      <panel position="0" instanceId="3051" regionId="center_6" id="3052" />
+      <panel position="1" instanceId="3070" regionId="center_6" id="3071" />
+      <panel position="2" instanceId="3073" regionId="center_6" id="3074" />
+      <panel position="3" instanceId="2965" regionId="center_6" id="2968" />
+      <panel position="0" instanceId="3030" regionId="left_bottom" id="3031" />
+      <panel position="1" instanceId="3087" regionId="left_bottom" id="3088" />
     </section>
     <section id="2003" visible="true" panelSpacing="0" parentId="2274" position="0" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="process-selected" idTemplate="jbpmLayout">
-      <param name="title" value="Gew&#228;hlter Prozess" lang="de"/>
-      <param name="title" value="&#36873;&#25321;&#30340;&#36807;&#31243;" lang="zh"/>
-      <param name="title" value="Processo Selecionado:" lang="pt"/>
-      <param name="title" value="Processus s&#233;lectionn&#233;s" lang="fr"/>
-      <param name="title" value="Selected process" lang="en"/>
-      <param name="title" value="Proceso seleccionado" lang="es"/>
-      <param name="title" value="&#36984;&#25246;&#12373;&#12428;&#12383;&#12503;&#12525;&#12475;&#12473;" lang="ja"/>
-      <panel position="0" instanceId="2093" regionId="Header_Right-bottom" id="2096"/>
-      <panel position="0" instanceId="2074" regionId="Header_Right-top" id="2075"/>
-      <panel position="0" instanceId="3016" regionId="center_1" id="3099"/>
-      <panel position="1" instanceId="2986" regionId="center_1" id="2987"/>
-      <panel position="0" instanceId="3131" regionId="center_2" id="3132"/>
-      <panel position="1" instanceId="3134" regionId="center_2" id="3135"/>
-      <panel position="2" instanceId="3127" regionId="center_2" id="3128"/>
-      <panel position="0" instanceId="3124" regionId="center_3" id="3125"/>
-      <panel position="1" instanceId="3118" regionId="center_3" id="3119"/>
-      <panel position="2" instanceId="2972" regionId="center_3" id="2973"/>
-      <panel position="3" instanceId="2969" regionId="center_3" id="2970"/>
-      <panel position="0" instanceId="3051" regionId="center_6" id="3034"/>
-      <panel position="1" instanceId="3070" regionId="center_6" id="3121"/>
-      <panel position="2" instanceId="3073" regionId="center_6" id="3130"/>
-      <panel position="3" instanceId="2965" regionId="center_6" id="2966"/>
-      <panel position="0" instanceId="3030" regionId="left_bottom" id="3033"/>
-      <panel position="1" instanceId="3122" regionId="left_bottom" id="3123"/>
+      <param name="title" value="Gewählter Prozess" lang="de" />
+      <param name="title" value="Processo Selecionado:" lang="pt" />
+      <param name="title" value="Proceso seleccionado" lang="es" />
+      <param name="title" value="選択されたプロセス" lang="ja" />
+      <param name="title" value="选择的过程" lang="zh" />
+      <param name="title" value="Выбранный процесс" lang="ru" />
+      <param name="title" value="Processus sélectionnés" lang="fr" />
+      <param name="title" value="选择的过程" lang="zh" />
+      <param name="title" value="Processo Selecionado:" lang="pt" />
+      <param name="title" value="Processus sélectionnés" lang="fr" />
+      <param name="title" value="Selected process" lang="en" />
+      <param name="title" value="Proceso seleccionado" lang="es" />
+      <param name="title" value="選択されたプロセス" lang="ja" />
+      <panel position="0" instanceId="2093" regionId="Header_Right-bottom" id="2096" />
+      <panel position="0" instanceId="2074" regionId="Header_Right-top" id="2075" />
+      <panel position="0" instanceId="3016" regionId="center_1" id="3099" />
+      <panel position="1" instanceId="2986" regionId="center_1" id="2987" />
+      <panel position="0" instanceId="3131" regionId="center_2" id="3132" />
+      <panel position="1" instanceId="3134" regionId="center_2" id="3135" />
+      <panel position="2" instanceId="3127" regionId="center_2" id="3128" />
+      <panel position="0" instanceId="3124" regionId="center_3" id="3125" />
+      <panel position="1" instanceId="3118" regionId="center_3" id="3119" />
+      <panel position="2" instanceId="2972" regionId="center_3" id="2973" />
+      <panel position="3" instanceId="2969" regionId="center_3" id="2970" />
+      <panel position="0" instanceId="3051" regionId="center_6" id="3034" />
+      <panel position="1" instanceId="3070" regionId="center_6" id="3121" />
+      <panel position="2" instanceId="3073" regionId="center_6" id="3130" />
+      <panel position="3" instanceId="2965" regionId="center_6" id="2966" />
+      <panel position="0" instanceId="3030" regionId="left_bottom" id="3033" />
+      <panel position="1" instanceId="3122" regionId="left_bottom" id="3123" />
     </section>
     <section id="2989" visible="true" panelSpacing="0" parentId="2274" position="1" regionSpacing="0" idEnvelope="" idSkin="" idTemplate="jbpmLayout">
-      <param name="title" value="Ausgew&#228;hlter Benutzer oder Gruppe" lang="de"/>
-      <param name="title" value="&#36873;&#25321;&#30340;&#29992;&#25143;&#25110;&#32452;" lang="zh"/>
-      <param name="title" value="Usu&#225;rio ou grupo selecionado" lang="pt"/>
-      <param name="title" value="Utilisateur ou groupe s&#233;lectionn&#233;" lang="fr"/>
-      <param name="title" value="Selected user or group" lang="en"/>
-      <param name="title" value="Usuario o grupo seleccionado" lang="es"/>
-      <param name="title" value="&#36984;&#25246;&#12373;&#12428;&#12383;&#12518;&#12540;&#12470;&#12540;&#12414;&#12383;&#12399;&#12464;&#12523;&#12540;&#12503;" lang="ja"/>
-      <panel position="0" instanceId="2093" regionId="Header_Right-bottom" id="2100"/>
-      <panel position="0" instanceId="2074" regionId="Header_Right-top" id="2075"/>
-      <panel position="0" instanceId="3016" regionId="center_1" id="3099"/>
-      <panel position="1" instanceId="2995" regionId="center_1" id="2987"/>
-      <panel position="0" instanceId="3131" regionId="center_2" id="3132"/>
-      <panel position="1" instanceId="3134" regionId="center_2" id="3135"/>
-      <panel position="0" instanceId="3124" regionId="center_3" id="3125"/>
-      <panel position="1" instanceId="3118" regionId="center_3" id="3119"/>
-      <panel position="2" instanceId="2972" regionId="center_3" id="2973"/>
-      <panel position="3" instanceId="2969" regionId="center_3" id="2970"/>
-      <panel position="4" instanceId="2117" regionId="center_3" id="3808"/>
-      <panel position="0" instanceId="3070" regionId="center_6" id="3121"/>
-      <panel position="1" instanceId="3073" regionId="center_6" id="3130"/>
-      <panel position="2" instanceId="2965" regionId="center_6" id="2966"/>
-      <panel position="0" instanceId="3009" regionId="left_bottom" id="3010"/>
+      <param name="title" value="Ausgewählter Benutzer oder Gruppe" lang="de" />
+      <param name="title" value="Usuário ou grupo selecionado" lang="pt" />
+      <param name="title" value="Usuario o grupo seleccionado" lang="es" />
+      <param name="title" value="選択されたユーザーまたはグループ" lang="ja" />
+      <param name="title" value="选择的用户或组" lang="zh" />
+      <param name="title" value="Выбранный пользователь или группа" lang="ru" />
+      <param name="title" value="Utilisateur ou groupe sélectionné" lang="fr" />
+      <param name="title" value="选择的用户或组" lang="zh" />
+      <param name="title" value="Usuário ou grupo selecionado" lang="pt" />
+      <param name="title" value="Utilisateur ou groupe sélectionné" lang="fr" />
+      <param name="title" value="Selected user or group" lang="en" />
+      <param name="title" value="Usuario o grupo seleccionado" lang="es" />
+      <param name="title" value="選択されたユーザーまたはグループ" lang="ja" />
+      <panel position="0" instanceId="2093" regionId="Header_Right-bottom" id="2100" />
+      <panel position="0" instanceId="2074" regionId="Header_Right-top" id="2075" />
+      <panel position="0" instanceId="3016" regionId="center_1" id="3099" />
+      <panel position="1" instanceId="2995" regionId="center_1" id="2987" />
+      <panel position="0" instanceId="3131" regionId="center_2" id="3132" />
+      <panel position="1" instanceId="3134" regionId="center_2" id="3135" />
+      <panel position="0" instanceId="3124" regionId="center_3" id="3125" />
+      <panel position="1" instanceId="3118" regionId="center_3" id="3119" />
+      <panel position="2" instanceId="2972" regionId="center_3" id="2973" />
+      <panel position="3" instanceId="2969" regionId="center_3" id="2970" />
+      <panel position="4" instanceId="2117" regionId="center_3" id="3808" />
+      <panel position="0" instanceId="3070" regionId="center_6" id="3121" />
+      <panel position="1" instanceId="3073" regionId="center_6" id="3130" />
+      <panel position="2" instanceId="2965" regionId="center_6" id="2966" />
+      <panel position="0" instanceId="3009" regionId="left_bottom" id="3010" />
     </section>
   </workspace>
 </workspaceExport>
+
