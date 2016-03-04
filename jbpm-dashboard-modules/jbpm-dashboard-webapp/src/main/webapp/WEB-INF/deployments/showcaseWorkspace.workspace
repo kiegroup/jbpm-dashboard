@@ -17,7 +17,21 @@
     <param name="title" value="Демонстрационный пример" lang="ru" />
     <param name="title" value="Démo de tableaux de bord" lang="fr" />
     <param name="title" value="Apresentação de Painéis" lang="pt" />
+    <param name="title" value="Dashboards Schaufenster" lang="de" />
+    <param name="title" value="Demostración de cuadros de mando" lang="es" />
+    <param name="title" value="Dashboards Showcase" lang="en" />
+    <param name="title" value="ダッシュボードショーケース" lang="ja" />
+    <param name="title" value="Демонстрационный пример" lang="ru" />
+    <param name="title" value="Démo de tableaux de bord" lang="fr" />
+    <param name="title" value="Apresentação de Painéis" lang="pt" />
     <param name="name" value="Schaufenster" lang="de" />
+    <param name="name" value="Demonstração" lang="pt" />
+    <param name="name" value="Demostración" lang="es" />
+    <param name="name" value="Showcase" lang="en" />
+    <param name="name" value="ショーケース" lang="ja" />
+    <param name="name" value="Пример" lang="ru" />
+    <param name="name" value="展示架" lang="zh" />
+    <param name="name" value="Démo" lang="fr" />
     <param name="name" value="Demonstração" lang="pt" />
     <param name="name" value="Demostración" lang="es" />
     <param name="name" value="Showcase" lang="en" />
@@ -45,6 +59,13 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
@@ -55,6 +76,13 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="fr" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="en" />
@@ -70,6 +98,13 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="zh" />
       <param name="start.html" value="&lt;table align=&quot;center&quot; border=&quot;0&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;|&amp;nbsp;&lt;/td&gt;" lang=" " />
       <param name="title" value="Sprach-Menü" lang="de" />
+      <param name="title" value="Menu de Linguagem" lang="pt" />
+      <param name="title" value="Navegador de Idiomas" lang="es" />
+      <param name="title" value="Language Menu" lang="en" />
+      <param name="title" value="言語メニュー" lang="ja" />
+      <param name="title" value="Выбор языка" lang="ru" />
+      <param name="title" value="语言菜单" lang="zh" />
+      <param name="title" value="Menu des langues" lang="fr" />
       <param name="title" value="Menu de Linguagem" lang="pt" />
       <param name="title" value="Navegador de Idiomas" lang="es" />
       <param name="title" value="Language Menu" lang="en" />
@@ -92,6 +127,13 @@
       <param name="title" value="Menú en árbol" lang="es" />
       <param name="title" value="Lateral Menu (Tree menu)" lang="en" />
       <param name="title" value="サイドメニュー(ツリーメニュー)" lang="ja" />
+      <param name="title" value="Раскрывающееся меню" lang="ru" />
+      <param name="title" value="侧面菜单（树型菜单）" lang="zh" />
+      <param name="title" value="Menu latéral (Menu en arborescence)" lang="fr" />
+      <param name="title" value="Menu Lateral (Menu de árvore)" lang="pt" />
+      <param name="title" value="Menú en árbol" lang="es" />
+      <param name="title" value="Lateral Menu (Tree menu)" lang="en" />
+      <param name="title" value="サイドメニュー(ツリーメニュー)" lang="ja" />
       <param name="title" value="侧面菜单（树型菜单）" lang="zh" />
       <param name="title" value="Раскрывающееся меню" lang="ru" />
       <param name="title" value="Menu latéral (Menu en arborescence)" lang="fr" />
@@ -109,6 +151,13 @@
       <param name="title" value="Conexiones externas (Título)" lang="es" />
       <param name="title" value="External connections (Title)" lang="en" />
       <param name="title" value="外部接続(タイトル)" lang="ja" />
+      <param name="title" value="Внешние соединения (заголовок)" lang="ru" />
+      <param name="title" value="外部连接（标题）" lang="zh" />
+      <param name="title" value="Connexions externes (Titre)" lang="fr" />
+      <param name="title" value="Conexões externas (Títulos)" lang="pt" />
+      <param name="title" value="Conexiones externas (Título)" lang="es" />
+      <param name="title" value="External connections (Title)" lang="en" />
+      <param name="title" value="外部接続(タイトル)" lang="ja" />
       <param name="title" value="外部连接（标题）" lang="zh" />
       <param name="title" value="Внешние соединения (заголовок)" lang="ru" />
       <param name="title" value="Connexions externes (Titre)" lang="fr" />
@@ -120,8 +169,15 @@
       <param name="title" value="外部连接（标题）" lang="zh" />
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.html_editor" id="2309">
-      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0BOI8aDE+V2lsbGtvbW1lbiB6dW0gSkJvc3MtRGFzaGJvYXJkIEdlbmVyYXRvcjwvaDE+CjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPkpCb3NzIERhc2hib2FyZCBHZW5lcmF0b3IgaXN0IGVpbiBPcGVuIFNvdXJjZSBEYXNoYm9hcmQtIHVuZCBCZXJpY2h0cy1Ub29sLCBkYXMgZ2VzdGF0dGV0OjwvcD4KPHA+Jm5ic3A7PC9wPgo8dWw+CiAgICA8bGk+VmlzdWVsbGUgS29uZmlndXJhdGlvbiB1bmQgUGVyc29uYWxpc2llcnVuZyB2b24gRGFzaGJvYXJkcy48L2xpPgogICAgPGxpPkdyYWZpc2NoZSBEYXJzdGVsbHVuZyB2b24gS1BJcyAoS2V5IFBlcmZvcm1hbmNlIEluZGljYXRvcnMpLjwvbGk+CiAgICA8bGk+RGVmaW5pdGlvbiB2b20gaW50ZXJha3RpdmVuIEJlcmljaHRlIFRhYmVsbGVuLjwvbGk+CiAgICA8bGk+RmlsdGVybiB1bmQgU3VjaGVuLCBlbnR3ZWRlciBpbSBTcGVpY2hlciBvZGVyIGF1ZiBEYXRlbmJhbmstQmFzaXMuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPlZlcmFyYmVpdGVuIEF1c2bDvGhydW5ncy1NZXRyaWtlbiBEYXNoYm9hcmRzLjwvbGk+CiAgICA8bGk+RGF0ZW5zYW1tbHVuZyBhdXMgZXh0ZXJuZW4gU3lzdGVtZW4gw7xiZXIgdW50ZXJzY2hpZWRsaWNoZSBQcm90b2tvbGxlLjwvbGk+CiAgICA8bGk+WnVncmlmZnNrb250cm9sbGUgZsO8ciB2ZXJzY2hpZWRlbmUgQmVudXR6ZXJwcm9maWxlIGF1ZiB2ZXJzY2hpZWRlbmVuIEViZW5lbiBkZXIgSW5mb3JtYXRpb24uPC9saT4KPC91bD4KPGJyIC8+CjxiciAvPgo8aDI+WnVrw7xuZnRpZ2UgRWlnZW5zY2hhZnRlbjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+V2VpdGVyZSBEaWFncmFtbXR5cGVuPC9saT4KICAgIDxsaT5VbnRlcnN0w7x0enVuZyBmw7xyIG1laHJlcmUgRGF0ZW5yZWloZW4uPC9saT4KICAgIDxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5Lb21wbGV0dGVyIEltcG9ydCB1bmQgRXhwb3J0IHZvbiBEYXNoYm9hcmRzLjwvc3Bhbj48L2xpPgogICAgPGxpPk5ldWUgVmVyYmluZHVuZ2VuIHp1IE5vU1FMIERhdGVuYmFua2VuLjwvbGk+CiAgICA8bGk+RWNodHplaXQgRGF0ZW5zdHLDtm1lIFVudGVyc3TDvHR6dW5nLi48L2xpPgogICAgPGxpPlByb2dub3NlbW9kZWxsZS48L2xpPgo8L3VsPnQAAnpodARpPGgxPuasoui/juS9v+eUqCBKQm9zcyDku6rooajmnb/mnoTlu7rlmag8L2gxPgo8cD48aW1nIHdpZHRoPSI1NzAiIGhlaWdodD0iNDI1IiB0aXRsZT0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIGFsdD0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIHNyYz0iaW1hZ2VzL2hvbWUtaW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz5KQm9zcyDku6rooajmnb/mnoTlu7rlmajmmK/kuIDkuKrlvIDmupDnmoTku6rooajmnb/lkozmiqXooajlt6XlhbfvvIzlroPlhYHorrjvvJo8L3A+CjxwPiZuYnNwOzwvcD4KPHVsPgogICAgPGxpPuS7quihqOadv+eahOWPr+inhuWMlumFjee9ruWSjOS4quaAp+WMluiuvue9ruOAgjwvbGk+CiAgICA8bGk+5YWz6ZSu5oCn6IO95oyH5qCH55qE5Zu+5b2i5YyW6KGo56S644CCPC9saT4KICAgIDxsaT7kuqTkupLlvI/miqXooajnmoTlrprkuYnjgII8L2xpPgogICAgPGxpPuWfuuS6juWGheWtmOaIluaVsOaNruW6k+eahOi/h+a7pOWSjOaQnOe0ouOAgjwvbGk+CjwvdWw+Cjx1bD4KICAgIDxsaT7ov4fnqIvmiafooYzluqbph4/nmoTku6rooajmnb/jgII8L2xpPgogICAgPGxpPumAmui/h+S4jeWQjOeahOWNj+iuruS7juWklumDqOezu+e7n+aKveWPluaVsOaNruOAgjwvbGk+CiAgICA8bGk+5LiN5ZCM55So5oi36YWN572u5a+55LiN5ZCM57qn5Yir5L+h5oGv55qE6K6/6Zeu55qE5o6n5Yi244CCPC9saT4KPC91bD4KPGJyIC8+CjxiciAvPgo8aDI+5Y2z5bCG5byV5YWl55qE5Lqn5ZOB5Yqf6IO9PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT7pop3lpJbnmoTlm77ooajnsbvlnovjgII8L2xpPgogICAgPGxpPuWvueWkmumHjeaVsOaNruW6j+WIl+eahOaUr+aMgeOAgjwvbGk+CiAgICA8bGk+5Y+v5o+S5ouU55qE5Zu+6KGo5bqT77yM55So5LqO5a+5IFNWRy9IVE1MNSDnmoTmlK/mjIHjgII8L2xpPgogICAgPGxpPuWwhuaVsOaNruWvvOWHuuS4uuWkmuenjeagvOW8j++8jOWmgiBDU1bjgIFuYXRpdmUgRXhjZWzjgIFYTUwg5oiW5YW25LuW44CCPC9saT4KICAgIDxsaT7ku6rooajmnb/nmoTlrozmlbTlr7zlhaXlkozlr7zlh7rjgII8L2xpPgogICAgPGxpPuWIsCBOb1NRTCDmlbDmja7lupPnmoTmlrDov57mjqXlmajjgII8L2xpPgo8L3VsPnQAAnB0dAUDPGgxPkJlbS1WaW5kbyBhbyBKQm9zcyBEYXNoYm9hcmQgQnVpbGRlcjwvaDE+CjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPk8gSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIgw6kgdW0gcGFpbmVsIGRlIGPDs2RpZ28gYWJlcnRvIGUgYSBmZXJyYW1lbnRhIGRlIHJlbGF0w7NyaW8gcXVlIHBlcm1pdGU6PC9wPgo8cD4mbmJzcDs8L3A+Cjx1bD4KICAgIDxsaT5BIGNvbmZpZ3VyYcOnw6NvIHZpc3VhbCBlIHBlcnNvbmFsaXphw6fDo28gZG9zIHBhaW7DqWlzLjwvbGk+CiAgICA8bGk+QSByZXByZXNlbnRhw6fDo28gZ3LDoWZpY2EgZG9zIEtQSXMgKEluZGljYWRvcmVzIGRlIERlc2VtcGVuaG8gQ2hhdmUpLjwvbGk+CiAgICA8bGk+RGVmaW5pw6fDo28gZGFzIHRhYmVsYXMgZGUgcmVsYXTDs3JpbyBpbnRlcmF0aXZvLjwvbGk+CiAgICA8bGk+RmlsdHJvIGUgYnVzY2EsIGFtYm9zIGVtIG1lbcOzcmlhIG91IGJhc2VhZG8gbm8gYmFuY28gZGUgZGFkb3MuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPlBhaW7DqWlzIGRhcyBtw6l0cmljYXMgZGUgZXhlY3XDp8OjbyBkbyBwcm9jZXNzby48L2xpPgogICAgPGxpPkV4dHJhw6fDo28gZGUgZGFkb3MgYSBwYXJ0aXIgZG9zIHNpc3RlbWFzIGV4dGVybm9zLCBhdHJhdsOpcyBkZSBwcm90b2NvbG9zLjwvbGk+CiAgICA8bGk+Q29udHJvbGUgZGUgYWNlc3NvIHBhcmEgcGVyZmlzIGRlIHVzdcOhcmlvIGRpZmVyZW50ZSBwYXJhIGRpZmVyZW50ZSBuw612ZWlzIGRlIGluZm9ybWHDp8Ojby48L2xpPgo8L3VsPgo8YnIgLz4KPGJyIC8+CjxoMj5SZWN1cnNvcyBub3ZvczwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+VGlwb3MgZGUgZ3LDoWZpY28gYWRpY2lvbmFsPC9saT4KICAgIDxsaT5TdXBvcnRlIHBhcmEgc8OpcmllcyBkZSBkYWRvcyBtw7psdGlwbG9zLjwvbGk+CiAgICA8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+SW1wb3J0YcOnw6NvIGUgZXhwb3J0YcOnw6NvIGRvcyBwYWluw6lpcyBjb21wbGV0YS48L3NwYW4+PC9saT4KICAgIDxsaT5Ob3ZvcyBjb25lY3RvcmVzIGFvcyBiYW5jb3MgZGUgZGFkb3MgTm9TUUwuPC9saT4KICAgIDxsaT5EYWRvcyBlbSB0ZW1wb3IgcmVhbCBhbGltZW50YW0gc3Vwb3J0ZS48L2xpPgogICAgPGxpPk1vZGVsb3MgZGUgcHJlZGljw6fDo28uPC9saT4KPC91bD50AAJmcnQFTTxoMT5CaWVudmVudWUgZGFucyBKQm9zcyBEYXNoYm9hcmQgQnVpbGRlcjwvaDE+CjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIGVzdCB1biB0YWJsZWF1IGRlIGJvcmQgZXQgdW4gb3V0aWwgZGUgZ8OpbsOpcmF0aW9uIGRlIHJhcHBvcnRzIHF1aSB2b3VzIHBlcm1ldCA6PC9wPgo8cD4mbmJzcDs8L3A+Cjx1bD4KICAgIDxsaT5MYSB2aXN1YWxpc2F0aW9uIGV0IGxhIHBlcnNvbm5hbGlzYXRpb24gZGVzIHRhYmxlYXV4IGRlIGJvcmQuPC9saT4KICAgIDxsaT5MYSByZXByw6lzZW50YXRpb24gZ3JhcGhpcXVlIGRlcyBLUEkgKEluZGljYXRldXJzIGNsw6lzIGRlIHBlcmZvcm1hbmNlKS48L2xpPgogICAgPGxpPkTDqWZpbml0aW9uIGRlIHRhYmxlYXV4IGRlIHJhcHBvcnRzIGludGVyYWN0aWZzLjwvbGk+CiAgICA8bGk+RmlsdHJhZ2UgZXQgcmVjaGVyY2hlLCB0b3VzIGRldXggYmFzw6lzIG3DqW1vaXJlIG91IGJhc2UgZGUgZG9ubsOpZXMuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPlRhYmxlYXV4IGRlIGJvcmQgZGUgbcOpdHJpcXVlcyBkJ2V4w6ljdXRpb24gZGUgcHJvY2Vzc3VzLjwvbGk+CiAgICA8bGk+RXh0cmFjdGlvbiBkZXMgZG9ubsOpZXMgZGUgc3lzdMOobWVzIGV4dGVybmVzLCBwYXIgZGVzIHByb3RvY29sZXMgZGl2ZXJzLjwvbGk+CiAgICA8bGk+Q29udHLDtGxlIGRlIGwnYWNjw6hzIHBhciBkaWZmw6lyZW50cyBwcm9maWxzIGQndXRpbGlzYXRldXJzIHZlcnMgZGlmZsOpcmVudHMgbml2ZWF1eCBkJ2luZm9ybWF0aW9uLjwvbGk+CjwvdWw+CjxiciAvPgo8YnIgLz4KPGgyPkNhcmFjdMOpcmlzdGlxdWVzIGRlIHByb2R1aXRzIMOgIHZlbmlyPC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT5UeXBlcyBkZSBkaWFncmFtbWVzIHN1cHBsw6ltZW50YWlyZXMuPC9saT4KICAgIDxsaT5TdXBwb3J0IGRlcyBzw6lyaWVzIGRlIGRvbm7DqWVzIG11bHRpcGxlcy48L2xpPgo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+SW1wb3J0IGV0IGV4cG9ydCBjb21wbGV0IGRlIHRhYmxlYXV4IGRlIGJvcmQuPC9zcGFuPjwvbGk+CiAgICA8bGk+Tm91dmVhdXggY29ubmVjdGV1cnMgdmVycyBiYXNlcyBkZSBkb25uw6llcyBOb1NRTC48L2xpPgogICAgIDxsaT5TdXBwb3J0IGRlcyBmbHV4IGRlIGRvbm7DqWVzIGVuIHRlbXBzIHLDqWVsLjwvbGk+CiAgICA8bGk+TW9kw6hsZXMgZGUgcHLDqWRpY3Rpb24uPC9saT4KPC91bD50AAJlbnQEpTxoMT5XZWxjb21lIHRvIEpCb3NzIERhc2hib2FyZCBCdWlsZGVyPC9oMT4NCjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIGlzIGFuIG9wZW4gc291cmNlIGRhc2hib2FyZCBhbmQgcmVwb3J0aW5nIHRvb2wgdGhhdCBhbGxvd3M6PC9wPg0KPHA+Jm5ic3A7PC9wPg0KPHVsPg0KICAgIDxsaT5WaXN1YWwgY29uZmlndXJhdGlvbiBhbmQgcGVyc29uYWxpemF0aW9uIG9mIGRhc2hib2FyZHMuPC9saT4NCiAgICA8bGk+R3JhcGhpY2FsIHJlcHJlc2VudGF0aW9uIG9mIEtQSXMgKEtleSBQZXJmb3JtYW5jZSBJbmRpY2F0b3JzKS48L2xpPg0KICAgIDxsaT5EZWZpbml0aW9uIG9mIGludGVyYWN0aXZlIHJlcG9ydCB0YWJsZXMuPC9saT4NCiAgICA8bGk+RmlsdGVyaW5nIGFuZCBzZWFyY2gsIGJvdGggaW4tbWVtb3J5IG9yIGRhdGFiYXNlIGJhc2VkLjwvbGk+DQo8L3VsPg0KPHVsPg0KICAgIDxsaT5Qcm9jZXNzIGV4ZWN1dGlvbiBtZXRyaWNzIGRhc2hib2FyZHMuPC9saT4NCiAgICA8bGk+RGF0YSBleHRyYWN0aW9uIGZyb20gZXh0ZXJuYWwgc3lzdGVtcywgdGhyb3VnaCBkaWZmZXJlbnQgcHJvdG9jb2xzLjwvbGk+DQogICAgPGxpPkFjY2VzcyBjb250cm9sIGZvciBkaWZmZXJlbnQgdXNlciBwcm9maWxlcyB0byBkaWZmZXJlbnQgbGV2ZWxzIG9mIGluZm9ybWF0aW9uLjwvbGk+DQo8L3VsPg0KPGJyIC8+DQo8YnIgLz4NCjxoMj5VcGNvbWluZyBmZWF0dXJlczwvaDI+DQombmJzcDsNCjx1bD4NCiAgICA8bGk+QWRkaXRpb25hbCBjaGFydCB0eXBlcy48L2xpPg0KICAgIDxsaT5TdXBwb3J0IGZvciBtdWx0aXBsZSBkYXRhIHNlcmllcy48L2xpPg0KICAgIDxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5Db21wbGV0ZSBpbXBvcnQgYW5kIGV4cG9ydCBvZiBkYXNoYm9hcmRzLjwvc3Bhbj48L2xpPg0KICAgIDxsaT5OZXcgY29ubmVjdG9ycyB0byBOb1NRTCBkYXRhYmFzZXMuPC9saT4NCiAgICA8bGk+UmVhbC10aW1lIGRhdGEgZmVlZHMgc3VwcG9ydC48L2xpPg0KICAgIDxsaT5QcmVkaWN0aXZlIG1vZGVscy48L2xpPg0KPC91bD50AAJydXQHijxoMT7QktCw0YEg0L/RgNC40LLQtdGC0YHRgtCy0YPQtdGCIEpCb3NzIERhc2hib2FyZCBCdWlsZGVyPC9oMT4KPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIiBhbHQ9IkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIiBzcmM9ImltYWdlcy9ob21lLWltYWdlLmpwZyIgc3R5bGU9ImZsb2F0OiByaWdodDsiIC8+SkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIg4oCUINC+0YLQutGA0YvRgtC+0LUg0YDQtdGI0LXQvdC40LUg0LTQu9GPINC/0L7RgdGC0YDQvtC10L3QuNGPINC+0YLRh9C10YLQvdC+0YHRgtC4INC4INCy0LjQt9GD0LDQu9GM0L3QvtC5INCw0L3QsNC70LjRgtC40LrQuCwg0L7RgdC90L7QstC90YvQtSDQstC+0LfQvNC+0LbQvdC+0YHRgtC4INC60L7RgtC+0YDQvtCz0L4g0LLQutC70Y7Rh9Cw0Y7Rgjo8L3A+CjxwPiZuYnNwOzwvcD4KPHVsPgogICAgPGxpPtCS0LjQt9GD0LDQu9GM0L3QsNGPINC90LDRgdGC0YDQvtC50LrQsCDQuCDQv9C10YDRgdC+0L3QsNC70LjQt9Cw0YbQuNGPINC40L3RhNC+0YDQvNCw0YbQuNC+0L3QvdGL0YUg0L/QsNC90LXQu9C10LkuPC9saT4KICAgIDxsaT7Qk9GA0LDRhNC40YfQtdGB0LrQvtC1INC/0YDQtdC00YHRgtCw0LLQu9C10L3QuNC1INC60LvRjtGH0LXQstGL0YUg0L/QvtC60LDQt9Cw0YLQtdC70LXQuSDRjdGE0YTQtdC60YLQuNCy0L3QvtGB0YLQuC48L2xpPgogICAgPGxpPtCh0L7Qt9C00LDQvdC40LUg0LjQvdGC0LXRgNCw0LrRgtC40LLQvdGL0YUg0YLQsNCx0LvQuNGH0L3Ri9GFINC+0YLRh9C10YLQvtCyLjwvbGk+CiAgICA8bGk+0KTQuNC70YzRgtGA0LDRhtC40Y8g0Lgg0L/QvtC40YHQuiDQsiDQv9Cw0LzRj9GC0Lgg0Lgg0LIg0LHQsNC30LDRhSDQtNCw0L3QvdGL0YUuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPtCf0L7RgdGC0YDQvtC10L3QuNC1INC80LXRgtGA0LjQutC4INCy0YvQv9C+0LvQvdC10L3QuNGPINC/0YDQvtGG0LXRgdGB0L7Qsi48L2xpPgogICAgPGxpPtCY0LfQstC70LXRh9C10L3QuNC1INC00LDQvdC90YvRhSDQuNC3INGA0LDQt9C90L7RgNC+0LTQvdGL0YUg0LLQvdC10YjQvdC40YUg0YHQuNGB0YLQtdC8INGBINC40YHQv9C+0LvRjNC30L7QstCw0L3QuNC10Lwg0L/QvtC00YXQvtC00Y/RidC40YUg0L/RgNC+0YLQvtC60L7Qu9C+0LIuPC9saT4KICAgIDxsaT7Qo9C/0YDQsNCy0LvQtdC90LjQtSDRg9GA0L7QstC90LXQvCDQtNC+0YHRgtGD0L/QsCDQv9C+0LvRjNC30L7QstCw0YLQtdC70LXQuSDQuiDQuNC90YTQvtGA0LzQsNGG0LjQuC48L2xpPgo8L3VsPgo8YnIgLz4KPGJyIC8+CjxoMj7Qn9GA0L7QtdC60YLQuNGA0YPQtdC80YvQtSDRhNGD0L3QutGG0LjQuDwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+0JTQvtCx0LDQstC70LXQvdC40LUg0L3QvtCy0YvRhSDRgtC40L/QvtCyINC00LjQsNCz0YDQsNC80LwuPC9saT4KICAgIDxsaT7Qn9C+0LTQtNC10YDQttC60LAg0LzQvdC+0LPQvtGH0LjRgdC70LXQvdC90YvRhSDRgNGP0LTQvtCyINC00LDQvdC90YvRhS48L2xpPgogICAgPGxpPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPtCf0L7Qu9C90L7RhNGD0L3QutGG0LjQvtC90LDQu9GM0L3Ri9C5INC40LzQv9C+0YDRgiDQuCDRjdC60YHQv9C+0YDRgiDQuNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GFINC/0LDQvdC10LvQtdC5Ljwvc3Bhbj48L2xpPgogICAgPGxpPtCf0L7QtNC00LXRgNC20LrQsCDQutC+0L3QvdC10LrRgtC+0YDQvtCyINCx0LDQtyDQtNCw0L3QvdGL0YUgTm9TUUwuPC9saT4KICAgIDxsaT7QodCx0L7RgCDQtNCw0L3QvdGL0YUg0LIg0YDQtdCw0LvRjNC90L7QvCDQstGA0LXQvNC10L3QuC48L2xpPgogICAgPGxpPtCc0L7QtNC10LvQuCDQv9GA0L7Qs9C90L7Qt9C40YDQvtCy0LDQvdC40Y8uPC9saT4KPC91bD50AAJlc3QFrTxoMT5CaWVudmVuaWRvIGEgSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXI8L2gxPg0KPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIiBhbHQ9IkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIiBzcmM9ImltYWdlcy9ob21lLWltYWdlLmpwZyIgc3R5bGU9ImZsb2F0OiByaWdodDsiIC8+PC9wPg0KPHA+SkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXImbmJzcDtlcyB1bmEgaGVycmFtaWVudG8gZGUgYyZvYWN1dGU7ZGlnbyBhYmllcnRvIHBhcmEgcmVhbGl6YXIgY3VhZHJvcyBkZSBtYW5kbyBlIGluZm9ybWVzIHF1ZSBwZXJtaXRlOjxiciAvPg0KJm5ic3A7PC9wPg0KPHVsPg0KICAgIDxsaT5Db25maWd1cmFjaSZvYWN1dGU7biB2aXN1YWwgeSBwZXJzb25hbGl6YWNpJm9hY3V0ZTtuIGRlIGN1YWRyb3MgZGUgbWFuZG8uPC9saT4NCiAgICA8bGk+UmVwcmVzZW50YWNpJm9hY3V0ZTtuIGdyJmFhY3V0ZTtmaWNhIGRlIEtQSXMgKGluZGljYWRvcmVzIGNsYXZlIGRlIHJlbmRpbWllbnRvKS48L2xpPg0KICAgIDxsaT5EZWZpbmljaSZvYWN1dGU7biBkZSB0YWJsYXMgZGUgaW5mb3JtZSBpbnRlcmFjdGl2YXMuPC9saT4NCiAgICA8bGk+RmlsdHJhZG8geSBiJnVhY3V0ZTtzcXVlZGEsIHRhbnRvIGVuIG1lbW9yaWEgY29tbyBlbiBiYXNlIGRlIGRhdG9zLjwvbGk+DQo8L3VsPg0KPHVsPg0KICAgIDxsaT5DdWFkcm9zIGRlIG1hbmRvIGRlIG0mZWFjdXRlO3RyaWNhcyBkZSBlamVjdWNpJm9hY3V0ZTtuIGRlIHByb2Nlc29zLjwvbGk+DQogICAgPGxpPkV4dHJhY2NpJm9hY3V0ZTtuIGRlIGRhdG9zIGRlIHNpc3RlbWFzIGV4dGVybm9zLCBhIHRyYXYmZWFjdXRlO3MgZGUgZGlzdGludG9zIHByb3RvY29sb3MuPC9saT4NCiAgICA8bGk+Q29udHJvbCBkZSBhY2Nlc28gYSBsb3MgZGlmZXJlbnRlcyBuaXZlbGVzIGRlIGluZm9ybWFjaSZvYWN1dGU7biBwYXJhIGRpZmVyZW50ZXMgcGVyZmlsZXMgZGUgdXN1YXJpby48L2xpPg0KPC91bD4NCjxiciAvPg0KPGJyIC8+DQo8aDI+PGJyIC8+DQpQciZvYWN1dGU7eGltYXMgZnVuY2lvbmFsaWRhZGVzOjwvaDI+DQombmJzcDsNCjx1bD4NCiAgICA8bGk+U29wb3J0ZSBwYXJhIG0mdWFjdXRlO2x0aXBsZXMgc2VyaWVzIGRlIGRhdG9zLjwvbGk+DQogICAgPGxpPk51ZXZvcyB0aXBvcyBkZSBnciZhYWN1dGU7ZmljYXMuPC9saT4NCiAgICA8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+Q29tcGxldGEgZXhwb3J0YWNpJm9hY3V0ZTtuIGUgaW1wb3J0YWNpJm9hY3V0ZTtuIGRlIGN1YWRyb3MgZGUgbWFuZG8uPC9zcGFuPjwvbGk+DQogICAgPGxpPk51ZXZvcyBjb25lY3RvcmVzIGEgYmFzZXMgZGUgZGF0b3MgTm9TUUwuPC9saT4NCiAgICA8bGk+RGF0b3MgZW4gdGllbXBvIHJlYWwuPC9saT4NCiAgICA8bGk+TW9kZWxvcyBwcmVkaWN0aXZvcy48L2xpPg0KPC91bD50AAJqYXQFXDxoMT5KQm9zcyDjg4Djg4Pjgrfjg6Xjg5zjg7zjg4njg5Pjg6vjg4Djg7w8L2gxPgo8cD48aW1nIHdpZHRoPSI1NzAiIGhlaWdodD0iNDI1IiB0aXRsZT0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIGFsdD0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIHNyYz0iaW1hZ2VzL2hvbWUtaW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz5KQm9zcyDjg4Djg4Pjgrfjg6Xjg5zjg7zjg4njg5Pjg6vjg4Djg7zjga/jgqrjg7zjg5fjg7Pjgr3jg7zjgrnjga7jg4Djg4Pjgrfjg6Xjg5zjg7zjg4njgYrjgojjgbPjg6zjg53jg7zjg4bjgqPjg7PjgrDjg4Tjg7zjg6vjgafjgIHku6XkuIvjga7mqZ/og73jgpLmj5DkvpvjgZfjgb7jgZnjgII6PC9wPgo8cD4mbmJzcDs8L3A+Cjx1bD4KICAgIDxsaT7jg4Djg4Pjgrfjg6Xjg5zjg7zjg4njga7mp4vmiJDjgajjg5Hjg7zjgr3jg4rjg6njgqTjgrzjg7zjgrfjg6fjg7M8L2xpPgogICAgPGxpPktQSSjph43opoHmpa3nuL7oqZXkvqHmjIfmqJkp44Gu44Kw44Op44OV44Kj44Kr44Or44Gq6KGo54++PC9saT4KICAgIDxsaT7lr77oqbHlnovjg6zjg53jg7zjg4jjg4bjg7zjg5bjg6vjga7lrprnvqk8L2xpPgogICAgPGxpPuODleOCo+ODq+OCv+ODvOOBqOaknOe0oiAo44Kk44Oz44Oh44Oi44Oq44G+44Gf44Gv44OH44O844K/44OZ44O844K5KTwvbGk+CjwvdWw+Cjx1bD4KICAgIDxsaT7jg5fjg63jgrvjgrnlrp/ooYzjg6Hjg4jjg6rjgq/jgrnjg4Djg4Pjgrfjg6Xjg5zjg7zjg4k8L2xpPgogICAgPGxpPueVsOOBquOCi+ODl+ODreODiOOCs+ODq+OBruWklumDqOOCt+OCueODhuODoOOBi+OCieOBruODh+ODvOOCv+aKveWHujwvbGk+CiAgICA8bGk+44Om44O844K244O844OX44Ot44OV44Kh44Kk44Or44Gr5a++44GZ44KL44Ki44Kv44K744K55Yi25b6hPC9saT4KPC91bD4KPGJyIC8+CjxiciAvPgo8aDI+5qyh5pyf44OQ44O844K444On44Oz44Gn5a6f6KOF5LqI5a6a44Gu5qmf6IO9PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT7ov73liqDjga7jg4Hjg6Pjg7zjg4jjgr/jgqTjg5c8L2xpPgogICAgPGxpPuikh+aVsOOBruODh+ODvOOCv+mbhuWQiOOCteODneODvOODiDwvbGk+CiAgICA8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+44OA44OD44K344Ol44Oc44O844OJ44Gu5a6M5YWo44Gq44Kk44Oz44Od44O844OI44O744Ko44Kv44K544Od44O844OIPC9zcGFuPjwvbGk+CiAgICA8bGk+Tm9TUUzjg4fjg7zjgr/jg5njg7zjgrnjga7jgrPjg43jgq/jgr88L2xpPgogICAgPGxpPuODquOCouODq+OCv+OCpOODoOOBruODh+ODvOOCv+ODleOCo+ODvOODieOCteODneODvOODiDwvbGk+CiAgICA8bGk+5LqI5ris44Oi44OH44OrPC9saT4KPC91bD54</rawcontent>
+      <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0BOI8aDE+V2lsbGtvbW1lbiB6dW0gSkJvc3MtRGFzaGJvYXJkIEdlbmVyYXRvcjwvaDE+CjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPkpCb3NzIERhc2hib2FyZCBHZW5lcmF0b3IgaXN0IGVpbiBPcGVuIFNvdXJjZSBEYXNoYm9hcmQtIHVuZCBCZXJpY2h0cy1Ub29sLCBkYXMgZ2VzdGF0dGV0OjwvcD4KPHA+Jm5ic3A7PC9wPgo8dWw+CiAgICA8bGk+VmlzdWVsbGUgS29uZmlndXJhdGlvbiB1bmQgUGVyc29uYWxpc2llcnVuZyB2b24gRGFzaGJvYXJkcy48L2xpPgogICAgPGxpPkdyYWZpc2NoZSBEYXJzdGVsbHVuZyB2b24gS1BJcyAoS2V5IFBlcmZvcm1hbmNlIEluZGljYXRvcnMpLjwvbGk+CiAgICA8bGk+RGVmaW5pdGlvbiB2b20gaW50ZXJha3RpdmVuIEJlcmljaHRlIFRhYmVsbGVuLjwvbGk+CiAgICA8bGk+RmlsdGVybiB1bmQgU3VjaGVuLCBlbnR3ZWRlciBpbSBTcGVpY2hlciBvZGVyIGF1ZiBEYXRlbmJhbmstQmFzaXMuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPlZlcmFyYmVpdGVuIEF1c2bDvGhydW5ncy1NZXRyaWtlbiBEYXNoYm9hcmRzLjwvbGk+CiAgICA8bGk+RGF0ZW5zYW1tbHVuZyBhdXMgZXh0ZXJuZW4gU3lzdGVtZW4gw7xiZXIgdW50ZXJzY2hpZWRsaWNoZSBQcm90b2tvbGxlLjwvbGk+CiAgICA8bGk+WnVncmlmZnNrb250cm9sbGUgZsO8ciB2ZXJzY2hpZWRlbmUgQmVudXR6ZXJwcm9maWxlIGF1ZiB2ZXJzY2hpZWRlbmVuIEViZW5lbiBkZXIgSW5mb3JtYXRpb24uPC9saT4KPC91bD4KPGJyIC8+CjxiciAvPgo8aDI+WnVrw7xuZnRpZ2UgRWlnZW5zY2hhZnRlbjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+V2VpdGVyZSBEaWFncmFtbXR5cGVuPC9saT4KICAgIDxsaT5VbnRlcnN0w7x0enVuZyBmw7xyIG1laHJlcmUgRGF0ZW5yZWloZW4uPC9saT4KICAgIDxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5Lb21wbGV0dGVyIEltcG9ydCB1bmQgRXhwb3J0IHZvbiBEYXNoYm9hcmRzLjwvc3Bhbj48L2xpPgogICAgPGxpPk5ldWUgVmVyYmluZHVuZ2VuIHp1IE5vU1FMIERhdGVuYmFua2VuLjwvbGk+CiAgICA8bGk+RWNodHplaXQgRGF0ZW5zdHLDtm1lIFVudGVyc3TDvHR6dW5nLi48L2xpPgogICAgPGxpPlByb2dub3NlbW9kZWxsZS48L2xpPgo8L3VsPnQAAnpodARpPGgxPuasoui/juS9v+eUqCBKQm9zcyDku6rooajmnb/mnoTlu7rlmag8L2gxPgo8cD48aW1nIHdpZHRoPSI1NzAiIGhlaWdodD0iNDI1IiB0aXRsZT0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIGFsdD0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIHNyYz0iaW1hZ2VzL2hvbWUtaW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz5KQm9zcyDku6rooajmnb/mnoTlu7rlmajmmK/kuIDkuKrlvIDmupDnmoTku6rooajmnb/lkozmiqXooajlt6XlhbfvvIzlroPlhYHorrjvvJo8L3A+CjxwPiZuYnNwOzwvcD4KPHVsPgogICAgPGxpPuS7quihqOadv+eahOWPr+inhuWMlumFjee9ruWSjOS4quaAp+WMluiuvue9ruOAgjwvbGk+CiAgICA8bGk+5YWz6ZSu5oCn6IO95oyH5qCH55qE5Zu+5b2i5YyW6KGo56S644CCPC9saT4KICAgIDxsaT7kuqTkupLlvI/miqXooajnmoTlrprkuYnjgII8L2xpPgogICAgPGxpPuWfuuS6juWGheWtmOaIluaVsOaNruW6k+eahOi/h+a7pOWSjOaQnOe0ouOAgjwvbGk+CjwvdWw+Cjx1bD4KICAgIDxsaT7ov4fnqIvmiafooYzluqbph4/nmoTku6rooajmnb/jgII8L2xpPgogICAgPGxpPumAmui/h+S4jeWQjOeahOWNj+iuruS7juWklumDqOezu+e7n+aKveWPluaVsOaNruOAgjwvbGk+CiAgICA8bGk+5LiN5ZCM55So5oi36YWN572u5a+55LiN5ZCM57qn5Yir5L+h5oGv55qE6K6/6Zeu55qE5o6n5Yi244CCPC9saT4KPC91bD4KPGJyIC8+CjxiciAvPgo8aDI+5Y2z5bCG5byV5YWl55qE5Lqn5ZOB5Yqf6IO9PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT7pop3lpJbnmoTlm77ooajnsbvlnovjgII8L2xpPgogICAgPGxpPuWvueWkmumHjeaVsOaNruW6j+WIl+eahOaUr+aMgeOAgjwvbGk+CiAgICA8bGk+5Y+v5o+S5ouU55qE5Zu+6KGo5bqT77yM55So5LqO5a+5IFNWRy9IVE1MNSDnmoTmlK/mjIHjgII8L2xpPgogICAgPGxpPuWwhuaVsOaNruWvvOWHuuS4uuWkmuenjeagvOW8j++8jOWmgiBDU1bjgIFuYXRpdmUgRXhjZWzjgIFYTUwg5oiW5YW25LuW44CCPC9saT4KICAgIDxsaT7ku6rooajmnb/nmoTlrozmlbTlr7zlhaXlkozlr7zlh7rjgII8L2xpPgogICAgPGxpPuWIsCBOb1NRTCDmlbDmja7lupPnmoTmlrDov57mjqXlmajjgII8L2xpPgo8L3VsPnQAAnB0dAUDPGgxPkJlbS1WaW5kbyBhbyBKQm9zcyBEYXNoYm9hcmQgQnVpbGRlcjwvaDE+CjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPk8gSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIgw6kgdW0gcGFpbmVsIGRlIGPDs2RpZ28gYWJlcnRvIGUgYSBmZXJyYW1lbnRhIGRlIHJlbGF0w7NyaW8gcXVlIHBlcm1pdGU6PC9wPgo8cD4mbmJzcDs8L3A+Cjx1bD4KICAgIDxsaT5BIGNvbmZpZ3VyYcOnw6NvIHZpc3VhbCBlIHBlcnNvbmFsaXphw6fDo28gZG9zIHBhaW7DqWlzLjwvbGk+CiAgICA8bGk+QSByZXByZXNlbnRhw6fDo28gZ3LDoWZpY2EgZG9zIEtQSXMgKEluZGljYWRvcmVzIGRlIERlc2VtcGVuaG8gQ2hhdmUpLjwvbGk+CiAgICA8bGk+RGVmaW5pw6fDo28gZGFzIHRhYmVsYXMgZGUgcmVsYXTDs3JpbyBpbnRlcmF0aXZvLjwvbGk+CiAgICA8bGk+RmlsdHJvIGUgYnVzY2EsIGFtYm9zIGVtIG1lbcOzcmlhIG91IGJhc2VhZG8gbm8gYmFuY28gZGUgZGFkb3MuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPlBhaW7DqWlzIGRhcyBtw6l0cmljYXMgZGUgZXhlY3XDp8OjbyBkbyBwcm9jZXNzby48L2xpPgogICAgPGxpPkV4dHJhw6fDo28gZGUgZGFkb3MgYSBwYXJ0aXIgZG9zIHNpc3RlbWFzIGV4dGVybm9zLCBhdHJhdsOpcyBkZSBwcm90b2NvbG9zLjwvbGk+CiAgICA8bGk+Q29udHJvbGUgZGUgYWNlc3NvIHBhcmEgcGVyZmlzIGRlIHVzdcOhcmlvIGRpZmVyZW50ZSBwYXJhIGRpZmVyZW50ZSBuw612ZWlzIGRlIGluZm9ybWHDp8Ojby48L2xpPgo8L3VsPgo8YnIgLz4KPGJyIC8+CjxoMj5SZWN1cnNvcyBub3ZvczwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+VGlwb3MgZGUgZ3LDoWZpY28gYWRpY2lvbmFsPC9saT4KICAgIDxsaT5TdXBvcnRlIHBhcmEgc8OpcmllcyBkZSBkYWRvcyBtw7psdGlwbG9zLjwvbGk+CiAgICA8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+SW1wb3J0YcOnw6NvIGUgZXhwb3J0YcOnw6NvIGRvcyBwYWluw6lpcyBjb21wbGV0YS48L3NwYW4+PC9saT4KICAgIDxsaT5Ob3ZvcyBjb25lY3RvcmVzIGFvcyBiYW5jb3MgZGUgZGFkb3MgTm9TUUwuPC9saT4KICAgIDxsaT5EYWRvcyBlbSB0ZW1wb3IgcmVhbCBhbGltZW50YW0gc3Vwb3J0ZS48L2xpPgogICAgPGxpPk1vZGVsb3MgZGUgcHJlZGljw6fDo28uPC9saT4KPC91bD50AAJmcnQFTTxoMT5CaWVudmVudWUgZGFucyBKQm9zcyBEYXNoYm9hcmQgQnVpbGRlcjwvaDE+CjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIGVzdCB1biB0YWJsZWF1IGRlIGJvcmQgZXQgdW4gb3V0aWwgZGUgZ8OpbsOpcmF0aW9uIGRlIHJhcHBvcnRzIHF1aSB2b3VzIHBlcm1ldCA6PC9wPgo8cD4mbmJzcDs8L3A+Cjx1bD4KICAgIDxsaT5MYSB2aXN1YWxpc2F0aW9uIGV0IGxhIHBlcnNvbm5hbGlzYXRpb24gZGVzIHRhYmxlYXV4IGRlIGJvcmQuPC9saT4KICAgIDxsaT5MYSByZXByw6lzZW50YXRpb24gZ3JhcGhpcXVlIGRlcyBLUEkgKEluZGljYXRldXJzIGNsw6lzIGRlIHBlcmZvcm1hbmNlKS48L2xpPgogICAgPGxpPkTDqWZpbml0aW9uIGRlIHRhYmxlYXV4IGRlIHJhcHBvcnRzIGludGVyYWN0aWZzLjwvbGk+CiAgICA8bGk+RmlsdHJhZ2UgZXQgcmVjaGVyY2hlLCB0b3VzIGRldXggYmFzw6lzIG3DqW1vaXJlIG91IGJhc2UgZGUgZG9ubsOpZXMuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPlRhYmxlYXV4IGRlIGJvcmQgZGUgbcOpdHJpcXVlcyBkJ2V4w6ljdXRpb24gZGUgcHJvY2Vzc3VzLjwvbGk+CiAgICA8bGk+RXh0cmFjdGlvbiBkZXMgZG9ubsOpZXMgZGUgc3lzdMOobWVzIGV4dGVybmVzLCBwYXIgZGVzIHByb3RvY29sZXMgZGl2ZXJzLjwvbGk+CiAgICA8bGk+Q29udHLDtGxlIGRlIGwnYWNjw6hzIHBhciBkaWZmw6lyZW50cyBwcm9maWxzIGQndXRpbGlzYXRldXJzIHZlcnMgZGlmZsOpcmVudHMgbml2ZWF1eCBkJ2luZm9ybWF0aW9uLjwvbGk+CjwvdWw+CjxiciAvPgo8YnIgLz4KPGgyPkNhcmFjdMOpcmlzdGlxdWVzIGRlIHByb2R1aXRzIMOgIHZlbmlyPC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT5UeXBlcyBkZSBkaWFncmFtbWVzIHN1cHBsw6ltZW50YWlyZXMuPC9saT4KICAgIDxsaT5TdXBwb3J0IGRlcyBzw6lyaWVzIGRlIGRvbm7DqWVzIG11bHRpcGxlcy48L2xpPgo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOXB0OyI+SW1wb3J0IGV0IGV4cG9ydCBjb21wbGV0IGRlIHRhYmxlYXV4IGRlIGJvcmQuPC9zcGFuPjwvbGk+CiAgICA8bGk+Tm91dmVhdXggY29ubmVjdGV1cnMgdmVycyBiYXNlcyBkZSBkb25uw6llcyBOb1NRTC48L2xpPgogICAgIDxsaT5TdXBwb3J0IGRlcyBmbHV4IGRlIGRvbm7DqWVzIGVuIHRlbXBzIHLDqWVsLjwvbGk+CiAgICA8bGk+TW9kw6hsZXMgZGUgcHLDqWRpY3Rpb24uPC9saT4KPC91bD50AAJlbnQEpTxoMT5XZWxjb21lIHRvIEpCb3NzIERhc2hib2FyZCBCdWlsZGVyPC9oMT4NCjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIGlzIGFuIG9wZW4gc291cmNlIGRhc2hib2FyZCBhbmQgcmVwb3J0aW5nIHRvb2wgdGhhdCBhbGxvd3M6PC9wPg0KPHA+Jm5ic3A7PC9wPg0KPHVsPg0KICAgIDxsaT5WaXN1YWwgY29uZmlndXJhdGlvbiBhbmQgcGVyc29uYWxpemF0aW9uIG9mIGRhc2hib2FyZHMuPC9saT4NCiAgICA8bGk+R3JhcGhpY2FsIHJlcHJlc2VudGF0aW9uIG9mIEtQSXMgKEtleSBQZXJmb3JtYW5jZSBJbmRpY2F0b3JzKS48L2xpPg0KICAgIDxsaT5EZWZpbml0aW9uIG9mIGludGVyYWN0aXZlIHJlcG9ydCB0YWJsZXMuPC9saT4NCiAgICA8bGk+RmlsdGVyaW5nIGFuZCBzZWFyY2gsIGJvdGggaW4tbWVtb3J5IG9yIGRhdGFiYXNlIGJhc2VkLjwvbGk+DQo8L3VsPg0KPHVsPg0KICAgIDxsaT5Qcm9jZXNzIGV4ZWN1dGlvbiBtZXRyaWNzIGRhc2hib2FyZHMuPC9saT4NCiAgICA8bGk+RGF0YSBleHRyYWN0aW9uIGZyb20gZXh0ZXJuYWwgc3lzdGVtcywgdGhyb3VnaCBkaWZmZXJlbnQgcHJvdG9jb2xzLjwvbGk+DQogICAgPGxpPkFjY2VzcyBjb250cm9sIGZvciBkaWZmZXJlbnQgdXNlciBwcm9maWxlcyB0byBkaWZmZXJlbnQgbGV2ZWxzIG9mIGluZm9ybWF0aW9uLjwvbGk+DQo8L3VsPg0KPGJyIC8+DQo8YnIgLz4NCjxoMj5VcGNvbWluZyBmZWF0dXJlczwvaDI+DQombmJzcDsNCjx1bD4NCiAgICA8bGk+QWRkaXRpb25hbCBjaGFydCB0eXBlcy48L2xpPg0KICAgIDxsaT5TdXBwb3J0IGZvciBtdWx0aXBsZSBkYXRhIHNlcmllcy48L2xpPg0KICAgIDxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5Db21wbGV0ZSBpbXBvcnQgYW5kIGV4cG9ydCBvZiBkYXNoYm9hcmRzLjwvc3Bhbj48L2xpPg0KICAgIDxsaT5OZXcgY29ubmVjdG9ycyB0byBOb1NRTCBkYXRhYmFzZXMuPC9saT4NCiAgICA8bGk+UmVhbC10aW1lIGRhdGEgZmVlZHMgc3VwcG9ydC48L2xpPg0KICAgIDxsaT5QcmVkaWN0aXZlIG1vZGVscy48L2xpPg0KPC91bD50AAJydXQHhjxoMT7QktCw0YEg0L/RgNC40LLQtdGC0YHRgtCy0YPQtdGCIEpCb3NzIERhc2hib2FyZCBCdWlsZGVyPC9oMT4KPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIiBhbHQ9IkpCb3NzIERhc2hib2FyZCBCdWlsZGVyIiBzcmM9ImltYWdlcy9ob21lLWltYWdlLmpwZyIgc3R5bGU9ImZsb2F0OiByaWdodDsiIC8+SkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIg4oCUINC+0YLQutGA0YvRgtC+0LUg0YDQtdGI0LXQvdC40LUg0LTQu9GPINC/0L7RgdGC0YDQvtC10L3QuNGPINC+0YLRh9C10YLQvdC+0YHRgtC4INC4INCy0LjQt9GD0LDQu9GM0L3QvtC5INCw0L3QsNC70LjRgtC40LrQuCwg0L7RgdC90L7QstC90YvQtSDQstC+0LfQvNC+0LbQvdC+0YHRgtC4INC60L7RgtC+0YDQvtCz0L4g0LLQutC70Y7Rh9Cw0Y7Rgjo8L3A+CjxwPiZuYnNwOzwvcD4KPHVsPgogICAgPGxpPtCS0LjQt9GD0LDQu9GM0L3QsNGPINC90LDRgdGC0YDQvtC50LrQsCDQuCDQv9C10YDRgdC+0L3QsNC70LjQt9Cw0YbQuNGPINC40L3RhNC+0YDQvNCw0YbQuNC+0L3QvdGL0YUg0L/QsNC90LXQu9C10LkuPC9saT4KICAgIDxsaT7Qk9GA0LDRhNC40YfQtdGB0LrQvtC1INC/0YDQtdC00YHRgtCw0LLQu9C10L3QuNC1INC60LvRjtGH0LXQstGL0YUg0L/QvtC60LDQt9Cw0YLQtdC70LXQuSDRjdGE0YTQtdC60YLQuNCy0L3QvtGB0YLQuC48L2xpPgogICAgPGxpPtCh0L7Qt9C00LDQvdC40LUg0LjQvdGC0LXRgNCw0LrRgtC40LLQvdGL0YUg0YLQsNCx0LvQuNGH0L3Ri9GFINC+0YLRh9C10YLQvtCyLjwvbGk+CiAgICA8bGk+0KTQuNC70YzRgtGA0LDRhtC40Y8g0Lgg0L/QvtC40YHQuiDQsiDQv9Cw0LzRj9GC0Lgg0Lgg0LIg0LHQsNC30LDRhSDQtNCw0L3QvdGL0YUuPC9saT4KPC91bD4KPHVsPgogICAgPGxpPtCf0L7RgdGC0YDQvtC10L3QuNC1INC80LXRgtGA0LjQutC4INCy0YvQv9C+0LvQvdC10L3QuNGPINC/0YDQvtGG0LXRgdGB0L7Qsi48L2xpPgogICAgPGxpPtCY0LfQstC70LXRh9C10L3QuNC1INC00LDQvdC90YvRhSDQuNC3INGA0LDQt9C90L7RgNC+0LTQvdGL0YUg0LLQvdC10YjQvdC40YUg0YHQuNGB0YLQtdC8INGBINC40YHQv9C+0LvRjNC30L7QstCw0L3QuNC10Lwg0L/QvtC00YXQvtC00Y/RidC40YUg0L/RgNC+0YLQvtC60L7Qu9C+0LIuPC9saT4KICAgIDxsaT7Qo9C/0YDQsNCy0LvQtdC90LjQtSDRg9GA0L7QstC90LXQvCDQtNC+0YHRgtGD0L/QsCDQv9C+0LvRjNC30L7QstCw0YLQtdC70LXQuSDQuiDQuNC90YTQvtGA0LzQsNGG0LjQuC48L2xpPgo8L3VsPgo8YnIgLz4KPGJyIC8+CjxoMj7Qn9GA0L7QtdC60YLQuNGA0YPQtdC80YvQtSDRhNGD0L3QutGG0LjQuDwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+0JTQvtCx0LDQstC70LXQvdC40LUg0L3QvtCy0YvRhSDRgtC40L/QvtCyINC00LjQsNCz0YDQsNC80LwuPC9saT4KICAgIDxsaT7Qn9C+0LTQtNC10YDQttC60LAg0LzQvdC+0LPQvtGH0LjRgdC70LXQvdC90YvRhSDRgNGP0LTQvtCyINC00LDQvdC90YvRhS48L2xpPgogICAgPGxpPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDlwdDsiPtCf0L7Qu9C90L7RhNGD0L3QutGG0LjQvtC90LDQu9GM0L3Ri9C5INC40LzQv9C+0YDRgiDQuCDRjdC60YHQv9C+0YDRgiDQuNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GFINC/0LDQvdC10LvQtdC5Ljwvc3Bhbj48L2xpPgogICAgPGxpPtCf0L7QtNC00LXRgNC20LrQsCDQutC+0L3QvdC10LrRgtC+0YDQvtCyINCx0LDQtyDQtNCw0L3QvdGL0YUgTm9TUUwuPC9saT4KICAgIDxsaT7QodCx0L7RgCDQtNCw0L3QvdGL0YUg0LIg0YDQtdCw0LvRjNC90L7QvCDQstGA0LXQvNC10L3QuC48L2xpPgogICAgPGxpPtCf0YDQtdC00LjQutCw0YLQuNCy0L3Ri9C1INC80L7QtNC10LvQuC48L2xpPgo8L3VsPnQAAmVzdAWtPGgxPkJpZW52ZW5pZG8gYSBKQm9zcyBEYXNoYm9hcmQgQnVpbGRlcjwvaDE+DQo8cD48aW1nIHdpZHRoPSI1NzAiIGhlaWdodD0iNDI1IiB0aXRsZT0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIGFsdD0iSkJvc3MgRGFzaGJvYXJkIEJ1aWxkZXIiIHNyYz0iaW1hZ2VzL2hvbWUtaW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz48L3A+DQo8cD5KQm9zcyBEYXNoYm9hcmQgQnVpbGRlciZuYnNwO2VzIHVuYSBoZXJyYW1pZW50byBkZSBjJm9hY3V0ZTtkaWdvIGFiaWVydG8gcGFyYSByZWFsaXphciBjdWFkcm9zIGRlIG1hbmRvIGUgaW5mb3JtZXMgcXVlIHBlcm1pdGU6PGJyIC8+DQombmJzcDs8L3A+DQo8dWw+DQogICAgPGxpPkNvbmZpZ3VyYWNpJm9hY3V0ZTtuIHZpc3VhbCB5IHBlcnNvbmFsaXphY2kmb2FjdXRlO24gZGUgY3VhZHJvcyBkZSBtYW5kby48L2xpPg0KICAgIDxsaT5SZXByZXNlbnRhY2kmb2FjdXRlO24gZ3ImYWFjdXRlO2ZpY2EgZGUgS1BJcyAoaW5kaWNhZG9yZXMgY2xhdmUgZGUgcmVuZGltaWVudG8pLjwvbGk+DQogICAgPGxpPkRlZmluaWNpJm9hY3V0ZTtuIGRlIHRhYmxhcyBkZSBpbmZvcm1lIGludGVyYWN0aXZhcy48L2xpPg0KICAgIDxsaT5GaWx0cmFkbyB5IGImdWFjdXRlO3NxdWVkYSwgdGFudG8gZW4gbWVtb3JpYSBjb21vIGVuIGJhc2UgZGUgZGF0b3MuPC9saT4NCjwvdWw+DQo8dWw+DQogICAgPGxpPkN1YWRyb3MgZGUgbWFuZG8gZGUgbSZlYWN1dGU7dHJpY2FzIGRlIGVqZWN1Y2kmb2FjdXRlO24gZGUgcHJvY2Vzb3MuPC9saT4NCiAgICA8bGk+RXh0cmFjY2kmb2FjdXRlO24gZGUgZGF0b3MgZGUgc2lzdGVtYXMgZXh0ZXJub3MsIGEgdHJhdiZlYWN1dGU7cyBkZSBkaXN0aW50b3MgcHJvdG9jb2xvcy48L2xpPg0KICAgIDxsaT5Db250cm9sIGRlIGFjY2VzbyBhIGxvcyBkaWZlcmVudGVzIG5pdmVsZXMgZGUgaW5mb3JtYWNpJm9hY3V0ZTtuIHBhcmEgZGlmZXJlbnRlcyBwZXJmaWxlcyBkZSB1c3VhcmlvLjwvbGk+DQo8L3VsPg0KPGJyIC8+DQo8YnIgLz4NCjxoMj48YnIgLz4NClByJm9hY3V0ZTt4aW1hcyBmdW5jaW9uYWxpZGFkZXM6PC9oMj4NCiZuYnNwOw0KPHVsPg0KICAgIDxsaT5Tb3BvcnRlIHBhcmEgbSZ1YWN1dGU7bHRpcGxlcyBzZXJpZXMgZGUgZGF0b3MuPC9saT4NCiAgICA8bGk+TnVldm9zIHRpcG9zIGRlIGdyJmFhY3V0ZTtmaWNhcy48L2xpPg0KICAgIDxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij5Db21wbGV0YSBleHBvcnRhY2kmb2FjdXRlO24gZSBpbXBvcnRhY2kmb2FjdXRlO24gZGUgY3VhZHJvcyBkZSBtYW5kby48L3NwYW4+PC9saT4NCiAgICA8bGk+TnVldm9zIGNvbmVjdG9yZXMgYSBiYXNlcyBkZSBkYXRvcyBOb1NRTC48L2xpPg0KICAgIDxsaT5EYXRvcyBlbiB0aWVtcG8gcmVhbC48L2xpPg0KICAgIDxsaT5Nb2RlbG9zIHByZWRpY3Rpdm9zLjwvbGk+DQo8L3VsPnQAAmphdAVcPGgxPkpCb3NzIOODgOODg+OCt+ODpeODnOODvOODieODk+ODq+ODgOODvDwvaDE+CjxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgYWx0PSJKQm9zcyBEYXNoYm9hcmQgQnVpbGRlciIgc3JjPSJpbWFnZXMvaG9tZS1pbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPkpCb3NzIOODgOODg+OCt+ODpeODnOODvOODieODk+ODq+ODgOODvOOBr+OCquODvOODl+ODs+OCveODvOOCueOBruODgOODg+OCt+ODpeODnOODvOODieOBiuOCiOOBs+ODrOODneODvOODhuOCo+ODs+OCsOODhOODvOODq+OBp+OAgeS7peS4i+OBruapn+iDveOCkuaPkOS+m+OBl+OBvuOBmeOAgjo8L3A+CjxwPiZuYnNwOzwvcD4KPHVsPgogICAgPGxpPuODgOODg+OCt+ODpeODnOODvOODieOBruani+aIkOOBqOODkeODvOOCveODiuODqeOCpOOCvOODvOOCt+ODp+ODszwvbGk+CiAgICA8bGk+S1BJKOmHjeimgealree4vuipleS+oeaMh+aomSnjga7jgrDjg6njg5XjgqPjgqvjg6vjgarooajnj748L2xpPgogICAgPGxpPuWvvuipseWei+ODrOODneODvOODiOODhuODvOODluODq+OBruWumue+qTwvbGk+CiAgICA8bGk+44OV44Kj44Or44K/44O844Go5qSc57SiICjjgqTjg7Pjg6Hjg6Ljg6rjgb7jgZ/jga/jg4fjg7zjgr/jg5njg7zjgrkpPC9saT4KPC91bD4KPHVsPgogICAgPGxpPuODl+ODreOCu+OCueWun+ihjOODoeODiOODquOCr+OCueODgOODg+OCt+ODpeODnOODvOODiTwvbGk+CiAgICA8bGk+55Ww44Gq44KL44OX44Ot44OI44Kz44Or44Gu5aSW6YOo44K344K544OG44Og44GL44KJ44Gu44OH44O844K/5oq95Ye6PC9saT4KICAgIDxsaT7jg6bjg7zjgrbjg7zjg5fjg63jg5XjgqHjgqTjg6vjgavlr77jgZnjgovjgqLjgq/jgrvjgrnliLblvqE8L2xpPgo8L3VsPgo8YnIgLz4KPGJyIC8+CjxoMj7mrKHmnJ/jg5Djg7zjgrjjg6fjg7Pjgaflrp/oo4Xkuojlrprjga7mqZ/og708L2gyPgombmJzcDsKPHVsPgogICAgPGxpPui/veWKoOOBruODgeODo+ODvOODiOOCv+OCpOODlzwvbGk+CiAgICA8bGk+6KSH5pWw44Gu44OH44O844K/6ZuG5ZCI44K144Od44O844OIPC9saT4KICAgIDxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiA5cHQ7Ij7jg4Djg4Pjgrfjg6Xjg5zjg7zjg4njga7lrozlhajjgarjgqTjg7Pjg53jg7zjg4jjg7vjgqjjgq/jgrnjg53jg7zjg4g8L3NwYW4+PC9saT4KICAgIDxsaT5Ob1NRTOODh+ODvOOCv+ODmeODvOOCueOBruOCs+ODjeOCr+OCvzwvbGk+CiAgICA8bGk+44Oq44Ki44Or44K/44Kk44Og44Gu44OH44O844K/44OV44Kj44O844OJ44K144Od44O844OIPC9saT4KICAgIDxsaT7kuojmuKzjg6Ljg4fjg6s8L2xpPgo8L3VsPng=</rawcontent>
       <param name="title" value="Begrüßungstitel" lang="de" />
+      <param name="title" value="Título de boas vindas" lang="pt" />
+      <param name="title" value="Título de bienvenida" lang="es" />
+      <param name="title" value="Welcome title" lang="en" />
+      <param name="title" value="ウェルカムタイトル" lang="ja" />
+      <param name="title" value="Приветствие" lang="ru" />
+      <param name="title" value="欢迎标题" lang="zh" />
+      <param name="title" value="Titre de Bienvenue" lang="fr" />
       <param name="title" value="Título de boas vindas" lang="pt" />
       <param name="title" value="Título de bienvenida" lang="es" />
       <param name="title" value="Welcome title" lang="en" />
@@ -142,6 +198,13 @@
       <param name="title" value="Administrar orígenes de datos" lang="es" />
       <param name="title" value="Manage data sources" lang="en" />
       <param name="title" value="データソースの管理" lang="ja" />
+      <param name="title" value="Управление источниками данных" lang="ru" />
+      <param name="title" value="管理数据源" lang="zh" />
+      <param name="title" value="Gestion des sources de données" lang="fr" />
+      <param name="title" value="Gerenciar fontes de dados" lang="pt" />
+      <param name="title" value="Administrar orígenes de datos" lang="es" />
+      <param name="title" value="Manage data sources" lang="en" />
+      <param name="title" value="データソースの管理" lang="ja" />
       <param name="title" value="管理数据源" lang="zh" />
       <param name="title" value="Управление источниками данных" lang="ru" />
       <param name="title" value="Gestion des sources de données" lang="fr" />
@@ -154,6 +217,13 @@
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.export" id="2036">
       <param name="title" value="Dashboards exportieren" lang="de" />
+      <param name="title" value="Exportar Painéis" lang="pt" />
+      <param name="title" value="Exportación de cuadros de mando" lang="es" />
+      <param name="title" value="Export Dashboards" lang="en" />
+      <param name="title" value="ダッシュボードのエクスポート" lang="ja" />
+      <param name="title" value="Экспорт панелей" lang="ru" />
+      <param name="title" value="导出仪表板" lang="zh" />
+      <param name="title" value="Exporter les tableaux de bord" lang="fr" />
       <param name="title" value="Exportar Painéis" lang="pt" />
       <param name="title" value="Exportación de cuadros de mando" lang="es" />
       <param name="title" value="Export Dashboards" lang="en" />
@@ -175,6 +245,13 @@
       <param name="title" value="Exportación de workspaces" lang="es" />
       <param name="title" value="Export Workspaces" lang="en" />
       <param name="title" value="ワークスペースのエクスポート" lang="ja" />
+      <param name="title" value="Экспорт рабочего пространства" lang="ru" />
+      <param name="title" value="导出工作区" lang="zh" />
+      <param name="title" value="Exporter Espaces de travail" lang="fr" />
+      <param name="title" value="Exportar espaços de trabalho" lang="pt" />
+      <param name="title" value="Exportación de workspaces" lang="es" />
+      <param name="title" value="Export Workspaces" lang="en" />
+      <param name="title" value="ワークスペースのエクスポート" lang="ja" />
       <param name="title" value="导出工作区" lang="zh" />
       <param name="title" value="Экспорт рабочего пространства" lang="ru" />
       <param name="title" value="Exporter Espaces de travail" lang="fr" />
@@ -187,6 +264,13 @@
     </panelInstance>
     <panelInstance serialization="" provider="dashboard.data_provider_management" id="2985">
       <param name="title" value="Daten-Anbieter" lang="de" />
+      <param name="title" value="Provedores de dados" lang="pt" />
+      <param name="title" value="Proveedores de datos" lang="es" />
+      <param name="title" value="Data providers" lang="en" />
+      <param name="title" value="データプロバイダー" lang="ja" />
+      <param name="title" value="Провайдеры данных" lang="ru" />
+      <param name="title" value="数据供应商" lang="zh" />
+      <param name="title" value="Fournisseurs de données" lang="fr" />
       <param name="title" value="Provedores de dados" lang="pt" />
       <param name="title" value="Proveedores de datos" lang="es" />
       <param name="title" value="Data providers" lang="en" />
@@ -209,6 +293,13 @@
       <param name="title" value="Opportunities by status" lang="es" />
       <param name="title" value="Opportunities by status" lang="en" />
       <param name="title" value="ステータス別オポチュニティー" lang="ja" />
+      <param name="title" value="Прогноз сделок по сотрудникам" lang="ru" />
+      <param name="title" value="按状态列出的机会" lang="zh" />
+      <param name="title" value="Opportunités par statut" lang="fr" />
+      <param name="title" value="Oportunidades por Status" lang="pt" />
+      <param name="title" value="Opportunities by status" lang="es" />
+      <param name="title" value="Opportunities by status" lang="en" />
+      <param name="title" value="ステータス別オポチュニティー" lang="ja" />
       <param name="title" value="按状态列出的机会" lang="zh" />
       <param name="title" value="Прогноз сделок по сотрудникам" lang="ru" />
       <param name="title" value="Opportunités par statut" lang="fr" />
@@ -223,6 +314,13 @@
       <param name="group" value="Sales demo" lang=" " />
       <param name="kpicode" value="kpi_30041353504912610" lang=" " />
       <param name="title" value="Möglichkeiten nach Mitarbeiter" lang="de" />
+      <param name="title" value="Oportunidades por empregado" lang="pt" />
+      <param name="title" value="Oportunidades por empleado" lang="es" />
+      <param name="title" value="Opportunities by employee" lang="en" />
+      <param name="title" value="従業員別オポチュニティー" lang="ja" />
+      <param name="title" value="Прогноз сделок по сотрудникам" lang="ru" />
+      <param name="title" value="雇员的机会" lang="zh" />
+      <param name="title" value="Opportunités par employé" lang="fr" />
       <param name="title" value="Oportunidades por empregado" lang="pt" />
       <param name="title" value="Oportunidades por empleado" lang="es" />
       <param name="title" value="Opportunities by employee" lang="en" />
@@ -245,6 +343,13 @@
       <param name="title" value="Oportunidades por país" lang="es" />
       <param name="title" value="Opportunities by country" lang="en" />
       <param name="title" value="国別のオポチュニティー" lang="ja" />
+      <param name="title" value="Прогноз сделок по странам" lang="ru" />
+      <param name="title" value="按国家列出的机会" lang="zh" />
+      <param name="title" value="Opportunités par pays" lang="fr" />
+      <param name="title" value="Oportunidades por país" lang="pt" />
+      <param name="title" value="Oportunidades por país" lang="es" />
+      <param name="title" value="Opportunities by country" lang="en" />
+      <param name="title" value="国別のオポチュニティー" lang="ja" />
       <param name="title" value="按国家列出的机会" lang="zh" />
       <param name="title" value="Прогноз сделок по странам" lang="ru" />
       <param name="title" value="Opportunités par pays" lang="fr" />
@@ -257,6 +362,13 @@
     </panelInstance>
     <panelInstance serialization="" provider="navigation.bread_crumb" id="3016">
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
@@ -275,6 +387,13 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
@@ -285,6 +404,13 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="title" value="Verfahrens-Dashboard (Navigation)" lang="de" />
+      <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
+      <param name="title" value="Ruta actual (procesos)" lang="es" />
+      <param name="title" value="Process dashboard (Bread crumb)" lang="en" />
+      <param name="title" value="プロセスダッシュボード(パンくず)" lang="ja" />
+      <param name="title" value="Панель процесса (путь к странице)" lang="ru" />
+      <param name="title" value="过程仪表板（Bread crumb）" lang="zh" />
+      <param name="title" value="Processus de tableau de bord (Barre de navigation)" lang="fr" />
       <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
       <param name="title" value="Ruta actual (procesos)" lang="es" />
       <param name="title" value="Process dashboard (Bread crumb)" lang="en" />
@@ -307,6 +433,13 @@
       <param name="title" value="Ventas esperadas" lang="es" />
       <param name="title" value="Expected pipeline" lang="en" />
       <param name="title" value="予測パイプライン" lang="ja" />
+      <param name="title" value="Прогноз заказов" lang="ru" />
+      <param name="title" value="期望的管道" lang="zh" />
+      <param name="title" value="Pipeline attendue" lang="fr" />
+      <param name="title" value="Pipeline esperada" lang="pt" />
+      <param name="title" value="Ventas esperadas" lang="es" />
+      <param name="title" value="Expected pipeline" lang="en" />
+      <param name="title" value="予測パイプライン" lang="ja" />
       <param name="title" value="期望的管道" lang="zh" />
       <param name="title" value="Прогноз заказов" lang="ru" />
       <param name="title" value="Pipeline attendue" lang="fr" />
@@ -321,6 +454,13 @@
       <param name="group" value="Sales demo" lang=" " />
       <param name="kpicode" value="kpi_30331353506453066" lang=" " />
       <param name="title" value="Nach Vertriebsperson" lang="de" />
+      <param name="title" value="Por pessoa de venda" lang="pt" />
+      <param name="title" value="Por persona de ventas" lang="es" />
+      <param name="title" value="By sales person" lang="en" />
+      <param name="title" value="営業担当者別" lang="ja" />
+      <param name="title" value="По продавцам" lang="ru" />
+      <param name="title" value="按销售人员" lang="zh" />
+      <param name="title" value="Par vendeur" lang="fr" />
       <param name="title" value="Por pessoa de venda" lang="pt" />
       <param name="title" value="Por persona de ventas" lang="es" />
       <param name="title" value="By sales person" lang="en" />
@@ -343,6 +483,13 @@
       <param name="title" value="Por estado" lang="es" />
       <param name="title" value="By status" lang="en" />
       <param name="title" value="ステータス別" lang="ja" />
+      <param name="title" value="По состоянию" lang="ru" />
+      <param name="title" value="按状态" lang="zh" />
+      <param name="title" value="Par statut" lang="fr" />
+      <param name="title" value="Por status" lang="pt" />
+      <param name="title" value="Por estado" lang="es" />
+      <param name="title" value="By status" lang="en" />
+      <param name="title" value="ステータス別" lang="ja" />
       <param name="title" value="按状态" lang="zh" />
       <param name="title" value="По состоянию" lang="ru" />
       <param name="title" value="Par statut" lang="fr" />
@@ -361,6 +508,13 @@
       <param name="title" value="Por producto" lang="es" />
       <param name="title" value="By product" lang="en" />
       <param name="title" value="製品別" lang="ja" />
+      <param name="title" value="По продуктам" lang="ru" />
+      <param name="title" value="按产品" lang="zh" />
+      <param name="title" value="Par produit" lang="fr" />
+      <param name="title" value="Pelo produto" lang="pt" />
+      <param name="title" value="Por producto" lang="es" />
+      <param name="title" value="By product" lang="en" />
+      <param name="title" value="製品別" lang="ja" />
       <param name="title" value="按产品" lang="zh" />
       <param name="title" value="По продуктам" lang="ru" />
       <param name="title" value="Par produit" lang="fr" />
@@ -374,6 +528,13 @@
     <panelInstance serialization="rO0ABXQHPDxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0iYW1vdW50IiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY3JlYXRpb24gZGF0ZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9ImNsb3NpbmcgZGF0ZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InBpcGVsaW5lIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0ic3RhdHVzIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY3VzdG9tZXIiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJjb3VudHJ5IiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICAgIDxzZWN0aW9uPjMwMDc8L3NlY3Rpb24+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InByb2R1Y3QiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJzYWxlcyBwZXJzb24iIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJwcm9iYWJpbGl0eSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InNvdXJjZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9ImV4cGVjdGVkIGFtb3VudCIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8b3B0aW9ucz4KICAgIDxzaG9ydFZpZXdNb2RlPnRydWU8L3Nob3J0Vmlld01vZGU+CiAgICA8c2hvd0xlZ2VuZD50cnVlPC9zaG93TGVnZW5kPgogICAgPHNob3dSZWZyZXNoQnV0dG9uPnRydWU8L3Nob3dSZWZyZXNoQnV0dG9uPgogICAgPHNob3dBcHBseWhCdXR0b24+dHJ1ZTwvc2hvd0FwcGx5aEJ1dHRvbj4KICAgIDxzaG93Q2xlYXJCdXR0b24+dHJ1ZTwvc2hvd0NsZWFyQnV0dG9uPgogICAgPHNob3dQcm9wZXJ0eU5hbWVzPnRydWU8L3Nob3dQcm9wZXJ0eU5hbWVzPgogICAgPHNob3dTdWJtaXRPbkNoYW5nZT50cnVlPC9zaG93U3VibWl0T25DaGFuZ2U+CiAgPHNob3dBdXRvUmVmcmVzaD5mYWxzZTwvc2hvd0F1dG9SZWZyZXNoPgogIDwvb3B0aW9ucz4KPC9kYXNoYm9hcmRfZmlsdGVyPgo=" provider="dashboard.filter" id="3040">
       <param name="group" value="Sales demo" lang=" " />
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
       <param name="title" value="Filtro do Painel" lang="pt" />
       <param name="title" value="Filtro para cuadros de mando" lang="es" />
       <param name="title" value="Dashboard filter" lang="en" />
@@ -396,6 +557,13 @@
       <param name="title" value="Oportunidades por fecha de cierre" lang="es" />
       <param name="title" value="Opportunities by closing date (USD)" lang="en" />
       <param name="title" value="クローズ日別のオポチュニティー(円)" lang="ja" />
+      <param name="title" value="По дате контракта (USD)" lang="ru" />
+      <param name="title" value="按结束日期列出的机会（USD）" lang="zh" />
+      <param name="title" value="Opportunités par date de clôture (USD)" lang="fr" />
+      <param name="title" value="Oportunidades pela data de encerramento (USD)" lang="pt" />
+      <param name="title" value="Oportunidades por fecha de cierre" lang="es" />
+      <param name="title" value="Opportunities by closing date (USD)" lang="en" />
+      <param name="title" value="クローズ日別のオポチュニティー(円)" lang="ja" />
       <param name="title" value="按结束日期列出的机会（USD）" lang="zh" />
       <param name="title" value="По дате контракта (USD)" lang="ru" />
       <param name="title" value="Opportunités par date de clôture (USD)" lang="fr" />
@@ -408,6 +576,13 @@
     </panelInstance>
     <panelInstance serialization="" provider="navigation.bread_crumb" id="3049">
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
@@ -426,6 +601,13 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
@@ -436,6 +618,13 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="title" value="Verkaufs-Dashboard (Navigation)" lang="de" />
+      <param name="title" value="Painel de vendas (Bread crumb)" lang="pt" />
+      <param name="title" value="Ruta actual (ventas)" lang="es" />
+      <param name="title" value="Sales dashboard (Bread crumb)" lang="en" />
+      <param name="title" value="セールスダッシュボード(パンくず)" lang="ja" />
+      <param name="title" value="Панель продаж (путь к странице)" lang="ru" />
+      <param name="title" value="销售仪表板（Bread crumb）" lang="zh" />
+      <param name="title" value="Tableau de bord des ventes (Barre de navigation)" lang="fr" />
       <param name="title" value="Painel de vendas (Bread crumb)" lang="pt" />
       <param name="title" value="Ruta actual (ventas)" lang="es" />
       <param name="title" value="Sales dashboard (Bread crumb)" lang="en" />
@@ -456,6 +645,13 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
@@ -470,6 +666,13 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
@@ -480,6 +683,13 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="title" value="Verwaltung (Navigation)" lang="de" />
+      <param name="title" value="Administração (Bread crumb)" lang="pt" />
+      <param name="title" value="Ruta actual (administración)" lang="es" />
+      <param name="title" value="Administration (Bread crumb)" lang="en" />
+      <param name="title" value="管理(パンくず)" lang="ja" />
+      <param name="title" value="Администрирование (путь к странице)" lang="ru" />
+      <param name="title" value="管理（Bread crumb）" lang="zh" />
+      <param name="title" value="Administration (Barre de navigation)" lang="fr" />
       <param name="title" value="Administração (Bread crumb)" lang="pt" />
       <param name="title" value="Ruta actual (administración)" lang="es" />
       <param name="title" value="Administration (Bread crumb)" lang="en" />
@@ -501,6 +711,13 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
@@ -511,6 +728,13 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="fr" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="en" />
@@ -526,6 +750,13 @@
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
       <param name="kpicode" value="kpi_29761353668431694" lang=" " />
       <param name="title" value="Vertriebsbericht-Tabelle" lang="de" />
+      <param name="title" value="Tabela de Relatório de vendas" lang="pt" />
+      <param name="title" value="Informe de ventas (tabla)" lang="es" />
+      <param name="title" value="Sales report table" lang="en" />
+      <param name="title" value="セールスレポートテーブル" lang="ja" />
+      <param name="title" value="Табличный отчет о продажах" lang="ru" />
+      <param name="title" value="Sales report table" lang="zh" />
+      <param name="title" value="Tableau de rapports de ventes" lang="fr" />
       <param name="title" value="Tabela de Relatório de vendas" lang="pt" />
       <param name="title" value="Informe de ventas (tabla)" lang="es" />
       <param name="title" value="Sales report table" lang="en" />
@@ -547,6 +778,13 @@
       <param name="title" value="Importación de Workspaces" lang="es" />
       <param name="title" value="Import Workspace" lang="en" />
       <param name="title" value="ワークスペースのインポート" lang="ja" />
+      <param name="title" value="Импорт рабочего пространства" lang="ru" />
+      <param name="title" value="导入工作区" lang="zh" />
+      <param name="title" value="Importer Espace de travail" lang="fr" />
+      <param name="title" value="Importar Espaço de Trabalho " lang="pt" />
+      <param name="title" value="Importación de Workspaces" lang="es" />
+      <param name="title" value="Import Workspace" lang="en" />
+      <param name="title" value="ワークスペースのインポート" lang="ja" />
       <param name="title" value="导入工作区" lang="zh" />
       <param name="title" value="Импорт рабочего пространства" lang="ru" />
       <param name="title" value="Importer Espace de travail" lang="fr" />
@@ -560,6 +798,13 @@
     <panelInstance serialization="" provider="dashboard.html_editor" id="2981">
       <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0ABo8aDE+SW1wb3J0IHVuZCBFeHBvcnQ8L2gxPnQAAnpodAAYPGgxPuWvvOWFpeWSjOWvvOWHujwvaDE+dAACcHR0ABw8aDE+SW1wb3J0YXIgZSBFeHBvcnRhcjwvaDE+dAACZnJ0ABk8aDE+SW1wb3J0IGV0IEV4cG9ydDwvaDE+dAACZW50ABo8aDE+SW1wb3J0IGFuZCBFeHBvcnQ8L2gxPnQAAnJ1dAAnPGgxPtCY0LzQv9C+0YDRgiDQuCDRjdC60YHQv9C+0YDRgjwvaDE+dAACZXN0ABw8aDE+SW1wb3J0YXIgeSBleHBvcnRhcjwvaDE+dAACamF0AC08aDE+44Kk44Oz44Od44O844OI44Go44Ko44Kv44K544Od44O844OIPC9oMT54</rawcontent>
       <param name="title" value="Import und Export (Titel)" lang="de" />
+      <param name="title" value="Importar e exportar (Título)" lang="pt" />
+      <param name="title" value="Importación y exportación (Título)" lang="es" />
+      <param name="title" value="Import and export (Title)" lang="en" />
+      <param name="title" value="インポートとエクスポート(タイトル)" lang="ja" />
+      <param name="title" value="Импорт и экспорт (заголовок)" lang="ru" />
+      <param name="title" value="导入和导出（标题）" lang="zh" />
+      <param name="title" value="Import et export (Titre)" lang="fr" />
       <param name="title" value="Importar e exportar (Título)" lang="pt" />
       <param name="title" value="Importación y exportación (Título)" lang="es" />
       <param name="title" value="Import and export (Title)" lang="en" />
@@ -581,6 +826,13 @@
       <param name="title" value="Proveedores de datos (Título)" lang="es" />
       <param name="title" value="Data providers (Title)" lang="en" />
       <param name="title" value="データプロバイダ(タイトル)" lang="ja" />
+      <param name="title" value="Провайдеры данных (заголовок)" lang="ru" />
+      <param name="title" value="数据供应商（标题）" lang="zh" />
+      <param name="title" value="Fournisseur(s) de données (Titre)" lang="fr" />
+      <param name="title" value="Fornecedores de dados (Título)" lang="pt" />
+      <param name="title" value="Proveedores de datos (Título)" lang="es" />
+      <param name="title" value="Data providers (Title)" lang="en" />
+      <param name="title" value="データプロバイダ(タイトル)" lang="ja" />
       <param name="title" value="数据供应商（标题）" lang="zh" />
       <param name="title" value="Провайдеры данных (заголовок)" lang="ru" />
       <param name="title" value="Fournisseur(s) de données (Titre)" lang="fr" />
@@ -594,6 +846,13 @@
     <panelInstance serialization="rO0ABXQGwDxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0iY3JlYXRpb24gZGF0ZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9ImNsb3NpbmcgZGF0ZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InBpcGVsaW5lIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0ic3RhdHVzIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY3VzdG9tZXIiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJjb3VudHJ5IiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICAgIDxzZWN0aW9uPjMwMDc8L3NlY3Rpb24+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InByb2R1Y3QiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJzYWxlcyBwZXJzb24iIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJwcm9iYWJpbGl0eSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InNvdXJjZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9ImNvbG9yIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxvcHRpb25zPgogICAgPHNob3J0Vmlld01vZGU+dHJ1ZTwvc2hvcnRWaWV3TW9kZT4KICAgIDxzaG93TGVnZW5kPnRydWU8L3Nob3dMZWdlbmQ+CiAgICA8c2hvd1JlZnJlc2hCdXR0b24+dHJ1ZTwvc2hvd1JlZnJlc2hCdXR0b24+CiAgICA8c2hvd0FwcGx5aEJ1dHRvbj50cnVlPC9zaG93QXBwbHloQnV0dG9uPgogICAgPHNob3dDbGVhckJ1dHRvbj50cnVlPC9zaG93Q2xlYXJCdXR0b24+CiAgICA8c2hvd1Byb3BlcnR5TmFtZXM+dHJ1ZTwvc2hvd1Byb3BlcnR5TmFtZXM+CiAgICA8c2hvd1N1Ym1pdE9uQ2hhbmdlPnRydWU8L3Nob3dTdWJtaXRPbkNoYW5nZT4KICA8c2hvd0F1dG9SZWZyZXNoPmZhbHNlPC9zaG93QXV0b1JlZnJlc2g+CiAgPC9vcHRpb25zPgo8L2Rhc2hib2FyZF9maWx0ZXI+Cg==" provider="dashboard.filter" id="3001">
       <param name="group" value="Sales demo" lang=" " />
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro de painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
       <param name="title" value="Filtro de painel" lang="pt" />
       <param name="title" value="Filtro para cuadros de mando" lang="es" />
       <param name="title" value="Dashboard filter" lang="en" />
@@ -616,6 +875,13 @@
       <param name="title" value="Ventas por estado en pipeline" lang="es" />
       <param name="title" value="Pipeline status" lang="en" />
       <param name="title" value="パイプラインステータス" lang="ja" />
+      <param name="title" value="Стадия" lang="ru" />
+      <param name="title" value="管道状态" lang="zh" />
+      <param name="title" value="Statut pipeline" lang="fr" />
+      <param name="title" value="Status Pipeline" lang="pt" />
+      <param name="title" value="Ventas por estado en pipeline" lang="es" />
+      <param name="title" value="Pipeline status" lang="en" />
+      <param name="title" value="パイプラインステータス" lang="ja" />
       <param name="title" value="管道状态" lang="zh" />
       <param name="title" value="Стадия" lang="ru" />
       <param name="title" value="Statut pipeline" lang="fr" />
@@ -630,6 +896,13 @@
       <param name="group" value="Sales demo" lang=" " />
       <param name="kpicode" value="kpi_30281353675541472" lang=" " />
       <param name="title" value="Nach Land " lang="de" />
+      <param name="title" value="Pelo país" lang="pt" />
+      <param name="title" value="Por país" lang="es" />
+      <param name="title" value="By country" lang="en" />
+      <param name="title" value="国別" lang="ja" />
+      <param name="title" value="По странам" lang="ru" />
+      <param name="title" value="按国家" lang="zh" />
+      <param name="title" value="Par pays" lang="fr" />
       <param name="title" value="Pelo país" lang="pt" />
       <param name="title" value="Por país" lang="es" />
       <param name="title" value="By country" lang="en" />
@@ -652,6 +925,13 @@
       <param name="title" value="Evolución de ventas" lang="es" />
       <param name="title" value="Sales evolution" lang="en" />
       <param name="title" value="営業の進化" lang="ja" />
+      <param name="title" value="Динамика продаж" lang="ru" />
+      <param name="title" value="销售评估" lang="zh" />
+      <param name="title" value="Évolution des ventes" lang="fr" />
+      <param name="title" value="Evolução de vendas" lang="pt" />
+      <param name="title" value="Evolución de ventas" lang="es" />
+      <param name="title" value="Sales evolution" lang="en" />
+      <param name="title" value="営業の進化" lang="ja" />
       <param name="title" value="销售评估" lang="zh" />
       <param name="title" value="Динамика продаж" lang="ru" />
       <param name="title" value="Évolution des ventes" lang="fr" />
@@ -666,6 +946,13 @@
       <param name="group" value="Sales demo" lang=" " />
       <param name="kpicode" value="kpi_30651353683614640" lang=" " />
       <param name="title" value="Nach Vertriebsperson" lang="de" />
+      <param name="title" value="Por pessoa de vendas" lang="pt" />
+      <param name="title" value="Por vendedor" lang="es" />
+      <param name="title" value="By sales person" lang="en" />
+      <param name="title" value="営業担当者別" lang="ja" />
+      <param name="title" value="По продавцам" lang="ru" />
+      <param name="title" value="按销售人员" lang="zh" />
+      <param name="title" value="Par vendeur" lang="fr" />
       <param name="title" value="Por pessoa de vendas" lang="pt" />
       <param name="title" value="Por vendedor" lang="es" />
       <param name="title" value="By sales person" lang="en" />
@@ -688,6 +975,13 @@
       <param name="title" value="Cantidad por estado" lang="es" />
       <param name="title" value="Amount by status " lang="en" />
       <param name="title" value="ステータス別の数値" lang="ja" />
+      <param name="title" value="Распределение по состоянию сделки" lang="ru" />
+      <param name="title" value="按状态排列的金额" lang="zh" />
+      <param name="title" value="Montant par statut" lang="fr" />
+      <param name="title" value="Quantia por status" lang="pt" />
+      <param name="title" value="Cantidad por estado" lang="es" />
+      <param name="title" value="Amount by status " lang="en" />
+      <param name="title" value="ステータス別の数値" lang="ja" />
       <param name="title" value="按状态排列的金额" lang="zh" />
       <param name="title" value="Распределение по состоянию сделки" lang="ru" />
       <param name="title" value="Montant par statut" lang="fr" />
@@ -701,6 +995,13 @@
     <panelInstance serialization="" provider="dashboard.kpi" id="3075">
       <param name="group" value="Sales demo" lang=" " />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
@@ -719,6 +1020,13 @@
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="en" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="fr" />
@@ -730,6 +1038,13 @@
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
       <param name="kpicode" value="kpi_30771353684719633" lang=" " />
       <param name="title" value="Liste von Möglichkeiten" lang="de" />
+      <param name="title" value="Lista de oportunidades" lang="pt" />
+      <param name="title" value="Listado de oportunidades" lang="es" />
+      <param name="title" value="List of opportunities" lang="en" />
+      <param name="title" value="オポチュニティーリスト" lang="ja" />
+      <param name="title" value="Список потенциальных сделок" lang="ru" />
+      <param name="title" value="机会列表" lang="zh" />
+      <param name="title" value="Liste des opportunités" lang="fr" />
       <param name="title" value="Lista de oportunidades" lang="pt" />
       <param name="title" value="Listado de oportunidades" lang="es" />
       <param name="title" value="List of opportunities" lang="en" />
@@ -752,6 +1067,13 @@
       <param name="title" value="Por cliente" lang="es" />
       <param name="title" value="By customer" lang="en" />
       <param name="title" value="顧客別" lang="ja" />
+      <param name="title" value="По клиентам" lang="ru" />
+      <param name="title" value="按客户" lang="zh" />
+      <param name="title" value="Par client" lang="fr" />
+      <param name="title" value="Pelo cliente" lang="pt" />
+      <param name="title" value="Por cliente" lang="es" />
+      <param name="title" value="By customer" lang="en" />
+      <param name="title" value="顧客別" lang="ja" />
       <param name="title" value="按客户" lang="zh" />
       <param name="title" value="По клиентам" lang="ru" />
       <param name="title" value="Par client" lang="fr" />
@@ -766,6 +1088,13 @@
       <param name="group" value="Sales demo" lang=" " />
       <param name="kpicode" value="kpi_30831353686700387" lang=" " />
       <param name="title" value="Nach Produkt" lang="de" />
+      <param name="title" value="Pelo produto" lang="pt" />
+      <param name="title" value="Por producto" lang="es" />
+      <param name="title" value="By product" lang="en" />
+      <param name="title" value="製品別" lang="ja" />
+      <param name="title" value="По продуктам" lang="ru" />
+      <param name="title" value="按产品" lang="zh" />
+      <param name="title" value="Par produit" lang="fr" />
       <param name="title" value="Pelo produto" lang="pt" />
       <param name="title" value="Por producto" lang="es" />
       <param name="title" value="By product" lang="en" />
@@ -788,6 +1117,13 @@
       <param name="title" value="Por probabilidad (%)" lang="es" />
       <param name="title" value="Amount by probability (%)" lang="en" />
       <param name="title" value="確率 (％) 別の数値" lang="ja" />
+      <param name="title" value="Сумма по вероятным сделкам (%)" lang="ru" />
+      <param name="title" value="金额的可能性（%）" lang="zh" />
+      <param name="title" value="Montant par probabilité (%)" lang="fr" />
+      <param name="title" value="Quantia pela probabilidade (%)" lang="pt" />
+      <param name="title" value="Por probabilidad (%)" lang="es" />
+      <param name="title" value="Amount by probability (%)" lang="en" />
+      <param name="title" value="確率 (％) 別の数値" lang="ja" />
       <param name="title" value="金额的可能性（%）" lang="zh" />
       <param name="title" value="Сумма по вероятным сделкам (%)" lang="ru" />
       <param name="title" value="Montant par probabilité (%)" lang="fr" />
@@ -801,6 +1137,13 @@
     <panelInstance serialization="rO0ABXQGLDxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0iY3JlYXRpb24gZGF0ZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InBpcGVsaW5lIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0ic3RhdHVzIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY3VzdG9tZXIiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJjb3VudHJ5IiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0icHJvZHVjdCIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InNhbGVzIHBlcnNvbiIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InByb2JhYmlsaXR5IiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0ic291cmNlIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY29sb3IiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPG9wdGlvbnM+CiAgICA8c2hvcnRWaWV3TW9kZT50cnVlPC9zaG9ydFZpZXdNb2RlPgogICAgPHNob3dMZWdlbmQ+dHJ1ZTwvc2hvd0xlZ2VuZD4KICAgIDxzaG93UmVmcmVzaEJ1dHRvbj50cnVlPC9zaG93UmVmcmVzaEJ1dHRvbj4KICAgIDxzaG93QXBwbHloQnV0dG9uPnRydWU8L3Nob3dBcHBseWhCdXR0b24+CiAgICA8c2hvd0NsZWFyQnV0dG9uPnRydWU8L3Nob3dDbGVhckJ1dHRvbj4KICAgIDxzaG93UHJvcGVydHlOYW1lcz50cnVlPC9zaG93UHJvcGVydHlOYW1lcz4KICAgIDxzaG93U3VibWl0T25DaGFuZ2U+dHJ1ZTwvc2hvd1N1Ym1pdE9uQ2hhbmdlPgogIDxzaG93QXV0b1JlZnJlc2g+ZmFsc2U8L3Nob3dBdXRvUmVmcmVzaD4KICA8L29wdGlvbnM+CjwvZGFzaGJvYXJkX2ZpbHRlcj4K" provider="dashboard.filter" id="3019">
       <param name="group" value="Sales demo" lang=" " />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="de" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
@@ -819,6 +1162,13 @@
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="en" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="fr" />
@@ -829,6 +1179,13 @@
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div style=&quot;margin:5px;border:1px solid #eeeeee&quot;&gt;" lang="zh" />
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro de painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
       <param name="title" value="Filtro de painel" lang="pt" />
       <param name="title" value="Filtro para cuadros de mando" lang="es" />
       <param name="title" value="Dashboard filter" lang="en" />
@@ -850,6 +1207,13 @@
       <param name="title" value="Oportunidades de venta (Título)" lang="es" />
       <param name="title" value="Sales Opportunities (Title)" lang="en" />
       <param name="title" value="セールスオポチュニティー(タイトル)" lang="ja" />
+      <param name="title" value="Прогнозирование продаж (заголовок)" lang="ru" />
+      <param name="title" value="销售机会（标题）" lang="zh" />
+      <param name="title" value="Opportunités de ventes (Titre)" lang="fr" />
+      <param name="title" value="Oportunidades de Vendas (Título)" lang="pt" />
+      <param name="title" value="Oportunidades de venta (Título)" lang="es" />
+      <param name="title" value="Sales Opportunities (Title)" lang="en" />
+      <param name="title" value="セールスオポチュニティー(タイトル)" lang="ja" />
       <param name="title" value="销售机会（标题）" lang="zh" />
       <param name="title" value="Прогнозирование продаж (заголовок)" lang="ru" />
       <param name="title" value="Opportunités de ventes (Titre)" lang="fr" />
@@ -863,6 +1227,13 @@
     <panelInstance serialization="" provider="dashboard.html_editor" id="3076">
       <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0ACA8aDE+SW4gVm9yYmVyZWl0dW5nLUFuYWx5c2U8L2gxPnQAAnpodAAVPGgxPueuoemBk+WIhuaekDwvaDE+dAACcHR0ABo8aDE+QW7DoWxpc2UgUGlwZWxpbmU8L2gxPnQAAmZydAAZPGgxPkFuYWx5c2UgUGlwZWxpbmU8L2gxPnQAAmVudAAaPGgxPlBpcGVsaW5lIEFuYWx5c2lzPC9oMT50AAJydXQALzxoMT7QkNC90LDQu9C40Lcg0L7QsdGK0LXQvNCwINC/0YDQvtC00LDQtjwvaDE+dAACZXN0AB48aDE+QW7DoWxpc2lzIGRlIFBpcGVsaW5lPC9oMT50AAJqYXQAITxoMT7jg5HjgqTjg5fjg6njgqTjg7PliIbmnpA8L2gxPng=</rawcontent>
       <param name="title" value="In Vorbereitung Analyse (Titel)" lang="de" />
+      <param name="title" value="Análises Pipeline (Título)" lang="pt" />
+      <param name="title" value="Análisis de pipeline (Título)" lang="es" />
+      <param name="title" value="Pipeline analysis (Title)" lang="en" />
+      <param name="title" value="パイプライン分析(タイトル)" lang="ja" />
+      <param name="title" value="Анализ объема продаж (заголовок)" lang="ru" />
+      <param name="title" value="管道分析（标题）" lang="zh" />
+      <param name="title" value="Analyse Pipeline (Titre)" lang="fr" />
       <param name="title" value="Análises Pipeline (Título)" lang="pt" />
       <param name="title" value="Análisis de pipeline (Título)" lang="es" />
       <param name="title" value="Pipeline analysis (Title)" lang="en" />
@@ -884,6 +1255,13 @@
       <param name="title" value="Informe de ventas (Título)" lang="es" />
       <param name="title" value="Sales report (Title)" lang="en" />
       <param name="title" value="セールスレポート(タイトル)" lang="ja" />
+      <param name="title" value="Отчет о продажах (заголовок)" lang="ru" />
+      <param name="title" value="销售报表（标题）" lang="zh" />
+      <param name="title" value="Rapport des ventes (Titre)" lang="fr" />
+      <param name="title" value="Relatório de Vendas (Título)" lang="pt" />
+      <param name="title" value="Informe de ventas (Título)" lang="es" />
+      <param name="title" value="Sales report (Title)" lang="en" />
+      <param name="title" value="セールスレポート(タイトル)" lang="ja" />
       <param name="title" value="销售报表（标题）" lang="zh" />
       <param name="title" value="Отчет о продажах (заголовок)" lang="ru" />
       <param name="title" value="Rapport des ventes (Titre)" lang="fr" />
@@ -897,6 +1275,13 @@
     <panelInstance serialization="rO0ABXQFuTxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0iYW1vdW50IiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY2xvc2luZyBkYXRlIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMjk4ODEzNTM0OTkwMDY1NzMiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0icGlwZWxpbmUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJzdGF0dXMiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJjdXN0b21lciIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InByb2R1Y3QiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJzYWxlcyBwZXJzb24iIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yOTg4MTM1MzQ5OTAwNjU3MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJwcm9iYWJpbGl0eSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InNvdXJjZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzI5ODgxMzUzNDk5MDA2NTczIj4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8b3B0aW9ucz4KICAgIDxzaG9ydFZpZXdNb2RlPnRydWU8L3Nob3J0Vmlld01vZGU+CiAgICA8c2hvd0xlZ2VuZD50cnVlPC9zaG93TGVnZW5kPgogICAgPHNob3dSZWZyZXNoQnV0dG9uPnRydWU8L3Nob3dSZWZyZXNoQnV0dG9uPgogICAgPHNob3dBcHBseWhCdXR0b24+dHJ1ZTwvc2hvd0FwcGx5aEJ1dHRvbj4KICAgIDxzaG93Q2xlYXJCdXR0b24+dHJ1ZTwvc2hvd0NsZWFyQnV0dG9uPgogICAgPHNob3dQcm9wZXJ0eU5hbWVzPnRydWU8L3Nob3dQcm9wZXJ0eU5hbWVzPgogICAgPHNob3dTdWJtaXRPbkNoYW5nZT50cnVlPC9zaG93U3VibWl0T25DaGFuZ2U+CiAgPHNob3dBdXRvUmVmcmVzaD5mYWxzZTwvc2hvd0F1dG9SZWZyZXNoPgogIDwvb3B0aW9ucz4KPC9kYXNoYm9hcmRfZmlsdGVyPgo=" provider="dashboard.filter" id="2960">
       <param name="group" value="Sales demo" lang=" " />
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
       <param name="title" value="Filtro do Painel" lang="pt" />
       <param name="title" value="Filtro para cuadros de mando" lang="es" />
       <param name="title" value="Dashboard filter" lang="en" />
@@ -918,6 +1303,13 @@
       <param name="title" value="Mi cuenta (Título)" lang="es" />
       <param name="title" value="My account (Title)" lang="en" />
       <param name="title" value="マイアカウント(タイトル)" lang="ja" />
+      <param name="title" value="Моя учетная запись (заголовок)" lang="ru" />
+      <param name="title" value="我的帐号（标题）" lang="zh" />
+      <param name="title" value="Mon compte (titre)" lang="fr" />
+      <param name="title" value="Minha conta (Título)" lang="pt" />
+      <param name="title" value="Mi cuenta (Título)" lang="es" />
+      <param name="title" value="My account (Title)" lang="en" />
+      <param name="title" value="マイアカウント(タイトル)" lang="ja" />
       <param name="title" value="我的帐号（标题）" lang="zh" />
       <param name="title" value="Моя учетная запись (заголовок)" lang="ru" />
       <param name="title" value="Mon compte (titre)" lang="fr" />
@@ -935,6 +1327,13 @@
       <param name="title" value="Administración" lang="es" />
       <param name="title" value="Administration" lang="en" />
       <param name="title" value="管理" lang="ja" />
+      <param name="title" value="Администрирование" lang="ru" />
+      <param name="title" value="管理" lang="zh" />
+      <param name="title" value="Administration" lang="fr" />
+      <param name="title" value="Administração" lang="pt" />
+      <param name="title" value="Administración" lang="es" />
+      <param name="title" value="Administration" lang="en" />
+      <param name="title" value="管理" lang="ja" />
       <param name="title" value="管理" lang="zh" />
       <param name="title" value="Администрирование" lang="ru" />
       <param name="title" value="Administration" lang="fr" />
@@ -948,6 +1347,13 @@
     <panelInstance serialization="" provider="dashboard.html_editor" id="2982">
       <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0ADc8aDE+TmFjaCBMYW5kOgp7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBDb3VudHJ5fTwvaDE+dAACemh0ADc8aDE+5oyJ5Zu95a62Ogp7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBDb3VudHJ5fTwvaDE+dAACcHR0ADc8aDE+UG9yIHBhw61zOgp7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBDb3VudHJ5fTwvaDE+dAACZnJ0ADY8aDE+UGFyIHBheXM6CntkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIENvdW50cnl9PC9oMT50AAJlbnQAOTxoMT5CeSBDb3VudHJ5Og0Ke2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgQ291bnRyeX08L2gxPnQAAnJ1dAA6PGgxPtCh0YLRgNCw0L3QsDoKe2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgQ291bnRyeX08L2gxPnQAAmVzdAA3PGgxPlBvciBwYcOtczoKe2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgQ291bnRyeX08L2gxPnQAAmphdAA0PGgxPuWbveWIpToKe2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgQ291bnRyeX08L2gxPng=</rawcontent>
       <param name="title" value="Nach Land (Titel)" lang="de" />
+      <param name="title" value="Por País (Título)" lang="pt" />
+      <param name="title" value="Por país (Título)" lang="es" />
+      <param name="title" value="By Country (Title)" lang="en" />
+      <param name="title" value="国別(タイトル)" lang="ja" />
+      <param name="title" value="По странам (заголовок)" lang="ru" />
+      <param name="title" value="按国家（标题）" lang="zh" />
+      <param name="title" value="Par pays (Titre)" lang="fr" />
       <param name="title" value="Por País (Título)" lang="pt" />
       <param name="title" value="Por país (Título)" lang="es" />
       <param name="title" value="By Country (Title)" lang="en" />
@@ -970,6 +1376,13 @@
       <param name="title" value="Expenses by office" lang="es" />
       <param name="title" value="Expenses by office USD" lang="en" />
       <param name="title" value="オフィス別経費(円)" lang="ja" />
+      <param name="title" value="Расходы по офисам (USD)" lang="ru" />
+      <param name="title" value="办公室的费用（USD）" lang="zh" />
+      <param name="title" value="Dépenses par office USD" lang="fr" />
+      <param name="title" value="Custos pelo USD de escritório" lang="pt" />
+      <param name="title" value="Expenses by office" lang="es" />
+      <param name="title" value="Expenses by office USD" lang="en" />
+      <param name="title" value="オフィス別経費(円)" lang="ja" />
       <param name="title" value="办公室的费用（USD）" lang="zh" />
       <param name="title" value="Расходы по офисам (USD)" lang="ru" />
       <param name="title" value="Dépenses par office USD" lang="fr" />
@@ -984,6 +1397,13 @@
       <param name="group" value="Expenses demo" lang=" " />
       <param name="kpicode" value="kpi_63931223772633377" lang=" " />
       <param name="title" value="Ausgaben nach Abteilung USD" lang="de" />
+      <param name="title" value="Despesas por USD de departamento" lang="pt" />
+      <param name="title" value="Indicador clave de rendimiento" lang="es" />
+      <param name="title" value="Expenses by department USD" lang="en" />
+      <param name="title" value="部門別経費(円)" lang="ja" />
+      <param name="title" value="Расходы по отделам (USD)" lang="ru" />
+      <param name="title" value="部门的费用（USD）" lang="zh" />
+      <param name="title" value="Dépenses par département USD" lang="fr" />
       <param name="title" value="Despesas por USD de departamento" lang="pt" />
       <param name="title" value="Indicador clave de rendimiento" lang="es" />
       <param name="title" value="Expenses by department USD" lang="en" />
@@ -1005,6 +1425,13 @@
       <param name="title" value="HTML para cuadros de mando" lang="es" />
       <param name="title" value="Expense reports (Totals)" lang="en" />
       <param name="title" value="経費レポート(合計)" lang="ja" />
+      <param name="title" value="Отчеты о расходах (сумма)" lang="ru" />
+      <param name="title" value="费用报表（总计）" lang="zh" />
+      <param name="title" value="Rapports de dépenses (Totaux)" lang="fr" />
+      <param name="title" value="Relatórios de custos (Totais)" lang="pt" />
+      <param name="title" value="HTML para cuadros de mando" lang="es" />
+      <param name="title" value="Expense reports (Totals)" lang="en" />
+      <param name="title" value="経費レポート(合計)" lang="ja" />
       <param name="title" value="费用报表（总计）" lang="zh" />
       <param name="title" value="Отчеты о расходах (сумма)" lang="ru" />
       <param name="title" value="Rapports de dépenses (Totaux)" lang="fr" />
@@ -1018,6 +1445,13 @@
     <panelInstance serialization="rO0ABXQD3TxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0ib2ZmaWNlIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfNjM3OTEyMjM3NzIwNzMwMzciPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iZGVwYXJ0bWVudCIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzYzNzkxMjIzNzcyMDczMDM3Ij4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9ImF1dGhvciIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzYzNzkxMjIzNzcyMDczMDM3Ij4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9ImRhdGUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl82Mzc5MTIyMzc3MjA3MzAzNyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJhbW91bnQiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl82Mzc5MTIyMzc3MjA3MzAzNyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPG9wdGlvbnM+CiAgICA8c2hvcnRWaWV3TW9kZT50cnVlPC9zaG9ydFZpZXdNb2RlPgogICAgPHNob3dMZWdlbmQ+dHJ1ZTwvc2hvd0xlZ2VuZD4KICAgIDxzaG93UmVmcmVzaEJ1dHRvbj50cnVlPC9zaG93UmVmcmVzaEJ1dHRvbj4KICAgIDxzaG93QXBwbHloQnV0dG9uPnRydWU8L3Nob3dBcHBseWhCdXR0b24+CiAgICA8c2hvd0NsZWFyQnV0dG9uPnRydWU8L3Nob3dDbGVhckJ1dHRvbj4KICAgIDxzaG93UHJvcGVydHlOYW1lcz50cnVlPC9zaG93UHJvcGVydHlOYW1lcz4KICAgIDxzaG93U3VibWl0T25DaGFuZ2U+dHJ1ZTwvc2hvd1N1Ym1pdE9uQ2hhbmdlPgogIDxzaG93QXV0b1JlZnJlc2g+ZmFsc2U8L3Nob3dBdXRvUmVmcmVzaD4KICA8L29wdGlvbnM+CjwvZGFzaGJvYXJkX2ZpbHRlcj4K" provider="dashboard.filter" id="6397">
       <param name="group" value="Expenses demo" lang=" " />
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="Filtro de painel" lang="pt" />
+      <param name="title" value="Filtro para cuadros de mando" lang="es" />
+      <param name="title" value="Dashboard filter" lang="en" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
       <param name="title" value="Filtro de painel" lang="pt" />
       <param name="title" value="Filtro para cuadros de mando" lang="es" />
       <param name="title" value="Dashboard filter" lang="en" />
@@ -1040,6 +1474,13 @@
       <param name="title" value="Evolución del gasto" lang="es" />
       <param name="title" value="Expense evolution" lang="en" />
       <param name="title" value="経費の進化" lang="ja" />
+      <param name="title" value="Динамика расходов" lang="ru" />
+      <param name="title" value="费用评估" lang="zh" />
+      <param name="title" value="Évolution des dépenses" lang="fr" />
+      <param name="title" value="Evolução de despesa" lang="pt" />
+      <param name="title" value="Evolución del gasto" lang="es" />
+      <param name="title" value="Expense evolution" lang="en" />
+      <param name="title" value="経費の進化" lang="ja" />
       <param name="title" value="费用评估" lang="zh" />
       <param name="title" value="Динамика расходов" lang="ru" />
       <param name="title" value="Évolution des dépenses" lang="fr" />
@@ -1054,6 +1495,13 @@
       <param name="group" value="Expenses demo" lang=" " />
       <param name="kpicode" value="kpi_64061223773274641" lang=" " />
       <param name="title" value="Ausgabenbericht-Tabelle" lang="de" />
+      <param name="title" value="Tabela de relatório de custos" lang="pt" />
+      <param name="title" value="Listado de gastos" lang="es" />
+      <param name="title" value="Expense reports table" lang="en" />
+      <param name="title" value="経費レポートテーブル" lang="ja" />
+      <param name="title" value="Таблица расходов" lang="ru" />
+      <param name="title" value="费用报告表" lang="zh" />
+      <param name="title" value="Tableau de rapports des dépenses" lang="fr" />
       <param name="title" value="Tabela de relatório de custos" lang="pt" />
       <param name="title" value="Listado de gastos" lang="es" />
       <param name="title" value="Expense reports table" lang="en" />
@@ -1074,6 +1522,13 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="en" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
@@ -1084,6 +1539,13 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="en" />
@@ -1102,6 +1564,13 @@
       <param name="title" value="Ruta actual" lang="es" />
       <param name="title" value="Expense reports (Bread crumb)" lang="en" />
       <param name="title" value="経費レポート(パンくず)" lang="ja" />
+      <param name="title" value="Отчеты о расходах (путь к странице)" lang="ru" />
+      <param name="title" value="费用报告（Bread crumb）" lang="zh" />
+      <param name="title" value="Rapports des dépenses (Barre de navigation)" lang="fr" />
+      <param name="title" value="Relatórios de despesas (Bread crumb)" lang="pt" />
+      <param name="title" value="Ruta actual" lang="es" />
+      <param name="title" value="Expense reports (Bread crumb)" lang="en" />
+      <param name="title" value="経費レポート(パンくず)" lang="ja" />
       <param name="title" value="费用报告（Bread crumb）" lang="zh" />
       <param name="title" value="Отчеты о расходах (путь к странице)" lang="ru" />
       <param name="title" value="Rapports des dépenses (Barre de navigation)" lang="fr" />
@@ -1115,6 +1584,13 @@
     <panelInstance serialization="" provider="dashboard.html_editor" id="3649">
       <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0ABk8aDE+QXVzZ2FiZW5iZXJpY2h0ZTwvaDE+dAACemh0ABU8aDE+6LS555So5oql5ZGKPC9oMT50AAJwdHQAIDxoMT5SZWxhdMOzcmlvcyBkZSBEZXNwZXNhczwvaDE+dAACZnJ0AB88aDE+UmFwcG9ydHMgZGVzIGTDqXBlbnNlczwvaDE+dAACZW50ABg8aDE+RXhwZW5zZSBSZXBvcnRzPC9oMT50AAJydXQAKTxoMT7QntGC0YfQtdGC0Ysg0L4g0YDQsNGB0YXQvtC00LDRhTwvaDE+dAACZXN0ABc8aDE+Tm90YSBkZSBnYXN0b3M8L2gxPnQAAmphdAAbPGgxPue1jOiyu+ODrOODneODvOODiDwvaDE+eA==</rawcontent>
       <param name="title" value="Ausgabenberichte (Titel)" lang="de" />
+      <param name="title" value="Relatório de despesas (Título)" lang="pt" />
+      <param name="title" value="Editor HTML" lang="es" />
+      <param name="title" value="Expense reports (Title)" lang="en" />
+      <param name="title" value="経費レポート(タイトル)" lang="ja" />
+      <param name="title" value="Отчеты о расходах (заголовок)" lang="ru" />
+      <param name="title" value="费用报表（标题）" lang="zh" />
+      <param name="title" value="Rapport de dépenses (Titre)" lang="fr" />
       <param name="title" value="Relatório de despesas (Título)" lang="pt" />
       <param name="title" value="Editor HTML" lang="es" />
       <param name="title" value="Expense reports (Title)" lang="en" />
@@ -1137,6 +1613,13 @@
       <param name="title" value="Gastos por usuario" lang="es" />
       <param name="title" value="Expenses by user" lang="en" />
       <param name="title" value="ユーザー別経費" lang="ja" />
+      <param name="title" value="Расходы пользователей" lang="ru" />
+      <param name="title" value="用户的费用" lang="zh" />
+      <param name="title" value="Dépenses par utilisateur" lang="fr" />
+      <param name="title" value="Custos por usuário" lang="pt" />
+      <param name="title" value="Gastos por usuario" lang="es" />
+      <param name="title" value="Expenses by user" lang="en" />
+      <param name="title" value="ユーザー別経費" lang="ja" />
       <param name="title" value="用户的费用" lang="zh" />
       <param name="title" value="Расходы пользователей" lang="ru" />
       <param name="title" value="Dépenses par utilisateur" lang="fr" />
@@ -1150,6 +1633,13 @@
     <panelInstance serialization="" provider="dashboard.html_editor" id="3056">
       <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0A2g8cD48aW1nIHdpZHRoPSI1NzAiIGhlaWdodD0iNDI1IiB0aXRsZT0iSkJvc3MgQnVzaW5lc3MgQWN0aXZpdHkgTW9uaXRvcmluZyBhbmQgUmVwb3J0aW5nIiBhbHQ9IkpCb3NzIEJ1c2luZXNzIEFjdGl2aXR5IE1vbml0b3JpbmcgYW5kIFJlcG9ydGluZyIgc3JjPSJpbWFnZXMvQWRtaW5pc3RyYXRpb25JbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPjwvcD4KPHA+PGJyIC8+CkRpZXNlciBBYnNjaG5pdHQgYmlldGV0IFp1Z3JpZmYgYXVmIGRpZSBUb29scyB6dXIgVmVyd2FsdHVuZyBkaWVzZXIgSW5zdGFsbGF0aW9uOjxiciAvPgombmJzcDsmbmJzcDs8L3A+CjxoMj4mbmJzcDs8L2gyPgo8aDI+RGF0ZW4gQW5iaWV0ZXI6PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT5FcnN0ZWxsdW5nIHVuZCBLb25maWd1cmF0aW9uIHZvbiBCQU0gRGF0ZW4gQW5iaWV0ZXJuIHp1bSBBYnJ1ZiB2b24gSW5mb3JtYXRpb25lbi4mbmJzcDs8L2xpPgo8L3VsPgo8YnIgdHlwZT0iX21veiIgLz4KPGJyIHR5cGU9Il9tb3oiIC8+CjxoMj5FeHRlcm5lIFZlcmJpbmR1bmdlbjo8L2gyPgombmJzcDsKPHVsPgogICAgPGxpPkRlZmluaXRpb24gdm9uIFZlcmJpbmR1bmdzLVBhcmFtZXRlcm4genUgRGF0ZW5iYW5rZW4gb2RlciBhbmRlcmVuIFN5c3RlbWVuLjwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8aDI+SW1wb3J0IHVuZCBFeHBvcnQ6PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT5JbXBvcnQgdW5kIEV4cG9ydCBkZXIgdmVyc2NoaWVkZW5lbiBBc3NldHMsIHVtIERhc2hib2FyZHMgw7xiZXIgU3lzdGVtZSBoaW53ZWcgenUgdmVyc2NoaWViZW4uPC9saT4KPC91bD4KPGJyIHR5cGU9Il9tb3oiIC8+CjxiciB0eXBlPSJfbW96IiAvPnQAAnpodAL7PHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIEJ1c2luZXNzIEFjdGl2aXR5IE1vbml0b3JpbmcgYW5kIFJlcG9ydGluZyIgYWx0PSJKQm9zcyBCdXNpbmVzcyBBY3Rpdml0eSBNb25pdG9yaW5nIGFuZCBSZXBvcnRpbmciIHNyYz0iY29sbGFnZS9pbWFnZXMvQWRtaW5pc3RyYXRpb25JbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPjwvcD4KPHA+PGJyIC8+Cui/memDqOWIhuaPkOS+m+WvueeuoeeQhui/meS4quWuieijheeahOW3peWFt+eahOiuv+mXru+8mjxiciAvPgombmJzcDsmbmJzcDs8L3A+CjxoMj4mbmJzcDs8L2gyPgo8aDI+5pWw5o2u5L6b5bqU5ZWG77yaPC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT7liJvlu7rlkozphY3nva4gQkFNIOaVsOaNruS+m+W6lOWVhuadpeiOt+WPluS/oeaBr+OAgiZuYnNwOzwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8YnIgdHlwZT0iX21veiIgLz4KPGgyPuWklumDqOi/nuaOpTo8L2gyPgombmJzcDsKPHVsPgogICAgPGxpPuWumuS5ieaVsOaNruW6k+WSjOWFtuS7luezu+e7n+eahOi/nuaOpeWPguaVsOOAgjwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8aDI+5a+85YWl5ZKM5a+85Ye6OjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+5a+85YWl5ZKM5a+85Ye65LiN5ZCM55qE6LWE5Lqn5p2l5Zyo57O757uf6Ze056e75Yqo5Luq6KGo5p2/44CCPC9saT4KPC91bD4KPGJyIHR5cGU9Il9tb3oiIC8+CjxiciB0eXBlPSJfbW96IiAvPnQAAnB0dANPPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIEJ1c2luZXNzIEFjdGl2aXR5IE1vbml0b3JpbmcgYW5kIFJlcG9ydGluZyIgYWx0PSJKQm9zcyBCdXNpbmVzcyBBY3Rpdml0eSBNb25pdG9yaW5nIGFuZCBSZXBvcnRpbmciIHNyYz0iaW1hZ2VzL0FkbWluaXN0cmF0aW9uSW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz48L3A+CjxwPjxiciAvPgpFc3RhIHNlw6fDo28gZm9ybmVjZSBhY2Vzc28gw6BzIGZlcnJhbWVudGFzIHBhcmEgZ2VyZW5jaWFtZW50byBkZXN0YSBpbnN0YWxhw6fDo286PGJyIC8+CiZuYnNwOyZuYnNwOzwvcD4KPGgyPiZuYnNwOzwvaDI+CjxoMj5Qcm92ZWRvcmVzIGRlIERhZG9zOjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+Q3JpYXIgZSBjb25maWd1cmFyIG9zIHByb3ZlZG9yZXMgZGUgZGFkb3MgQkFNIHBhcmEgcmVzdGF1cmFyIGluZm9ybWHDp8Ojby4mbmJzcDs8L2xpPgo8L3VsPgo8YnIgdHlwZT0iX21veiIgLz4KPGJyIHR5cGU9Il9tb3oiIC8+CjxoMj5Db25leMO1ZXMgZXh0ZXJuYXM6PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT5EZWZpbmUgY29ubmVjdGlvbiBwYXJhbWV0ZXJzIHRvIGRhdGFiYXNlcyBvciBvdGhlciBzeXN0ZW1zLjwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8aDI+SW1wb3J0YXIgZSBleHBvcnRhcjo8L2gyPgombmJzcDsKPHVsPgogICAgPGxpPkltcG9ydGFyIGUgZXhwb3J0YXIgb3MgYXRpdm9zIGRpZmVyZW50ZXMgcGFyYSBtb3ZlciBvcyBwYWluw6lpcyBhdHJhdsOpcyBkb3Mgc2lzdGVtYXMuPC9saT4KPC91bD4KPGJyIHR5cGU9Il9tb3oiIC8+CjxiciB0eXBlPSJfbW96IiAvPnQAAmZydAOLPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIEJ1c2luZXNzIEFjdGl2aXR5IE1vbml0b3JpbmcgYW5kIFJlcG9ydGluZyIgYWx0PSJKQm9zcyBCdXNpbmVzcyBBY3Rpdml0eSBNb25pdG9yaW5nIGFuZCBSZXBvcnRpbmciIHNyYz0iaW1hZ2VzL0FkbWluaXN0cmF0aW9uSW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz48L3A+CjxwPjxiciAvPgpDZXR0ZSBzZWN0aW9uIHByb2N1cmUgYXV4IG91dGlscyB1biBhY2PDqHMgcG91ciBnw6lyZXIgY2V0dGUgaW5zdGFsbGF0aW9uOjxiciAvPgombmJzcDsmbmJzcDs8L3A+CjxoMj4mbmJzcDs8L2gyPgo8aDI+Rm91cm5pc3NldXJzIGRlIGRvbm7DqWVzOjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+Q3LDqWVyIGV0IGNvbmZpZ3VyZXIgbGVzIGZvdXJuaXNzZXVycyBkZSBkb25uw6llcyBCQU0gcG91ciBleHRyYWlyZSBkZXMgaW5mb3JtYXRpb25zLiZuYnNwOzwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8YnIgdHlwZT0iX21veiIgLz4KPGgyPkNvbm5lY3Rpb25zIGV4dGVybmVzOjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+RMOpZmluaXNzZW50IGxlcyBwYXJhbcOodHJlcyBkZSBjb25uZXhpb24gcG91ciBsZXMgYmFzZXMgZGUgZG9ubsOpZXMgb3UgYXV0cmVzIHN5c3TDqG1lcy48L2xpPgo8L3VsPgo8YnIgdHlwZT0iX21veiIgLz4KPGgyPkltcG9ydCBldCBleHBvcnQ6PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT5JbXBvcnRlbnQgZXQgZXhwb3J0ZW50IGxlcyBkaXZlcnNlcyByZXNzb3VyY2VzIHBvdXIgZMOpcGxhY2VyIGxlcyB0YWJsZWF1eCBkZSBib3JkcyDDoCB0cmF2ZXJzIGxlcyBzeXN0w6htZXMuPC9saT4KPC91bD4KPGJyIHR5cGU9Il9tb3oiIC8+CjxiciB0eXBlPSJfbW96IiAvPnQAAmVudANDPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIEJ1c2luZXNzIEFjdGl2aXR5IE1vbml0b3JpbmcgYW5kIFJlcG9ydGluZyIgYWx0PSJKQm9zcyBCdXNpbmVzcyBBY3Rpdml0eSBNb25pdG9yaW5nIGFuZCBSZXBvcnRpbmciIHNyYz0iaW1hZ2VzL0FkbWluaXN0cmF0aW9uSW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz48L3A+DQo8cD48YnIgLz4NClRoaXMgc2VjdGlvbiBwcm92aWRlcyBhY2Nlc3MgdG8gdGhlIHRvb2xzIGZvciBtYW5hZ2luZyB0aGlzIGluc3RhbGxhdGlvbjo8YnIgLz4NCiZuYnNwOyZuYnNwOzwvcD4NCjxoMj4mbmJzcDs8L2gyPg0KPGgyPkRhdGEgcHJvdmlkZXJzOjwvaDI+DQombmJzcDsNCjx1bD4NCiAgICA8bGk+Q3JlYXRlIGFuZCBjb25maWd1cmUgQkFNIGRhdGEgcHJvdmlkZXJzIHRvIHJldHJpZXZlIGluZm9ybWF0aW9uLiZuYnNwOzwvbGk+DQo8L3VsPg0KPGJyIHR5cGU9Il9tb3oiIC8+DQo8YnIgdHlwZT0iX21veiIgLz4NCjxoMj5FeHRlcm5hbCBjb25uZWN0aW9uczo8L2gyPg0KJm5ic3A7DQo8dWw+DQogICAgPGxpPkRlZmluZSBjb25uZWN0aW9uIHBhcmFtZXRlcnMgdG8gZGF0YWJhc2VzIG9yIG90aGVyIHN5c3RlbXMuPC9saT4NCjwvdWw+DQo8YnIgdHlwZT0iX21veiIgLz4NCjxoMj5JbXBvcnQgYW5kIGV4cG9ydDo8L2gyPg0KJm5ic3A7DQo8dWw+DQogICAgPGxpPkltcG9ydCBhbmQgZXhwb3J0IHRoZSBkaWZmZXJlbnQgYXNzZXRzIHRvIG1vdmUgZGFzaGJvYXJkcyBhY2Nyb3NzIHN5c3RlbXMuPC9saT4NCjwvdWw+DQo8YnIgdHlwZT0iX21veiIgLz4NCjxiciB0eXBlPSJfbW96IiAvPnQAAnJ1dATxPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9ItCf0L7QtNCz0L7RgtC+0LLQutCwINC+0YLRh9C10YLQvdC+0YHRgtC4INC4INC80L7QvdC40YLQvtGA0LjQvdCzINCx0LjQt9C90LXRgS3QtNC10Y/RgtC10LvRjNC90L7RgdGC0LggSkJvc3MiIGFsdD0i0J/QvtC00LPQvtGC0L7QstC60LAg0L7RgtGH0LXRgtC90L7RgdGC0Lgg0Lgg0LzQvtC90LjRgtC+0YDQuNC90LMg0LHQuNC30L3QtdGBLdC00LXRj9GC0LXQu9GM0L3QvtGB0YLQuCBKQm9zcyIgc3JjPSJpbWFnZXMvQWRtaW5pc3RyYXRpb25JbWFnZS5qcGciIHN0eWxlPSJmbG9hdDogcmlnaHQ7IiAvPjwvcD4KPHA+PGJyIC8+CtCSINGN0YLQvtC5INGB0LXQutGG0LjQuCDQvNC+0LbQvdC+INC90LDQudGC0Lgg0LLRgdC1INC90LXQvtCx0YXQvtC00LjQvNGL0LUg0LjQvdGB0YLRgNGD0LzQtdC90YLRiyDQsNC00LzQuNC90LjRgdGC0YDQuNGA0L7QstCw0L3QuNGPLjxiciAvPgombmJzcDsmbmJzcDs8L3A+CjxoMj4mbmJzcDs8L2gyPgo8aDI+0J/RgNC+0LLQsNC50LTQtdGA0Ysg0LTQsNC90L3Ri9GFOjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+0KHQvtC30LTQsNC90LjQtSDQuCDQutC+0L3RhNC40LPRg9GA0LDRhtC40Y8g0L/RgNC+0LLQsNC50LTQtdGA0L7QsiDQtNCw0L3QvdGL0YUg0LTQu9GPINC/0L7QtNC60LvRjtGH0LXQvdC40Y8g0Log0LLQvdC10YjQvdC40Lwg0LjRgdGC0L7Rh9C90LjQutCw0Lwg0LTQsNC90L3Ri9GFLiZuYnNwOzwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8YnIgdHlwZT0iX21veiIgLz4KPGgyPtCS0L3QtdGI0L3QuNC1INGB0L7QtdC00LjQvdC10L3QuNGPOjwvaDI+CiZuYnNwOwo8dWw+CiAgICA8bGk+0J3QsNGB0YLRgNC+0LnQutCwINGB0L7QtdC00LjQvdC10L3QuNGPINGBINCx0LDQt9C+0Lkg0LTQsNC90L3Ri9GFINC40LvQuCDQtNGA0YPQs9C+0Lkg0YHQuNGB0YLQtdC80L7QuS48L2xpPgo8L3VsPgo8YnIgdHlwZT0iX21veiIgLz4KPGgyPtCY0LzQv9C+0YDRgiDQuCDRjdC60YHQv9C+0YDRgjo8L2gyPgombmJzcDsKPHVsPgogICAgPGxpPtCY0LzQv9C+0YDRgiDQuCDRjdC60YHQv9C+0YDRgiDRgNC10YHRg9GA0YHQvtCyINGBINGG0LXQu9GM0Y4g0L/QtdGA0LXQvdC+0YHQsCDQuNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GFINC/0LDQvdC10LvQtdC5INC80LXQttC00YMg0YHQuNGB0YLQtdC80LDQvNC4LjwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8YnIgdHlwZT0iX21veiIgLz50AAJlc3QDqzxwPjxpbWcgd2lkdGg9IjU3MCIgaGVpZ2h0PSI0MjUiIHRpdGxlPSJKQm9zcyBCdXNpbmVzcyBBY3Rpdml0eSBNb25pdG9yaW5nIGFuZCBSZXBvcnRpbmciIGFsdD0iSkJvc3MgQnVzaW5lc3MgQWN0aXZpdHkgTW9uaXRvcmluZyBhbmQgUmVwb3J0aW5nIiBzcmM9ImltYWdlcy9BZG1pbmlzdHJhdGlvbkltYWdlLmpwZyIgc3R5bGU9ImZsb2F0OiByaWdodDsiIC8+PC9wPg0KPHA+PGJyIC8+DQpFc3RhIHNlY2NpJm9hY3V0ZTtuIHByb3BvcmNpb25hIGFjY2VzbyBhIGxhcyBkaWZlcmVudGVzIGhlcnJhbWllbnRhcyBwYXJhIGFkbWluaXN0cmFyIGVsIHNpc3RlbWE6PGJyIC8+DQombmJzcDsmbmJzcDs8L3A+DQo8aDI+Jm5ic3A7PC9oMj4NCjxoMj5Qcm92ZWVkb3JlcyBkZSBkYXRvczo8L2gyPg0KJm5ic3A7Jm5ic3A7PGJyIC8+DQo8dWw+DQogICAgPGxpPkNyZWFyIHkgY29uZmlndXJhciBwcm92ZWVkb3JlcyBkZSBkYXRvcyBkZSBCQU0gcGFyYSByZWN1cGVyYXIgaW5mb3JtYWNpJm9hY3V0ZTtuLjwvbGk+DQo8L3VsPg0KPGJyIHR5cGU9Il9tb3oiIC8+DQo8YnIgdHlwZT0iX21veiIgLz4NCjxoMj5Db25leGlvbmVzIGV4dGVybmFzOjwvaDI+DQombmJzcDsNCjx1bD4NCiAgICA8bGk+RGVmaW5pciBsb3MgcGFyJmFhY3V0ZTttZXRyb3MgZGUgY29uZXhpJm9hY3V0ZTtuIGEgYmFzZXMgZGUgZGF0b3MgdSBvdHJvcyBzaXN0ZW1hcy48L2xpPg0KPC91bD4NCjxiciB0eXBlPSJfbW96IiAvPg0KPGgyPkltcG9ydGFyIHkgZXhwb3J0YXI6PC9oMj4NCiZuYnNwOw0KPHVsPg0KICAgIDxsaT5JbXBvcnRhciB5IGV4cG9ydGFyIGxhIGVzdHJ1Y3R1cmEgZGUgbG9zIGN1YWRyb3MgZGUgbWFuZG9zIGUgaW5kaWNhZG9yZXMgcGFyYSBwb2RlciB0cmFzcGFzYXIgZW50cmUgZGlmZXJlbnRlcyBlbnRvcm5vcy48L2xpPg0KPC91bD4NCjxiciB0eXBlPSJfbW96IiAvPnQAAmphdANHPHA+PGltZyB3aWR0aD0iNTcwIiBoZWlnaHQ9IjQyNSIgdGl0bGU9IkpCb3NzIEJ1c2luZXNzIEFjdGl2aXR5IE1vbml0b3JpbmcgYW5kIFJlcG9ydGluZyIgYWx0PSJKQm9zcyBCdXNpbmVzcyBBY3Rpdml0eSBNb25pdG9yaW5nIGFuZCBSZXBvcnRpbmciIHNyYz0iaW1hZ2VzL0FkbWluaXN0cmF0aW9uSW1hZ2UuanBnIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz48L3A+CjxwPjxiciAvPgrjgZPjga7nkrDlooPjgpLnrqHnkIbjgZnjgovjg4Tjg7zjg6vjga7jg6rjgrnjg4g6PGJyIC8+CiZuYnNwOyZuYnNwOzwvcD4KPGgyPiZuYnNwOzwvaDI+CjxoMj7jg4fjg7zjgr/jg5fjg63jg5DjgqTjg4A6PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT7mg4XloLHjgpLmir3lh7rjgZnjgotCQU3jg4fjg7zjgr/jg5fjg63jg5DjgqTjg4Djga7kvZzmiJDjgajoqK3lrpombmJzcDs8L2xpPgo8L3VsPgo8YnIgdHlwZT0iX21veiIgLz4KPGJyIHR5cGU9Il9tb3oiIC8+CjxoMj7lpJbpg6jmjqXntpo6PC9oMj4KJm5ic3A7Cjx1bD4KICAgIDxsaT7jg4fjg7zjgr/jg5njg7zjgrnjgoTjgZ3jga7ku5bjgrfjgrnjg4bjg6Djgbjjga7mjqXntprjg5Hjg6njg6Hjg7zjgr/jga7lrprnvqk8L2xpPgo8L3VsPgo8YnIgdHlwZT0iX21veiIgLz4KPGgyPuOCpOODs+ODneODvOODiOOBqOOCqOOCr+OCueODneODvOODiDo8L2gyPgombmJzcDsKPHVsPgogICAgPGxpPuOCt+OCueODhuODoOmWk+OBp+ODgOODg+OCt+ODpeODnOODvOODieOCkuOCpOODs+ODneODvOODiOOBvuOBn+OBr+OCqOOCr+OCueODneODvOODiDwvbGk+CjwvdWw+CjxiciB0eXBlPSJfbW96IiAvPgo8YnIgdHlwZT0iX21veiIgLz54</rawcontent>
       <param name="title" value="Administrationsinhalt" lang="de" />
+      <param name="title" value="Conteúdo de Administração" lang="pt" />
+      <param name="title" value="Editor HTML" lang="es" />
+      <param name="title" value="Administration Content" lang="en" />
+      <param name="title" value="管理コンテンツ" lang="ja" />
+      <param name="title" value="Описание панели администрирования" lang="ru" />
+      <param name="title" value="管理内容" lang="zh" />
+      <param name="title" value="Contenu Administratif" lang="fr" />
       <param name="title" value="Conteúdo de Administração" lang="pt" />
       <param name="title" value="Editor HTML" lang="es" />
       <param name="title" value="Administration Content" lang="en" />
@@ -1171,6 +1661,13 @@
       <param name="title" value="Editor HTML" lang="es" />
       <param name="title" value="Sample Dashboards Content" lang="en" />
       <param name="title" value="サンプルダッシュボードコンテンツ" lang="ja" />
+      <param name="title" value="Описание панели примера" lang="ru" />
+      <param name="title" value="仪表板内容示例" lang="zh" />
+      <param name="title" value="Exemple de contenu de tableaux de bord" lang="fr" />
+      <param name="title" value="Amostra do Conteúdo Painéis" lang="pt" />
+      <param name="title" value="Editor HTML" lang="es" />
+      <param name="title" value="Sample Dashboards Content" lang="en" />
+      <param name="title" value="サンプルダッシュボードコンテンツ" lang="ja" />
       <param name="title" value="仪表板内容示例" lang="zh" />
       <param name="title" value="Описание панели примера" lang="ru" />
       <param name="title" value="Exemple de contenu de tableaux de bord" lang="fr" />
@@ -1187,6 +1684,13 @@
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="en" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="en" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="fr" />
@@ -1197,6 +1701,13 @@
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
       <param name="title" value="Logout-Leiste" lang="de" />
+      <param name="title" value="Painel de saída" lang="pt" />
+      <param name="title" value="Panel de logout" lang="es" />
+      <param name="title" value="Logout panel" lang="en" />
+      <param name="title" value="ログアウトパネル" lang="ja" />
+      <param name="title" value="Панель выхода" lang="ru" />
+      <param name="title" value="登出面板" lang="zh" />
+      <param name="title" value="Panneau de déconnexion" lang="fr" />
       <param name="title" value="Painel de saída" lang="pt" />
       <param name="title" value="Panel de logout" lang="es" />
       <param name="title" value="Logout panel" lang="en" />
@@ -1218,6 +1729,13 @@
       <param name="title" value="Título de la página" lang="es" />
       <param name="title" value="Page Title" lang="en" />
       <param name="title" value="ページタイトル" lang="ja" />
+      <param name="title" value="Заголовок страницы" lang="ru" />
+      <param name="title" value="页面标题" lang="zh" />
+      <param name="title" value="Titre de page" lang="fr" />
+      <param name="title" value="Título da Página" lang="pt" />
+      <param name="title" value="Título de la página" lang="es" />
+      <param name="title" value="Page Title" lang="en" />
+      <param name="title" value="ページタイトル" lang="ja" />
       <param name="title" value="页面标题" lang="zh" />
       <param name="title" value="Заголовок страницы" lang="ru" />
       <param name="title" value="Titre de page" lang="fr" />
@@ -1234,6 +1752,13 @@
       <param name="title" value="Dashboards importieren" lang="de" />
       <param name="title" value="Importación de cuadros de mando" lang="es" />
       <param name="title" value="ダッシュボードのインポート" lang="ja" />
+      <param name="title" value="Импорт панелей" lang="ru" />
+      <param name="title" value="导入仪表板" lang="zh" />
+      <param name="title" value="Importation des tableaux de bord" lang="fr" />
+      <param name="title" value="Importar painéis" lang="pt" />
+      <param name="title" value="Dashboards importieren" lang="de" />
+      <param name="title" value="Importación de cuadros de mando" lang="es" />
+      <param name="title" value="ダッシュボードのインポート" lang="ja" />
       <param name="title" value="导入仪表板" lang="zh" />
       <param name="title" value="Импорт панелей" lang="ru" />
       <param name="title" value="Importation des tableaux de bord" lang="fr" />
@@ -1241,6 +1766,13 @@
     </panelInstance>
     <section id="1953" visible="true" panelSpacing="0" position="0" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="home" idTemplate="Default_template_with_sliding_menu">
       <param name="title" value="Start" lang="de" />
+      <param name="title" value="Página Principal" lang="pt" />
+      <param name="title" value="Inicio" lang="es" />
+      <param name="title" value="Home" lang="en" />
+      <param name="title" value="ホーム" lang="ja" />
+      <param name="title" value="Главная" lang="ru" />
+      <param name="title" value="主目录" lang="zh" />
+      <param name="title" value="Accueil" lang="fr" />
       <param name="title" value="Página Principal" lang="pt" />
       <param name="title" value="Inicio" lang="es" />
       <param name="title" value="Home" lang="en" />
@@ -1265,6 +1797,13 @@
       <param name="title" value="Ejemplos cuadro de mando" lang="es" />
       <param name="title" value="Sample dashboards" lang="en" />
       <param name="title" value="サンプルダッシュボード" lang="ja" />
+      <param name="title" value="Примеры панелей" lang="ru" />
+      <param name="title" value="仪表板示例" lang="zh" />
+      <param name="title" value="Exemples de tableaux de bord" lang="fr" />
+      <param name="title" value="Painéis de amostra" lang="pt" />
+      <param name="title" value="Ejemplos cuadro de mando" lang="es" />
+      <param name="title" value="Sample dashboards" lang="en" />
+      <param name="title" value="サンプルダッシュボード" lang="ja" />
       <param name="title" value="仪表板示例" lang="zh" />
       <param name="title" value="Примеры панелей" lang="ru" />
       <param name="title" value="Exemples de tableaux de bord" lang="fr" />
@@ -1283,6 +1822,13 @@
     </section>
     <section id="2995" visible="true" panelSpacing="0" parentId="2956" position="0" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="sales-dashboard" idTemplate="Default_template_with_sliding_menu">
       <param name="title" value="Vertriebsmöglichkeiten" lang="de" />
+      <param name="title" value="Oportunidades de vendas" lang="pt" />
+      <param name="title" value="Indicadores de ventas" lang="es" />
+      <param name="title" value="Sales opportunities" lang="en" />
+      <param name="title" value="セールスオポチュニティー" lang="ja" />
+      <param name="title" value="Прогнозирование продаж" lang="ru" />
+      <param name="title" value="销售机会" lang="zh" />
+      <param name="title" value="Opportunités de ventes" lang="fr" />
       <param name="title" value="Oportunidades de vendas" lang="pt" />
       <param name="title" value="Indicadores de ventas" lang="es" />
       <param name="title" value="Sales opportunities" lang="en" />
@@ -1313,6 +1859,13 @@
       <param name="title" value="Por país" lang="es" />
       <param name="title" value="By country" lang="en" />
       <param name="title" value="国別" lang="ja" />
+      <param name="title" value="По странам" lang="ru" />
+      <param name="title" value="按国家" lang="zh" />
+      <param name="title" value="Par pays" lang="fr" />
+      <param name="title" value="Pelo país" lang="pt" />
+      <param name="title" value="Por país" lang="es" />
+      <param name="title" value="By country" lang="en" />
+      <param name="title" value="国別" lang="ja" />
       <param name="title" value="按国家" lang="zh" />
       <param name="title" value="По странам" lang="ru" />
       <param name="title" value="Par pays" lang="fr" />
@@ -1337,6 +1890,13 @@
     </section>
     <section id="3023" visible="true" panelSpacing="0" parentId="2995" position="1" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="sales-pipeline" idTemplate="Default_template_with_sliding_menu">
       <param name="title" value="In Vorbereitung Analyse (Titel)" lang="de" />
+      <param name="title" value="Análises pipeline" lang="pt" />
+      <param name="title" value="Análisis de pipeline" lang="es" />
+      <param name="title" value="Pipeline analysis" lang="en" />
+      <param name="title" value="パイプライン分析" lang="ja" />
+      <param name="title" value="Анализ объема продаж" lang="ru" />
+      <param name="title" value="管道分析" lang="zh" />
+      <param name="title" value="Analyse Pipeline" lang="fr" />
       <param name="title" value="Análises pipeline" lang="pt" />
       <param name="title" value="Análisis de pipeline" lang="es" />
       <param name="title" value="Pipeline analysis" lang="en" />
@@ -1370,6 +1930,13 @@
       <param name="title" value="Informe de ventas" lang="es" />
       <param name="title" value="Sales report" lang="en" />
       <param name="title" value="セールスレポート" lang="ja" />
+      <param name="title" value="Отчет о продажах" lang="ru" />
+      <param name="title" value="销售报表" lang="zh" />
+      <param name="title" value="Rapport des ventes" lang="fr" />
+      <param name="title" value="Relatório de vendas" lang="pt" />
+      <param name="title" value="Informe de ventas" lang="es" />
+      <param name="title" value="Sales report" lang="en" />
+      <param name="title" value="セールスレポート" lang="ja" />
       <param name="title" value="销售报表" lang="zh" />
       <param name="title" value="Отчет о продажах" lang="ru" />
       <param name="title" value="Rapport des ventes" lang="fr" />
@@ -1389,6 +1956,13 @@
     </section>
     <section id="6384" visible="true" panelSpacing="2" parentId="2956" position="1" regionSpacing="2" idEnvelope="" idSkin="" friendlyUrl="expenses-by-office" idTemplate="Default_template_with_sliding_menu">
       <param name="title" value="Ausgabenberichte" lang="de" />
+      <param name="title" value="Relatórios de despesas" lang="pt" />
+      <param name="title" value="Nota de gastos" lang="es" />
+      <param name="title" value="Expense reports" lang="en" />
+      <param name="title" value="経費レポート" lang="ja" />
+      <param name="title" value="Отчеты о расходах" lang="ru" />
+      <param name="title" value="费用报表" lang="zh" />
+      <param name="title" value="Rapports de dépenses" lang="fr" />
       <param name="title" value="Relatórios de despesas" lang="pt" />
       <param name="title" value="Nota de gastos" lang="es" />
       <param name="title" value="Expense reports" lang="en" />
@@ -1421,6 +1995,13 @@
       <param name="title" value="Administración" lang="es" />
       <param name="title" value="Administration" lang="en" />
       <param name="title" value="管理" lang="ja" />
+      <param name="title" value="Администрирование" lang="ru" />
+      <param name="title" value="管理" lang="zh" />
+      <param name="title" value="Administration" lang="fr" />
+      <param name="title" value="Administração" lang="pt" />
+      <param name="title" value="Administración" lang="es" />
+      <param name="title" value="Administration" lang="en" />
+      <param name="title" value="管理" lang="ja" />
       <param name="title" value="管理" lang="zh" />
       <param name="title" value="Администрирование" lang="ru" />
       <param name="title" value="Administration" lang="fr" />
@@ -1440,6 +2021,13 @@
     </section>
     <section id="2979" visible="true" panelSpacing="0" parentId="1984" position="0" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="data-providers" idTemplate="Default_template_with_sliding_menu">
       <param name="title" value="Daten-Anbieter" lang="de" />
+      <param name="title" value="Provedores de Dados" lang="pt" />
+      <param name="title" value="Proveedores de datos" lang="es" />
+      <param name="title" value="Data providers" lang="en" />
+      <param name="title" value="データプロバイダー" lang="ja" />
+      <param name="title" value="Провайдеры данных" lang="ru" />
+      <param name="title" value="数据供应商" lang="zh" />
+      <param name="title" value="Fournisseurs de données" lang="fr" />
       <param name="title" value="Provedores de Dados" lang="pt" />
       <param name="title" value="Proveedores de datos" lang="es" />
       <param name="title" value="Data providers" lang="en" />
@@ -1467,6 +2055,13 @@
       <param name="title" value="Conexiones externas" lang="es" />
       <param name="title" value="External connections" lang="en" />
       <param name="title" value="外部接続" lang="ja" />
+      <param name="title" value="Внешние соединения" lang="ru" />
+      <param name="title" value="外部连接" lang="zh" />
+      <param name="title" value="Connexions externes" lang="fr" />
+      <param name="title" value="Conexões externas" lang="pt" />
+      <param name="title" value="Conexiones externas" lang="es" />
+      <param name="title" value="External connections" lang="en" />
+      <param name="title" value="外部接続" lang="ja" />
       <param name="title" value="外部连接" lang="zh" />
       <param name="title" value="Внешние соединения" lang="ru" />
       <param name="title" value="Connexions externes" lang="fr" />
@@ -1486,6 +2081,13 @@
     </section>
     <section id="2028" visible="true" panelSpacing="0" parentId="1984" position="2" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="import-export" idTemplate="Default_template_with_sliding_menu">
       <param name="title" value="Import und Export" lang="de" />
+      <param name="title" value="Importar e exportar" lang="pt" />
+      <param name="title" value="Importar y exportar" lang="es" />
+      <param name="title" value="Import and export" lang="en" />
+      <param name="title" value="インポートとエクスポート" lang="ja" />
+      <param name="title" value="Импорт и экспорт" lang="ru" />
+      <param name="title" value="导入和导出" lang="zh" />
+      <param name="title" value="Import et export" lang="fr" />
       <param name="title" value="Importar e exportar" lang="pt" />
       <param name="title" value="Importar y exportar" lang="es" />
       <param name="title" value="Import and export" lang="en" />
@@ -1512,6 +2114,13 @@
     </section>
     <section panelSpacing="0" position="4" idTemplate="Default_template_with_sliding_menu" idEnvelope="" regionSpacing="0" idSkin="" visible="true" id="2104">
       <param name="title" value="Seiten-Vorlage" lang="de" />
+      <param name="title" value="Template da página" lang="pt" />
+      <param name="title" value="Página plantilla" lang="es" />
+      <param name="title" value="Page template" lang="en" />
+      <param name="title" value="ページテンプレート" lang="ja" />
+      <param name="title" value="Шаблон страницы" lang="ru" />
+      <param name="title" value="页面模板" lang="zh" />
+      <param name="title" value="Modèle de page" lang="fr" />
       <param name="title" value="Template da página" lang="pt" />
       <param name="title" value="Página plantilla" lang="es" />
       <param name="title" value="Page template" lang="en" />
