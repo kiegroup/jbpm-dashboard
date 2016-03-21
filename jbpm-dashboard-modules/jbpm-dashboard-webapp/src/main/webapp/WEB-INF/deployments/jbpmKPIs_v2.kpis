@@ -848,7 +848,7 @@
   </kpi>
   <kpi code="kpi_21351361956566198">
     <description language="de">Anzahl der Aufgaben pro Benutzer</description>
-    <description language="ru">Задач на пользователя</description>
+    <description language="ru">Задачи по пользователям</description>
     <description language="zh">每个用户的任务数</description>
     <description language="pt">Número de tarefas por usuário</description>
     <description language="fr">Nombre de tâches par utilisateur</description>
