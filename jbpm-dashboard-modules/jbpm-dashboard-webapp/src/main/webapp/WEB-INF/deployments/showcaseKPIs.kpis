@@ -2,7 +2,7 @@
 <kpis>
   <dataprovider code="dataprovider_63791223772073037" type="csv">
     <description language="en">Expense reports demo</description>
-    <description language="ru">Образец отчетов о расходах</description>
+    <description language="ru">Образец отчета о расходах</description>
     <description language="fr">Démo Rapports de dépenses</description>
     <description language="de">Ausgabenberichte Demo</description>
     <description language="pt">Demonstração de relatórios de despesas</description>
@@ -88,7 +88,7 @@
   </dataprovider>
   <dataprovider code="dataprovider_29881353499006573" type="csv">
     <description language="en">Sales dashboard demo</description>
-    <description language="ru">Образец панели продаж</description>
+    <description language="ru">Демоверсия панели продаж</description>
     <description language="fr">Démo Tableau de bord des ventes</description>
     <description language="de">Verkaufs-Dashboard Demo</description>
     <description language="pt">Demonstração do painel de vendas</description>
@@ -229,7 +229,7 @@
       <dataproperty id="expected amount">
         <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
         <name language="en">Expected amount</name>
-        <name language="ru">Прогнозируемая сумма</name>
+        <name language="ru">Ожидаемая сумма</name>
         <name language="fr">Montant attendu</name>
         <name language="de">Erwarteter Betrag</name>
         <name language="pt">Quantia esperada</name>
@@ -1008,7 +1008,7 @@
       <range>
         <propertyid>expected amount</propertyid>
         <name language="en">Expected amount</name>
-        <name language="ru">Прогнозируемая сумма</name>
+        <name language="ru">Ожидаемая сумма</name>
         <name language="fr">Montant attendu</name>
         <name language="de">Erwarteter Betrag</name>
         <name language="pt">Quantia esperada</name>
@@ -1101,7 +1101,7 @@
   </kpi>
   <kpi code="kpi_64061223773274641">
     <description language="en">Expense reports table</description>
-    <description language="ru">Таблица расходов</description>
+    <description language="ru">Таблица отчетов о расходах</description>
     <description language="fr">Tableau de rapports des dépenses</description>
     <description language="de">Ausgabenbericht-Tabelle</description>
     <description language="pt">Custo da tabela de relatórios</description>
@@ -1121,7 +1121,7 @@
         <modelproperty>id</modelproperty>
         <viewindex>0</viewindex>
         <name language="en">Id.</name>
-        <name language="ru">ID</name>
+        <name language="ru">ID.</name>
         <name language="fr">Id.</name>
         <name language="de">Id.</name>
         <name language="pt">Id.</name>
@@ -1335,7 +1335,7 @@
   </kpi>
   <kpi code="kpi_63901223772516707">
     <description language="en">Expenses by office USD</description>
-    <description language="ru">Расходы по офисам (USD)</description>
+    <description language="ru">Расходы по отделам (USD)</description>
     <description language="fr">Dépenses par office USD</description>
     <description language="de">Ausgaben nach Büro USD</description>
     <description language="pt">Despesas pelo USD do escritório</description>
@@ -1809,7 +1809,7 @@
   </kpi>
   <kpi code="kpi_29761353668431694">
     <description language="en">Sales report table</description>
-    <description language="ru">Табличный отчет о продажах</description>
+    <description language="ru">Таблица отчета о продажах</description>
     <description language="fr">Tableau de rapports de ventes</description>
     <description language="de">Vertriebsbericht-Tabelle</description>
     <description language="pt">Tabela de relatório de vendas</description>
