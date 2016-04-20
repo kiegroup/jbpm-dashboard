@@ -3,7 +3,7 @@
   <dataprovider code="dataprovider_30861353511610610" type="sql">
     <description language="fr">Nombre de Processus jBPM</description>
     <description language="ru">Число процессов jBPM</description>
-    <description language="zh">jBPM 进程计数</description>
+    <description language="zh">jBPM 流程计数</description>
     <description language="ja">jBPM カウントプロセス</description>
     <description language="en">jBPM Count Processes</description>
     <description language="es">jBPM Contar casos</description>
@@ -215,7 +215,7 @@
         <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
         <name language="fr">Processus</name>
         <name language="ru">Процесс</name>
-        <name language="zh">进程</name>
+        <name language="zh">流程</name>
         <name language="ja">プロセス</name>
         <name language="en">Process</name>
         <name language="es">Proceso</name>
@@ -552,7 +552,7 @@
         <propertyid>processversion</propertyid>
         <name language="fr">Version de processus</name>
         <name language="ru">Версия процесса</name>
-        <name language="zh">进程版本</name>
+        <name language="zh">流程版本</name>
         <name language="ja">プロセスバージョン</name>
         <name language="en">Process version</name>
         <name language="es">Versión del proceso</name>
@@ -600,7 +600,7 @@
   <kpi code="kpi_29771353670707848">
     <description language="de">Instanzen nach Prozess</description>
     <description language="ru">Экземпляры по процессам</description>
-    <description language="zh">进程实例</description>
+    <description language="zh">流程实例</description>
     <description language="pt">Instâncias por processo</description>
     <description language="fr">Instances par processus</description>
     <description language="en">Instances by process</description>
@@ -612,7 +612,7 @@
         <propertyid>processname</propertyid>
         <name language="fr">Processus</name>
         <name language="ru">Процесс</name>
-        <name language="zh">进程</name>
+        <name language="zh">流程</name>
         <name language="ja">プロセス</name>
         <name language="en">Process</name>
         <name language="es">Proceso</name>
@@ -674,7 +674,7 @@
         <propertyid>status</propertyid>
         <name language="fr">Statut du processus</name>
         <name language="ru">Состояние процесса</name>
-        <name language="zh">进程状态</name>
+        <name language="zh">流程状态</name>
         <name language="ja">プロセスステータス</name>
         <name language="en">Process status</name>
         <name language="es">Estado del proceso</name>
@@ -736,7 +736,7 @@
         <name language="de">Prozess-Benutzer oder Rolle</name>
         <name language="es">Usuario o rol del proceso</name>
         <name language="ja">プロセスユーザーまたはロール</name>
-        <name language="zh">进程用户或角色</name>
+        <name language="zh">流程用户或角色</name>
         <name language="ru">Пользователь или роль</name>
         <name language="fr">Rôle ou Utilisateur de processus</name>
         <maxnumberofintervals>30</maxnumberofintervals>
@@ -913,7 +913,7 @@
   <kpi code="kpi_30751353944093386">
     <description language="de">Prozess abgeschlossen bis Datum</description>
     <description language="ru">Процессы по дате завершения</description>
-    <description language="zh">按日期排列的已完成进程</description>
+    <description language="zh">按日期排列的已完成流程</description>
     <description language="pt">Processo completado pela data</description>
     <description language="fr">Processus complété par date</description>
     <description language="en">Process completed by date</description>
@@ -925,7 +925,7 @@
         <propertyid>end_date</propertyid>
         <name language="fr">Date de fin de processus</name>
         <name language="ru">Дата завершения процесса</name>
-        <name language="zh">进程结束日期</name>
+        <name language="zh">流程结束日期</name>
         <name language="ja">プロセス終了日</name>
         <name language="en">Process End date</name>
         <name language="es">Fecha final del proceso</name>
@@ -976,7 +976,7 @@
   <kpi code="kpi_29671354183712341">
     <description language="de">Prozessdauer</description>
     <description language="ru">Продолжительность процесса</description>
-    <description language="zh">进程持续时间</description>
+    <description language="zh">流程持续时间</description>
     <description language="pt">Duração do processo</description>
     <description language="fr">Durée du processus</description>
     <description language="en">Process duration</description>
@@ -999,7 +999,7 @@
         <name language="de">Prozess</name>
         <name language="pt">Processo</name>
         <name language="ja">プロセス</name>
-        <name language="zh">进程</name>
+        <name language="zh">流程</name>
         <name language="es">Proceso</name>
         <maxnumberofintervals>1000000</maxnumberofintervals>
         <showtotals>true</showtotals>
@@ -1010,7 +1010,7 @@
         <viewindex>0</viewindex>
         <name language="fr">Processus</name>
         <name language="ru">Процесс</name>
-        <name language="zh">进程</name>
+        <name language="zh">流程</name>
         <name language="ja">プロセス</name>
         <name language="en">Process</name>
         <name language="es">Proceso</name>
@@ -1018,7 +1018,7 @@
         <name language="pt">Processo</name>
         <hint language="fr">Processus</hint>
         <hint language="ru">Процесс</hint>
-        <hint language="zh">进程</hint>
+        <hint language="zh">流程</hint>
         <hint language="ja">プロセス</hint>
         <hint language="en">Process</hint>
         <hint language="es">Proceso</hint>
@@ -1139,7 +1139,7 @@
   <kpi code="kpi_21261373392004451">
     <description language="de">Prozess instantiiert von Datum</description>
     <description language="ru">Процессы по дате начала</description>
-    <description language="zh">按日期初始化的进程</description>
+    <description language="zh">按日期初始化的流程</description>
     <description language="pt">Processo iniciado por data</description>
     <description language="fr">Processus initié par date</description>
     <description language="en">Process initiated by date</description>
@@ -1151,7 +1151,7 @@
         <propertyid>start_date</propertyid>
         <name language="fr">Date Démarrage Processus</name>
         <name language="ru">Дата начала процесса</name>
-        <name language="zh">进程开始日期</name>
+        <name language="zh">流程开始日期</name>
         <name language="ja">プロセス開始日</name>
         <name language="en">Process start date</name>
         <name language="es">Fecha de inicio del proceso</name>
@@ -1205,7 +1205,7 @@
     <description language="de">Prozessinstanzen nach Status</description>
     <description language="pt">Instâncias do processo por status</description>
     <description language="ja">ステータス別プロセスインスタンス</description>
-    <description language="zh">按状态排列的进程实例</description>
+    <description language="zh">按状态排列的流程实例</description>
     <description language="es">Instancias de proceso por estado</description>
     <provider code="dataprovider_30861353511610610" />
     <displayer type="table" renderer="default">
@@ -1224,7 +1224,7 @@
         <name language="de">Prozess</name>
         <name language="pt">Processo</name>
         <name language="ja">プロセス</name>
-        <name language="zh">进程</name>
+        <name language="zh">流程</name>
         <name language="es">Proceso</name>
         <maxnumberofintervals>1000000</maxnumberofintervals>
         <showtotals>true</showtotals>
@@ -1240,7 +1240,7 @@
         <name language="de">Prozess</name>
         <name language="pt">Processo</name>
         <name language="ja">プロセス</name>
-        <name language="zh">进程</name>
+        <name language="zh">流程</name>
         <hint language="en">Process</hint>
         <hint language="ru">Процесс</hint>
         <hint language="es">Proceso</hint>
@@ -1248,7 +1248,7 @@
         <hint language="de">Prozess</hint>
         <hint language="pt">Processo</hint>
         <hint language="ja">プロセス</hint>
-        <hint language="zh">进程</hint>
+        <hint language="zh">流程</hint>
         <headerhtmlstyle>text-align:center; width:200px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
         <cellhtmlstyle>width:200px; height:20px;  white-space:nowrap;</cellhtmlstyle>
         <htmlvalue>{value}</htmlvalue>
@@ -1490,7 +1490,7 @@
         <propertyid>enddate</propertyid>
         <name language="fr">Date de fin de la tâche</name>
         <name language="ru">Дата завершения задачи</name>
-        <name language="zh">进程结束日期</name>
+        <name language="zh">流程结束日期</name>
         <name language="ja">タスク終了日</name>
         <name language="en">Task End date</name>
         <name language="es">Fecha final de la tarea</name>
