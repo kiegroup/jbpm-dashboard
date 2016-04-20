@@ -912,7 +912,7 @@
   </kpi>
   <kpi code="kpi_30751353944093386">
     <description language="de">Prozess abgeschlossen bis Datum</description>
-    <description language="ru">Завершенные процессы по датам</description>
+    <description language="ru">Процессы по дате завершения</description>
     <description language="zh">按日期排列的已完成进程</description>
     <description language="pt">Processo completado pela data</description>
     <description language="fr">Processus complété par date</description>
@@ -1138,7 +1138,7 @@
   </kpi>
   <kpi code="kpi_21261373392004451">
     <description language="de">Prozess instantiiert von Datum</description>
-    <description language="ru">Инициированные процессы по датам</description>
+    <description language="ru">Процессы по дате начала</description>
     <description language="zh">按日期初始化的进程</description>
     <description language="pt">Processo iniciado por data</description>
     <description language="fr">Processus initié par date</description>
@@ -1477,7 +1477,7 @@
   </kpi>
   <kpi code="kpi_29741354189063608">
     <description language="de">Aufgaben beendet bis Datum</description>
-    <description language="ru">Завершенные задачи по датам</description>
+    <description language="ru">Задачи по дате завершения</description>
     <description language="zh">按日期排列的已完成任务</description>
     <description language="pt">Tarefas concluídas pela data</description>
     <description language="fr">Tâche complétée par date</description>
@@ -1703,7 +1703,7 @@
   </kpi>
   <kpi code="kpi_31201353947556129">
     <description language="de">Aufgaben begonnen bis Datum</description>
-    <description language="ru">Начатые задачи по датам</description>
+    <description language="ru">Задачи по дате начала</description>
     <description language="zh">按日期启动的任务</description>
     <description language="pt">Tarefas iniciadas pela data</description>
     <description language="fr">Tâches démarrées par date</description>
