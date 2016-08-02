@@ -1,0 +1,51 @@
+<component xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/component/1.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/component/1.1.3 http://maven.apache.org/xsd/component-1.1.3.xsd">
+  <!-- Assembly configuration for EAP 7, shared between the community and product assemblies. -->
+
+  <fileSets>
+    <fileSet>
+      <directory>${project.basedir}/src/main/eap7/</directory>
+      <outputDirectory>.</outputDirectory>
+      <filtered>true</filtered>
+    </fileSet>
+  </fileSets>
+
+  <dependencySets>
+    <dependencySet>
+      <includes>
+        <include>${webapp.war}</include>
+      </includes>
+      <outputDirectory>.</outputDirectory>
+      <unpack>true</unpack>
+      <unpackOptions>
+        <excludes>
+          <exclude>WEB-INF/jetty-*.xml</exclude>
+          <exclude>WEB-INF/jboss-web.xml</exclude>
+          <exclude>WEB-INF/jboss-deployment-structure.xml</exclude>
+          <exclude>WEB-INF/web.xml</exclude>
+          <exclude>WEB-INF/lib/jboss-*.jar</exclude>
+          <exclude>WEB-INF/lib/jta-*.jar</exclude>
+          <exclude>WEB-INF/lib/javax.*.jar</exclude>
+          <exclude>WEB-INF/lib/jsr250-*.jar</exclude>
+          <exclude>WEB-INF/lib/mail-*.jar</exclude>
+          <exclude>WEB-INF/lib/stax-*.jar</exclude>
+          <exclude>WEB-INF/lib/cdi-*.jar</exclude>
+          <exclude>WEB-INF/lib/activation-*.jar</exclude>
+          <exclude>WEB-INF/lib/mchange-*.jar</exclude>
+          <exclude>WEB-INF/lib/fontbox-*.jar</exclude>
+          <exclude>WEB-INF/lib/itext-*.jar</exclude>
+          <exclude>WEB-INF/lib/pdfbox-*.jar</exclude>
+          <exclude>WEB-INF/lib/xml-apis-*.jar</exclude>
+          <exclude>WEB-INF/lib/slf4j-*.jar</exclude>
+          <exclude>WEB-INF/lib/commons-dbcp-*.jar</exclude>
+          <exclude>WEB-INF/lib/xercesImpl-*.jar</exclude>
+          <!-- Hibernate libs are _not_ excluded as we need to bundle them in the WAR. EAP7 uses by default Hibernate 5, which
+               is not compatible with the jbpm-dashboard -->
+          <exclude>WEB-INF/lib/weld-*.jar</exclude>
+        </excludes>
+      </unpackOptions>
+      <useStrictFiltering>true</useStrictFiltering>
+    </dependencySet>
+  </dependencySets>
+
+</component>

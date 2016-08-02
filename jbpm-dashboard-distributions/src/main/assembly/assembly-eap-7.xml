@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright (C) 2014 Red Hat, Inc. and/or its affiliates.
+    Copyright (C) 2016 Red Hat, Inc. and/or its affiliates.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
 
-  <id>eap6_4-redhat</id>
+  <id>eap7</id>
   <formats>
     <format>war</format>
   </formats>
@@ -29,15 +29,7 @@
   <includeBaseDirectory>false</includeBaseDirectory>
 
   <componentDescriptors>
-    <componentDescriptor>src/main/assembly/component-eap-6_4-common.xml</componentDescriptor>
+    <componentDescriptor>src/main/assembly/component-eap-7-common.xml</componentDescriptor>
   </componentDescriptors>
 
-  <fileSets>
-    <fileSet>
-      <!-- Files specific to productized (-redhat) EAP WAR-->
-      <directory>${project.basedir}/src/main/eap-redhat/</directory>
-      <outputDirectory>.</outputDirectory>
-      <filtered>false</filtered>
-    </fileSet>
-  </fileSets>
 </assembly>
