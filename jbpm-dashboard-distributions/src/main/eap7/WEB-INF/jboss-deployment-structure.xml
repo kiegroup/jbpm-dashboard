@@ -32,6 +32,11 @@
       <module name="org.apache.commons.logging"/>
       <module name="org.apache.xerces"/>
       <module name="org.slf4j"/>
+
+      <!-- This dependency is required in order to support different Wildfly & EAP versions
+          without having to bundle a different version of the ironjacamar's jdbc adapter library
+          => See https://issues.jboss.org/browse/RHBPMS-4209 -->
+      <module name="org.jboss.ironjacamar.jdbcadapters" />
     </dependencies>
 
   </deployment>

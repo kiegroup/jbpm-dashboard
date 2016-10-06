@@ -37,6 +37,12 @@
            Depending on the EAP module seems to be the only way.
            See https://developer.jboss.org/thread/173306 for more info. -->
       <module name="org.dom4j"/>
+
+      <!-- This dependency is required in order to support different Wildfly & EAP versions
+          without having to bundle a different version of the ironjacamar's jdbc adapter library
+          => See https://issues.jboss.org/browse/RHBPMS-4209 -->
+      <module name="org.jboss.ironjacamar.jdbcadapters" />
+
     </dependencies>
 
   </deployment>
