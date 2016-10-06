@@ -57,6 +57,7 @@
           <exclude>WEB-INF/lib/slf4j-*.jar</exclude>
           <exclude>WEB-INF/lib/commons-dbcp-*.jar</exclude>
           <exclude>WEB-INF/lib/xercesImpl-*.jar</exclude>
+          <exclude>WEB-INF/lib/ironjacamar-*.jar</exclude>
           <!-- Hibernate libs are _not_ excluded as we need to bundle them in the WAR. WildFly 10 uses by default Hibernate 5, which
                is not compatible with the jbpm-dashboard -->
           <exclude>WEB-INF/lib/weld-*.jar</exclude>
