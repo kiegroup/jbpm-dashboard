@@ -95,14 +95,22 @@ Go to _Applications > Application types > Websphere enterprise applications > da
    - Check all the app. roles.
    - Click on _Map Special Subjects_ and select the _All Authenticated in Application's Realm_ option.
 
-  Once deployed you can start/stop the application from the Websphere console.
+Go to Applications > Application types > Websphere enterprise applications > dashbuilder app > Class loading and update detection
 
-  Once started you should be able to access the application by typing the following URL: _http://http://localhost:9080/dashbuilder_
+Ensure the following radio buttons are checked:
 
-  You can sign in with any of the users defined above.
+   - Classes loaded with local class loader first (parent last)
+   - Single class loader for application
 
-  You can create process instances and tasks from the jBPM Human Task console and later on refresh the jBPM Dashboard to
-  see how the different key performance monitoring indicators are updated.
+
+Save the configurations to the master and restart the server.
+
+Once restarted you should be able to access the application by typing the following URL: _http://http://localhost:9080/dashbuilder_
+
+You can sign in with any of the users defined above.
+
+You can create process instances and tasks from the jBPM Human Task console and later on refresh the jBPM Dashboard to
+see how the different key performance monitoring indicators are updated.
 
 
 

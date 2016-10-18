@@ -26,6 +26,10 @@
           <exclude>WEB-INF/web.xml</exclude>
 
           <exclude>WEB-INF/lib/hibernate-core-*.jar</exclude>
+          <exclude>WEB-INF/lib/javassist-*.jar</exclude>
+          <exclude>WEB-INF/lib/xercesImpl-*.jar</exclude>
+          <exclude>WEB-INF/lib/stax-api-*.jar</exclude>
+          <exclude>WEB-INF/lib/jboss-transaction-api*.jar</exclude>
           <exclude>WEB-INF/lib/weld-*.jar</exclude>
           <exclude>WEB-INF/lib/jta-*.jar</exclude>
           <exclude>WEB-INF/lib/xml-apis-*.jar</exclude>
