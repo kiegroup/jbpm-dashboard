@@ -57,6 +57,12 @@
     <param name="title" value="Layout do JBPM" lang="pt" />
     <param name="title" value="Panel jBPM" lang="es" />
     <param name="title" value="jBPM-Dashboard" lang="de" />
+    <param name="title" value="jBPMダッシュボード" lang="ja" />
+    <param name="title" value="jBPM Dashboard" lang="ru" />
+    <param name="title" value="Tableau de bord jBPM" lang="fr" />
+    <param name="title" value="Layout do JBPM" lang="pt" />
+    <param name="title" value="Panel jBPM" lang="es" />
+    <param name="title" value="jBPM-Dashboard" lang="de" />
     <param name="title" value="Layout do JBPM" lang="pt" />
     <param name="title" value="jBPM-Dashboard" lang="de" />
     <param name="title" value="Panel jBPM" lang="es" />
@@ -101,6 +107,12 @@
     <param name="title" value="Tableau de bord jBPM" lang="fr" />
     <param name="title" value="Layout do JBPM" lang="pt" />
     <param name="name" value="jBPM-Dashboard" lang="de" />
+    <param name="name" value="jBPMダッシュボード" lang="ja" />
+    <param name="name" value="jBPM Dashboard" lang="ru" />
+    <param name="name" value="Tableau de bord jBPM" lang="fr" />
+    <param name="name" value="jBPM 仪表板" lang="zh" />
+    <param name="name" value="Painel do JBPM" lang="pt" />
+    <param name="name" value="Panel jBPM" lang="es" />
     <param name="name" value="jBPMダッシュボード" lang="ja" />
     <param name="name" value="jBPM Dashboard" lang="ru" />
     <param name="name" value="Tableau de bord jBPM" lang="fr" />
@@ -254,6 +266,12 @@
       <param name="title" value="每个用户的任务数" lang="zh" />
       <param name="title" value="Número de tarefas por usuário" lang="pt" />
       <param name="title" value="Tareas por usuario" lang="es" />
+      <param name="title" value="ユーザー毎のタスク数" lang="ja" />
+      <param name="title" value="Задачи по пользователям" lang="ru" />
+      <param name="title" value="Nombre de tâches par utilisateur" lang="fr" />
+      <param name="title" value="每个用户的任务数" lang="zh" />
+      <param name="title" value="Número de tarefas por usuário" lang="pt" />
+      <param name="title" value="Tareas por usuario" lang="es" />
       <param name="title" value="Número de tarefas por usuário" lang="pt" />
       <param name="title" value="Tareas por usuario" lang="es" />
       <param name="title" value="ユーザー毎のタスク数" lang="ja" />
@@ -305,6 +323,12 @@
     </panelInstance>
     <panelInstance serialization="rO0ABXQDrDxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0iZW5kX2RhdGUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yMTY1MTQxODYzODE1MTAwMCI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJ1c2VyaWQiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl84NDUwMTQxODY0MDc0NTQ3NCI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogICAgPHNlY3Rpb24+Mjk4OTwvc2VjdGlvbj4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0ic3RhcnRfZGF0ZSIgcHJvdmlkZXJDb2RlID0iZGF0YXByb3ZpZGVyXzQ3ODAxNDE4NjM5MDEyNzQ1Ij4KICAgIDx2aXNpYmxlPnRydWU8L3Zpc2libGU+CiAgPC9wcm9wZXJ0eT4KICA8cHJvcGVydHkgaWQ9InByb2Nlc3NuYW1lIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfMzA4NjEzNTM1MTE2MTA2MTAiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICAgIDxzZWN0aW9uPjIwMDM8L3NlY3Rpb24+CiAgPC9wcm9wZXJ0eT4KICA8b3B0aW9ucz4KICAgIDxzaG9ydFZpZXdNb2RlPnRydWU8L3Nob3J0Vmlld01vZGU+CiAgICA8c2hvd0xlZ2VuZD50cnVlPC9zaG93TGVnZW5kPgogICAgPHNob3dSZWZyZXNoQnV0dG9uPnRydWU8L3Nob3dSZWZyZXNoQnV0dG9uPgogICAgPHNob3dBcHBseWhCdXR0b24+dHJ1ZTwvc2hvd0FwcGx5aEJ1dHRvbj4KICAgIDxzaG93Q2xlYXJCdXR0b24+dHJ1ZTwvc2hvd0NsZWFyQnV0dG9uPgogICAgPHNob3dQcm9wZXJ0eU5hbWVzPnRydWU8L3Nob3dQcm9wZXJ0eU5hbWVzPgogICAgPHNob3dTdWJtaXRPbkNoYW5nZT50cnVlPC9zaG93U3VibWl0T25DaGFuZ2U+CiAgPHNob3dBdXRvUmVmcmVzaD5mYWxzZTwvc2hvd0F1dG9SZWZyZXNoPgogIDwvb3B0aW9ucz4KPC9kYXNoYm9hcmRfZmlsdGVyPgo=" provider="dashboard.filter" id="3087">
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para panel" lang="es" />
       <param name="title" value="ダッシュボードフィルター" lang="ja" />
       <param name="title" value="Фильтр панели" lang="ru" />
       <param name="title" value="Filtre de tableau de bord" lang="fr" />
@@ -454,6 +478,12 @@
       <param name="title" value="按流程列出的实例" lang="zh" />
       <param name="title" value="Instâncias por processo" lang="pt" />
       <param name="title" value="Instancias por proceso" lang="es" />
+      <param name="title" value="プロセス別インスタンス" lang="ja" />
+      <param name="title" value="Экземпляры по процессам" lang="ru" />
+      <param name="title" value="Instances par processus" lang="fr" />
+      <param name="title" value="按流程列出的实例" lang="zh" />
+      <param name="title" value="Instâncias por processo" lang="pt" />
+      <param name="title" value="Instancias por proceso" lang="es" />
       <param name="title" value="Instâncias por processo" lang="pt" />
       <param name="title" value="Instancias por proceso" lang="es" />
       <param name="title" value="プロセス別インスタンス" lang="ja" />
@@ -507,6 +537,12 @@
       <param name="group" value="Process" lang=" " />
       <param name="kpicode" value="kpi_30571353683160264" lang=" " />
       <param name="title" value="Gestartete Instanzen nach Benutzer" lang="de" />
+      <param name="title" value="ユーザーにより開始されたインスタンス" lang="ja" />
+      <param name="title" value="Инициированные пользователем экземпляры" lang="ru" />
+      <param name="title" value="Instances démarrées par utilisateur" lang="fr" />
+      <param name="title" value="用户启动的实例" lang="zh" />
+      <param name="title" value="Instâncias iniciadas por usuário" lang="pt" />
+      <param name="title" value="Instancias creadas por usuario" lang="es" />
       <param name="title" value="ユーザーにより開始されたインスタンス" lang="ja" />
       <param name="title" value="Инициированные пользователем экземпляры" lang="ru" />
       <param name="title" value="Instances démarrées par utilisateur" lang="fr" />
@@ -657,6 +693,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
@@ -706,6 +748,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="fr" />
@@ -804,6 +852,12 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalLang&quot;&gt;" lang="zh" />
       <param name="start.html" value="&lt;table align=&quot;center&quot; border=&quot;0&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;|&amp;nbsp;&lt;/td&gt;" lang=" " />
       <param name="title" value="Sprachmenü" lang="de" />
+      <param name="title" value="言語メニュー" lang="ja" />
+      <param name="title" value="Выбор языка" lang="ru" />
+      <param name="title" value="Menu des langues" lang="fr" />
+      <param name="title" value="语言菜单" lang="zh" />
+      <param name="title" value="Menu de Linguagem" lang="pt" />
+      <param name="title" value="Navegador de Idiomas" lang="es" />
       <param name="title" value="言語メニュー" lang="ja" />
       <param name="title" value="Выбор языка" lang="ru" />
       <param name="title" value="Menu des langues" lang="fr" />
@@ -951,6 +1005,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
@@ -1048,6 +1108,12 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="ja" />
@@ -1097,6 +1163,12 @@
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;div class=&quot;GlobalBreadCrump&quot;&gt;" lang="zh" />
       <param name="title" value="Prozess-Dashboard (Bread crumb)" lang="de" />
+      <param name="title" value="プロセスダッシュボード(パンくず)" lang="ja" />
+      <param name="title" value="Панель процессов (путь к странице)" lang="ru" />
+      <param name="title" value="Processus de tableau de bord (Barre de navigation)" lang="fr" />
+      <param name="title" value="流程仪表板（Bread crumb）" lang="zh" />
+      <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
+      <param name="title" value="Ruta actual (procesos)" lang="es" />
       <param name="title" value="プロセスダッシュボード(パンくず)" lang="ja" />
       <param name="title" value="Панель процессов (путь к странице)" lang="ru" />
       <param name="title" value="Processus de tableau de bord (Barre de navigation)" lang="fr" />
@@ -1245,6 +1317,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
@@ -1294,6 +1372,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
@@ -1392,6 +1476,12 @@
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
       <param name="kpicode" value="kpi_30531353942661507" lang=" " />
       <param name="title" value="Prozessinstanzen nach Status" lang="de" />
+      <param name="title" value="ステータス別プロセスインスタンス" lang="ja" />
+      <param name="title" value="Экземпляры процесса по состоянию" lang="ru" />
+      <param name="title" value="Instances de processus par statut" lang="fr" />
+      <param name="title" value="按状态排列的流程实例" lang="zh" />
+      <param name="title" value="Instâncias do processo por status" lang="pt" />
+      <param name="title" value="Instancias de proceso por estado" lang="es" />
       <param name="title" value="ステータス別プロセスインスタンス" lang="ja" />
       <param name="title" value="Экземпляры процесса по состоянию" lang="ru" />
       <param name="title" value="Instances de processus par statut" lang="fr" />
@@ -1541,6 +1631,12 @@
       <param name="title" value="按日期初始化的流程" lang="zh" />
       <param name="title" value="Processo iniciado por data" lang="pt" />
       <param name="title" value="Procesos iniciados por fecha" lang="es" />
+      <param name="title" value="日時指定で開始したプロセス" lang="ja" />
+      <param name="title" value="Процессы по дате начала" lang="ru" />
+      <param name="title" value="Processus initié par date" lang="fr" />
+      <param name="title" value="按日期初始化的流程" lang="zh" />
+      <param name="title" value="Processo iniciado por data" lang="pt" />
+      <param name="title" value="Procesos iniciados por fecha" lang="es" />
       <param name="title" value="Processo iniciado por data" lang="pt" />
       <param name="title" value="Procesos iniciados por fecha" lang="es" />
       <param name="title" value="日時指定で開始したプロセス" lang="ja" />
@@ -1594,6 +1690,12 @@
       <param name="group" value="Process" lang=" " />
       <param name="kpicode" value="kpi_30751353944093386" lang=" " />
       <param name="title" value="Abgeschlossener Prozess nach Datum" lang="de" />
+      <param name="title" value="日時指定で完了したプロセス" lang="ja" />
+      <param name="title" value="Процессы по дате завершения" lang="ru" />
+      <param name="title" value="Processus complété par date" lang="fr" />
+      <param name="title" value="按日期排列的已完成流程" lang="zh" />
+      <param name="title" value="Processo completado por data" lang="pt" />
+      <param name="title" value="Procesos completados por fecha" lang="es" />
       <param name="title" value="日時指定で完了したプロセス" lang="ja" />
       <param name="title" value="Процессы по дате завершения" lang="ru" />
       <param name="title" value="Processus complété par date" lang="fr" />
@@ -1743,6 +1845,12 @@
       <param name="title" value="按日期启动的任务" lang="zh" />
       <param name="title" value="Tarefas iniciadas pela data" lang="pt" />
       <param name="title" value="Tareas iniciadas por fecha" lang="es" />
+      <param name="title" value="日時指定で開始したタスク" lang="ja" />
+      <param name="title" value="Задачи по дате начала" lang="ru" />
+      <param name="title" value="Tâches démarrées par date" lang="fr" />
+      <param name="title" value="按日期启动的任务" lang="zh" />
+      <param name="title" value="Tarefas iniciadas pela data" lang="pt" />
+      <param name="title" value="Tareas iniciadas por fecha" lang="es" />
       <param name="title" value="Tarefas iniciadas pela data" lang="pt" />
       <param name="title" value="Tareas iniciadas por fecha" lang="es" />
       <param name="title" value="日時指定で開始したタスク" lang="ja" />
@@ -1794,6 +1902,12 @@
     </panelInstance>
     <panelInstance serialization="rO0ABXQC/TxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0ic3RhdHVzIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfNzAzNTE0MTg2NDU0NTE5OTIiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iZW5kX2RhdGUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yMTY1MTQxODYzODE1MTAwMCI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJzdGFydF9kYXRlIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfNDc4MDE0MTg2MzkwMTI3NDUiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxvcHRpb25zPgogICAgPHNob3J0Vmlld01vZGU+dHJ1ZTwvc2hvcnRWaWV3TW9kZT4KICAgIDxzaG93TGVnZW5kPnRydWU8L3Nob3dMZWdlbmQ+CiAgICA8c2hvd1JlZnJlc2hCdXR0b24+dHJ1ZTwvc2hvd1JlZnJlc2hCdXR0b24+CiAgICA8c2hvd0FwcGx5aEJ1dHRvbj50cnVlPC9zaG93QXBwbHloQnV0dG9uPgogICAgPHNob3dDbGVhckJ1dHRvbj50cnVlPC9zaG93Q2xlYXJCdXR0b24+CiAgICA8c2hvd1Byb3BlcnR5TmFtZXM+dHJ1ZTwvc2hvd1Byb3BlcnR5TmFtZXM+CiAgICA8c2hvd1N1Ym1pdE9uQ2hhbmdlPnRydWU8L3Nob3dTdWJtaXRPbkNoYW5nZT4KICA8c2hvd0F1dG9SZWZyZXNoPmZhbHNlPC9zaG93QXV0b1JlZnJlc2g+CiAgPC9vcHRpb25zPgo8L2Rhc2hib2FyZF9maWx0ZXI+Cg==" provider="dashboard.filter" id="3122">
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para panel" lang="es" />
       <param name="title" value="ダッシュボードフィルター" lang="ja" />
       <param name="title" value="Фильтр панели" lang="ru" />
       <param name="title" value="Filtre de tableau de bord" lang="fr" />
@@ -1943,6 +2057,12 @@
       <param name="title" value="任务实例的数量" lang="zh" />
       <param name="title" value="Número de instâncias da tarefa" lang="pt" />
       <param name="title" value="Número de instancias de tarea" lang="es" />
+      <param name="title" value="タスクインスタンス数" lang="ja" />
+      <param name="title" value="Число экземпляров задач" lang="ru" />
+      <param name="title" value="Nombre d&apos;instances de tâches" lang="fr" />
+      <param name="title" value="任务实例的数量" lang="zh" />
+      <param name="title" value="Número de instâncias da tarefa" lang="pt" />
+      <param name="title" value="Número de instancias de tarea" lang="es" />
       <param name="title" value="Número de instâncias da tarefa" lang="pt" />
       <param name="title" value="Número de instancias de tarea" lang="es" />
       <param name="title" value="タスクインスタンス数" lang="ja" />
@@ -1996,6 +2116,12 @@
       <param name="group" value="Process" lang=" " />
       <param name="kpicode" value="kpi_31291353948572804" lang=" " />
       <param name="title" value="Benutzer mit Aufgaben" lang="de" />
+      <param name="title" value="タスクがあるユーザー" lang="ja" />
+      <param name="title" value="Пользователи с задачами" lang="ru" />
+      <param name="title" value="Utilisateurs avec des tâches" lang="fr" />
+      <param name="title" value="带有任务的用户" lang="zh" />
+      <param name="title" value="Usuários com tarefas" lang="pt" />
+      <param name="title" value="Usuarios con tareas" lang="es" />
       <param name="title" value="タスクがあるユーザー" lang="ja" />
       <param name="title" value="Пользователи с задачами" lang="ru" />
       <param name="title" value="Utilisateurs avec des tâches" lang="fr" />
@@ -2145,6 +2271,12 @@
       <param name="title" value="按状态列出的实例" lang="zh" />
       <param name="title" value="Instâncias por status" lang="pt" />
       <param name="title" value="Instancias por estado" lang="es" />
+      <param name="title" value="ステータス別インスタンス" lang="ja" />
+      <param name="title" value="Экземпляры по состоянию" lang="ru" />
+      <param name="title" value="Instances par statut" lang="fr" />
+      <param name="title" value="按状态列出的实例" lang="zh" />
+      <param name="title" value="Instâncias por status" lang="pt" />
+      <param name="title" value="Instancias por estado" lang="es" />
       <param name="title" value="Instâncias por status" lang="pt" />
       <param name="title" value="Instancias por estado" lang="es" />
       <param name="title" value="ステータス別インスタンス" lang="ja" />
@@ -2198,6 +2330,12 @@
       <param name="group" value="Process" lang=" " />
       <param name="kpicode" value="kpi_31361353949675344" lang=" " />
       <param name="title" value="Nach Version" lang="de" />
+      <param name="title" value="バージョン別" lang="ja" />
+      <param name="title" value="По версии" lang="ru" />
+      <param name="title" value="Par version" lang="fr" />
+      <param name="title" value="按版本" lang="zh" />
+      <param name="title" value="Pela versão" lang="pt" />
+      <param name="title" value="Por versión" lang="es" />
       <param name="title" value="バージョン別" lang="ja" />
       <param name="title" value="По версии" lang="ru" />
       <param name="title" value="Par version" lang="fr" />
@@ -2346,6 +2484,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
@@ -2395,6 +2539,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
@@ -2493,6 +2643,12 @@
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
       <param name="kpicode" value="kpi_29671354183712341" lang=" " />
       <param name="title" value="Prozessdauer" lang="de" />
+      <param name="title" value="プロセス期間" lang="ja" />
+      <param name="title" value="Продолжительность процесса" lang="ru" />
+      <param name="title" value="Durée Processus" lang="fr" />
+      <param name="title" value="流程持续时间" lang="zh" />
+      <param name="title" value="Duração do processo" lang="pt" />
+      <param name="title" value="Duración de proceso" lang="es" />
       <param name="title" value="プロセス期間" lang="ja" />
       <param name="title" value="Продолжительность процесса" lang="ru" />
       <param name="title" value="Durée Processus" lang="fr" />
@@ -2641,6 +2797,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
@@ -2690,6 +2852,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
@@ -2788,6 +2956,12 @@
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
       <param name="kpicode" value="kpi_29711354187660609" lang=" " />
       <param name="title" value="Aufgabendauer" lang="de" />
+      <param name="title" value="タスク期間" lang="ja" />
+      <param name="title" value="Продолжительность задач" lang="ru" />
+      <param name="title" value="Durée des tâches" lang="fr" />
+      <param name="title" value="任务持续时间" lang="zh" />
+      <param name="title" value="Duração de tarefas" lang="pt" />
+      <param name="title" value="Duración tareas" lang="es" />
       <param name="title" value="タスク期間" lang="ja" />
       <param name="title" value="Продолжительность задач" lang="ru" />
       <param name="title" value="Durée des tâches" lang="fr" />
@@ -2937,6 +3111,12 @@
       <param name="title" value="按日期排列的已完成任务" lang="zh" />
       <param name="title" value="Tarefas concluídas pela data" lang="pt" />
       <param name="title" value="Tareas completadas por fecha" lang="es" />
+      <param name="title" value="日時指定で完了したタスク" lang="ja" />
+      <param name="title" value="Задачи по дате завершения" lang="ru" />
+      <param name="title" value="Tâches complétées par date" lang="fr" />
+      <param name="title" value="按日期排列的已完成任务" lang="zh" />
+      <param name="title" value="Tarefas concluídas pela data" lang="pt" />
+      <param name="title" value="Tareas completadas por fecha" lang="es" />
       <param name="title" value="Tarefas concluídas pela data" lang="pt" />
       <param name="title" value="Tareas completadas por fecha" lang="es" />
       <param name="title" value="日時指定で完了したタスク" lang="ja" />
@@ -2989,6 +3169,12 @@
     <panelInstance serialization="" provider="dashboard.html_editor" id="2986">
       <rawcontent>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAACZGV0AEE8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScgUHJvemVzc2RldGFpbHM8L2gxPnQAAnJ1dABZPGgxPtCh0LLQtdC00LXQvdC40Y8g0L4g0L/RgNC+0YbQtdGB0YHQtSDCq3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfcK7PC9oMT50AAJwdHQARzxoMT4ne2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgcHJvY2Vzc25hbWV9JyBkZXRhbGhlcyBkbyBwcm9jZXNzbzwvaDE+dAACamF0AEU8aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScg44OX44Ot44K744K56Kmz57SwPC9oMT50AAJlbnQAQjxoMT4ne2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgcHJvY2Vzc25hbWV9JyBwcm9jZXNzIGRldGFpbHM8L2gxPnQAAmZydABFPGgxPid7ZGFzaGJvYXJkX3NlbGVjdGVkdmFsdWVzLCBwcm9jZXNzbmFtZX0nIGTDqXRhaWxzIHByb2Nlc3N1czwvaDE+dAACemh0AD88aDE+J3tkYXNoYm9hcmRfc2VsZWN0ZWR2YWx1ZXMsIHByb2Nlc3NuYW1lfScg5rWB56iL57uG6IqCPC9oMT50AAJlc3QARzxoMT5kZXRhbGxlcyBkZWwgcHJvY2VzbyAne2Rhc2hib2FyZF9zZWxlY3RlZHZhbHVlcywgcHJvY2Vzc25hbWV9JzwvaDE+eA==</rawcontent>
       <param name="title" value="HTML für Dashboards" lang="de" />
+      <param name="title" value="ダッシュボード用HTML" lang="ja" />
+      <param name="title" value="HTML панелей" lang="ru" />
+      <param name="title" value="HTML pour tableaux de bord" lang="fr" />
+      <param name="title" value="仪表板的 HTML" lang="zh" />
+      <param name="title" value="HTML para painéis" lang="pt" />
+      <param name="title" value="HTML para paneles" lang="es" />
       <param name="title" value="ダッシュボード用HTML" lang="ja" />
       <param name="title" value="HTML панелей" lang="ru" />
       <param name="title" value="HTML pour tableaux de bord" lang="fr" />
@@ -3137,6 +3323,12 @@
       <param name="title" value="仪表板的 HTML" lang="zh" />
       <param name="title" value="HTML para painéis" lang="pt" />
       <param name="title" value="HTML para paneles" lang="es" />
+      <param name="title" value="ダッシュボード用HTML" lang="ja" />
+      <param name="title" value="HTML панелей" lang="ru" />
+      <param name="title" value="HTML pour tableaux de bord" lang="fr" />
+      <param name="title" value="仪表板的 HTML" lang="zh" />
+      <param name="title" value="HTML para painéis" lang="pt" />
+      <param name="title" value="HTML para paneles" lang="es" />
       <param name="title" value="HTML para painéis" lang="pt" />
       <param name="title" value="HTML para paneles" lang="es" />
       <param name="title" value="ダッシュボード用HTML" lang="ja" />
@@ -3188,6 +3380,12 @@
     </panelInstance>
     <panelInstance serialization="rO0ABXQC/zxkYXNoYm9hcmRfZmlsdGVyPgogIDxwcm9wZXJ0eSBpZD0idGFza25hbWUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl85NDQyMTQxODY0MTM0MDU2MyI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPHByb3BlcnR5IGlkPSJlbmRkYXRlIiBwcm92aWRlckNvZGUgPSJkYXRhcHJvdmlkZXJfNjM3NzE0MTg2NDIxOTgyMzQiPgogICAgPHZpc2libGU+dHJ1ZTwvdmlzaWJsZT4KICA8L3Byb3BlcnR5PgogIDxwcm9wZXJ0eSBpZD0iY3JlYXRlZGRhdGUiIHByb3ZpZGVyQ29kZSA9ImRhdGFwcm92aWRlcl8yMDExMTQxODY0MjA3Mzk3NiI+CiAgICA8dmlzaWJsZT50cnVlPC92aXNpYmxlPgogIDwvcHJvcGVydHk+CiAgPG9wdGlvbnM+CiAgICA8c2hvcnRWaWV3TW9kZT50cnVlPC9zaG9ydFZpZXdNb2RlPgogICAgPHNob3dMZWdlbmQ+dHJ1ZTwvc2hvd0xlZ2VuZD4KICAgIDxzaG93UmVmcmVzaEJ1dHRvbj50cnVlPC9zaG93UmVmcmVzaEJ1dHRvbj4KICAgIDxzaG93QXBwbHloQnV0dG9uPnRydWU8L3Nob3dBcHBseWhCdXR0b24+CiAgICA8c2hvd0NsZWFyQnV0dG9uPnRydWU8L3Nob3dDbGVhckJ1dHRvbj4KICAgIDxzaG93UHJvcGVydHlOYW1lcz50cnVlPC9zaG93UHJvcGVydHlOYW1lcz4KICAgIDxzaG93U3VibWl0T25DaGFuZ2U+dHJ1ZTwvc2hvd1N1Ym1pdE9uQ2hhbmdlPgogIDxzaG93QXV0b1JlZnJlc2g+ZmFsc2U8L3Nob3dBdXRvUmVmcmVzaD4KICA8L29wdGlvbnM+CjwvZGFzaGJvYXJkX2ZpbHRlcj4K" provider="dashboard.filter" id="3009">
       <param name="title" value="Dashboard-Filter" lang="de" />
+      <param name="title" value="ダッシュボードフィルター" lang="ja" />
+      <param name="title" value="Фильтр панели" lang="ru" />
+      <param name="title" value="Filtre de tableau de bord" lang="fr" />
+      <param name="title" value="仪表板过滤器" lang="zh" />
+      <param name="title" value="Filtro do Painel" lang="pt" />
+      <param name="title" value="Filtro para panel" lang="es" />
       <param name="title" value="ダッシュボードフィルター" lang="ja" />
       <param name="title" value="Фильтр панели" lang="ru" />
       <param name="title" value="Filtre de tableau de bord" lang="fr" />
@@ -3336,6 +3534,12 @@
       <param name="title" value="流程仪表板（总计）" lang="zh" />
       <param name="title" value="Painel do processo (Totais)" lang="pt" />
       <param name="title" value="HTML para panel (total)" lang="es" />
+      <param name="title" value="プロセスダッシュボード(合計)" lang="ja" />
+      <param name="title" value="Панель процессов (сводка)" lang="ru" />
+      <param name="title" value="Tableau de bord de processus (Totaux)" lang="fr" />
+      <param name="title" value="流程仪表板（总计）" lang="zh" />
+      <param name="title" value="Painel do processo (Totais)" lang="pt" />
+      <param name="title" value="HTML para panel (total)" lang="es" />
       <param name="title" value="Painel do processo (Totais)" lang="pt" />
       <param name="title" value="HTML para panel (total)" lang="es" />
       <param name="title" value="プロセスダッシュボード(合計)" lang="ja" />
@@ -3435,6 +3639,12 @@
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="ja" />
@@ -3484,6 +3694,12 @@
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="pt" />
       <param name="htmlBeforePanel" value="&lt;style&gt; .login-table td {color:#ffffff;font-weight:bold} &lt;/style&gt;" lang="zh" />
       <param name="title" value="Logout-Leiste" lang="de" />
+      <param name="title" value="ログアウトパネル" lang="ja" />
+      <param name="title" value="Панель выхода" lang="ru" />
+      <param name="title" value="Panneau de déconnexion" lang="fr" />
+      <param name="title" value="登出面板" lang="zh" />
+      <param name="title" value="Painel de saída" lang="pt" />
+      <param name="title" value="Panel de logout" lang="es" />
       <param name="title" value="ログアウトパネル" lang="ja" />
       <param name="title" value="Панель выхода" lang="ru" />
       <param name="title" value="Panneau de déconnexion" lang="fr" />
@@ -3632,6 +3848,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ru" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="fr" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
+      <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="es" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="ja" />
@@ -3681,6 +3903,12 @@
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="pt" />
       <param name="htmlAfterPanel" value="&lt;/div&gt;" lang="zh" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="de" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="zh" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="pt" />
+      <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="es" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ja" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="ru" />
       <param name="htmlBeforePanel" value="&lt;div align=&quot;center&quot;&gt;" lang="fr" />
@@ -3827,6 +4055,12 @@
       <param name="title" value="按状态排列的任务" lang="zh" />
       <param name="title" value="Tarefas por status" lang="pt" />
       <param name="title" value="Tareas por estado" lang="es" />
+      <param name="title" value="ステータス別タスク" lang="ja" />
+      <param name="title" value="Задачи по состоянию" lang="ru" />
+      <param name="title" value="Tâches par statut" lang="fr" />
+      <param name="title" value="按状态排列的任务" lang="zh" />
+      <param name="title" value="Tarefas por status" lang="pt" />
+      <param name="title" value="Tareas por estado" lang="es" />
       <param name="title" value="Tarefas por status" lang="pt" />
       <param name="title" value="Tareas por estado" lang="es" />
       <param name="title" value="ステータス別タスク" lang="ja" />
@@ -3878,6 +4112,12 @@
     </panelInstance>
     <section id="2274" visible="true" panelSpacing="0" position="0" regionSpacing="0" idEnvelope="" idSkin="" friendlyUrl="process-dashboard" idTemplate="jbpmLayout">
       <param name="title" value="Prozess-Dashboard" lang="de" />
+      <param name="title" value="プロセスダッシュボード" lang="ja" />
+      <param name="title" value="Панель процессов" lang="ru" />
+      <param name="title" value="Tableau de bord de processus" lang="fr" />
+      <param name="title" value="流程仪表板" lang="zh" />
+      <param name="title" value="Painel do processo (Bread crumb)" lang="pt" />
+      <param name="title" value="Procesos" lang="es" />
       <param name="title" value="プロセスダッシュボード" lang="ja" />
       <param name="title" value="Панель процессов" lang="ru" />
       <param name="title" value="Tableau de bord de processus" lang="fr" />
@@ -4042,6 +4282,12 @@
       <param name="title" value="选择的流程" lang="zh" />
       <param name="title" value="Processo Selecionado:" lang="pt" />
       <param name="title" value="Proceso seleccionado" lang="es" />
+      <param name="title" value="選択されたプロセス" lang="ja" />
+      <param name="title" value="Выбранный процесс" lang="ru" />
+      <param name="title" value="Processus sélectionnés" lang="fr" />
+      <param name="title" value="选择的流程" lang="zh" />
+      <param name="title" value="Processo Selecionado:" lang="pt" />
+      <param name="title" value="Proceso seleccionado" lang="es" />
       <param name="title" value="Processo Selecionado:" lang="pt" />
       <param name="title" value="Proceso seleccionado" lang="es" />
       <param name="title" value="選択されたプロセス" lang="ja" />
@@ -4110,6 +4356,12 @@
     </section>
     <section id="2989" visible="true" panelSpacing="0" parentId="2274" position="1" regionSpacing="0" idEnvelope="" idSkin="" idTemplate="jbpmLayout">
       <param name="title" value="Ausgewählter Benutzer oder Gruppe" lang="de" />
+      <param name="title" value="選択されたユーザーまたはグループ" lang="ja" />
+      <param name="title" value="Выбранный пользователь/ группа" lang="ru" />
+      <param name="title" value="Utilisateur ou groupe sélectionné" lang="fr" />
+      <param name="title" value="选择的用户或组" lang="zh" />
+      <param name="title" value="Usuário ou grupo selecionado" lang="pt" />
+      <param name="title" value="Usuario o grupo seleccionado" lang="es" />
       <param name="title" value="選択されたユーザーまたはグループ" lang="ja" />
       <param name="title" value="Выбранный пользователь/ группа" lang="ru" />
       <param name="title" value="Utilisateur ou groupe sélectionné" lang="fr" />
