@@ -427,7 +427,7 @@
     <description language="en">jBPM Task Instances</description>
     <sqlprovider>
       <datasource>local</datasource>
-      <query>select ts.taskname, count(ts.taskid) taskid from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, status} group by ts.taskname</query>
+      <query>select ts.taskname, count(ts.taskid) taskid from BAMTaskSummary ts left join ProcessInstanceLog ps on (ts.processinstanceid=ps.processinstanceid) where {sql_condition, optional, ps.processname, processname} and {sql_condition, optional, ps.status, status} and {sql_condition, optional, ps.start_date, start_date} and {sql_condition, optional, ps.end_date, end_date} and {sql_condition, optional, ps.processversion, processversion} and {sql_condition, optional, ts.userid, userid} and {sql_condition, optional, ts.taskname, taskname} and {sql_condition, optional, ts.createddate, createddate} and {sql_condition, optional, ts.enddate, enddate} and {sql_condition, optional, ts.status, taskstatus} group by ts.taskname</query>
     </sqlprovider>
     <dataproperties>
       <dataproperty id="taskname">
